@@ -1,0 +1,27 @@
+[
+    {
+      "text": "虚拟机",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "网络",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "数据库",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "解决",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "没有解决",
+      "intent": "None",
+      "entities": []
+    }
+]

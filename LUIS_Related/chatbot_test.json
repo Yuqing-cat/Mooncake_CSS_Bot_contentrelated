@@ -1,0 +1,32 @@
+[
+    {
+      "text": "你好呀",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "虚拟机",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "Hadoop",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "再见",
+      "intent": "GoodBye",
+      "entities": []
+    },
+    {
+      "text": "可以关了",
+      "intent": "GoodBye",
+      "entities": []
+    }
+]

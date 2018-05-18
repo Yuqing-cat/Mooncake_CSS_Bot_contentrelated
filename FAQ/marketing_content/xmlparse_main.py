@@ -9,7 +9,7 @@ preurl = 'https://www.azure.cn/zh-cn/'
 urlList, fileList, products = x.getXmlLocation(dir,preurl)
 
 # get content 
-tags = ['pageTitle','linkid','metaKeywords','mataDescription','urlDisplayName','bodyText']
+tags = ['pageTitle','linkid','metaKeywords','metaDescription','urlDisplayName','bodyText']
 
 #tags = ['metaDescription']
 content = x.getXmlContent(fileList,tags)
@@ -20,7 +20,7 @@ content = x.getXmlContent(fileList,tags)
 n  = 0
 for i in content:
     i['URL'] = urlList[n]
-    i['fileCategory'] = 'features'
+    i['fileCategory'] = 'home/features'
     n = n+1
     print(i)
 
@@ -33,7 +33,7 @@ for i in content:
     i['bodyText'] = x
     print(x)
 
-
+'''
 # json
 import json
 i = 0
@@ -62,7 +62,7 @@ for p in products:
         #print(key,val)
         #   w.writerow([key,val])
     i = i+1
-
+'''
 
 i = 0
 for p in products:
@@ -70,8 +70,8 @@ for p in products:
     print(file)
     with open(file,'w',newline='',encoding='utf-8-sig') as f:
         w = csv.writer(f)
-        w.writerow(content[1].keys())
-        w.writerow(content[1].values())
+        w.writerow(content[i].keys())
+        w.writerow(content[i].values())
     i = i+1
 print(i)
 

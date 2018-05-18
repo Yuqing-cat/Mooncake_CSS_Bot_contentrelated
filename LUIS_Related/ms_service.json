@@ -43,15 +43,6 @@
         ]
     },
     {
-        "canonicalForm":"app service",
-        "list":[
-            "api 管理",
-            "azure API 管理",
-            "api管理",
-            "Azure API 管理"
-        ]
-    },
-    {
         "canonicalForm":"application gateway",
         "list":[
             "app 网关",

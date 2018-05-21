@@ -2,9 +2,9 @@
 import xmlFunction as x 
 import csv
 
-
+###the following is for home/features 
 # get external url, file location, productname 
-dir = "C:\\acn-portal-pr.zh-cn\\marketing-resource\\xml\\home\\features"
+dir = "D:\\acn-portal-pr.zh-cn\\marketing-resource\\xml\\home\\features"
 preurl = 'https://www.azure.cn/zh-cn/'
 urlList, fileList, products = x.getXmlLocation(dir,preurl)
 
@@ -16,7 +16,7 @@ content = x.getXmlContent(fileList,tags)
 
 
 
-
+# add 
 n  = 0
 for i in content:
     i['URL'] = urlList[n]
@@ -25,6 +25,7 @@ for i in content:
     print(i)
 
 
+# parse p ~ h4 from boty text
 import re
 n = 0
 for i in content:
@@ -64,6 +65,7 @@ for p in products:
     i = i+1
 '''
 
+# write into product csv
 i = 0
 for p in products:
     file = p+'.csv'

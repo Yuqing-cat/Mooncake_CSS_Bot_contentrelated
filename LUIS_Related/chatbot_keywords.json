@@ -1,18 +1,45 @@
 [
     {
       "text": "虚拟机",
-      "intent": "None",
-      "entities": []
+      "intent": "ProductFeature",
+      "entities": [
+        {
+          "entity": "虚拟机",
+          "type": "ms.service",
+          "startIndex": 0,
+          "endIndex": 2
+        }
+      ]
     },
     {
-      "text": "网络",
-      "intent": "None",
-      "entities": []
+      "text": "storage价格",
+      "intent": "PurchaseAzure",
+      "entities": [
+        {
+          "entity": "storage",
+          "type": "ms.service",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        {
+          "entity": "价格",
+          "type": "PurchaseRelated",
+          "startIndex": 7,
+          "endIndex": 8
+        }
+      ]
     },
     {
-      "text": "数据库",
-      "intent": "None",
-      "entities": []
+      "text": "mysql",
+      "intent": "ProductFeature",
+      "entities": [
+        {
+          "entity": "mysql",
+          "type": "ms.service",
+          "startIndex": 0,
+          "endIndex": 4
+        }
+      ]
     },
     {
       "text": "解决",

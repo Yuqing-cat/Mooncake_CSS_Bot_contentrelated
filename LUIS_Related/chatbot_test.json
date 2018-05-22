@@ -11,12 +11,12 @@
     },
     {
       "text": "虚拟机",
-      "intent": "None",
+      "intent": "ProductFeature",
       "entities": []
     },
     {
-      "text": "Hadoop",
-      "intent": "None",
+      "text": "数据库",
+      "intent": "ProductFeature",
       "entities": []
     },
     {

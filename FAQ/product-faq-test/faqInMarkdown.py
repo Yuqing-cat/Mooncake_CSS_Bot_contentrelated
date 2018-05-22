@@ -6,46 +6,42 @@ Created on Tue May 22 13:54:06 2018
 """
 
 import os
+import traverseFunction as x
 
 dir = "C:\\Users\\yuqwe\\Documents\\GitHub\\az-docs-pr.zh-cn\\"
 
-
-
 # dir exist
-if os.path.exists(dir):
-    print("{} dir exists.".format(dir))
-else:
-    print("{} dir not found.".format(dir))
+x.dirExist(dir)
 
+# set parameters
 
-# is file or folder
-if os.path.isfile(dir):
-    print("{} is a file.".format(dir))
-else:
-    print("{} is not a file or not found.".format(dir))
-
-# get file size
-fileSize = os.path.getsize(dir)
-
-# parameters
-fileList = []
+fileCount = []
 suffix = '.md'
+suffixCount = []
+fileList = []
+fileName= []
 
 # traverse folder
+
 for (root,dirs,files) in os.walk(dir):
+    fileCount.append(len(files))
     n = 0
-    m = 0
-    print(files)
+    #print(files)
     for filename in files:
         if os.path.splitext(filename)[1] == suffix:
             fileList.append(os.path.join(root,filename))
             n = n + 1
-            print(n)
-            #print(filename)
-
-        m = m + 1
+            name = str(filename).replace(".md","")
+            fileName.append(name)
+    suffixCount.append(n)
+'''
     if n > 0:
-        print("there are {} out of {} files have suffix {}.".format(n,m,suffix))
+        print("there are {} out of {} files with suffix {}.\n".format(n,len(files),suffix))
+'''
+print("There are totoal {} files in dir: {}.".format(sum(fileCount),dir))
+print("Among them, {} of these files are {} files \nTheir location stored in fileList.\nTheir file name stored in fileName".format(sum(suffixCount),suffix))
+#print("the fileList is:",fileList,"\n")
+#print("the fileName is:",fileName,"\n")
 
 
 

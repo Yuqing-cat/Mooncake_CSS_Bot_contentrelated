@@ -24,6 +24,7 @@ def dirIsFile(dir):
 def findSuffix(dir, suffix='.md'):
     fileCount = []
     suffixCount = []
+    fileInfo = []
     fileList = []
     fileName= []
     
@@ -35,10 +36,12 @@ def findSuffix(dir, suffix='.md'):
         #print(files)
         for filename in files:
             if os.path.splitext(filename)[1] == suffix:
-                fileList.append(os.path.join(root,filename))
+                filelocation = os.path.join(root,filename)
+                fileList.append(filelocation)
                 n = n + 1
                 name = str(filename).replace(".md","")
                 fileName.append(name)
+                fileInfo.append({'fileLocation':filelocation,'fileName':name})
         suffixCount.append(n)
     '''
         if n > 0:
@@ -48,6 +51,6 @@ def findSuffix(dir, suffix='.md'):
     print("Among them, {} of these files are {} files \nTheir location stored in fileList.\nTheir file name stored in fileName".format(sum(suffixCount),suffix))
     #print("the fileList is:",fileList,"\n")
     #print("the fileName is:",fileName,"\n")
-    return fileList, fileName
+    return fileList, fileName,fileInfo
 
     

@@ -1,0 +1,12 @@
+[
+{"canonicalForm":"订阅","list":["subscription","订阅账号","sub"]},
+{"canonicalForm":"发票","list":["开发票","申请发票","税务发票","增值税发票"]},
+{"canonicalForm":"ICP","list":["ICP 备案","icp","备案"]},
+{"canonicalForm":"计费","list":["billing"]},
+{"canonicalForm":"企业用户","list":["EA","EA用户"]},
+{"canonicalForm":"1元试用","list":["1元试用订阅","一元试用","1rmb","1 rmb", "1rmb trial"]},
+{"canonicalForm":"标准预付费","list":["标准预付费订阅"]},
+{"canonicalForm":"第三方在线支付","list":["支付宝","银联","银联在线"]},
+{"canonicalForm":"电汇","list":["电汇支付"]},
+{"canonicalForm":"充值","list":["充钱","续费","续费充值","付款"]}
+]

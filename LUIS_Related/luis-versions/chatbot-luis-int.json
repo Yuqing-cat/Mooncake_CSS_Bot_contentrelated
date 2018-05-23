@@ -1,0 +1,1173 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "chatbot-luis-int",
+  "desc": "",
+  "culture": "zh-cn",
+  "intents": [
+    {
+      "name": "GoodBye"
+    },
+    {
+      "name": "Greetings"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "ProductFeature"
+    },
+    {
+      "name": "PurchaseAzure"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "BillingRelated",
+      "subLists": [
+        {
+          "canonicalForm": "订阅",
+          "list": [
+            "subscription",
+            "订阅账号",
+            "sub"
+          ]
+        },
+        {
+          "canonicalForm": "发票",
+          "list": [
+            "开发票",
+            "申请发票",
+            "税务发票",
+            "增值税发票"
+          ]
+        },
+        {
+          "canonicalForm": "ICP",
+          "list": [
+            "ICP 备案",
+            "icp"
+          ]
+        },
+        {
+          "canonicalForm": "计费",
+          "list": [
+            "billing"
+          ]
+        },
+        {
+          "canonicalForm": "企业用户",
+          "list": [
+            "EA",
+            "EA用户"
+          ]
+        },
+        {
+          "canonicalForm": "1元试用",
+          "list": [
+            "1元试用订阅",
+            "一元试用",
+            "1rmb",
+            "1 rmb",
+            "1rmb trial"
+          ]
+        },
+        {
+          "canonicalForm": "标准预付费",
+          "list": [
+            "标准预付费订阅"
+          ]
+        },
+        {
+          "canonicalForm": "第三方在线支付",
+          "list": [
+            "支付宝",
+            "银联",
+            "银联在线"
+          ]
+        },
+        {
+          "canonicalForm": "电汇",
+          "list": [
+            "电汇支付"
+          ]
+        },
+        {
+          "canonicalForm": "充值",
+          "list": [
+            "充钱",
+            "续费",
+            "续费充值",
+            "付款"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "GeneralTerm",
+      "subLists": [
+        {
+          "canonicalForm": "azure",
+          "list": [
+            "认识 Azure",
+            "Azure",
+            "微软云"
+          ]
+        },
+        {
+          "canonicalForm": "数据库",
+          "list": [
+            "DB",
+            "datebase",
+            "db"
+          ]
+        },
+        {
+          "canonicalForm": "网络",
+          "list": [
+            "network"
+          ]
+        },
+        {
+          "canonicalForm": "arm",
+          "list": [
+            "arm template",
+            "ARM template",
+            "ARM"
+          ]
+        },
+        {
+          "canonicalForm": "Office 365",
+          "list": [
+            "O365"
+          ]
+        },
+        {
+          "canonicalForm": "Linux",
+          "list": [
+            "linux"
+          ]
+        },
+        {
+          "canonicalForm": "Windows",
+          "list": [
+            "windows",
+            "微软"
+          ]
+        },
+        {
+          "canonicalForm": "storesimple",
+          "list": [
+            "StoreSimple",
+            "Store simple"
+          ]
+        },
+        {
+          "canonicalForm": "网站",
+          "list": [
+            "website"
+          ]
+        },
+        {
+          "canonicalForm": "Single Sign ON",
+          "list": [
+            "SSO"
+          ]
+        },
+        {
+          "canonicalForm": "ssh",
+          "list": [
+            "SSH"
+          ]
+        },
+        {
+          "canonicalForm": "powershell",
+          "list": [
+            "ps"
+          ]
+        },
+        {
+          "canonicalForm": "tcp",
+          "list": [
+            "传输控制协定",
+            "TCP",
+            "TCP/IP"
+          ]
+        },
+        {
+          "canonicalForm": "内存",
+          "list": [
+            "memory"
+          ]
+        },
+        {
+          "canonicalForm": "带宽",
+          "list": [
+            "吞吐量"
+          ]
+        },
+        {
+          "canonicalForm": "托管磁盘",
+          "list": [
+            "managed disk",
+            "Azure Managed Disk"
+          ]
+        },
+        {
+          "canonicalForm": "高级存储",
+          "list": [
+            "HP premium storage",
+            "High-performance",
+            "Premium storage"
+          ]
+        },
+        {
+          "canonicalForm": "站对站",
+          "list": [
+            "S2S",
+            "s2s"
+          ]
+        },
+        {
+          "canonicalForm": "点对点",
+          "list": [
+            "p2p",
+            "P2P"
+          ]
+        },
+        {
+          "canonicalForm": "PSTool",
+          "list": [
+            "Psping",
+            "Paping",
+            "端口联通测试",
+            "psping",
+            "paping"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "ms.service",
+      "subLists": [
+        {
+          "canonicalForm": "active-directory",
+          "list": [
+            "Azure Active Directory",
+            "AAD",
+            "Azure AD",
+            "Azure活动目录",
+            "活动目录",
+            "AzureAD",
+            "azure active directory"
+          ]
+        },
+        {
+          "canonicalForm": "analysis-services",
+          "list": [
+            "Azure 分析服务",
+            "azure analysis service",
+            "AAS",
+            "aas",
+            "分析服务",
+            "AS",
+            "as"
+          ]
+        },
+        {
+          "canonicalForm": "api-management",
+          "list": [
+            "API 管理",
+            "api management",
+            "API Management",
+            "api管理"
+          ]
+        },
+        {
+          "canonicalForm": "application-gateway",
+          "list": [
+            "应用服务",
+            "app service",
+            "APP Services"
+          ]
+        },
+        {
+          "canonicalForm": "app-service",
+          "list": [
+            "应用程序网关",
+            "应用网关",
+            "app gateway",
+            "application gateway"
+          ]
+        },
+        {
+          "canonicalForm": "automation",
+          "list": [
+            "自动化",
+            "Automation"
+          ]
+        },
+        {
+          "canonicalForm": "azure-portal",
+          "list": [
+            "Azure 门户",
+            "azure portal"
+          ]
+        },
+        {
+          "canonicalForm": "backup",
+          "list": [
+            "备份",
+            "azure backup",
+            "Backup"
+          ]
+        },
+        {
+          "canonicalForm": "batch",
+          "list": [
+            "批处理",
+            "Batch"
+          ]
+        },
+        {
+          "canonicalForm": "css",
+          "list": [
+            "云连接服务",
+            "CSS",
+            "cloud connection service"
+          ]
+        },
+        {
+          "canonicalForm": "cdn",
+          "list": [
+            "CDN",
+            "内容分发网络"
+          ]
+        },
+        {
+          "canonicalForm": "cloud-service",
+          "list": [
+            "云服务",
+            "cloud service"
+          ]
+        },
+        {
+          "canonicalForm": "cognitive-services",
+          "list": [
+            "认知服务",
+            "cognitive service"
+          ]
+        },
+        {
+          "canonicalForm": "cosmos-db",
+          "list": [
+            "Azure Cosmos DB",
+            "cosmos db",
+            "document db",
+            "cosmosdb",
+            "Cosmosdb",
+            "宇宙数据库"
+          ]
+        },
+        {
+          "canonicalForm": "event-hubs",
+          "list": [
+            "事件中心",
+            "event hub",
+            "EventHub"
+          ]
+        },
+        {
+          "canonicalForm": "expressroute",
+          "list": [
+            "ExpressRoute",
+            "ER",
+            "express route",
+            "专用网络"
+          ]
+        },
+        {
+          "canonicalForm": "hdinsight",
+          "list": [
+            "HDInsight",
+            "hadoop",
+            "Hadoop"
+          ]
+        },
+        {
+          "canonicalForm": "iot-hub",
+          "list": [
+            "Azure IoT 中心",
+            "iot hub",
+            "IOT",
+            "IOT中心",
+            "iothub",
+            "Iot Hub",
+            "IOT HUB"
+          ]
+        },
+        {
+          "canonicalForm": "iot-suite",
+          "list": [
+            "Azure IoT 套件",
+            "iot suite"
+          ]
+        },
+        {
+          "canonicalForm": "key-vault",
+          "list": [
+            "密钥保管库",
+            "key vault",
+            "keyvault"
+          ]
+        },
+        {
+          "canonicalForm": "load-balancer",
+          "list": [
+            "负载均衡器",
+            "LB",
+            "load balancer",
+            "load balance",
+            "负载均衡"
+          ]
+        },
+        {
+          "canonicalForm": "media-services",
+          "list": [
+            "媒体服务",
+            "media service",
+            "media services"
+          ]
+        },
+        {
+          "canonicalForm": "monitor",
+          "list": [
+            "Azure 监控器",
+            "azure monitor",
+            "Monitor"
+          ]
+        },
+        {
+          "canonicalForm": "multi-factor-authentication",
+          "list": [
+            "多重身份验证",
+            "multi factor authentication",
+            "身份验证"
+          ]
+        },
+        {
+          "canonicalForm": "mysql",
+          "list": [
+            "MySQL Database on Azure",
+            "Mysql",
+            "MySQL",
+            "Mysql"
+          ]
+        },
+        {
+          "canonicalForm": "network-watcher",
+          "list": [
+            "应用服务 - 网络观察程序",
+            "network watcher",
+            "网络观察",
+            "network watch"
+          ]
+        },
+        {
+          "canonicalForm": "notification-hubs",
+          "list": [
+            "通知中心",
+            "notification hub",
+            "Notification Hub"
+          ]
+        },
+        {
+          "canonicalForm": "power-bi-embedded",
+          "list": [
+            "Power BI 工作区集合",
+            "Power BI workspace",
+            "pbi workspace collection",
+            "powerbi",
+            "Power BI",
+            "power bi embedded",
+            "powerbi embedded"
+          ]
+        },
+        {
+          "canonicalForm": "redis-cache",
+          "list": [
+            "Redis 缓存",
+            "redis",
+            "redis cache"
+          ]
+        },
+        {
+          "canonicalForm": "scheduler",
+          "list": [
+            "计划程序",
+            "Scheduler",
+            "计划"
+          ]
+        },
+        {
+          "canonicalForm": "servic-bus",
+          "list": [
+            "服务总线",
+            "service bus"
+          ]
+        },
+        {
+          "canonicalForm": "service-fabric",
+          "list": [
+            "Service Fabric",
+            "SF",
+            "service fabric"
+          ]
+        },
+        {
+          "canonicalForm": "site-recovery",
+          "list": [
+            "站点恢复",
+            "site recovery"
+          ]
+        },
+        {
+          "canonicalForm": "sql-data-warehouse",
+          "list": [
+            "SQL 数据仓库",
+            "SQL DW",
+            "sqldw",
+            "sql data warehouse",
+            "DW"
+          ]
+        },
+        {
+          "canonicalForm": "sql-database",
+          "list": [
+            "SQL 数据库",
+            "sql db",
+            "sql数据库",
+            "数据库",
+            "db",
+            "DB"
+          ]
+        },
+        {
+          "canonicalForm": "sql-server-stretch-database",
+          "list": [
+            "SQL Server Stretch Database",
+            "sql stretch db"
+          ]
+        },
+        {
+          "canonicalForm": "storage",
+          "list": [
+            "存储",
+            "Storage"
+          ]
+        },
+        {
+          "canonicalForm": "stream-analytics",
+          "list": [
+            "流分析",
+            "stream analytics",
+            "strean analysis"
+          ]
+        },
+        {
+          "canonicalForm": "traffic-manager",
+          "list": [
+            "流量管理器",
+            "traffic manager",
+            "traffic management"
+          ]
+        },
+        {
+          "canonicalForm": "virtual-machine-scale-sets",
+          "list": [
+            "虚拟机规模集",
+            "virtual machine scale sets",
+            "vm scale sets",
+            "vmss",
+            "vm scale set"
+          ]
+        },
+        {
+          "canonicalForm": "virtual-machines",
+          "list": [
+            "虚拟机",
+            "virtual machine",
+            "VM",
+            "vm",
+            "linux vm",
+            "windows vm",
+            "虚机",
+            "虚机实例",
+            "实例",
+            "virtual machines"
+          ]
+        },
+        {
+          "canonicalForm": "virtual-network",
+          "list": [
+            "虚拟网络",
+            "virtual network",
+            "vnet",
+            "VNet"
+          ]
+        },
+        {
+          "canonicalForm": "vpn-gateway",
+          "list": [
+            "VPN 网关",
+            "vpn gateway",
+            "VPN",
+            "VPN Gateway"
+          ]
+        },
+        {
+          "canonicalForm": "xio-storage",
+          "list": [
+            "高级存储",
+            "XIO storage"
+          ]
+        },
+        {
+          "canonicalForm": "app-service-api-apps",
+          "list": [
+            "应用服务 - API 应用",
+            "API应用",
+            "api apps",
+            "api application"
+          ]
+        },
+        {
+          "canonicalForm": "app-service-mobile-apps",
+          "list": [
+            "应用服务 - 移动应用",
+            "移动应用",
+            "mobile apps",
+            "mobile app",
+            "mobile appliaction",
+            "mobile"
+          ]
+        },
+        {
+          "canonicalForm": "app-service-web-apps",
+          "list": [
+            "应用服务 - Web 应用",
+            "web应用",
+            "web apps",
+            "web app",
+            "web application"
+          ]
+        },
+        {
+          "canonicalForm": "cognitive-services-computer-vision",
+          "list": [
+            "认知服务 - 计算机影像 API",
+            "计算机影像",
+            "计算机视觉",
+            "computer vision",
+            "CV",
+            "computer vision api"
+          ]
+        },
+        {
+          "canonicalForm": "cognitive-services-emotion",
+          "list": [
+            "认知服务 - 情感 API",
+            "情感api",
+            "emotion api",
+            "emotion"
+          ]
+        },
+        {
+          "canonicalForm": "cognitive-services-face",
+          "list": [
+            "认知服务 - 人脸 API",
+            "人脸识别",
+            "人脸api",
+            "face api"
+          ]
+        },
+        {
+          "canonicalForm": "iot-hub-iot-gateway-sdks",
+          "list": [
+            "Azure IoT 网关 SDK",
+            "iot网关",
+            "iot gateway"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "PurchaseRelated",
+      "subLists": [
+        {
+          "canonicalForm": "购 买",
+          "list": [
+            "买",
+            "卖"
+          ]
+        },
+        {
+          "canonicalForm": "价 格",
+          "list": [
+            "多 少 钱"
+          ]
+        },
+        {
+          "canonicalForm": "租",
+          "list": []
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "TechnicalVerbs",
+      "subLists": [
+        {
+          "canonicalForm": "连接",
+          "list": [
+            "登录",
+            "登陆",
+            "远程",
+            "远程连接"
+          ]
+        },
+        {
+          "canonicalForm": "无法连接",
+          "list": [
+            "连不上",
+            "连不了",
+            "无法登录",
+            "连接失败",
+            "登录失败",
+            "无法远程"
+          ]
+        },
+        {
+          "canonicalForm": "申请",
+          "list": [
+            "办理",
+            "开通"
+          ]
+        },
+        {
+          "canonicalForm": "下载",
+          "list": [
+            "download"
+          ]
+        },
+        {
+          "canonicalForm": "重启",
+          "list": [
+            "重新启动",
+            "restart"
+          ]
+        },
+        {
+          "canonicalForm": "创建",
+          "list": [
+            "create",
+            "新建"
+          ]
+        },
+        {
+          "canonicalForm": "使用",
+          "list": [
+            "use"
+          ]
+        },
+        {
+          "canonicalForm": "配置",
+          "list": [
+            "configure"
+          ]
+        },
+        {
+          "canonicalForm": "搭建",
+          "list": [
+            "build"
+          ]
+        },
+        {
+          "canonicalForm": "管理",
+          "list": [
+            "manage"
+          ]
+        },
+        {
+          "canonicalForm": "诊断",
+          "list": [
+            "diagnostics"
+          ]
+        },
+        {
+          "canonicalForm": "上传",
+          "list": [
+            "upload"
+          ]
+        },
+        {
+          "canonicalForm": "报错",
+          "list": [
+            "报警",
+            "error",
+            "alert"
+          ]
+        },
+        {
+          "canonicalForm": "迁移",
+          "list": [
+            "migrate"
+          ]
+        },
+        {
+          "canonicalForm": "传输",
+          "list": [
+            "transfer"
+          ]
+        },
+        {
+          "canonicalForm": "运行",
+          "list": [
+            "run"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "What-is",
+      "subLists": [
+        {
+          "canonicalForm": "是 什 么",
+          "list": [
+            "是 什 么",
+            "什 么 是"
+          ]
+        },
+        {
+          "canonicalForm": "功 能",
+          "list": []
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "Azure Active Directory 是什么",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "Azure AD、Office 365 与 Azure 之间是什么关系？",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ByeBye",
+      "intent": "GoodBye",
+      "entities": []
+    },
+    {
+      "text": "GoodBye",
+      "intent": "GoodBye",
+      "entities": []
+    },
+    {
+      "text": "hadoop",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "Hadoop",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "hdinsight",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "HDInsight",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "Hello",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "Hey",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "Hi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hihi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "icp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ICP备案怎么做",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "IOT Hub",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "nihao",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "Redis多少钱？",
+      "intent": "PurchaseAzure",
+      "entities": []
+    },
+    {
+      "text": "SSO",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "storage",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "Storage",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "storage的功能有哪些？",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "VM",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "VM创建",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "Windows VM的价格？",
+      "intent": "PurchaseAzure",
+      "entities": []
+    },
+    {
+      "text": "不错",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "什么是iot hub",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "你好",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "你好厉害啊",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你好呀",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "你好啊",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "你好聪明啊",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "再见",
+      "intent": "GoodBye",
+      "entities": []
+    },
+    {
+      "text": "厉害",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "发票",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "可以关了",
+      "intent": "GoodBye",
+      "entities": []
+    },
+    {
+      "text": "喂",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "备案",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "多重身份验证是什么？",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "如何创建免费的全新 Azure AD 目录",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "如何在本地目录与云应用程序之间设置 SSO？",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "开发票",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "很好",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "您好",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "数据库",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "早上好",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "没解决",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "满意",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "牛",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "真棒",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "聪明",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "虚拟机",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "虚拟机怎么购买？",
+      "intent": "PurchaseAzure",
+      "entities": []
+    },
+    {
+      "text": "虚拟机无法连接怎么办",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "解决",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "解决问题了",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "谢谢",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "负载均衡的功能",
+      "intent": "ProductFeature",
+      "entities": []
+    }
+  ]
+}

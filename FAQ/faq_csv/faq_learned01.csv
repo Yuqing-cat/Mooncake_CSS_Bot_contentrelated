@@ -1,0 +1,58 @@
+question,answer,category,Source
+Redis多少钱？,Redis Cache 价格请参照[价格页面](https://www.azure.cn/pricing/details/redis-cache/),DB,Interview
+数据库连不上了,"数据库故障排查可参照以下文档：*[Azure SQL 数据库](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/sql-database/aog-sql-database-connection-faq
+https://docs.azure.cn/zh-cn/sql-database/sql-database-troubleshoot-common-connection-issues)；*[Azure MySQL 数据库](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/mysql/aog-mysql-connections-faq
+https://docs.azure.cn/zh-cn/mysql/mysql-database-connectioninquiry)",DB,Interview
+我的虚拟机重启了，怎么办？,虚拟机重启问题，可参照以下文档：*[我的 Azure VM 为何会重新启动？](https://www.azure.cn/blog/2014/04/18/windows-azure-virtual-machine-restarted-or-shutdown-with-out-any-notification)；*[Linux 启动诊断日志协助定位虚拟机启动或重启问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-linux-qa-via-diagnostics-log)；*[处理 Windows 虚拟机的计划维护通知](https://docs.azure.cn/zh-cn/virtual-machines/windows/maintenance-notifications),DB,Interview
+虚拟机连不上了,虚拟机无法连接，可参照以下文档：*[Azure Windows 虚拟机常见导致无法远程的操作](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/windows/aog-virtual-machines-windows-scenarios-unable-to-remote)；*[排查 Azure 虚拟机的远程桌面连接问题](https://docs.azure.cn/zh-cn/virtual-machines/windows/troubleshoot-rdp-connection)；*[Linux 虚拟机虚拟网卡问题导致无法连接问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-qa-linux-visual-network-adaper-error),DB,Interview
+MySQL响应慢怎么办？,MySQL性能优化，可参照以下文档：*[优化 Azure Linux VM 上的 MySQL 性能](https://docs.azure.cn/zh-cn/virtual-machines/linux/classic/optimize-mysql)；*[如何高效连接到MySQL Database on Azure](https://docs.azure.cn/zh-cn/mysql/mysql-database-connection-pool)；*[MySQL连接问题](https://docs.azure.cn/zh-cn/mysql/mysql-database-connectioninquiry),DB,Interview
+VPN中断怎么办,VPN连接问题，可参照以下文档：*[故障排除：Azure 站点到站点 VPN 间歇性断开连接](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-troubleshoot-site-to-site-disconnected-intermittently)；*[虚拟网络 - 业务连续性](https://docs.azure.cn/zh-cn/virtual-network/virtual-network-disaster-recovery-guidance)；*[Azure P2S VPN 如何配置自动重连](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection)；*[使用网络观察程序故障排除功能监视 VPN 网关](https://docs.azure.cn/zh-cn/network-watcher/network-watcher-monitor-with-azure-automation),DB,Interview
+VPN断开怎么办,VPN连接问题，可参照以下文档：*[故障排除：Azure 站点到站点 VPN 间歇性断开连接](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-troubleshoot-site-to-site-disconnected-intermittently)；*[虚拟网络 - 业务连续性](https://docs.azure.cn/zh-cn/virtual-network/virtual-network-disaster-recovery-guidance)；*[Azure P2S VPN 如何配置自动重连](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection)；*[使用网络观察程序故障排除功能监视 VPN 网关](https://docs.azure.cn/zh-cn/network-watcher/network-watcher-monitor-with-azure-automation),DB,Interview
+VPN连不上怎么办,VPN连接问题，可参照以下文档：*[故障排除：Azure 站点到站点 VPN 间歇性断开连接](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-troubleshoot-site-to-site-disconnected-intermittently)；*[虚拟网络 - 业务连续性](https://docs.azure.cn/zh-cn/virtual-network/virtual-network-disaster-recovery-guidance)；*[Azure P2S VPN 如何配置自动重连](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection)；*[使用网络观察程序故障排除功能监视 VPN 网关](https://docs.azure.cn/zh-cn/network-watcher/network-watcher-monitor-with-azure-automation),Net,Interview
+负载均衡器和应用程序网关的区别,应用程序网关是第 7 层负载均衡器，这意味着，它只处理 Web 流量 (HTTP/HTTPS/WebSocket)。 它支持 SSL 终止、基于 Cookie 的会话相关性以及对流量进行负载均衡的轮循机制等功能。 负载均衡器在第 4 层对流量进行负载均衡 (TCP/UDP)。关于负载均衡，可参照以下文档[Azure 负载均衡器概述](https://docs.azure.cn/zh-cn/load-balancer/load-balancer-overview),Net,Interview
+P2S证书怎么做,P2S证书问题，可参照以下文档：[为点到站点 Azure 证书身份验证连接安装客户端证书](https://docs.azure.cn/zh-cn/vpn-gateway/point-to-site-how-to-vpn-client-install-azure-cert),Net,Interview
+如何创建P2S证书,P2S证书问题，可参照以下文档：[为点到站点 Azure 证书身份验证连接安装客户端证书](https://docs.azure.cn/zh-cn/vpn-gateway/point-to-site-how-to-vpn-client-install-azure-cert),Net,Interview
+S2S支持哪些设备,S2S兼容性问题，可参照以下文档：[关于用于站点到站点 VPN 网关连接的 VPN 设备和 IPsec/IKE 参数](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-about-vpn-devices),Net,Interview
+站点到站点VPN连接兼容的VPN设备,S2S兼容性问题，可参照以下文档：[关于用于站点到站点 VPN 网关连接的 VPN 设备和 IPsec/IKE 参数](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-about-vpn-devices),Net,Interview
+Network watcher能干嘛,网络观察程序能够监视、诊断并深入了解网络性能和运行状况，详情参照[网络观察程序](https://www.azure.cn/home/features/network-watcher/),Net,Interview
+虚拟机无法连接,虚拟机无法连接，可参照以下文档：*[Azure Windows 虚拟机常见导致无法远程的操作](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/windows/aog-virtual-machines-windows-scenarios-unable-to-remote)；*[排查 Azure 虚拟机的远程桌面连接问题](https://docs.azure.cn/zh-cn/virtual-machines/windows/troubleshoot-rdp-connection)；*[Linux 虚拟机虚拟网卡问题导致无法连接问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-qa-linux-visual-network-adaper-error),VM,Interview
+我的虚拟机为什么被重启了,虚拟机重启问题，可参照以下文档：*[我的 Azure VM 为何会重新启动？](https://www.azure.cn/blog/2014/04/18/windows-azure-virtual-machine-restarted-or-shutdown-with-out-any-notification)；*[Linux 启动诊断日志协助定位虚拟机启动或重启问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-linux-qa-via-diagnostics-log)；*[处理 Windows 虚拟机的计划维护通知](https://docs.azure.cn/zh-cn/virtual-machines/windows/maintenance-notifications),VM,Interview
+如何将SAS加入到密钥保管库,Azure Key Vault 允许保管库/对象所有者创建 SAS，可参照以下文档：[Azure Key Vault 存储帐户密钥](https://docs.azure.cn/zh-cn/key-vault/key-vault-ovw-storage-keys),VM,Interview
+如何将共享访问签名加入到密钥保管库,Azure Key Vault 允许保管库/对象所有者创建 SAS，可参照以下文档：[Azure Key Vault 存储帐户密钥](https://docs.azure.cn/zh-cn/key-vault/key-vault-ovw-storage-keys),VM,Interview
+企业客户（EA客户）门槛15万是否含税?,企业客户（EA客户）门槛15万不含税。,T0,Interview
+PIA帐号是否可以迁移到EA合约里,PIA帐号可以迁移到EA合约里。具体的操作步骤请参考：https://docs.azure.cn/zh-cn/billing/billing-upgrade-to-ea,T0,Interview
+Azure的每个存储账户有多大？,Azure的每个存储账户有500TB,T0,Interview
+官方网站上公布的价格是否是含税的？,是的，官网价格为含税价,T0,Interview
+如何购买Computing Pre-purchase Plan（CPP，Azure虚拟机的包年服务）？,目前只有企业账户类型（EA)可以购买CPP。,T0,Interview
+Azure重置密码之后，临时密码的有效期是多久?,Azure重置密码之后，临时密码的有效期是90天。,T0,Interview
+虚拟机维护对客户有通知吗？,如果维护需要重启虚拟机，系统会通知计划维护的时间。 详情请见：https://docs.azure.cn/zh-cn/virtual-machines/windows/maintenance-and-updates,T0,Interview
+客户不小心取消了自己的订阅，还能自己恢复订阅么？,客户无法自行恢复订阅，建议联系客服支持人员。,T0,Interview
+处于停止状态的网站收费吗？,处于停止状态的网站收费。,T0,Interview
+EA Trial是否可以添加多个订阅？,EA Trial不可以添加多个订阅,T0,Interview
+Azure VM是否支持IPv6？,Azure VM暂时不支持IPv6,T0,Interview
+Azure MS-LED Trail（EA Trail）订阅被停后，数据保留时长？,Azure MS-LED Trail（EA Trail）订阅被停后，数据保留90天,T0,Interview
+"客户咨询关于ExpressRoute的费用相关事宜,如何处理？",ExpressRoute服务费用详情参见 https://www.azure.cn/pricing/details/expressroute/ 。此外，ExpressRoute 连接提供商（如中国电信）会向您收取额外费用。更多信息，建议联系客服支持人员。,T0,Interview
+EA测试账户能否查看账单？,客户无法自行查看，建议与大客户经理联系。,T0,Interview
+EA账户是否可以进行订阅转移？,可以通过企业门户中完成迁移，详细步骤请见：https://docs.azure.cn/zh-cn/articles/azure-operations-guide/commerce/subscription-management/aog-commerce-subscription-management-migrate,T0,Interview
+1RMB 试用账号（充了最低1000人民币后）可以再添加订阅吗？,1RMB 试用账号（充了最低1000人民币后）可以再添加订阅,T0,Interview
+每个云服务最多支持多少个虚拟机？,50台,T0,Interview
+1元试用(1RMB)金额为0时，账户数据保留多久？,1元试用(1RMB)金额为0时，账户数据保留15天。,T0,Interview
+发票邮寄费用谁支付？,如果选择中通快递，邮寄费用由世纪互联支付，如果选择顺丰，需要到付。,T0,Interview
+订阅被停后，云服务下的实例是否会被删除？,订阅被停后，云服务下的实例会被删除。,T0,Interview
+共享网站横向扩展最大的实例数是多少？,共享网站横向扩展最大的实例数是6个,T0,Interview
+同一数据中心两台VM之间通过公网IP通信是否收费？,同一数据中心两台VM之间通过公网IP通信不收费,T0,Interview
+当我选择电汇方式支付 Azure 订阅账户时，是否可以选择外币进行汇款？,选择电汇方式支付 Azure 订阅账户时，不支持外币汇款,T0,Interview
+订阅名称是否可以更改,可以，详细步骤请参考 https://docs.azure.cn/zh-cn/articles/azure-operations-guide/commerce/subscription-management/aog-commerce-subscription-management-rename,T0,Interview
+是否可以查看每一台虚拟机的使用费用？,不能，目前账单无法实现。,T0,Interview
+IOT套件只有企业级客户才能享受,是的，此服务暂时只对签订世纪互联在线服务高级协议的企业客户开放。,T0,Interview
+我能否选择让我的虚拟机退出系统维护？ ,不能。对于需要重启虚拟机的维护，系统会提前告知客户。计划维护有两个阶段：用户自助维护和系统自助维护。客户可以在用户自助维护阶段内查看虚拟机状态，并启动自助式维护和重新启动虚拟机。更多有关虚拟机维护的信息，请参阅 https://docs.azure.cn/zh-cn/virtual-machines/windows/maintenance-and-updates ,T0,Interview
+invoice pay方式信用审核的SLA是几个工作日？,invoice pay方式信用审核的SLA是2个工作日。,T0,Interview
+如何查看订单ID?,可以在Billing portal上查看订单ID。,T0,Interview
+客户在进行发票申请时系统提示“邮箱已注册”是什么原因？,一个邮箱只能对应一个Org ID。,T0,Interview
+客户在用银联支付时打开那个页面没有进行付款就关闭页面，然后等到很长时间之后再去付款就不行，原因是？,银联方式支持的时长限制是15分钟之内，如果超过的话会造成付款失败，请重新尝试。,T0,Interview
+EA trial客户如何申请加核/添加核数？,EA trial客户如需申请加核/添加核数，请联系您的大客户经理。,T0,Interview
+境外企业是否可以签订大客户合约？,境外企业需要在中国大陆有实体的企业才能够签订大客户合约。,T0,Interview
+portal.azure.cn是否有AD功能？,Azure Active Directory (Azure AD) 是 Microsoft 提供的多租户、基于云的目录和标识管理服务。可通过Azure portal来访问和管理Azure AD.,T0,Interview
+EA用户是否可以转为web direct用户？,EA用户不可以转为web direct用户,T0,Interview
+EA门户的价目表中的价格是否含税？,EA门户的价目表中的价格不含税,T0,Interview
+提交线下付款订单后，需要在几个工作日内完成汇款？,提交线下付款订单后，需要在7个工作日内完成汇款,T0,Interview

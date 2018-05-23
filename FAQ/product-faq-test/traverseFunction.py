@@ -7,6 +7,7 @@ Created on Tue May 22 13:58:52 2018
 
 import os 
 
+
 def dirExist(dir):
     if os.path.exists(dir):
         print("{} \ndir exists.".format(dir))
@@ -52,5 +53,20 @@ def findSuffix(dir, suffix='.md'):
     #print("the fileList is:",fileList,"\n")
     #print("the fileName is:",fileName,"\n")
     return fileList, fileName,fileInfo
+
+def getUrl(fileLocation,preurl = 'https://docs.azure.cn/zh-cn/'):
+    url_temp = fileLocation.split("\\")
+    #print("split file location: ",url_temp)
+    url_temp[-1] = (url_temp[-1].split("."))[0]
+    #print("remove file type: ",url_temp)
+    del url_temp[0:6]
+    print("remove location dir",url_temp)
+    if url_temp[0] == 'others':
+        url_temp[0] = 'articles'
+    endurl = "/".join(url_temp)
+    print(endurl)
+    url = preurl + endurl + '/'
+    print(url)
+    return url
 
     

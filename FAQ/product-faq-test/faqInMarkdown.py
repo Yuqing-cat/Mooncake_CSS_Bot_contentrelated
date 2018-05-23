@@ -5,9 +5,9 @@ Created on Tue May 22 13:54:06 2018
 @author: yuqwe
 """
 import sys
-import mistune
 import traverseFunction as x
-import re
+import markdownParser as y 
+import csv
 
 dir = "C:\\Users\\yuqwe\\Documents\\GitHub\\az-docs-pr.zh-cn\\"
 
@@ -17,33 +17,91 @@ x.dirExist(dir)
 # set parameters
 suffix = '.md'
 
+# get all markdown files from selected folders
 fileList, fileName, fileInfo = x.findSuffix(dir,suffix)
 
+# generate url
+preurl = 'https://docs.azure.cn/zh-cn/'
+for file in fileInfo:
+    print(file['fileLocation'])
+    file['URL'] = x.getUrl(file['fileLocation'],preurl)
 
+
+# extract markdown content.
+i = 0
 for file in fileInfo: 
-    filename = file['fileName']
-    print(file)
-    location = file['fileLocation']
-    with open(location, encoding='utf-8',mode='r') as f:
-        contents = []
-        for line in f:
-            contents.append(repr(line))
-            print(repr(line))
-        file['contents'] = contents
-    #html = mistune.markdown(
+    y.getContent(file)
+    split = '<hr>\n'
+    #print(i,file['fileName'],file['fileLocation'])
+    i = i + 1
+    # extract header info from content.
+    if split in file['contents']:
+        file = y.getHeader(file)
+    else:
+        print("not include header")
+print(i,"file cotent extraction done.")
 
-    
-for file in fileInfo:    
-    filename = file['fileName']
-    if "faq" in filename:
-        print(file['fileLocation'])
-    #html = mistune.markdown(
+# search faq related files 
+text = ['常见问题','faq','FAQ']
+textIndex = y.searchText(fileInfo,text)
+
+'''
+for i in textIndex:
+    print(fileInfo[i]['title'])
+    print(fileInfo[i]['fileName'])
+    print(fileInfo[i]['URL'])
+'''
+# write faq urls into faqURL.csv
+faqUrlList = "C:\\Users\\yuqwe\\Documents\\GitHub\\Mooncake_CSS_Bot_contentrelated\\FAQ\\faqURL.csv"
+with open(faqUrlList, encoding='utf-8',mode='w',newline = '') as f:
+    w = csv.writer(f)
+    for i in textIndex:
+        w.writerow([fileInfo[i]['URL']])
+f.close()
+
+# try to parse QnA pair from content
+    i = textIndex[0]
+    print(fileInfo[i]['title'])
+    print(fileInfo[i]['fileName'])
+    print(fileInfo[i]['URL'])
+    print(fileInfo[i]['contents'])
+ 
+
+
+'''
+def searchText(fileList,text = ['常见问题']):
+    result = []
+    for file in fileList:
+        filename = file['fileName']
+        content = file['contents']
+        for i in content:
+            for t in text:
+                if t in i:
+                    result.append(fileList.index(file))
+                    print(i)
+        
+        if 'title' in file.keys():
+            title = file['title']
+            description = file['description']
+            for t in text:
+                if t in title or t in description:
+                    result.append(fileList.index(file))
+                    print(result)
+        else:
+            print("This file {} is not qualified.".format(filename))
+        
+    result = sorted(list(set(result)))
+    print("there are {} files in list have text.".format(len(result)))
+    return result
 
 
 
 ############## test in specific file     
 # extract markdown content 
-    file = fileInfo[19]
+file = fileInfo[14]
+
+    
+def getContent(file):
     filename = file['fileName']
     #print(file)
     location = file['fileLocation']
@@ -54,42 +112,46 @@ for file in fileInfo:
         for line in f:
             i = i + 1
             content = mistune.markdown(line, escape = True)
-            print(i,":",content)
+            #print(i,":",content)
             contents.append(content)
     file['contents'] = contents
     #print(file)
+    print("{} markdown content has been extracted into file['contents']".format(filename))
+    print("content length is {}\n".format(len(contents)))
+    return file
 
 # fine <hr> in content
+def getHeader(file, split = "<hr>\n"):
     a = file['contents']
     enumerate(a)
-    headIndex = [i for i, x in enumerate(a) if x == "<hr>\n"]
+    headIndex = [i for i, x in enumerate(a) if x == split]
     startIndex = headIndex[0]+1
     endIndex = headIndex[1]
     headContent = a[startIndex:endIndex]
-    print(headContent)
+    #print(headContent)
+    n = 0
     for i in headContent:
         x = re.findall(r'(?<=<p>).+?(?=</p>)',i)
-        x = x[0].split(":")
-        key = x[0]
-        value = x[1]
-        file[key] = value
-        print(x)
+        #print(i,x)
+        if x == []:
+            continue
+        else:
+            x = x[0].split(":")
+            key = x[0]
+            value = x[1]
+            file[key] = value
+            n= n +1
+        #print(x)
+    print(file['fileLocation'])
+    print("This file has a header with {} metadata attibutes.".format(n))
     print('title: ',file['title'])   
     print('description: ',file['description'])  
-    print(file['fileLocation'])
-    
-    
-        
-    
-        
+    return file
 
-import re
-n = 0
-for i in content:
-    m = i['bodyText']
-    x = re.findall(r'(?<=<p>).+?(?=</p>)|(?<=<h2>).+?(?=</h2>)|(?<=<h3>).+?(?=</h3>)|(?<=<h4>).+?(?=</h4>)',m)
-    i['bodyText'] = x
-    print(x)
+
+    getContent(file)
+    split = "<hr>\n"
+    file = getHeader(file,split)
 
 
 
@@ -99,10 +161,7 @@ for i in content:
 
 
 
-
-
-
-'''
+# deprecated. 
 
     
     

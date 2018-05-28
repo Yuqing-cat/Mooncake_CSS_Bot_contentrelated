@@ -8,6 +8,7 @@ import sys
 import traverseFunction as x
 import markdownParser as y 
 import csv
+import re
 
 dir = "C:\\Users\\yuqwe\\Documents\\GitHub\\az-docs-pr.zh-cn\\"
 
@@ -45,11 +46,18 @@ print(i,"file cotent extraction done.")
 text = ['常见问题','faq','FAQ']
 textIndex = y.searchText(fileInfo,text)
 
-'''
+
+#for file in fileInfo:
+#    if 'faq' in file['fileName']:
+#        print(file['fileName'])
+
+
 for i in textIndex:
-    print(fileInfo[i]['title'])
-    print(fileInfo[i]['fileName'])
-    print(fileInfo[i]['URL'])
+    print(i)
+    print('\t文章标题：\t',fileInfo[i]['title'])
+    print('\t文件名\t',fileInfo[i]['fileName'])
+    print('\t路径\t',fileInfo[i]['fileLocation'])
+    print('\t链接\t',fileInfo[i]['URL'])
 '''
 # write faq urls into faqURL.csv
 faqUrlList = "C:\\Users\\yuqwe\\Documents\\GitHub\\Mooncake_CSS_Bot_contentrelated\\FAQ\\faqURL.csv"
@@ -61,14 +69,25 @@ f.close()
 
 # try to parse QnA pair from content
     i = textIndex[0]
-    print(fileInfo[i]['title'])
-    print(fileInfo[i]['fileName'])
-    print(fileInfo[i]['URL'])
-    print(fileInfo[i]['contents'])
+    print('Title is:',fileInfo[i]['title'])
+    print('File name is:',fileInfo[i]['fileName'])
+    print('File URL is:',fileInfo[i]['URL'])
+    print('Body Content is:',fileInfo[i]['bodyContent'])
+
+# get faq fileLocation list
+for i in textIndex:
+    #i = 50
+    print('URL:\t',fileInfo[i]['URL'])
+    print('Location: \t',fileInfo[i]['fileLocation'])
+    print(fileInfo[i]['bodyContent'])
+    text = fileInfo[i]['bodyContent']
+    for line in text:
+        if "## <a name="frequently-asked-questions-faq"></a>常见问题 (FAQ)" in line:
+        
  
 
 
-'''
+
 def searchText(fileList,text = ['常见问题']):
     result = []
     for file in fileList:
@@ -154,12 +173,12 @@ def getHeader(file, split = "<hr>\n"):
     file = getHeader(file,split)
 
 
+'''
 
 
 
 
-
-
+'''
 
 # deprecated. 
 

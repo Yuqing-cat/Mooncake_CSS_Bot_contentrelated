@@ -69,18 +69,20 @@ def searchText(fileList,text = ['常见问题']):
                     result.append(fileList.index(file))
                     print(i)
         '''
-        if filename != 'index':
+        if filename == 'index':
+            print("this is an index.md file not qualified.")
+        elif 'faq' in filename:
+            result.append(fileList.index(file))
+        else:
             if 'title' in file.keys():
                 title = file['title']
                 description = file['description']
                 for t in text:
-                    if t in title or t in description:
+                    if t in filename or t in title or t in description:
                         result.append(fileList.index(file))
                         print(result)
             else:
-                print("This file {} is not qualified.".format(filename))  
-        else:
-            print("this is an index.md file.")
+                print("This file {} is not qualified. not index + no faq in title + no title meta".format(filename))  
     result = sorted(list(set(result)))
     print("there are {} files in list have text.".format(len(result)))
     print("?",result)

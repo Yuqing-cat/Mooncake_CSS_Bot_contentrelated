@@ -47,9 +47,9 @@ text = ['常见问题','faq','FAQ']
 textIndex = y.searchText(fileInfo,text)
 
 
-#for file in fileInfo:
-#    if 'faq' in file['fileName']:
-#        print(file['fileName'])
+for file in fileInfo:
+    if 'faq' in file['fileName']:
+        print(file['title'])
 
 
 for i in textIndex:

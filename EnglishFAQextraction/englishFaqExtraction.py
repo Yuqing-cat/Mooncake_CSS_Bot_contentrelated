@@ -90,7 +90,8 @@ for i in range(2,6):
             print(question,answer[1])
             qna['id'] = question[0][0]
             qna['question'] = question[0][1]
-            qna['answer'] = re.findall(r'(?<=<p>).+?(?=</p>)',answer[1])
+            raw_answer = re.findall(r'(?<=<p>).+?(?=</p>)',answer[1])
+            qna['answer'] = "\n\n".join(raw_answer)
             qna['category'] = category
             qna['source'] = url + '#' + question[0][0]
             qnaList.append(qna)

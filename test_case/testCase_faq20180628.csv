@@ -1,0 +1,10 @@
+﻿query,category,answer
+Azure 是什么？,general,Azure 是一个灵活而开放的平台
+VPN连接错误,vpn-gateway,VPN连接问题，可参照以下文档：
+VM连不上,virtual-machines,虚拟机无法连接，可参照以下文档：
+数据库连接有问题,sql-database,数据库故障排查可参照以下文档
+虚拟机重启了，怎么办？,virtual-machines,虚拟机重启问题，可参照以下文档
+SAS怎么加到Key vault中,key-vault,Azure Key Vault 允许保管库/对象所有者创建 SAS，可参照以下文档
+ICP备案是什么?,icp,ICP备案是工信部要求每一个在国内连接互联网的网站都必须要办的一个入网许可。
+MySQL性能如何优化,mysql,MySQL性能优化，可参照以下文档：
+虚拟机连接失败,virtual-machines,虚拟机无法连接，可参照以下文档：

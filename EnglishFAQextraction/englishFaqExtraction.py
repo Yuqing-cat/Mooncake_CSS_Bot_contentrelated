@@ -88,7 +88,7 @@ for i in range(2,6):
         print(len(question),len(answer))
         if len(answer) >= 2:
             print(question,answer[1])
-            qna['id'] = question[0][0]
+            #qna['id'] = question[0][0]
             qna['question'] = question[0][1]
             raw_answer = re.findall(r'(?<=<p>).+?(?=</p>)',answer[1])
             qna['answer'] = "\n\n".join(raw_answer)

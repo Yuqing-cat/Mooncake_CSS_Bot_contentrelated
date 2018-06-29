@@ -19,7 +19,6 @@ cd C:\Program Files (x86)\Microsoft SDKs\Azure\AzCopy
 AzCopy /Source:D:\az-docs-pr.zh-cn /Dest:https://knowledgebasesaint.blob.core.windows.net/azure-operation-guide/articles/ /Pattern:"*.md" /DestKey:"STORAGE_KEY_HERE" /S
 
 ```
-- [mc-docs-pr](https://github.com/wacn/mc-docs-pr.zh-cn/tree/live) 
 - [mooncake docs](https://github.com/wacn/mc-docs-pr.zh-cn/tree/live)
 - [mooncake docs](https://github.com/wacn/mc-docs-pr.en-us/tree/live)
 - [azure docs with aog (chinese)](https://github.com/wacn/az-docs-pr.zh-cn/tree/live)

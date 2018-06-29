@@ -43,7 +43,7 @@ for child in xmlRoot:
     content = getXmlText(child,tags)
     contents.append(content)
     
-print(contents)
+#print(contents)
 
 
 import re
@@ -61,8 +61,8 @@ for q in ids:
         #print("q",q[1])
         countq = countq + 1
         questions.append(q[1])
-print("there are", countq, " questions")
-print("they are: ",questions)
+print(" There are", countq, " questions")
+print(" They are: ",questions)
 
 
 for i in contents:
@@ -70,9 +70,10 @@ for i in contents:
 
 
 qnaList = []
+print("\n The question category in this file is:")
 for i in range(2,6):
     category = categoryQ[i].split('</h2>')[0]
-    print(category)
+    print("   ",category)
     
     texts = categoryQ[i].split('</h2>')[1]
     # split text into qnas
@@ -85,9 +86,9 @@ for i in range(2,6):
         answer = re.split('</section>',q)[0]
         answer = re.split('<section>',answer)
         qna = {}
-        print(len(question),len(answer))
+        #print(len(question),len(answer))
         if len(answer) >= 2:
-            print(question,answer[1])
+            #print(question,answer[1])
             #qna['id'] = question[0][0]
             qna['question'] = question[0][1]
             raw_answer = re.findall(r'(?<=<p>).+?(?=</p>)',answer[1])
@@ -96,7 +97,7 @@ for i in range(2,6):
             qna['source'] = url + '#' + question[0][0]
             qnaList.append(qna)
 
-print(len(qnaList),"qna pairs is extracted.")    
+print("\n",len(qnaList),"qna pairs is extracted with schema of question,answer,category,source.")    
 
     
 # write qnaList into csv file
@@ -109,6 +110,6 @@ with open(destFile,'w',newline='',encoding='utf-8') as f:
         w.writerow(i.values())
     
             
-
+print("\n Qna list is saved into englishFaq.csv")
     
 

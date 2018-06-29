@@ -101,7 +101,7 @@ print("\n",len(qnaList),"qna pairs is extracted with schema of question,answer,c
 
     
 # write qnaList into csv file
-destFile = 'C:\\Users\\yuqwe\\Documents\\GitHub\\Mooncake_CSS_Bot_contentrelated\\EnglishFAQextraction\\englishFaq.csv'
+destFile = 'C:\\Users\\yuqwe\\Documents\\GitHub\\Mooncake_CSS_Bot_contentrelated\\englishFAQextraction\\englishFaq.csv'
 
 with open(destFile,'w',newline='',encoding='utf-8') as f:
     w = csv.writer(f)

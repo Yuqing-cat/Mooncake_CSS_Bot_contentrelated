@@ -1,2 +1,2 @@
-cd EnglishFAQExtraction
+cd englishFAQExtraction
 python englishFaqExtraction.py

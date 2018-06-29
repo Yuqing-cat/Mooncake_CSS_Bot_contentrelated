@@ -7,7 +7,7 @@ this file is to extract english faq from content
 @author: yuqwe
 """
 
-
+import os
 import xml.etree.cElementTree as ET
 import csv
 
@@ -29,12 +29,19 @@ def getXmlText(child,tags):
 
 #extract from 
 url = "https://www.azure.cn/en-us/support/faq"
-rootPath = "C:\\Users\\yuqwe\\Documents\\GitHub\\acnContent\\"
-midPath = "acn-portal-pr.en-us\\acn-resources\\en-required\\"
-fileName = "support,faq.xml"
+codePath = os.getcwd()
+print("code Path is :\t", codePath)
+os.chdir("..\..")
+acnPath = os.getcwd()+"\\acnContent"
+#print(acnPath)
+#acnPath = "C:\\Users\\yuqwe\\Documents\\GitHub\\acnContent\\"
+#midPath = "acn-portal-pr.en-us\\acn-resources\\en-required\\"
+midPath = "\\acn-portal-pr.en-us\\marketing-resource\\xml\\support\\"
+#filename = "support,faq.xml"
+fileName = "faq.xml"
 
-fileLocation = rootPath + midPath + fileName
-
+fileLocation = acnPath + midPath + fileName
+print("will extract content from: \t",fileLocation)
 contents = []
 xmlTree = ET.parse(fileLocation)
 xmlRoot = xmlTree.getroot()
@@ -101,7 +108,7 @@ print("\n",len(qnaList),"qna pairs is extracted with schema of question,answer,c
 
     
 # write qnaList into csv file
-destFile = 'C:\\Users\\yuqwe\\Documents\\GitHub\\Mooncake_CSS_Bot_contentrelated\\englishFAQextraction\\englishFaq.csv'
+destFile = codePath + '\\englishFaq.csv'
 
 with open(destFile,'w',newline='',encoding='utf-8') as f:
     w = csv.writer(f)

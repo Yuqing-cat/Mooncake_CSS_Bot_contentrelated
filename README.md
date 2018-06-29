@@ -14,14 +14,14 @@ And this Readme is regular tasks that is needed for content refresh.
 ```
 cd C:\Program Files (x86)\Microsoft SDKs\Azure\AzCopy
 ```
--  aog related: [] 
+
+
+- [mooncake docs (english)](https://github.com/wacn/mc-docs-pr.zh-cn/tree/live)
+- [mooncake docs (chinese)](https://github.com/wacn/mc-docs-pr.en-us/tree/live)
+- [azure docs with aog (chinese)](https://github.com/wacn/az-docs-pr.zh-cn/tree/live)
 ```
 AzCopy /Source:D:\az-docs-pr.zh-cn /Dest:https://knowledgebasesaint.blob.core.windows.net/azure-operation-guide/articles/ /Pattern:"*.md" /DestKey:"STORAGE_KEY_HERE" /S
-
 ```
-- [mooncake docs](https://github.com/wacn/mc-docs-pr.zh-cn/tree/live)
-- [mooncake docs](https://github.com/wacn/mc-docs-pr.en-us/tree/live)
-- [azure docs with aog (chinese)](https://github.com/wacn/az-docs-pr.zh-cn/tree/live)
 - [azure docs with aog (english)](https://github.com/wacn/az-docs-pr.en-us/tree/live)
 - [marketing content (chinese)](https://github.com/wacn/acn-portal-pr.zh-cn/tree/live)
 - [marketing content (english)](https://github.com/wacn/acn-portal-pr.en-us/tree/live)

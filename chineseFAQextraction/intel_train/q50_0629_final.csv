@@ -1,0 +1,276 @@
+Question,Answer,score
+虚拟机上的端口不通,"Azure SQL 数据库防火墙设置问题：
+1. IP 地址不在白名单中
+2. 在客户端和 Internet 之间的所有防火墙上面，确保 1433 端口的出站链接(outbound connection)是开放的。
+3. 对于部署在 Azure 虚拟机上的客户端，除 1433 端口外，确保为客户端与 SQL 数据库之间的交互保留 Azure 客户端计算机上 11000-11999 和 14000-14999 的端口范围。
+具体参考[Azure SQL 数据库常见的连接问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/sql-database/aog-sql-database-connection-faq#section3)。",0.779058
+虚拟机上的端口不通,"可以尝试在 Azure 门户中或者使用 PowerShell.mpt 来增加 ExpressRoute 线路的带宽。 如果在创建线路的物理端口上有容量可用，则更改会成功。 
+如果更改失败，这意味着当前端口上没有剩余足够的容量，需要创建具有更高带宽的新 ExpressRoute 线路；或者意味着在该位置没有额外的容量，在这种情况下将无法增加带宽。 
+还必须跟进连接服务提供商，确保他们更新其网络中的限制以支持带宽增加。 不过，无法减小 ExpressRoute 线路的带宽。 必须创建具有更低带宽的新 ExpressRoute 线路并删除旧线路。",0.723329
+虚拟机上的端口不通,"若要解决 FTP 问题，请执行以下步骤：
+ 1.  验证是否输入了正确的主机名和凭据。 有关不同类型的凭据及其使用方法的详细信息，请参阅 [Deployment credentials](https://github.com/projectkudu/kudu/wiki/Deployment-credentials)（部署凭据）。
+ 2.  验证防火墙是否阻止了 FTP 端口。 端口应具有以下设置：
+    *   FTP 控制连接端口：21
+    *   FTP 数据连接端口：989、10001-10300",0.644146
+如何创建虚拟机,"首先，创建一个虚拟网络，然后在创建虚拟机时，选择之前创建的虚拟网络，将虚拟机添加到虚拟网络中。详细步骤请参阅[如何将虚拟机添加到虚拟网络](https://docs.azure.cn/virtual-network/virtual-network-get-started-vnet-subnet)。
+
+虚拟机放入虚拟网络后可以保证虚拟机间通过内网通信，而且可以配置 P2S S2S VPN等高级功能。
+
+如果虚拟机在建立时没有加入虚拟网络，则之后无法将其加入一个虚拟网络。目前只能删除该虚拟机（选择保留数据磁盘），利用保留的数据磁盘的重新创建一个虚拟机，并在创建 此虚拟机时选择加入到已有的虚拟网络中。",2.2911599999999996
+如何创建虚拟机,"1. 使用 Azure 提供的 SQL Server 镜像创建的虚拟机，按照 SQL server 的费用 + 虚拟机的费用计的（目前官网上的 SQL Server 的价格包含 VM 的价格）；使用自己制作的 SQL Server 镜像创建的虚拟机，按照 Windows 或 Linux 虚拟机计费。
+2. 使用 Azure 提供的 SQL Server 镜像创建的虚拟机，如果虚拟机创建成功之后，在虚拟机内部将 SQL server 卸载，SQL Server 的计费也不会停止，除非将 VM 停止取消分配或删除。",2.0555
+如何创建虚拟机,目前，中国区 Azure 虚拟机中不可以再创建虚拟机。Azure 虚拟机的 Dv3 和 Ev3 系列是支持嵌套虚拟化的，但是目前中国区 Azure 暂时还不支持创建该系列虚拟机。,1.7503099999999998
+批量创建和删除虚拟机,"若要删除已弃用的证书，请从保管库证书列表中删除旧证书。 在列表中留下想要在计算机上保留的所有证书。 这不会删除所有虚拟机中的证书。 也不会向虚拟机规模集中创建的新 VM 添加证书。 
+若要从现有 VM 中删除证书，需要编写一个自定义脚本扩展，从证书存储中手动删除证书。",2.16539
+批量创建和删除虚拟机,"1. 使用 Azure 提供的 SQL Server 镜像创建的虚拟机，按照 SQL server 的费用 + 虚拟机的费用计的（目前官网上的 SQL Server 的价格包含 VM 的价格）；使用自己制作的 SQL Server 镜像创建的虚拟机，按照 Windows 或 Linux 虚拟机计费。
+2. 使用 Azure 提供的 SQL Server 镜像创建的虚拟机，如果虚拟机创建成功之后，在虚拟机内部将 SQL server 卸载，SQL Server 的计费也不会停止，除非将 VM 停止取消分配或删除。",2.0169799999999998
+批量创建和删除虚拟机,"删除虚拟机规模集中的 VM 与解除分配 VM 的主要区别在于 `deallocate` 不会删除虚拟硬盘 (VHD)。 运行 `stop deallocate` 会产生存储费用。 采用其中一种做法可能是由于以下原因之一：
+ *   不再想要支付计算费用，但要保留 VM 的磁盘状态。
+ *   想要更快速地启动一组 VM，而不是扩大虚拟机规模集。
+ *   出于这种方案，可能创建了自己的自动缩放引擎，并希望以更快的速度完成端到端缩放。
+ *   虚拟机规模集未均匀分布在容错域或更新域。 这可能是由于有选择地删除了 VM，或者因为过度预配后，VM 被删除。 在虚拟机规模集上先运行 `stop deallocate`，并运行 `start`，可将 VM 均匀地分布到容错域或更新域。",1.96815
+如何对虚拟机备份,Azure 中的备份数据会被加密。 发送到 Azure 的数据将保持加密（静态加密）。 Microsoft 不会解密任何位置的备份数据。 备份 Azure VM 时，Azure 备份依赖于对虚拟机的加密。 例如，如果使用 Azure 磁盘加密或其他某种加密技术对 VM 进行了加密，则 Azure 备份会使用同样的加密技术来保护数据。,2.55478
+如何对虚拟机备份,恢复服务保管库仍然支持[经典管理门户](https://manage.windowsazure.cn/)中所有现有的备份保管库。 但是，无法再使用经典管理门户来部署新的备份保管库。 Microsoft 建议对所有部署使用恢复服务保管库，因为将来只会对恢复服务保管库进行增强。 如果尝试在经典管理门户中创建备份保管库，系统会重定向到 [Azure 门户](https://portal.azure.cn/)。,1.6822400000000002
+如何对虚拟机备份,"在 Azure 备份作业开始后取消，不会删除已传输的备份数据。 在备份作业取消之前传输到保管库中的所有数据将保留在保管库中。 Azure 备份使用检查点机制，在备份过程中偶尔要对备份数据添加检查点。 由于备份数据中有检查点，下次备份过程可以验证文件的完整性。 下一备份作业会在已备份数据的基础上进行增量备份。 增量备份仅传输新的或已更改的数据，这相当于更好地利用带宽。
+如果取消 Azure VM 的备份作业，则会忽略任何已传输的数据。 下次备份作业将传输上次成功的备份作业之后的增量数据",1.5963
+虚拟机如何挂载磁盘,客户可以生成托管磁盘的快照，并使用快照创建另一个托管磁盘。,0.165295
+虚拟机如何挂载磁盘,可以调整Azure VM OS 磁盘的大小。有关说明，请参阅 [How to expand the OS drive of a Virtual Machine in an Azure Resource Group](https://docs.azure.cn/virtual-machines/windows/expand-os-disk?toc=/virtual-machines/windows/toc.json)（如何扩展 Azure 资源组中虚拟机的 OS 驱动器）。,0.101396
+虚拟机如何挂载磁盘,托管磁盘是一种通过处理存储帐户管理来简化 Azure IaaS VM 的磁盘管理的功能。 有关详细信息，请参阅[托管磁盘概述](https://docs.azure.cn/virtual-machines/windows/managed-disks-overview)。,0.09718639999999999
+VM大小调整,"弹性池按以下特征计费：
+ *   弹性池一创建即计费，即使池中没有数据库。
+ *   弹性池按小时计费。 该计量频率与单一数据库性能级别的计量频率相同。
+ *   如果将弹性池的大小调整为新的 eDTU 数，在调整操作完成之前，不会按新的 eDTU 数计费。 这种计费所遵循的模式与更改单一数据库的性能级别所遵循的模式相同。
+ *   弹性池的价格取决于池的 eDTU 数量。 弹性池的价格与池内弹性数据库的数目和使用率无关。
+ *   价格的计算公式为：（池 eDTU 的数量）x（每 eDTU 的单位价格）。
+弹性池的 eDTU 单价高于同一服务层中单一数据库的 DTU 单价。 有关详细信息，请参阅 [SQL 数据库定价](https://www.azure.cn/pricing/details/sql-database/)。 
+若要了解 eDTU 和服务层，请参阅 [SQL 数据库选项和性能](https://docs.azure.cn/sql-database/sql-database-service-tiers)",1.45963
+VM大小调整,"1. 对于某些需要较长时间才能完成的 Redis 命令，在未了解这些命令造成的影响的情况下，不应运行这些命令。
+2. 键大小 - 应使用小键/值还是大键/值？ 通常这取决于方案。 如果方案需要较大的键，则可调整 ConnectionTimeout 和重试值，并调整重试逻辑。 从 Redis 服务器的角度来看，值越小，性能就越好。
+3. 这些考量并不意味着不能在 Redis 中存储较大值，只是要注意以下事项。 延迟会提高。 如果采用一个较大的数据集和一个较小的数据集，则可以使用多个 ConnectionMultiplexer 实例，并根据 [StackExchange.Redis 配置选项有什么作用](https://docs.azure.cn/redis-cache/#cache-configuration)部分中所述，为每个实例配置一组不同的超时和重试值。",1.3854600000000001
+VM大小调整,不得使用临时磁盘（Windows 默认的 D: 盘或 Linux 的 /dev/sdb1）存储数据。 这些磁盘只是临时存储空间，因此存在丢失数据且无法恢复数据的风险。 将虚拟机迁移到其他主机时，可能会发生这种情况。 调整虚拟机大小，更新主机和主机硬件故障都是需要迁移动虚拟机的原因。,1.2971
+异地冗余存储如何迁移到本地冗余存储,Azure 备份提供两种类型的复制：本地冗余存储和异地冗余存储。本地冗余存储 (LRS) 将同一区域的配对数据中心内的数据复制三次（创建三个数据副本）。异地冗余存储 (GRS) 将数据复制到源数据主位置数公里之外的次要区域中。为了防止因为一个区域的灾难影响存储服务临时不可用，我们建议客户使用读取访问异地冗余存储 (RA-GRS)方式复制数据，这样当主区域存储账户不可用时，可以从次要区域访问数据。有关 Azure 中各种数据服务的备份和容灾能力以及备份方式说明，请参阅[执行与维护中的如何做好数据备份](https://www.azure.cn/support/faq/)？,3.83269
+异地冗余存储如何迁移到本地冗余存储,Azure 托管磁盘当前仅支持本地冗余存储托管磁盘。,1.5318399999999999
+异地冗余存储如何迁移到本地冗余存储,我们提供异地冗余。中国北京及上海两个数据中心是有独占10G以上带宽相连。数据储存方面，Azure 支持两种模式：*   同一数据中心的文件冗余，即在同一个数据中心文件进行三重备份;*   不同数据中心的异地冗余，文件在异地数据中心也进行三重冗余，这样在两个不同的数据中心一共有6重备份。举个例子，我向上海的 Azure 数据中心上传了一份文件，同时开启了异地冗余。首先我的文件会在上海的数据中心进行三重备份；同时，Azure 会利用上海和北京之间的专线，异步地在北京的数据中心也进行三重备份。在某些极端的情况下，假设上海的数据中心因为地震、战争、洪水等原因完全宕机了，我的文件还能安全的保存在北京的数据中心，不会丢失。由于我们出色的储存设置，很多客户把 Azure 做为数据备份的解决方案。,1.30607
+自动开关机,"可以将运行 Windows 或 Linux 的物理服务器复制到 Azure 或辅助站点。 [了解](https://docs.azure.cn/site-recovery/site-recovery-support-matrix-to-azure#failed-over-azure-vm-requirements)操作系统要求。 无论是将物理服务器复制到 Azure 还是辅助站点，都需要满足相同的要求。
+请注意，如果本地服务器关闭，物理服务器会在 Azure 中以 VM 的形式运行。 当前不支持故障回复到本地物理服务器。 对于作为物理机进行保护的计算机，只能故障回复到 VMware 虚拟机。",1.52664
+CDN配置咨询,Azure 相关的配置和开发问题，请咨询[世纪互联 Azure 支持客服](https://www.azure.cn/support/contact/)。,1.80119
+CDN配置咨询,购买了具有给定带宽的 Azure ExpressRoute 线路，可以根据需要提升到更高的速度。 ExpressRoute 线路的配置允许免费将速度提升到所购带宽限制的两倍。 请咨询服务提供商，确定他们是否支持此功能。,1.27027
+CDN配置咨询,"请参阅以下链接，了解配置信息：
+*   有关兼容 VPN 设备的信息，请参阅 [VPN 设备](https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpn-devices)。
+*   在配置 VPN 设备之前，对于要使用的 VPN 设备，请查看是否存在任何[已知的设备兼容性问题](https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpn-devices#known)。
+*   有关设备配置设置的链接，请参阅[已验证的 VPN 设备](https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpn-devices#devicetable)。 我们会尽力提供各种设备配置链接。 如需最新的配置信息，最好是咨询设备制造商。 我们提供的列表会显示已测试的版本。 如果你的 OS 不在该列表中，则仍有可能版本是兼容的。 请与设备制造商联系以验证 VPN 设备的 OS 版本是否兼容。
+*   有关 VPN 设备配置的概述，请参阅[第三方 VPN 设备配置概述](https://docs.azure.cn/vpn-gateway/vpn-gateway-3rdparty-device-config-overview)。
+*   若要了解如何编辑设备配置示例，请参阅[编辑示例](https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpn-devices#editing)。
+*   有关加密要求的信息，请参阅[关于加密要求和 Azure VPN 网关](https://docs.azure.cn/vpn-gateway/vpn-gateway-about-compliance-crypto)。
+*   有关 IPsec/IKE 参数的信息，请参阅[关于用于站点到站点 VPN 网关连接的 VPN 设备和 IPsec/IKE 参数](https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpn-devices#ipsec)。 除了完成配置所需的其他参数信息外，此链接还显示有关 IKE 版本、Diffie-Hellman 组、身份验证方法、加密和哈希算法、SA 生存期、PFS 和 DPD 的信息。
+*   有关 IPsec/IKE 策略的配置步骤，请参阅[配置用于 S2S VPN 或 VNet 到 VNet 连接的 IPsec/IKE 策略](https://docs.azure.cn/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell)。
+*   若要连接多个基于策略的 VPN 设备，请参阅[使用 PowerShell 将 Azure VPN 网关连接到多个基于策略的本地 VPN 设备](https://docs.azure.cn/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps)。",0.6390560000000001
+如何查看WAF的诊断日志和防火墙日志,可通过诊断日志记录监视 WAF。有关诊断日志记录的详细信息，请参阅 [Diagnostics Logging and Metrics for Application Gateway](https://docs.azure.cn/application-gateway/application-gateway-diagnostics)（应用程序网关的诊断日志记录和指标）,2.2089
+如何查看WAF的诊断日志和防火墙日志,"Azure 应用程序网关可以使用三种日志。 有关这些日志和其他诊断功能的详细信息，请访问[应用程序网关的后端运行状况、诊断日志和指标](https://docs.azure.cn/application-gateway/application-gateway-diagnostics)。
+- ApplicationGatewayAccessLog：访问日志包含提交到应用程序网关前端的每个请求。 数据包括调用方的 IP、请求的 URL、响应延迟、返回代码，以及传入和传出的字节数。每隔 300 秒会收集一次访问日志。 此日志包含每个应用程序网关实例的一条记录。
+- ApplicationGatewayPerformanceLog：性能日志捕获每个实例的性能信息，包括提供的请求总数、吞吐量（以字节为单位）、失败的请求计数、正常和不正常的后端实例计数。
+- ApplicationGatewayFirewallLog：防火墙日志包含通过应用程序网关（配置有 Web 应用程序防火墙）的检测或阻止模式记录的请求。",2.039
+如何查看WAF的诊断日志和防火墙日志,"Azure Cosmos DB 针对操作设置上限，在性能和延迟方面提供保证。 如果引擎可以针对租户的操作实施调控，则可以提供这样的保证。 这可以通过设置吞吐量来实现，并可确保在吞吐量和延迟方面获得保障，因为平台会保留此容量，并保证操作成功。 当超出此容量时，会收到超载错误消息，指出已超出了容量。 0x1001 超载：无法处理此请求，因为""请求速率太大""。 此时，必须查明是哪些操作及其数据量导致了此问题。 可以通过门户中的指标了解超出了预配容量的已消耗容量。 然后，你需要确保容量差不多是在所有基础分区中平均消耗的。 如果你看到大多数吞吐量是由一个分区消耗的，则说明存在工作负载倾斜。 
+相关指标显示了吞吐量在若干小时内、若干天内以及每七天内在各个分区中的使用情况或总体使用情况。 有关详细信息，请参阅[使用 Azure Cosmos DB 中的指标进行监视和调试](https://docs.azure.cn/cosmos-db/use-metrics)。
+[Azure Cosmos DB 诊断日志记录](https://docs.azure.cn/cosmos-db/logging)一文中介绍了诊断日志。",0.8922209999999999
+专线咨询,Azure 相关的配置和开发问题，请咨询[世纪互联 Azure 支持客服](https://www.azure.cn/support/contact/)。,1.56724
+专线咨询,购买了具有给定带宽的 Azure ExpressRoute 线路，可以根据需要提升到更高的速度。 ExpressRoute 线路的配置允许免费将速度提升到所购带宽限制的两倍。 请咨询服务提供商，确定他们是否支持此功能。,1.02646
+专线咨询,您可以在 Azure 门户中的价格表查看和下载您的价格。间接在线高级协议合约，请咨询您的合作伙伴,0.46325200000000005
+Azure账户余额咨询,1 元账号在使用的额度和时间上有一些限制。如果 1 元账号余额不足，则需要续费才能完成发布，如果没有余额或账号到期，则账号可能被删除。所以建议对 1 元账号进行升级，以保证镜像更新和测试需求。[1 元试用账号订阅详情](https://www.azure.cn/offers/ms-mc-azr-44p/),0.750151
+Azure账户余额咨询,"标准预付费订阅需要通过预付费方式进行购买。按照用户的实际使用量扣减余额，不支持超额使用，当余额为 0 时服务将被即刻停用，需要充值才能继续使用。标准预付费订阅采用线上支付最低预付充值金额为 1,000 元，采用电汇支付最低预付金额为 5,000 元，有效期为单次充值后 12 个月 。 *   [标准预付产品详情](https://www.azure.cn/offers/ms-mc-arz-33p/)*   [我要购买](https://www.azure.cn/pricing/pia-waiting-list/?form-type=identityauth/)*   [标准预付费订阅注册流程](https://docs.azure.cn/zh-cn/billing/billing-sign-up-azure-account-and-get-a-pia-subscription)",0.567172
+Azure账户余额咨询,在使用由世纪互联运营的 Microsoft Azure 服务期间，您预留的联系人邮箱将每周收到剩余金额及有效期的提醒邮件。您也可以随时登录[Azure 账户中心](https://account.windowsazure.cn/subscriptions)查看剩余金额及有效期，建议您根据实际使用量进行评估，预留充足的余额。,0.11826600000000001
+增加核数,EA trial客户如需申请加核/添加核数，请联系您的大客户经理。,1.94965
+重新激活订阅,企业合同用户不能自助激活已取消的订阅。请联系 21 世纪互联完成激活流程。 ,2.53022
+重新激活订阅,如果您在注册成功后的 24 小时内没有收到账号激活邮件，可以到发票申请界面点击 “**重发激活邮件**”，系统将再次发送账号激活邮件到您的注册邮箱。若您尝试 “**重发激活邮件**” 后还是无法收到激活邮件，请联系世纪互联客户服务中心，电话：400-089-0365.,2.3343700000000003
+重新激活订阅,"可以，可以将订阅所有权转给不同账户。比如，一个合约下有 3 个订阅，企业管理员可以将一个订阅转到账户 B，一个订阅转到账户 c,一个订阅转到账户 D 或者都转给账户 E.具体操作可以前往 EA 门户，点击管理门户，找到转移所有权图标，然后选择转移订阅选项。请注意：这个选项只适用于已激活账户",1.70655
+1元试用支付不成功,"每位新客户仅有一次享受试用优惠的机会，所以同一个付费账户（包括中国银联和支付宝账户）只能购买一次。如果您使用的付费账户之前已经成功申请并进行过付费，那么此时再次申请并支付 1 元费用时，就可能会出现该问题，即在付费订阅页面显示成功付款，但 Azure 注册页面显示付款失败。
+针对以上状况所发生的 1 元交易，退款系统会自动退回该付费账户，具体退款时间将因各家银行和银行卡的作业有所不同。
+所以如果您需要多个订阅或者已经试用过 1 元试用订阅，欢迎参考[使用标准预付费订阅](https://www.azure.cn/offers/ms-mc-arz-33p/)。",2.61353
+1元试用支付不成功,"* 1 元试用订阅 
+不支持电汇方式付款。1 元试用订阅仅支持支付宝和银联在线支付两种线上付款方式。
+* 标准预付费订阅 
+支持电汇付款。标准预付费订阅支持支付宝、银联在线支付和电汇三种支付方式，选择前两种线上支付的最低付款金额为 1,000 元人民币，电汇的最低支付金额为 5,000 元人民币。电汇的详情操作方式请参考[电汇说明](https://docs.azure.cn/zh-cn/billing/billing-pay-for-subscription-via-wire-transfer)。",2.19034
+1元试用支付不成功,"激活 1 元试用订阅时支持支付宝和银联在线付款两种线上付款方式。且充值订单失效前不能更换支付方式。
+
+1 元试用订阅升级为标准预付费订阅时，支持支付宝、银联在线付款和电汇三种线上付款方式，且充值订单失效前不能更换支付方式。",1.39659
+创建linux虚拟机失败,可以复制或克隆现有的 Azure VM。有关说明，请参阅[如何在 Resource Manager 部署模型中创建 Linux 虚拟机的副本](https://docs.azure.cn/virtual-machines/linux/copy-vm?toc=/virtual-machines/linux/toc.json),1.29979
+创建linux虚拟机失败,"如果从 Key Vault 中删除机密，然后对所有 VM 运行 `stop deallocate`，则再次启动这些 VM 时，会发生失败。 失败发生的原因是 CRP 需要从密钥保管库检索机密，但它无法进行检索。 在这种情况下，可以从虚拟机规模集模型中删除证书。 
+CRP 组件不会持久保留客户机密。 如果对虚拟机规模集中的所有虚拟机运行 `stop deallocate`，会删除缓存。 在这种情况下，将从密钥保管库中检索机密。
+扩大时不会遇到此问题，因为（单 Fabric 租户模型中的）Azure Service Fabric 中存在机密的缓存副本。",1.14391
+创建linux虚拟机失败,"虚拟机无法连接，可参照以下文档：
+*[Azure Windows 虚拟机常见导致无法远程的操作](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/windows/aog-virtual-machines-windows-scenarios-unable-to-remote)；
+*[排查 Azure 虚拟机的远程桌面连接问题](https://docs.azure.cn/zh-cn/virtual-machines/windows/troubleshoot-rdp-connection)；
+*[Linux 虚拟机虚拟网卡问题导致无法连接问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-qa-linux-visual-network-adaper-error)",1.08635
+服务器无法连接,"有几个选择。 如果为 VM 启用了 RDP，则可使用专用 IP 地址连接到虚拟机。 在这种情况下，需要指定要连接到的专用 IP 地址和端口（通常为 3389）。 需要配置用于流量的虚拟机端口。
+也可以使用位于同一虚拟网络中的另一个虚拟机的专用 IP 地址连接到虚拟机。 如果要从虚拟网络外部的位置进行连接，则无法使用专用 IP 地址 RDP 到虚拟机。 例如，如果配置了点到站点虚拟网络，并且未从计算机建立连接，则无法通过专用 IP 地址连接到虚拟机。",2.10644
+服务器无法连接,"虚拟机无法连接，可参照以下文档：
+*[Azure Windows 虚拟机常见导致无法远程的操作](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/windows/aog-virtual-machines-windows-scenarios-unable-to-remote)；
+*[排查 Azure 虚拟机的远程桌面连接问题](https://docs.azure.cn/zh-cn/virtual-machines/windows/troubleshoot-rdp-connection)；
+*[Linux 虚拟机虚拟网卡问题导致无法连接问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-qa-linux-visual-network-adaper-error)",1.9787700000000001
+服务器无法连接,在开启了Azure SQL Database Table Auditing 之后，对于下层客户端来说，需要修改连接字符串，否则会出现无法连接的情况。具体参考[Azure SQL 数据库常见的连接问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/sql-database/aog-sql-database-connection-faq#section5)。,1.17772
+VM数据丢失,"Azure 虚拟机磁盘中包含一个临时盘, D：磁盘 ( Windows ) 或者 /dev/sdb1 ( Linux )。它们仅提供临时暂存，其上存储的数据在某些情况下可能会丢失且完全无法恢复。建议您不要用该磁盘保存需要持久化存储的数据。用户必须自行承担由此导致的丢失数据的风险。 临时盘数据丢失通常发生在虚拟机迁移到不同主机上时。虚拟机迁移的一些原因包括调整虚拟机大小、更新主机或主机上硬件故障。虚拟机迁移发生的时间不可预知， 且很可能发生在客户未进行任何操作的情况下。所以我们建议您不要用该磁盘保存需要持久化存储的数据。 了解更多信息，请参考以下链接：
+
+[关于 Azure Windows VM 的磁盘存储](https://docs.azure.cn/virtual-machines/windows/about-disks-and-vhds)
+
+[在 Azure 中管理 Windows 虚拟机的可用性](https://docs.azure.cn/virtual-machines/windows/manage-availability)
+
+[Azure VM 为何会重新启动](https://blogs.msdn.microsoft.com/azchina/2014/04/18/azure-vm/)
+
+[服务级别协议](https://www.azure.cn/support/legal/sla/)",3.0708
+VM数据丢失,"不要使用临时磁盘来存储数据。 它只是临时存储空间，因此存在丢失数据且数据不能恢复的风险。 将虚拟机移到另一主机时，可能会发生数据丢失的情况。 调整虚拟机大小、更新主机、主机硬件故障等都是需要移动虚拟机的原因。
+如果有应用程序需要使用 D: 驱动器号，可以重新分配驱动器号以便临时磁盘使用除 D: 以外的位置。 有关说明，请参阅[更改 Windows 临时磁盘的驱动器号](https://docs.azure.cn/virtual-machines/windows/change-drive-letter?toc=/virtual-machines/windows/classic/toc.json)",2.39247
+VM数据丢失,不要使用临时磁盘 (/dev/sdb1) 存储数据。 它只是用于临时存储。 有丢失无法恢复的数据的风险。,1.73849
+如何获取Root权限,"支持,虽然我们的[管理门户](https://portal.azure.cn/) 以及PowerShell命令行在创建用户或数据库时只支持对整个数据库设置读写权限，但你可以用“grant”命令对用户权限进行更细化的设置。",0.25247600000000003
+如何获取Root权限,"用户名最长为 20 个字符，不能以句点（"".""）结尾。 
+不允许使用以下用户名： administrator  admin  user  user1test  user2  test1  user3admin1  1  123  aactuser  adm  admin2  aspnetbackup  console  david  guestjohn  owner  root  serversql  support  support_388945a0  systest2  test3  user4  user5",0.115503
+无法远程登录虚机,"可以通过编辑定时任务脚本 /etc/cron.d/raid-check, 修改Azure Linux 虚机中RAID 的每周自检执行时间。",0.0338749
+虚拟机防火墙配置咨询,Azure 相关的配置和开发问题，请咨询[世纪互联 Azure 支持客服](https://www.azure.cn/support/contact/)。,0.51474
+虚拟机防火墙配置咨询,"Azure 支持两种类型的点到站点 VPN 选项：
+ *   安全套接字隧道协议 (SSTP)。 SSTP 是 Microsoft 专有的基于 SSL 的解决方案，它可以穿透防火墙，因为大多数防火墙都打开了 443 SSL 使用的 TCP 端口。
+ *   IKEv2 VPN。 IKEv2 VPN 是一个基于标准的 IPsec VPN 解决方案，它使用 UDP 端口 500 和 4500 以及 IP 协议号 50。 防火墙并非始终打开这些端口，因此，IKEv2 VPN 有可能无法穿过代理和防火墙。",0.30130999999999997
+虚拟机防火墙配置咨询,可以在与 VNet 连接的资源之间实施防火墙。 可以通过 Azure 应用商店部署许多供应商提供 [防火墙网络虚拟设备](https://azure.microsoft.com/marketplace/?term=firewall),0.166519
+EA账户添加订阅,"可以，可以将订阅所有权转给不同账户。比如，一个合约下有 3 个订阅，企业管理员可以将一个订阅转到账户 B，一个订阅转到账户 c,一个订阅转到账户 D 或者都转给账户 E.具体操作可以前往 EA 门户，点击管理门户，找到转移所有权图标，然后选择转移订阅选项。请注意：这个选项只适用于已激活账户",2.09766
+EA账户添加订阅,"账户所有者是注册或购买 Azure 订阅的人员。 他们有权访问[帐户中心](https://account.windowsazure.cn)并执行各种管理任务，例如创建订阅、取消订阅、更改订阅的计费信息，或者更改服务管理员。 如果不确定谁是订阅的账户所有者，可使用以下步骤查明。
+
+   - 请访问 [企业门户](https://ea.azure.cn)。
+   - 查看管理>订阅界面，选择要检查的订阅，查看对应账户名称。
+   - 在管理>账户界面，搜索账户名称，查看对应的账户。",1.94855
+EA账户添加订阅,"**账户所有者**
+
+* 添加,管理订阅
+* 管理服务管理员
+* 查看订阅的使用数据
+
+[更多](https://docs.azure.cn/zh-cn/articles/azure-china-purchasing-guidance/go-china-playbook-ospa-faqs#%E8%B4%A6%E6%88%B10)",1.62726
+用量查询,解决方案仪表板中的设备列表使用查询来返回设备列表。 目前，查询返回的设备数不能超过 10000。 可以尝试让查询的搜索条件更具限制性。,2.08067
+用量查询,"1. 数据库表一定要设置主键（Primary Key），否则会导致复制慢甚至复制被阻塞的情况。
+2. 提升只读实例的性能版本可以直接提升只读实例的吞吐能力（throughput），这样做一方面可以更快地执行更新，加速同步过程，另一方面也可以快速响应读操作。
+3. 如果某个查询语句对于时间很敏感，无论怎么缩短延迟都达不到要求，那么可以将这个查询放到主库上执行。但这就需要用户在程序中指定特定查询语句在特定实例上执行。",2.01893
+用量查询,"* 查询开票进度，及未收到发票的问题查询。
+* 更改发票信息或类型。请您寄回已开发票，我们会即刻给您更换新发票。
+Azure 用户可以通过 [Azure 支持](https://www.azure.cn/support/contact/) 提交工单。",1.5337100000000001
+余额查询,解决方案仪表板中的设备列表使用查询来返回设备列表。 目前，查询返回的设备数不能超过 10000。 可以尝试让查询的搜索条件更具限制性。,2.08067
+余额查询,"1. 数据库表一定要设置主键（Primary Key），否则会导致复制慢甚至复制被阻塞的情况。
+2. 提升只读实例的性能版本可以直接提升只读实例的吞吐能力（throughput），这样做一方面可以更快地执行更新，加速同步过程，另一方面也可以快速响应读操作。
+3. 如果某个查询语句对于时间很敏感，无论怎么缩短延迟都达不到要求，那么可以将这个查询放到主库上执行。但这就需要用户在程序中指定特定查询语句在特定实例上执行。",2.01893
+余额查询,"* 查询开票进度，及未收到发票的问题查询。
+* 更改发票信息或类型。请您寄回已开发票，我们会即刻给您更换新发票。
+Azure 用户可以通过 [Azure 支持](https://www.azure.cn/support/contact/) 提交工单。",1.5337100000000001
+虚拟机端口ping不通,可以连接外网。请参考相关技术文档，[Use port pings instead of ICMP to test Azure VM connectivity](https://blogs.msdn.microsoft.com/mast/2014/06/22/use-port-pings-instead-of-icmp-to-test-azure-vm-connectivity/),0.16680899999999999
+设置虚拟机固定ip,"可以在 [Azure 门户](https://portal.azure.cn/)中监视 Azure Redis 缓存实例。 可以查看度量值、将度量值图表固定到启动板、自定义监视图表的日期和时间范围、在图表中添加和删除度量值，以及设置符合特定条件时发出的警报。 有关详细信息，请参阅 [Monitor Azure Redis Cache](https://docs.azure.cn/redis-cache/cache-how-to-monitor)（监视 Azure Redis 缓存）。
+借助这些工具，可以监视 Azure Redis 缓存实例的运行状况，以及管理缓存应用程序。 有关详细信息，请参阅[如何配置 Azure Redis 缓存](https://docs.azure.cn/redis-cache/cache-configure)的""支持和故障排除设置""部分。",1.12596
+设置虚拟机固定ip,部署云服务后，该服务通常会固定到特定的群集。 这意味着，纵向扩展/横向扩展现有的云服务时必须在同一群集中分配新实例。 如果群集接近容量限制或所需的 VM 大小/类型不可用，则请求可能会失败。,1.12455
+设置虚拟机固定ip,Azure SQL API 支持资源链接缓存，因为 Azure Cosmos DB 是 RESTful 服务，而资源链接固定不变，所以可以缓存。 SQL API 客户端可以通过指定“If-None-Match”标头来读取任何资源（例如文档或集合），然后在服务器版本更改后更新本地副本。,1.08351
+ 如何测试虚机的连通性,通过 VIP 地址访问虚拟机时网络通讯需要通过 Azure Load Balancer 。 Azure Load Balancer 目前不开放 ICMP 协议。Ping 属于 ICMP 协议组，因此无法通过 Load Balancer。 客户需要通过 VIP 检验虚拟机连接性的时候，可以通过 TCP 协议相关工具来操作。更多详细信息，请参阅[使用 PsPing & PaPing 进行 TCP 端口连通性测试](https://docs.azure.cn/articles/azure-operations-guide/virtual-network/aog-virtual-network-tcp-psping-paping-connectivity)。,0.61425
+ 如何测试虚机的连通性,"可以通过编辑定时任务脚本 /etc/cron.d/raid-check, 修改Azure Linux 虚机中RAID 的每周自检执行时间。",0.078477
+如何设置负载均衡,"Azure 负载均衡器是基于第 4 层 (TCP、UDP)的负载均衡器，可在负载均衡集中定义的运行状况良好的服务实例之间分配传入流量，从而提高应用程序的可用性和网络性能。
+可以将 Azure 负载均衡器配置：
+* 对传入到虚拟机的 Internet 流量进行负载均衡。 此配置称为 [面向 Internet 的负载均衡](https://docs.azure.cn/load-balancer/load-balancer-internet-overview)。
+* 对虚拟网络中虚拟机之间的流量、云服务中虚拟机之间的流量或本地计算机和跨界虚拟网络中虚拟机之间的流量进行负载均衡。 此配置称为[内部负载均衡](https://docs.azure.cn/load-balancer/load-balancer-internal-overview)。
+* 将外部流量转发到特定的虚拟机。 
+更多有关 Azure 负载均衡器的详细信息，请参阅[Azure 负载均衡器概述](https://docs.azure.cn/load-balancer/load-balancer-overview)。",3.83589
+如何设置负载均衡,应用程序网关是第 7 层负载均衡器，这意味着，它只处理 Web 流量 (HTTP/HTTPS/WebSocket)。 它支持 SSL 终止、基于 Cookie 的会话相关性以及对流量进行负载均衡的轮循机制等功能。 负载均衡器在第 4 层对流量进行负载均衡 (TCP/UDP)。关于负载均衡，可参照以下文档[Azure 负载均衡器概述](https://docs.azure.cn/zh-cn/load-balancer/load-balancer-overview),3.28188
+如何设置负载均衡,应用程序网关是第 7 层负载均衡器，这意味着，它只处理 Web 流量 (HTTP/HTTPS/WebSocket)。 它支持 SSL 终止、基于 Cookie 的会话相关性以及对流量进行负载均衡的轮循机制等功能。 负载均衡器在第 4 层对流量进行负载均衡 (TCP/UDP)。,2.8921
+网络安全组问题,可以将网络安全组 (NSG) 分配给规模集，以便将其应用于集中的所有 VM NIC。 网络安全组可以直接应用于规模集，方法是在网络配置文件的 networkInterfaceConfigurations 部分引用该组。具体实现，请参考 [该链接]](https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-faq#networking) 中本问题的示例。,2.0079599999999997
+网络安全组问题,尚不能通过 Azure 门户在现有资源组中创建规模集，但从 Azure Resource Manager 模板部署规模集时，可以指定现有资源组。 使用 Azure PowerShell 或 CLI 创建规模集时，也可指定现有的资源组。,1.30369
+网络安全组问题,进行新的目标为空云服务的部署时，可以通过该区域任何群集中的结构对部署进行分配，除非已将云服务固定到地缘组。 将会在相同的群集中尝试部署到相同的地缘组。 如果群集已接近容量限制，则请求可能失败。,0.928268
+如何查看账单,"线上购买用户（包括 1 元试用订阅和标准预付费订阅）
+
+* 下载
+可以通过平台获取使用量报告，报告中包括月用量汇总与计费金额、以及每个服务的日用量情况。这项操作权限仅限于在线购买订阅的账户管理员，详细操作步骤请参考[线上购买用户下载月度使用量报告](https://docs.azure.cn/billing/billing-get-usage-information)。
+
+* 分析
+月度使用量报告是以 Excel 格式展现的，该表格包括 3 个部分：
+
+* 订阅与账期信息
+
+* 各项服务的月度使用量与计费信息
+
+* 各项服务的日用量详情
+
+详细内容请参考[看懂月度使用量报告](https://docs.azure.cn/billing/billing-understand-your-usage)。
+
+企业协议用户
+
+* 下载
+可以登陆 [企业门户](https://ea.azure.cn) 查看合约中历史使用量和当前剩余金额信息。系统中使用量最多有五天延迟，具体您可以通过下载使用量功能查看明细截至日期。
+
+[企业门户](https://ea.azure.cn) 为客户提供了三种查看方式：每月报告下载，高级报告下载，API 访问密钥。在每月报告和高级报告中，提供了截止到报告中日期为止每个部门，账户和订阅每天消耗的服务内容，服务用量及对应的计费金额，详细操作步骤请参考[企业协议用户下载使用量报告](https://docs.azure.cn/billing/billing-get-ea-usage-info)。
+
+* 分析
+月度使用量报告是以 CSV 格式展示的，该表格提供了每天每个账号及对应的使用信息，包括使用量和对应费用。详细内容请参考[看懂月度使用量报告](https://docs.azure.cn/billing/billing-understand-ea-usage-report)。
+
+为了使您更好的使用 Azure，助力上云业务，Azure 提供了内容丰富的培训教程，您可以参考[Azure 视频中心](https://www.azure.cn/video-center/)中的标准预付费账单门户培训了解通过账单做数据透视表的具体操作。",2.54308
+如何查看账单,目前账单无法实现查看每一台虚拟机的使用费用。,1.98517
+如何查看账单,"1. 根据每天配置的流式处理单元的最大数目进行收费，如果在一天的某个时段使用了两个流式处理单元，并且随后在同一天又使用了四个流式处理单元，将针对四个流式处理单元向您收费。
+2. 流式处理单元处于删除或停止状态，计费也会停止，但是体现在账单上的时间将会往后推迟一天，比如 3 月 1 日的流式处理单元费用，将会体现在 3 月 2 日的账单中。",1.57254
+虚拟机重启,若要了解应用程序部署在哪些情况下可能导致重启，请参阅 [Deployment vs. runtime issues](https://github.com/projectkudu/kudu/wiki/Deployment-vs-runtime-issues#deployments-and-web-app-restarts)（部署与运行时问题）。 如本文所述，应用服务将文件部署到 wwwroot 文件夹。 这决不会直接重启应用。,1.7740799999999999
+虚拟机重启,"虚拟机重启问题，可参照以下文档：
+*[我的 Azure VM 为何会重新启动？](https://www.azure.cn/blog/2014/04/18/windows-azure-virtual-machine-restarted-or-shutdown-with-out-any-notification)；
+*[Linux 启动诊断日志协助定位虚拟机启动或重启问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-linux-qa-via-diagnostics-log)；
+*[处理 Windows 虚拟机的计划维护通知](https://docs.azure.cn/zh-cn/virtual-machines/windows/maintenance-notifications)",1.6053600000000001
+虚拟机重启,"1 元试用订阅
+当您的订阅剩余使用额度为 0 或者使用额度过期后，您的订阅将被暂停，您需要在 15 天内进行充值并将订阅升级为标准预付费订阅方可继续使用该订阅。
+
+标准预付费订阅
+当您的订阅剩余使用额度为 0 或者使用额度过期后，您的订阅将被暂停，您需要在 90 天内进行充值以恢复订阅。
+
+企业协议用户
+* 当超额或年度订单未支付，您的订阅将被暂停。在您支付完成后，商务团队将帮您手动重启合约及订阅。
+
+* 当您的订阅被账户所有者意外取消了，您需要联系 [世纪互联支持人员](https://www.azure.cn/support/contact/) 帮您手动重启。
+
+对于其他原因导致订阅被暂停，请联系 [世纪互联支持团队](https://www.azure.cn/support/contact/) 获取帮助。",1.47021
+1RMB试用付款不成功,"每位新客户仅有一次享受试用优惠的机会，所以同一个付费账户（包括中国银联和支付宝账户）只能购买一次。如果您使用的付费账户之前已经成功申请并进行过付费，那么此时再次申请并支付 1 元费用时，就可能会出现该问题，即在付费订阅页面显示成功付款，但 Azure 注册页面显示付款失败。
+针对以上状况所发生的 1 元交易，退款系统会自动退回该付费账户，具体退款时间将因各家银行和银行卡的作业有所不同。
+所以如果您需要多个订阅或者已经试用过 1 元试用订阅，欢迎参考[使用标准预付费订阅](https://www.azure.cn/offers/ms-mc-arz-33p/)。",2.5117700000000003
+1RMB试用付款不成功,"* 1 元试用订阅 
+不支持电汇方式付款。1 元试用订阅仅支持支付宝和银联在线支付两种线上付款方式。
+* 标准预付费订阅 
+支持电汇付款。标准预付费订阅支持支付宝、银联在线支付和电汇三种支付方式，选择前两种线上支付的最低付款金额为 1,000 元人民币，电汇的最低支付金额为 5,000 元人民币。电汇的详情操作方式请参考[电汇说明](https://docs.azure.cn/zh-cn/billing/billing-pay-for-subscription-via-wire-transfer)。",1.91229
+1RMB试用付款不成功,"激活 1 元试用订阅时支持支付宝和银联在线付款两种线上付款方式。且充值订单失效前不能更换支付方式。
+
+1 元试用订阅升级为标准预付费订阅时，支持支付宝、银联在线付款和电汇三种线上付款方式，且充值订单失效前不能更换支付方式。",1.8301
+arm虚拟机如何添加监控数据,若要保护 VMware VM，则需要 vSphere 虚拟机监控程序和运行 VMware 工具的虚拟机。 我们还建议使用 VMware vCenter 服务器托管虚拟机监控程序。 [了解](https://docs.azure.cn/site-recovery/site-recovery-support-matrix-to-azure#failed-over-azure-vm-requirements)有关复制 VMware 服务器和 VM 到 Azure 或辅助站点的精确要求。,1.01136
+arm虚拟机如何添加监控数据,"首先，创建一个虚拟网络，然后在创建虚拟机时，选择之前创建的虚拟网络，将虚拟机添加到虚拟网络中。详细步骤请参阅[如何将虚拟机添加到虚拟网络](https://docs.azure.cn/virtual-network/virtual-network-get-started-vnet-subnet)。
+
+虚拟机放入虚拟网络后可以保证虚拟机间通过内网通信，而且可以配置 P2S S2S VPN等高级功能。
+
+如果虚拟机在建立时没有加入虚拟网络，则之后无法将其加入一个虚拟网络。目前只能删除该虚拟机（选择保留数据磁盘），利用保留的数据磁盘的重新创建一个虚拟机，并在创建 此虚拟机时选择加入到已有的虚拟网络中。",0.839089
+arm虚拟机如何添加监控数据,有可能，因为只要加速域名的服务状态是开启的，即便没有CNAME到Azure CDN， 我们的探测设备都会通过监控url探测原站和加速情况，这个也是为什么我们建议您选择监控url尽可能选择小一些的文件，如果您不想未CNAME的加速域名消耗流量可以将服务切换至关闭状态。,0.665676
+可用性集使用咨询,Azure 相关的配置和开发问题，请咨询[世纪互联 Azure 支持客服](https://www.azure.cn/support/contact/)。,0.879775
+可用性集使用咨询,购买了具有给定带宽的 Azure ExpressRoute 线路，可以根据需要提升到更高的速度。 ExpressRoute 线路的配置允许免费将速度提升到所购带宽限制的两倍。 请咨询服务提供商，确定他们是否支持此功能。,0.272233
+ASM迁移到arm,请参阅[支持的操作系统](https://docs.azure.cn/backup/backup-azure-arm-vms-prepare#supported-operating-system-for-backup)和 [VM 备份限制](https://docs.azure.cn/backup/backup-azure-arm-vms-prepare#limitations-when-backing-up-and-restoring-a-vm),1.48387
+ASM迁移到arm,若要将虚拟机规模集中第一个 VM 的 IP 地址添加到模板的输出中，请参阅 [ARM：获取 VMSS 的专用 IP](http://stackoverflow.com/questions/42790392/arm-get-vmsss-private-ips),1.43671
+ASM迁移到arm,"在配置备份向导中，Azure 备份只列出符合以下条件的 VM：
+- 尚未进行保护 - 可以验证 VM 的备份状态，方法是：转到 VM 边栏选项卡，从""设置""菜单查看备份状态。 详细了解如何[查看 VM 的备份状态](https://docs.azure.cn/backup/backup-azure-vms-first-look-arm)。
+- 与 VM 属于同一区域",0.916997
+申请发票,"如果您在发票申请提交之前发现系统自动呈现的发票信息需要修改，您可以直接在当前页面修改，并继续申请发票，系统将会保存您修改之后的信息。
+
+如果您的发票申请已经在系统中提交，后台会进入相应的开票流程，此时无法在系统中修改发票信息，如果您在发票申请提交后发现相关信息有误，或已经收到的发票需要修改，请联系支持团队：
+
+热线电话：+86 400-0890-365 / +86 010-84563652<br>
+网页提交：[Azure 支持](https://www.azure.cn/support/contact/)",2.97607
+申请发票,"有三种支付超额的方法。超额支付应通过公司电汇支付, 21V 将开具增值税发票一次收到超额付款。请注意, 付款期限为 30 天
+
+* 直接支付
+* 通过年度订单支付
+* 通过附加订单支付
+
+间接合约用户的超额将由您的合作伙伴通知, 客户直接支付超额到合作伙伴。用户付款后, 合作伙伴将向用户开具发票。",2.38275
+申请发票,"* 查询开票进度，及未收到发票的问题查询。
+* 更改发票信息或类型。请您寄回已开发票，我们会即刻给您更换新发票。
+Azure 用户可以通过 [Azure 支持](https://www.azure.cn/support/contact/) 提交工单。",2.3206700000000002
+虚拟机价格咨询,您可以在 Azure 门户中的价格表查看和下载您的价格。间接在线高级协议合约，请咨询您的合作伙伴,0.931731
+虚拟机价格咨询,门户价格是未税价格,0.760603
+虚拟机价格咨询,"在合约购买日期内，我们保证用户可以得到等同与或低于客户价格表 (CPS)。这个价格被称为基准价格。对于在合约购买后推出的服务, 当该服务首次推出时, 其价格实际上是在适用的级别折扣。这个价格保护适用于承诺有效期期间",0.478473
+添加协同管理员,"* 标准管理门户网站请前往 [https://manage.windowsazure.cn/](https://manage.windowsazure.cn/)
+* 新 Azure 门户网站请前往 [https://portal.azure.cn](https://portal.azure.cn)
+* 增加 Azure
+* 协同管理员可以在此管理",1.5014
+添加协同管理员,可以对Azure AD 管理员管理的密码使用密码写回。如果已启用密码写回，管理员执行的密码操作将写回到用户的本地环境。,0.44662399999999997
+虚拟机自动缩放咨询,应用程序网关不支持自动缩放，但应用程序网关提供吞吐量指标，达到阈值时，可使用该指标发出警报。 手动添加实例或更改大小不会重新启动网关，且不会影响现有流量。,0.48689499999999997
+虚拟机自动缩放咨询,有关自动缩放的最佳做法，请参阅[自动缩放虚拟机的最佳做法](https://docs.azure.cn/zh-cn/monitoring-and-diagnostics/insights-autoscale-best-practices),0.455236
+虚拟机自动缩放咨询,"可以在 VM 上创建自动缩放设置，以使用主机级指标或基于来宾 OS 的指标。
+关于受支持的指标列表，请参阅 [Azure Monitor 自动缩放常用指标](https://docs.azure.cn/zh-cn/monitoring-and-diagnostics/insights-autoscale-common-metrics)。 
+此示例使用主机级 CPU 指标和消息计数指标。",0.434395

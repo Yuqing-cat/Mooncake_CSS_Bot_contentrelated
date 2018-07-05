@@ -55,8 +55,6 @@ def findSuffix(dir, suffix='.md'):
     return fileList, fileName,fileInfo
 
 def getUrl(realPath,preurl = 'https://docs.azure.cn/zh-cn/'):
-    #realPath = 'az-docs-pr.zh-cn\\billing\\billing-add-change-azure-subscription-administrator.md'
-    #preurl = 'https://docs.azure.cn/zh-cn/'
     url_temp = realPath.split("\\")
     #print("split file location: ",url_temp)
     url_temp[-1] = (url_temp[-1].split("."))[0]
@@ -70,6 +68,5 @@ def getUrl(realPath,preurl = 'https://docs.azure.cn/zh-cn/'):
     url = preurl + endurl + '/'
     print(url)
     return url
-
 
     

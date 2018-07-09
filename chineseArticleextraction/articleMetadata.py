@@ -41,6 +41,7 @@ def removeTag(contentList,ignoreTag,dictKey):
                 i += 1
     print('after remove: ',len(contentList),'lines of data')
 
+
 # extract useful key-value pair
 
 def subDict(originDict, targetTag):
@@ -74,7 +75,7 @@ fileList, fileName, fileInfo = x.findSuffix(dirPath,suffix)
 
 # ignore certain files 
 ignoreTag = ['README','index']
-removeTag(fileInfo,ignoreTag,'filename')
+removeTag(fileInfo,ignoreTag,'fileName')
 
 
 
@@ -121,13 +122,13 @@ print(len(articleMeta), "lines of aog metadata is stored.")
 
 # clean for train classification
 targetTag = ['title','description','ms.service']
-articleCategory = subDict(fileMeta,targetTag)
-print(len(articleCategory), 'files are extractedf with target tags: \n',targetTag)
+aogCategory = subDict(fileMeta,targetTag)
+print(len(aogCategory), 'files are extractedf with target tags: \n',targetTag)
 
 
 
 destPath = "D:\\GitHub\\Mooncake_CSS_Bot_contentrelated\\chineseArticleextraction\\"
-z.writeCsv(articleCategory,destPath+'articleCategory.csv')
+z.writeCsv(aogCategory,destPath+'aogCategory.csv')
 
 
 

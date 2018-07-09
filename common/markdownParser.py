@@ -32,8 +32,12 @@ def getHeader(file, split = '<hr>\n'):
     a = file['contents']
     enumerate(a)
     headIndex = [i for i, x in enumerate(a) if x == split]
-    startIndex = headIndex[0]+1
-    endIndex = headIndex[1]
+    if len(headIndex) < 2:
+        startIndex = 1
+        endIndex = headIndex[0]
+    else:
+        startIndex = headIndex[0]+1
+        endIndex = headIndex[1]
     headContent = a[startIndex:endIndex]
     #print(headContent)
     bodyContent = a[endIndex+1:] 

@@ -60,13 +60,13 @@ def getUrl(realPath,preurl = 'https://docs.azure.cn/zh-cn/'):
     url_temp[-1] = (url_temp[-1].split("."))[0]
     #print("remove file type: ",url_temp)
     del url_temp[0]
-    print("remove location dir",url_temp)
+    #print("remove location dir",url_temp)
     if url_temp[0] == 'others':
         url_temp[0] = 'articles'
     endurl = "/".join(url_temp)
-    print(endurl)
+    #print(endurl)
     url = preurl + endurl + '/'
-    print(url)
+    print("url\t",url,"filePath\t",realPath)
     return url
 
     

@@ -56,3 +56,17 @@ def removeTag(contentList,ignoreTag,dictKey):
             else:
                 i += 1
     print('after remove: ',len(contentList),'lines of data')
+    
+
+def subDict(originDict, targetTag):
+    destDict = []
+    for f in originDict:
+        x = {}
+        for t in targetTag:
+            if t in f.keys():
+                x[t] = f[t]
+            else:
+                x[t] = 'NA'
+                print(t,'is not in ', f['fileName'],' metadata')
+        destDict.append(x)
+    return destDict

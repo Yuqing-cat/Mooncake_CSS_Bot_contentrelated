@@ -25,7 +25,7 @@ def removeTag(contentList,ignoreTag,dictKey):
     for tag in ignoreTag:
         i = 0
         while i < len(fileInfo):
-            if fileInfo[i]['fileName'] == tag:
+            if fileInfo[i][dictKey] == tag:
                 del fileInfo[i]
             else:
                 i += 1
@@ -53,7 +53,7 @@ x.dirExist(dir)
 
 subFolder = ['az-docs-pr.zh-cn','mc-docs-pr.zh-cn']
 
-dirPath = dir +subFolder[1]
+dirPath = dir +subFolder[1] + "\\articles"
 
 # set parameters
 suffix = '.md'
@@ -64,7 +64,19 @@ fileList, fileName, fileInfo = x.findSuffix(dirPath,suffix)
 
 # ignore certain files 
 ignoreTag = ['README','index']
-removeTag(fileInfo,ignoreTag,'filename')
+removeTag(fileInfo,ignoreTag,'fileName')
+
+
+
+
+### bug file: D:\\GitHub\\acnContent\\mc-docs-pr.zh-cn\\articles\\media-services\\media-services-deliver-streaming-content.md
+#bugFile = "D:\\GitHub\\acnContent\\mc-docs-pr.zh-cn\\articles\\media-services\\media-services-deliver-streaming-content.md"
+#index = 1488, only has one <hr>\n, re-write markdownParse get Header to solve
+#a = y.getContent(fileInfo[1488])
+
+
+
+
 
 
 
@@ -77,10 +89,11 @@ for file in fileInfo:
 i = 0
 fileMeta = []
 for file in fileInfo: 
+    print(fileInfo.index(file))
     y.getContent(file)
     
     split = '<hr>\n'
-    #print(i,file['fileName'],file['fileLocation'])
+    print(i,file['fileName'],file['fileLocation'])
     i = i + 1
     # extract header info from content.
     if split in file['contents']:
@@ -97,15 +110,36 @@ print(len(fileMeta),' files that have headers are stored into fileMeta.')
 # choose certain tags
 targetTag = ['fileName','title','description','ms.service','realPath','fileLocation']
 articleMeta = subDict(fileMeta,targetTag)
-print(len(articleMeta), 'files are extractedf with target tags: \n',targetTag)
+print(len(articleMeta), 'files are extracted with target tags: \n',targetTag)
 
 # generate url
 preurl = 'https://docs.azure.cn/zh-cn/'
 for file in articleMeta:
     #print(file['fileLocation'])
-    file['URL'] = x.getUrl(file['realPath'],preurl)
+    #file['URL'] = x.getUrl(file['realPath'],preurl)
+    file['URL'] = preurl + file['realPath'].split("\\")[-1].split(".")[0]
 
 # store in csvs
+'''
 destPath = "D:\\GitHub\\Mooncake_CSS_Bot_contentrelated\\"
-z.writeCsv(articleMeta,destPath+'aogMeta.csv')
+z.writeCsv(articleMeta,destPath+'kcMeta.csv')
+print(len(articleMeta), "lines of knowledge center metadata is stored.")
+'''
+
+
+
+
+# store in csvs
+destPath = "D:\\GitHub\\Mooncake_CSS_Bot_contentrelated\\chineseArticleextraction\\"
+z.writeCsv(articleMeta,destPath+'kcMeta.csv')
 print(len(articleMeta), "lines of aog metadata is stored.")
+
+# clean for train classification
+targetTag = ['title','description','ms.service']
+kcCategory = subDict(fileMeta,targetTag)
+print(len(kcCategory), 'files are extractedf with target tags: \n',targetTag)
+
+
+
+destPath = "D:\\GitHub\\Mooncake_CSS_Bot_contentrelated\\chineseArticleextraction\\"
+z.writeCsv(kcCategory,destPath+'kcCategory.csv')

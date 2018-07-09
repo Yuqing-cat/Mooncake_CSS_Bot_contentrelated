@@ -3,7 +3,16 @@ event-hub,event-hubs
 express-route,expressroute
 keyvault,key-valut
 cloud-connection-service,ccs
+service-bus-messaging,service-bus
 service-bus-relay,service-bus
+virtual-machines-sql,virtual-machines
 virtual-machines-linux,virtual-machines
 virtual-machines-windows,virtual-machines
 vitual-network,virtual-network
+mysql-database-mc,mysql
+Mysql,mysql
+app-service-web,app-service-web-apps
+app-service-api,app-service-api-apps
+app-service-mobile,app-service-mobile-apps
+web-apps-aog,app-service-web-apps
+documentdb,cosmos-db

@@ -1,0 +1,9 @@
+false_tag,ms.service
+event-hub,event-hubs
+express-route,expressroute
+keyvault,key-valut
+cloud-connection-service,ccs
+service-bus-relay,service-bus
+virtual-machines-linux,virtual-machines
+virtual-machines-windows,virtual-machines
+vitual-network,virtual-network

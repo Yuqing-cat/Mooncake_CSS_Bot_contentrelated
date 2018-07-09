@@ -215,9 +215,8 @@ for i in tagq:
 
 print('\nTASK 3: STORE RESULT')
 
-destPath = "C:\\Users\\yuqwe\\Source\\Repos\\Mooncake CSS ChatBot\\data\\caselog\\"
-
-
+#destPath = "C:\\Users\\yuqwe\\Source\\Repos\\Mooncake CSS ChatBot\\data\\caselog\\"
+destPath = "D:\\GitHub\\Mooncake_CSS_Bot_contentrelated\\caselogProcessor\\"
 # write cleaned csv
 
 writeCsv(tagq,destPath+'cleaned_caselog.csv')

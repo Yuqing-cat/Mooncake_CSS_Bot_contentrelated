@@ -46,7 +46,7 @@ def getHeader(file, split = '<hr>\n'):
         else:
             x = x[0].split(":")
             key = x[0]
-            value = x[1]
+            value = x[1].replace("\"","")
             file[key] = value
             n= n +1
         #print(x)

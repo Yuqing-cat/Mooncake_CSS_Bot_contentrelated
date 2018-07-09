@@ -1,0 +1,51 @@
+case.title,case.productName,ms.service
+VPN问题,Virtual Machine running Windows,virtual-machines
+如何使手机和电脑通过VPN连接到azure,Virtual Machine running Windows,virtual-machines
+VPN恢复连接,Virtual Machine running Linux,virtual-machines
+azure  vpn 支持的问题,Application Gateway,application-gateway
+无法删除VPN,Express Route,expressroute
+公网无法用SSH，VPN后可以内网SSH,Virtual Machine running Linux,virtual-machines
+vpn连接建立,Virtual Machine running Windows,virtual-machines
+虚拟机中部署VPN相关问题,Virtual Machine running Linux,virtual-machines
+如何创建VPN,Virtual Machine running Windows,virtual-machines
+本地搭VPN网关的虚拟机没有办法访问云端,Virtual Machine running Windows,virtual-machines
+VPN咨询,Virtual Machine running Windows,virtual-machines
+VPN网关的问题,Virtual Machine running Windows,virtual-machines
+vpn无法访问,Virtual Machine running Windows,virtual-machines
+VPN 调试不通,Virtual Machine running Linux,virtual-machines
+H3C防火墙动态的VPN设置,Virtual Machine running Windows,virtual-machines
+VPN前提下创建Windows虚拟机ping不了,Virtual Machine running Windows,virtual-machines
+如何配置Vnet to Vnet IPsec VPN,Virtual Machine running Windows,virtual-machines
+VPN配置问题,Virtual Machine running Windows,virtual-machines
+ARM下如何搭建P2S VPN,Virtual Machine running Windows,virtual-machines
+VPN的PPTP 支持问题,Virtual Machine running Windows,virtual-machines
+VPN的连接会断断续续,Virtual Machine running Windows,virtual-machines
+站点到站点、点到站点的VPN咨询,Virtual Machine running Windows,virtual-machines
+虚拟机设置vpn报错,Virtual Machine running Windows,virtual-machines
+VPN的建立,Virtual Machine running Windows,virtual-machines
+VPN 隧道数量,Express Route,expressroute
+如何创建vpn,Cloud Service(Web role/Worker role),quota
+站点VPN连接,Virtual Machine running Windows,virtual-machines
+虚拟机搭建VPN服务器,Virtual Machine running Windows,virtual-machines
+Create Managed VPN,Express Route,expressroute
+新门户搭建虚拟机后的VPN设定,Virtual Machine running Windows,virtual-machines
+VPN的创建和数据库的安装,Virtual Machine running Windows,virtual-machines
+VPN网关和终结点问题,Virtual Machine running Windows,virtual-machines
+SR_2017030675378_ASR站点灾备本地到云端使用s2s VPN来打通，ASR的流量走VPN还是走Internet?,Recovery Service,site-recovery
+VPN的方式构建Exchange DAG嘛？,Virtual Machine running Windows,virtual-machines
+关于通过VPN访问虚拟机的问题,Virtual Machine running Windows,virtual-machines
+vpn网关S2S 隧道中的11-30: ￥0.0945/每隧道按小时收费吗,Enterprise billing questions,billing
+VPN收费咨询,Azure Offers and Pricing,billing
+了解VPN网关价格详情,Billing and Payment Issues,billing
+关于虚拟机以及VPN网关的定价,Azure Offers and Pricing,billing
+VPN费用咨询,Azure Offers and Pricing,billing
+vpn入站流量免20tb,Enterprise billing questions,billing
+VPN计费咨询,Azure Offers and Pricing,billing
+VPN网关数据传出不计费的问题,Billing and Payment Issues,billing
+VPN收费情况,Azure Offers and Pricing,billing
+VPN SKU价格咨询,Azure Offers and Pricing,billing
+vpn计费问题,Azure Offers and Pricing,billing
+關於VPN網關收費及Dynamics CRM,Azure Offers and Pricing,billing
+VPN connection Cost,Azure Offers and Pricing,billing
+vpn价格咨询,Azure Offers and Pricing,billing
+站点到站点VPN怎么收费,Azure Offers and Pricing,billing

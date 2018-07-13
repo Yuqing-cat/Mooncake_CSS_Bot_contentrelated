@@ -135,7 +135,7 @@ z.writeCsv(articleMeta,destPath+'kcMeta.csv')
 print(len(articleMeta), "lines of aog metadata is stored.")
 
 # clean for train classification
-targetTag = ['title','description','ms.service']
+targetTag = ['title','description','ms.service','filename']
 kcCategory = subDict(fileMeta,targetTag)
 print(len(kcCategory), 'files are extractedf with target tags: \n',targetTag)
 

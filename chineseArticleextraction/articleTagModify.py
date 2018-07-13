@@ -29,6 +29,7 @@ def multicsvToDict(fileLocationList, headers,header =True):
     dicts = []
     for fileLocation in fileLocationList:
         print('  Uploading from ',fileLocation)
+        source = fileLocation.split("\\")[-1]
         with open(fileLocation,'r',newline="", encoding = "utf-8") as f:
             reader = csv.reader(f)
             if header == True:
@@ -37,7 +38,6 @@ def multicsvToDict(fileLocationList, headers,header =True):
                 print("\t header is ignored.")
             else:
                 print("\t the csv file is set as no-header.")
-            csv_dict = {}
             i = 0
             #print(reader)
             for row in reader:
@@ -49,6 +49,7 @@ def multicsvToDict(fileLocationList, headers,header =True):
                     csv_dict[headers[l]] = row[l]
                     l+=1
                 #print(row[1])
+                csv_dict['source'] = source
                 rows.append(row)
                 dicts.append(csv_dict)
                 i = i+ 1
@@ -58,10 +59,10 @@ def multicsvToDict(fileLocationList, headers,header =True):
 
 
 
-aogCategory = codePath + "\\aogCategory.csv"
-kcCategory = codePath + "\\kcCategory.csv"
-caselog = "D:\\GitHub\\Mooncake_CSS_Bot_contentrelated\\caselogProcessor\\cleaned_caselog.csv"
-articleFalseTag = codePath + "\\articleFalseTag.csv"
+aogCategory = codePath + "\\chineseArticleextraction\\aogCategory.csv"
+kcCategory = codePath + "\\chineseArticleextraction\\kcCategory.csv"
+caselog = codePath + "\\caselogProcessor\\cleaned_caselog.csv"
+articleFalseTag = codePath + "\\chineseArticleextraction\\articleFalseTag.csv"
 
 
 # trasnform csv into dictionary
@@ -102,9 +103,50 @@ print("article tag corrected recordding to falseTag csv.")
 #aogDescription= z.subDict(articleCat,['description','ms.service'])
 
 # write csv
-destPath = "D:\\GitHub\\Mooncake_CSS_Bot_contentrelated\\chineseArticleextraction\\"
-z.writeCsv(articleCat,destPath+'cleaned_articleCategory.csv')
+cleand_articleCategory = z.subDict(articleCat, ['title','description','ms.service'])
+destPath = codePath + "\\chineseArticleextraction\\"
+z.writeCsv(cleand_articleCategory,destPath+'cleaned_articleCategory.csv')
 print("article title and description is write into cleaned_articleCategory.csv with its ms.service tag")
 
 #z.writeCsv(aogTitle,destPath+'aogTitle.csv')
 #print("aog title is write into aogTitle.csv with its ms.service tag")
+
+
+# add description
+print("%s lines of data is in articleCat"% len(articleCat))
+descriptionContent = []
+for a in articleCat:
+    descriptionDict = {}
+    if a['description'] == 'NA':
+        break
+    elif a['source'] == 'cleaned_caselog.csv':
+        break
+    elif a['source'] == 'aogCategory.csv':
+        descriptionDict['description'] = a['title']
+        descriptionDict['title'] = a['description']
+        descriptionDict['ms.service'] = a['ms.service']
+        descriptionDict['source'] = 'aog_description'
+        
+    elif a['source'] == 'kcCategory.csv':
+        descriptionDict['description'] = a['title']
+        descriptionDict['title'] = a['description']
+        descriptionDict['ms.service'] = a['ms.service']
+        descriptionDict['source'] = 'kc_description'
+    descriptionContent.append(descriptionDict)
+print('%s lines of description is in description content' % len(descriptionContent))
+
+# remove duplicate content
+
+for d in descriptionContent:
+    if d in articleCat:
+        print(articleCat.index(d),"has ", d)
+    else:
+        articleCat.append(d)
+        #print("add d")
+print("%s lines of data is in articleCat"% len(articleCat))  
+
+cleaned_articleCategory_withDescription = z.subDict(articleCat, ['title','description','ms.service'])
+
+destPath = codePath + "\\chineseArticleextraction\\"
+z.writeCsv(cleaned_articleCategory_withDescription,destPath+'cleaned_articleCategory_withDescription.csv')
+print("article title and description is write into cleaned_articleCategory_withDescription.csv with its ms.service tag")

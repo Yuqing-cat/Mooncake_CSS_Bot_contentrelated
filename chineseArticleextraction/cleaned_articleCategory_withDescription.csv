@@ -1,4 +1,4 @@
-title,description,ms.service
+﻿title,description,ms.service
  如何添加或更改 Azure 管理员订阅角色 , 描述如何添加或更改 Azure 共同管理员、服务管理员和帐户管理员。,billing
  无法登陆Azure账号 , 本文将介绍当您发生”无法登陆Azure账号”的解决方案。,billing
  Azure 计费企业 API , 了解使 Azure 企业协议客户能够以编程方式提取消耗数据的报告 API。,billing
@@ -11430,3 +11430,1067 @@ Need official VAT Invoice for our Company,Pay by Invoice,billing
 Azure EA使用详情中如何区分冷热存储费用,Enterprise billing questions,billing
 更改付费方式,Change Payment Method,billing
 提升核数到300,Compute,virtual-machines
+ 描述如何添加或更改 Azure 共同管理员、服务管理员和帐户管理员。, 如何添加或更改 Azure 管理员订阅角色 ,billing
+ 本文将介绍当您发生”无法登陆Azure账号”的解决方案。, 无法登陆Azure账号 ,billing
+ 了解使 Azure 企业协议客户能够以编程方式提取消耗数据的报告 API。, Azure 计费企业 API ,billing
+ 如何在多个目录间导航以查看企业协议订阅。, 查看企业协议订阅,billing
+ 了解如何下载企业协议客户使用量报告。, 下载使用量报告 ,billing
+ 线上购买的用户可在付款后的3天向世纪互联提出开立中国税务发票的申请。本文将介绍发票系统的注册流程与申请发票的具体操作。, 申请中国税务发票 ,billing
+ 本文将介绍下载使用量报告的具体操作流程。, 下载月度使用量报告 ,billing
+ 本文介绍用户如何在使用前评估Azure费用、并在使用过程中了解实际花费。, 防止意外成本，管理计费 ,billing
+ 介绍企业协议客户如何取消Azure订阅。, 企业协议客户取消Azure订阅 ,billing
+ 本文将介绍变更Azure订阅名称与账户联系方式的具体操作步骤。, 变更Azure订阅名称与账户联系方式 ,billing
+ 提供针对登录 Azure 门户或 Azure 帐户中心时出现“找不到任何订阅”错误这一问题的解决方案。, Azure 门户或 Azure 帐户中心时出现“找不到任何订阅”错误 ,billing
+ 目前中国区 Azure 支持三种支付方式：支付宝、银联在线、电汇。其中支付宝、银联在线为第三方在线支付方式。您可根据需要选择合适的支付方式。, 通过第三方在线支付购买Azure订阅 ,billing
+ 本文将介绍通过电汇支付标准预付费订阅的具体操作步骤。, 通过电汇支付标准预付费订阅 ,billing
+ 本文将介绍为标准预付费订阅续费充值的具体操作步骤。, 为标准预付费订阅续费充值 ,billing
+ 本文描述企业门户中使用到的5种管理角色。, 企业门户中的角色 ,billing
+ 本文将介绍注册标准预付费订阅的具体操作流程。, 注册标准预付费订阅 ,billing
+ 本文将介绍注册1元试用订阅的具体操作流程。, 注册1元试用订阅 ,billing
+ 说明何时会禁用用户的Azure订阅，以及如何重新激活它。, 重新激活禁用的Azure订阅 ,billing
+ 介绍如何将Azure企业协议订阅转让给其他用户，以及有关转让过程的一些常见问题 (FAQ), 将Azure企业协议订阅所有权转让给其他帐户 ,billing
+ 针对注册Azure的过程中常遇到的问题提供了解决方案。, Azure线上注册的常见问题 ,billing
+ 了解企业协议客户使用量报告中的字段与内容。, 解读月度使用量报告 ,billing
+ 本文将介绍如何解读Azure月度使用量报告。, 看懂月度使用量报告 ,billing
+ 本文将介绍1元试用订阅升级标准预付费订阅的具体操作步骤。, 1元试用订阅升级到标准预付费订阅 ,billing
+ 本文将介绍将 1 元试用订阅或标准预付费订阅升级到企业协议订阅的具体操作步骤。, 将 1 元试用订阅或标准预付费订阅升级到企业协议订阅 ,billing
+ 了解如何使用 Office 365 帐户购买 Azure 订阅。, 通过 Office 365 帐户购买 Azure 订阅 ,billing
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc- preload,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc- purge,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc- create endpoint,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-delete endpoint,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-dsiable endpoint,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-enable endpoint,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-access control,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-cache policy,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-get bandwidth,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-get usage,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-get endpoint,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc- get operation,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-get subscription usage,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-get all endpoints under subscription,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-preload,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-purge,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-signature,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-update access control,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-update cache policy,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc-update endpoint,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, Azure China CDN API doc,cdn
+ Find answers to service configuration related to Azure CDN, Azure CDN FAQ - Azure feature guide,cdn
+ Find answers to common service consulting or inquiries related to Azure CDN, Azure CDN FAQ - Azure feature guide,cdn
+ Learn How to create Download acceleration type CDN on Azure Management Portal and default caching rules for Download CDN, How to create Download acceleration type CDN - Azure feature guide,cdn
+ Learn How to create Live Streaming acceleration type CDN on Azure Management Portal and default caching rules for Live Streaming CDN, How to create Live Streaming acceleration type CDN - Azure feature guide,cdn
+ Learn How to create VOD acceleration type CDN on Azure Management Portal and default caching rules for VOD CDN, How to create VOD acceleration type CDN - Azure feature guide,cdn
+ Learn How to create Web acceleration type CDN on Azure Management Portal and default caching rules for Web CDN, How to create Web acceleration type CDN - Azure feature guide,cdn
+ Learn how to use the Azure Content Delivery Network (CDN) to deliver high-bandwidth content by caching blobs and static content., How to use CDN - Azure feature guide,cdn
+ 开通客户自有证书的HTTPS加速的说明和步骤, Azure CDN HTTPS加速服务-客供证书,cdn
+ Learn how to create HTTPS CDN acceleration type., How to use CDN - HTTPS,cdn
+ Learn how to use advanced features of Azure CDN management portal to manage CDN endpoint, Azure China CDN image processing,cdn
+ Learn how to use advanced features of Azure CDN management portal to manage CDN endpoint, How to useAzure CDN Management Portal advanced features - Azure feature guide,cdn
+ Learn how to use advanced features of Azure CDN management portal to manage CDN endpoint, Azure CDN Management Portal new version guide,cdn
+" Learn the overview of Azure CDN, advantages, typical scenarios and key features.", Overview of Azure CDN in China - Azure feature guide,cdn
+ Learn Azure CDN Point of Presence in China, Azure CDN POP - Azure feature guide,cdn
+ Azure 开发人员中心： Azure IoT, Azure 开发人员中心： Azure IoT,iot-hub
+ Azure 开发人员中心：Media Services, Azure 开发人员中心：Media Services,media-services
+ Azure 开发人员中心：Azure IoT, Azure 开发人员中心：Azure IoT,iot-hub
+ 移动服务-Android - Azure 微软云, 移动服务-Android - Azure 微软云,mobile-services
+ 移动服务-iOS - Azure 微软云, 移动服务-iOS - Azure 微软云,mobile-services
+ 移动服务-Windows - Azure 微软云, 移动服务-Windows - Azure 微软云,mobile-services
+ 移动服务-xamarin - Azure 微软云, 移动服务-xamarin - Azure 微软云,mobile-services
+" MySQL 数据库 on Azure支持您根据需求定制化服务器部分参数,帮您了解不同参数的设置范围和区间。", 定制MySQL Database on Azure服务器参数,mysql
+ 本文介绍如何通过API更新MySQL Database on Azure服务器，以便允许其它Azure服务对其进行访问。, 通过API更新MySQL Database on Azure服务器以便允许Azure服务进行访问,mysql
+ 本文介绍如何通过API修改MySQL Database on Azure的用户登录密码。, 通过API修改MySQL Database on Azure用户登录密码,mysql
+ 本文介绍如何通过API创建MySQL Database on Azure的备份。, 通过API创建MySQL Database on Azure备份,mysql
+ 本文介绍如何通过API创建MySQL Database on Azure的数据库。, 通过API创建MySQL Database on Azure数据库,mysql
+ 本文介绍如何通过API创建MySQL Database on Azure的防火墙规则。, 通过API创建MySQL Database on Azure防火墙规则,mysql
+ 本文介绍如何通过API创建MySQL Database on Azure的数据库访问权限。, 通过API创建MySQL Database on Azure数据库访问权限,mysql
+ 本文介绍如何通过API创建MySQL Database on Azure的服务器。, 通过API创建MySQL Database on Azure服务器,mysql
+ 本文介绍如何通过API创建MySQL Database on Azure的用户及密码。, 通过API创建MySQL Database on Azure用户及密码,mysql
+ 本文介绍如何通过API删除MySQL Database on Azure的备份文件。, 通过API删除MySQL Database on Azure备份文件,mysql
+ 本文介绍如何通过API删除MySQL Database on Azure的数据库。, 通过API删除MySQL Database on Azure数据库,mysql
+ 本文介绍如何通过API删除MySQL Database on Azure的防火墙规则。, 通过API删除MySQL Database on Azure防火墙规则,mysql
+ 本文介绍如何通过API删除MySQL Database on Azure的服务器。, 通过API删除MySQL Database on Azure服务器,mysql
+ 本文介绍如何通过API删除MySQL Database on Azure的用户。, 通过API删除MySQL Database on Azure用户,mysql
+ 本文介绍如何通过API查看MySQL Database on Azure的数据库信息。, 通过API查看MySQL Database on Azure数据库信息,mysql
+ 本文介绍如何通过API查看MySQL Database on Azure的防火墙规则。, 通过API查看MySQL Database on Azure防火墙规则,mysql
+ 本文介绍如何通过API查看MySQL Database on Azure的数据库访问权限。, 通过API查看MySQL Database on Azure数据库访问权限,mysql
+ 本文介绍如何通过API查看MySQL Database on Azure的服务器状态。, 通过API查看MySQL Database on Azure服务器状态,mysql
+ 本文介绍如何通过API查看MySQL Database on Azure的服务器列表。, 通过API查看MySQL Database on Azure服务器列表,mysql
+ 本文介绍如何通过API开启MySQL Database on Azure的慢查询日志。, 通过API开启MySQL Database on Azure慢查询日志,mysql
+ 本文介绍如何通过API更改MySQL Database on Azure的数据库访问权限。, 通过API更改MySQL Database on Azure数据库访问权限,mysql
+ 本文介绍如何通过API更改MySQL Database on Azure的数据库配置。, 通过API更改MySQL Database on Azure数据库配置,mysql
+ 本文介绍如何通过API更改MySQL Database on Azure的防火墙规则。, 通过API更改MySQL Database on Azure防火墙规则,mysql
+ 本文介绍如何通过API更改MySQL Database on Azure的每日备份时间。, 通过API更改MySQL Database on Azure每日备份时间,mysql
+ 本文介绍如何通过Azure资源管理器模板（ARM Template）快速部署MySQL PaaS以及其它热门应用。, 使用Azure资源管理器模板部署MySQL PaaS,mysql
+ 本文提供三种灾难恢复方案，保障用户的业务连续性。, MySQL Database on Azure业务连续性方案,mysql
+ 本文介绍如何通过PowerShell实现更多MySQL Database on Azure的查询、创建、修改、删除等操作。, 使用PowerShell管理MySQL Database on Azure,mysql
+" 针对用户在使用MySQL Database on Azure中遇到的一些常见技术问题,提供快速解答。如果您仍存有疑问,欢迎联系技术支持。", MySQL Database on Azure客户端兼容性问题,mysql
+ 本文介绍如何使用连接池高效连接MySQL Database on Azure。, 如何高效连接到MySQL Database on Azure,mysql
+" 针对用户在使用MySQL Database on Azure中遇到的一些常见技术问题,提供快速解答。如果您仍存有疑问,欢迎联系技术支持。", MySQL Database on Azure客户端连接问题,mysql
+ 帮助您了解如何通过数据同步功能将本地MySQL实例复制到云端。, 如何配置数据同步复制到MySQL Database on Azure,mysql
+ 本文介绍了MySQL PasS可读备用库的实现方法。, 如何启用MySQL Database on Azure的可读备用库,mysql
+ 本文介绍了如何利用Azure资源管理器和PowerShell工具快速部署实现MySQL Database on Azure。, 利用Azure资源管理器与PowerShell来部署使用MySQL Database on Azure,mysql
+ 快速入门指南帮助您迅速了解MySQL Database on Azure，让您几分钟内轻松创建、连接、迁移、监控管理您的MySQL数据库。您根据入门指南中的步骤操作，将成功建立使用属于您的MySQL数据库。, MySQL Database on Azure快速入门指南,mysql
+ 本文详细解释了如何使用MySQL PaaS服务部署Joomla!应用的相关步骤。, 使用MySQL Database on Azure部署Joomla!应用,mysql
+ 本文详细解释了如何迁移您的数据库至MySQL Database on Azure。, 迁移数据库至MySQL Database on Azure,mysql
+ 本文详细解释了如何将MySQL Database on Azure上的MP服务层（MP1或MP2）降级至MS服务层（MS1 - MS6）。, MySQL Database on Azure如何将MP服务层降级到MS服务层,mysql
+ 帮助您了解MySQL Database on Azure目前存在的服务限制。, MySQL Database on Azure服务限制,mysql
+ MySQL Database on Azure为用户提供核心性能指标的监控，您可以通过Azure管理门户的仪表盘进行查看。, 监控MySQL Database on Azure核心性能指标,mysql
+ 针对服务层和不同版本的性能介绍，为您选择MySQL Database on Azure提供了详细的参考。我们按照ASDB基准，提供了不同版本的测试数据供您参考。, 了解MySQL Database on Azure服务层和版本,mysql
+ 本文解释MySQL Database on Azure的备份和恢复功能。, MySQL Database on Azure备份和恢复,mysql
+ 本文介绍了MySQL PasS主从复制和只读实例的实现方法。, MySQL Database on Azure主从复制和只读实例,mysql
+" 针对用户在使用MySQL Database on Azure中遇到的一些常见技术问题,提供快速解答。如果您仍存有疑问,欢迎联系技术支持。", MySQL Database on Azure主从复制问题,mysql
+" 针对用户在使用MySQL Database on Azure中遇到的一些常见技术问题,提供快速解答。如果您仍存有疑问,欢迎联系技术支持。", MySQL Database on Azure安全性问题,mysql
+ 本文介绍MySQL Database on Azure中计算单元的概念，以及根据计算单元选择服务层的对应关系。, 如何确定工作负荷所需的MySQL Database on Azure服务层,mysql
+" 针对用户在使用MySQL Database on Azure中遇到的一些常见技术问题,提供快速解答。如果您仍存有疑问,欢迎联系技术支持。", MySQL Database on Azure服务咨询,mysql
+  通过SSL加密访问数据库，可以保障您访问的安全性，本文介绍如何下载并配置SSL证书。目前MySQL Database on Azure支持利用公钥在服务器端进行加密验证。, 如何使用SSL访问MySQL Database on Azure,mysql
+" 针对用户在使用MySQL Database on Azure中遇到的一些常见技术问题,提供快速解答。如果您仍存有疑问,欢迎联系技术支持。", MySQL Database on Azure常见技术问题与解答,mysql
+ MySQL Database on Azure服务概述列举了MySQL Database on Azure云数据库服务的各项特性与优势。, MySQL Database on Azure服务概述,mysql
+ 本文介绍了如何在MySQL Database on Azure上配置时区。, MySQL Database on Azure时区配置,mysql
+" 针对用户在使用MySQL Database on Azure中遇到的一些常见技术问题,提供快速解答。如果您仍存有疑问,欢迎联系技术支持。", MySQL Database on Azure如何在客户端配置验证机制确认长连接有效性,mysql
+ WordPress是一种使用非常广泛的CMS系统。本文介绍如何使用MySQL Database on Azure和Azure Web应用来安装配置WordPress。, 如何使用MySQL Database on Azure来配置WordPress Web应用,mysql
+ 本文介绍如何将应用的WoSign根证书替换为DigiCert根证书。, 如何替换应用的WoSign根证书,mysql
+ 本文适用于未将本地活动目录与 Azure AD 集成的账号。如果需要对集成后的账号配置密码用户过期，请在本地活动目录内对账号进行配置，并使用同步工具将配置同步至 Azure AD。, 如何配置 Azure Active Directory 账户密码永不过期,active-directory
+ 使用 PowerShell 为批量用户跨订阅赋予 RBAC 权限, 使用 PowerShell 为批量用户跨订阅赋予 RBAC 权限,active-directory
+ 如何自动化添加默认用户代理权限, 如何自动化添加默认用户代理权限,active-directory
+ 如何为中国区 Azure AD 开启自定义公司品牌和用户自助密码重置功能, 如何为中国区 Azure AD 开启自定义公司品牌和用户自助密码重置功能,active-directory
+ 通过 PHP 获取 调用 Azure Rest API 所需的 Azure Active Directory 令牌, 如何通过 PHP 获取 Azure Active Directory 令牌,active-directory
+ '如何创建一个使用 Azure AD 调用 Web API 的多租户 SaaS Web 应用程序', '如何创建一个使用 Azure AD 调用 Web API 的多租户 SaaS Web 应用程序',active-directory
+ 使用 PowerShell 在 Azure Active Directory 中管理域的集成方式, 使用 PowerShell 在 Azure Active Directory 中管理域的集成方式,active-directory
+ 使用 PowerShell 在不添加应用程序的前提下获取 Azure Active Directory 令牌, 如何在不添加应用程序的前提下使用 PowerShell 获取 Azure Active Directory 令牌,active-directory
+ 无法使用 Azure AD 连接到 Service Fabric 安全群集, 无法使用 Azure AD 连接到 Service Fabric 安全群集,active-directory
+ 如何解决 Python 调用 Graph API 认证出错的问题, Python 调用 Graph API 认证出错,active-directory
+ 使用 PowerShell 导出、导入 .csv 文件的方式批量删除 Azure Active Directory 测试用户信息, 使用 PowerShell 批量删除 Azure Active Directory 用户信息,active-directory
+ Azure Active Directory 中如何删除本机类型的应用, Azure Active Directory 中如何删除本机类型的应用,active-directory
+ 单点登录后获取当前用户所在组的 ID, 单点登录后获取当前用户所在组的 ID,active-directory
+ Azure AD 与 Azure 订阅在中国的限制以及解决多个 Azure AD 目录关联的最佳实践, Azure AD 与 Azure 订阅在中国区 Azure 中的架构限制与最佳实践,active-directory
+ 通过 Azure AD SAML 协议登录应用报错相关解决方案。, 通过 Azure AD SAML 协议登录应用报错相关解决方案,active-directory
+ 如何配置网站 Always ON 的默认访问 URL, 如何配置网站 Always ON 的默认访问 URL,app-service
+ Web 应用中如何设置静态文件缓存过期时间, Web 应用中如何设置静态文件缓存过期时间,app-service-web-apps
+ Web 应用如何添加新的 MIME 类型, Web 应用如何添加新的 MIME 类型,app-service-web-apps
+ 如何通过 Azure 门户将 Web 应用添加到 Vnet 中, 如何通过 Azure 门户将 Web 应用添加到 Vnet 中,app-service-web-apps
+ 如何抓取 Web 应用 w3wp 进程的 Crash Dump, 如何抓取 Web 应用 w3wp 进程的 Crash Dump,app-service-web-apps
+ 如何为 Web 应用配置自定义 Tomcat 环境, 如何为 Web 应用配置自定义 Tomcat 环境,app-service-web-apps
+ Web 应用如何配置伪静态, Web 应用如何配置伪静态,app-service-web-apps
+ 以安装 F5XForwardedFor.dll 为例讲述如何在 Web 应用上安装自定义 ISAPI Filter, 如何在 Web 应用上安装自定义 ISAPI Filter,app-service-web-apps
+ 创建一个 Spring Boot 的项目并部署到 Azure Web 应用上, 如何在 Web 应用上部署 Spring Boot 项目,app-service-web-apps
+ 如何部署 Jenkins 网站, 如何部署 Jenkins 网站,app-service-web-apps
+ 如何使用 Git 部署 Java Web 应用, 如何使用 Git 部署 Java Web 应用,app-service-web-apps
+ Web 应用如何集成两个不同虚拟网络 Vnet1 和 Vnet2, Web 应用如何集成两个不同虚拟网络,app-service-web-apps
+ 本文介绍了 Azure App Service 如何实现对指定的 URL 进行反向代理转发, Web 应用如何实现反向代理转发功能,app-service-web-apps
+ Trigger 模式的 Web 作业如何控制日志数量, Trigger 模式的 Web 作业如何控制日志数量,app-service-web-apps
+ 如何将 Web 作业中控制台信息写入到存储账号中, 如何将 Web 作业中控制台信息写入到存储账号中,app-service-web-apps
+ 将 Web 应用服务集成到虚拟网络后的连通性测试, 将 Web 应用服务集成到虚拟网络后的连通性测试,app-service-web-apps
+ Web 应用自动缩放时，如何避免 ASP.NET 站点部分请求处理缓慢或超时。, Http 请求向 Web 应用自动缩放新增实例的平滑过渡,app-service-web-apps
+ 当 WebJobs 空闲时间超过 2min，Azure 将会中止运行的工作进程，导致 WebJobs 运行失败, 如何运行 idle 时间大于 2 分钟的计划作业,app-service-web-apps
+ Web 应用配置 Vnet 成功后，无法通过内网访问其他服务, 如何验证 Web 应用是否通过 Vnet 成功连接到其它服务,app-service-web-apps
+ 如何更改计划 Web 作业的 Schedule 时间, 如何更改计划 Web 作业的 Schedule 时间,app-service-web-apps
+ 如何为 Azure Web 应用配置本地缓存。, 如何为 Azure Web 应用配置本地缓存,app-service-web-apps
+ Kudu 管理和诊断 azure web 应用。, Kudu 管理和诊断 azure web 应用,app-service-web-apps
+ 在 Azure WebApps 中运行64位 Asp.net Core 应用, 在 Azure WebApps 中运行64位 Asp.net Core 应用,app-service-web-apps
+ 本文详细介绍了登录 Azure web 应用 FTP 服务器和 Azure web 应用 Kudu 站点的几种方法。, 登录 Azure Web 应用 FTP 服务器和 Kudu 站点的几种方法,app-service-web-apps
+ 访问 Azure Web 应用遇到“指定的 CGI 应用程序遇到错误，服务器终止了该进程”错误。, 访问 Azure Web 应用遇到“指定的 CGI 应用程序遇到错误，服务器终止了该进程”错误,app-service-web-apps
+ 如何为 Azure Java web 应用配置更大的内存来解决内存不足的问题。, 如何为 Azure Java web 应用配置更大的内存来解决内存不足的问题,app-service-web-apps
+ 关于 Azure Web 应用 4 分钟空闲连接的限制, 关于 Azure Web 应用 4 分钟空闲连接的限制,app-service-web-apps
+ Azure Web 应用配置了本地缓存后由于 w3wp 进程的中断，日志记录会出现中断现象, Azure Web 应用配置本地缓存后出现日志中断现象,app-service-web-apps
+ FTP 容量显示说明, FTP 容量显示说明,app-service-web-apps
+ 不同订阅或者账号下网站如何进行备份还原(本文以国际版备份至中国版为例), 不同订阅或者账号下网站如何进行备份还原,app-service-web-apps
+ 如何将 Web 应用部署槽连接到 Azure 虚拟网络, 如何将 Web 应用部署槽连接到 Azure 虚拟网络,app-service-web-apps
+ 如何在 Web 应用实例上住抓取网络日志, 如何在 Web 应用实例上住抓取网络日志,app-service-web-apps
+ Azure Web 应用中 Java 加载如何加载证书(导入自己的证书库), Azure Web 应用中 Java 加载如何加载证书,app-service-web-apps
+ 通过管理门户及 PowerShell 将 Azure Web 应用分离到不同的应用服务计划, 如何将现有的 Azure Web 应用分离到不同的应用服务计划,app-service-web-apps
+ 如何修改网站默认时区, 如何修改网站默认时区,app-service-web-apps
+ 迁移 Web 应用到新的应用服务计划的相关限制和说明, 迁移 Web 应用到新的应用服务计划的相关限制和说明,app-service-web-apps
+ Azure Web 应用对外连接数存在上限，超出后会发生异常, Azure Web 应用对外连接数上限分析,app-service-web-apps
+ web 应用中如何下载或播放特殊类型的文件, web 应用中如何下载或播放特殊类型的文件,app-service-web-apps
+ 如何使用 git submodule 命令部署 Azure Web 应用, 如何使用 git submodule 命令部署 Azure Web 应用,app-service-web-apps
+ JAVA 网站上传大文件报 500 错误, JAVA 网站上传大文件报 500 错误,app-service-web-apps
+ 如何解决门户预览中 Azure Web 应用日志内容显示乱码的问题, 如何解决 Azure Web 应用日志内容显示乱码的问题,app-service-web-apps
+ 'Azure 应用服务计划由于不在同一区域或同一资源组，出现 Web 应用无法选择新创建的应用服务计划', 'Azure Web 应用重新配置应用服务计划时无法选择新创建的应用服务计划',app-service-web-apps
+ 通过 FTP 或者 Kudu 删除文件失败, 通过 FTP 或者 Kudu 删除文件失败,app-service-web-apps
+ 'Web 应用删除部署槽后从标准模式缩放到基本模式', '含有部署槽的标准网站无法缩放到基本模式',app-service-web-apps
+ 上传超过 2M 的文件到 Azure PHP 网站失败, 上传超过 2M 的文件到 Azure PHP 网站失败,app-service-web-apps
+ 设置中国 UTC 时间使 WebJobs 可以按照 CRON 启动, 创建的 WebJobs 无法按照 CRON 的设置来启动,app-service-web-apps
+ 使用 Web Jobs SDK 无法多次读取 Azure 队列中的消息, 使用 Web Jobs SDK 无法多次读取 Azure 队列中的消息,app-service-web-apps
+ 'Web 作业无法直接运行 jar 文件', 'Web 作业无法直接运行 jar 文件',app-service-web-apps
+ 如何确定后端多站点网站服务请求的主机名, 如何确定后端多站点网站服务请求的主机名,application-gateway
+ 应用程序网关(application gateway)结合流量管理器(traffic manager)实现更丰富的流量分发场景需求, 应用程序网关(application gateway)结合流量管理器(traffic manager)实现更丰富的流量分发场景需求,application-gateway
+ 使用应用程序网关的环境下配置 NSG 的注意事项, 使用应用程序网关的环境下配置 NSG 的注意事项,application-gateway
+ 如何用 OpenSSL 创建自签名证书, 如何用 OpenSSL 创建自签名证书,application-gateway
+ 如何通过 PowerShell 创建后端池为 Web 应用的应用程序网关以实现端到端 SSL 通信, 如何通过 PowerShell 创建后端池为 Web 应用的应用程序网关以实现端到端 SSL 通信,application-gateway
+ 如何在使用应用程序网关和 Nginx 的环境下实现强制 HTTPS 跳转, 如何在使用应用程序网关和 Nginx 的环境下实现强制 HTTPS 跳转,application-gateway
+ 应用程序网关如何基于路径重定向到后端 Web 应用, 应用程序网关如何基于路径重定向到后端 Web 应用,app-service-web-apps
+ 如何配置应用程序网关使用指定的加密算法接收 HTTPS 的请求并予以验证以及注意事项, 如何配置应用程序网关使用指定的加密算法接收 HTTPS 的请求并予以验证以及注意事项,application-gateway
+ 本文针对客户通过 Azure 应用程序网关的公网 IP 或 DNS Name 直接作为 URL 的主机名部分访问 web 资源失败的原因做简单分析。, 分析使用未在 ICP 备案的 Azure 平台公网 IP 或 DNS Name 作为主机名访问 Azure 资源被阻断的原因,application-gateway
+ 如何快速定位应用程序网关 WAF 功能拦截问题, 如何快速定位应用程序网关 WAF 功能拦截问题,application-gateway
+ 部署在应用程序网关后端池中的 Web 服务器的延迟响应的导致应用程序网关返回 HTTP Code 502, 如何排查应用程序网关返回 HTTP Code 502 或客户端得到应用程序网关响应慢的问题(一),application-gateway
+ 如何排查应用程序网关后端池中基于 IIS 的 Web 服务器工作异常导致的应用程序网关返回 http code 502 或是客户端得到应用程序网关响应慢的问题, 如何排查应用程序网关返回 HTTP Code 502 或客户端得到应用程序网关响应慢的问题(二),application-gateway
+ 使用火狐浏览器访问自定义策略的应用网关注意事项, 使用火狐浏览器访问自定义策略的应用网关注意事项,application-gateway
+ 如何解决当 Web 应用绑定了主机名而无法使用应用程序网关的问题。, 如何解决当 Web 应用绑定了主机名而无法使用应用程序网关的问题,application-gateway
+ 介绍如何在应用程序网关中获取访问者源 IP。, 应用程序网关中如何获取访问者源 IP,application-gateway
+ 如何解决载入超过 30 秒出现 502 错误, 使用应用程序网关网页载入超过 30 秒（错误代码 502）的解决方法,application-gateway
+ 如何在 Azure 自动化中通过证书管理 Azure 经典资源, 在 Azure 自动化中通过证书管理 Azure 经典资源,automation
+ 如何在 Azure 自动化服务中使用 Azure AD 认证, 通过 Azure Active Directory 认证 Azure 自动化服务,automation
+ 本页介绍如何使用 Azure Automation 实现自动开关虚拟机的操作。, 使用 Azure Automation 实现自动开关虚拟机的操作,automation
+ 如何通过自动化任务执行 SQL 脚本, 如何通过自动化任务执行 SQL 脚本,automation
+ 在 Azure 自动化中按需执行 ARM 虚拟机定时开关机并记录云端日志, 在 Azure 自动化中按需执行 ARM 虚拟机定时开关机并记录云端日志,automation
+ 在 Azure 自动化中通过证书管理 Resource Manager 资源, 在 Azure 自动化中通过证书管理 Resource Manager 资源,automation
+ '本页介绍如何手动更新 Azure 自动化服务的 PowerShell 模块。', '如何手动更新 Azure 自动化服务的 PowerShell 模块',automation
+ 解决订阅欠费在恢复使用后恢复服务保管库仍然提示订阅已过期的问题, 解决订阅欠费在恢复使用后恢复服务保管库仍然提示订阅已过期的问题,backup
+ 如何用 PowerShell 删除 Azure 虚拟机的备份保管库, 如何用 PowerShell 删除 Azure 虚拟机的备份保管库,backup
+ 如何手动卸载 Azure Windows 虚拟机的备份扩展, 如何手动卸载 Azure Windows 虚拟机的备份扩展,backup
+ Azure 备份代理中设置的备份计划不执行, Azure 备份代理中设置的备份计划不执行,backup
+ '本文主要讲述如何解决使用 Azure 备份代理备份 Windows Server 或 Windows Client 出现的错误。', '如何解决使用 Azure 备份代理备份 Windows Server/Client 出现的错误',mysql
+ 解决搭建 Windows Batch Python 环境出错的问题, 搭建 Windows Batch Python 环境,batch
+ CDN 日志下载常见问题, CDN 日志下载常见问题,cdn
+ CDN REST 接口调用及说明, CDN REST 接口调用及说明,cdn
+ Azure PaaS Compute 诊断数据, Azure PaaS Compute 诊断数据,cloud-services
+ 如何在云服务中使用离线包发布 Python 应用程序, 如何在云服务中使用离线包发布 Python 应用程序,cloud-services
+ 如何在 web role 中抓取 IIS dump 文件, 如何在 web role 中抓取 IIS dump 文件置,cloud-services
+ 本文介绍如何查看云服务执行的相关操作记录, 如何查看云服务执行的相关操作记录,cloud-services
+ PaaS云服务如何拒绝可疑 IP 的访问, PaaS云服务如何拒绝可疑 IP 的访问,cloud-services
+ 通过 Visual Studio 将额外的文件打包到 Cloud Services Package, 如何将文件打包到云服务包中,cloud-services
+ 云服务在运行较长时间后不同实例时间差异较大, 云服务实例时间同步问题,cloud-services
+ 关于部署在云服务下的 Java 应用程序会出现过渡环境被 “同步” 到生产环境的问题, 关于部署在云服务下的 Java 应用程序会出现过渡环境被 “同步” 到生产环境的问题,cloud-services
+ 认知服务 Android 使用示例, 认知服务 Android 使用示例,cognitive-services
+ 计算机视觉 API C# SDK 使用示例, 计算机视觉 API C# SDK 使用示例,cognitive-services
+ 情绪识别 API C# SDK 使用示例, 情绪识别 API C# SDK 使用示例,cognitive-services
+ 中国版认知服务使用指导, 中国版认知服务使用指导,cognitive-services
+ C# SDK 调用认知服务时提示 Key 无效, C# SDK 调用认知服务时提示 Key 无效,cognitive-services
+ PHP 调用认知服务证书认证问题, PHP 调用认知服务证书认证问题,cognitive-services
+ 这个示例是一个 Windows 应用程序，用来演示如何使用微软认知服务 API。, 认知服务 Windows 使用示例,cognitive-services
+ Azure 计费常见问题 - 数据传输, Azure 计费常见问题 - 数据传输,billing
+ Azure 计费常见问题 - 存储与 SQL 数据库, Azure 计费常见问题 - 存储与 SQL 数据库,billing
+ Azure 计费常见问题, Azure 计费常见问题,billing
+ 针对登录 Azure 门户或账户中心时看到“看来您还未创建任何订阅”信息的解决方案。, Azure 门户或 Azure 帐户中心“找不到任何订阅”提示,billing
+ 针对注册 Azure 的过程中常遇到的问题提供了解决方案。, Azure 线上注册的常见问题,billing
+ 本文将介绍当您发生 “无法登陆 Azure 账号” 的解决方案。, 无法登录 Azure 账户,billing
+ 发票相关的申请和常见问题, 如何申请发票？（及常见问题）,billing
+ Azure Cosmos DB Mongo API 如何导出 MongoDB 数据, Azure Cosmos DB Mongo API 如何导出 MongoDB 数据,cosmos-db
+ 如何解决 Cosmos DB 使用 Mongo API 时遇到的连接错误, 如何解决 Cosmos DB 使用 Mongo API 时遇到的连接错误,cosmos-db
+ 基于 Apache Storm 消费 Azure 事件中心消息, 基于 Apache Storm 消费 Azure 事件中心消息,event-hubs
+ 基于直接接收的方法消费 Azure 事件中心消息, 基于直接接收的方法消费 Azure 事件中心消息,event-hubs
+ 基于 EventProcessorHost 消费 Azure 事件中心消息, 基于 EventProcessorHost 消费 Azure 事件中心消息,event-hubs
+ 使用 PowerShell 创建事件中心时产生 'The pipeline has been stopped' 错误, PowerShell 创建事件中心报错,event-hubs
+ Azure 事件中心 Java 编程的那些事, Azure 事件中心 Java 编程的那些事,event-hubs
+ 使用 Azure 门户创建 Express Route, 使用 Azure 门户创建 Express Route,expressroute
+ 本文主要针对用户本地网络通过 ExpressRoute 专线连通到 Azure 相应的虚拟网络内部资源后，在网络传输中是否支持 QOS 做说明。, ExpressRoute 是否支持网络流量的 QOS,expressroute
+" 在 Spark 群集中，如果想停止某个正在运行的 Yarn 作业, 不仅可以使用 SSH 登录后来停止，也可以通过 Curl 来提交停止的请求。", 如何使用 Curl 停止 Spark 中某个正在运行的 Yarn 作业,hdinsight
+ 如何使用 REST API 访问 HBase 数据, 如何使用 REST API 访问 HBase 数据,hdinsight
+ 如何自定义 HDInsight Storm 日志文件大小, 如何自定义 HDInsight Storm 日志文件大小,hdinsight
+ 如何下载 HDInsight-Linux-Storm 拓扑日志, 如何下载 HDInsight-Linux-Storm 拓扑日志,hdinsight
+ Windows HDInsight 群集向 Linux 环境迁移示例之 HBase 篇, Windows HDInsight 群集向 Linux 环境迁移示例之 HBase 篇,hdinsight
+ 如何合理的利用 HDInsight 并节省费用, 如何合理的利用 HDInsight 并节省费用,hdinsight
+ HDInsight Clamav 进程占用 CPU 100%, HDInsight Clamav 进程占用 CPU 100%,hdinsight
+ '本文主要讲述如何解决 HDInsight 群集仪表板登录时的 403 错误', '如何解决 HDInsight 群集仪表板登录时的 403 错误',hdinsight
+ 如何关闭 HDInsight 节点打补丁后强制重启的设置, 如何关闭 HDInsight 节点打补丁后强制重启的设置,hdinsight
+ HBase 集群的 Ambari Metrics 服务崩溃后修复方法, HBase 集群的 Ambari Metrics 服务崩溃后修复方法,hdinsight
+ 本文旨在如何解决 Hive I/O exception：OCR does not support type conversion, 如何解决 HDinsight 使用 Hive 时遇到的异常错误,hdinsight
+ Ambari 上执行 Hive 查询语句的两个最佳实践, Ambari 上执行 Hive 查询语句的两个最佳实践,hdinsight
+ 使用 Yarn 管理 HDInsight 任务资源分配, 使用 Yarn 管理 HDInsight 任务资源分配,hdinsight
+ HDInsight Spark 集群出现异常警报, HDInsight Spark 集群出现异常警报,hdinsight
+ 如何解决无法创建 IoT Hub 的问题, 如何解决无法创建 IoT Hub 的问题,iot-hub
+ 使用 EventHubClient 连接 IoT 中心的正确连接字符串, 使用 EventHubClient 连接 IoT 中心的正确连接字符串,iot-hub
+ 使用 MQTT.FX 工具连接 IoT Hub, 使用 MQTT.FX 工具连接 IoT Hub,iot-hub
+ 如何通过代码查询 IoT Hub 的作业信息, 如何通过代码查询 IoT Hub 的作业信息,iot-hub
+ 本文讲述.Net 接收 IotHub 消息的两种方式, .Net 接收 IotHub 消息的两种方式,iot-hub
+ Node JS 如何使用 MQTT 协议调用“直接方法”, Node JS 如何使用 MQTT 协议调用“直接方法”,iot-hub
+ 如何设置 IoT 中心云到设备消息的默认 TTL 为分钟级别, 如何设置 IoT 中心云到设备消息的默认 TTL 为分钟级别,iot-hub
+ Azure Key Vault 管理存储帐户密钥, Azure Key Vault 管理存储帐户密钥,key-vault
+ 如何使用 Java 操作密钥保管库管理及客户端 API, 如何使用 Java 操作密钥保管库管理及客户端 API,key-vault
+ 解决由于 Key Vault 未启用导致 VM 无法启动的问题, 解决由于 Key Vault 未启用导致 VM 无法启动的问题,key-vault
+ 如何使用密钥管理库导入 PEM 格式的证书, 如何使用密钥管理库导入 PEM 格式的证书,key-vault
+ 使用 PowerShell 脚本查看 ARM 模式下 SLB 配置, 使用 PowerShell 脚本查看 ARM 模式下 SLB 配置,load-balancer
+ 通过 PowerShell 脚本程序查看经典模式下的负载均衡配置, 使用 PowerShell 查看经典模式下的负载均衡配置,load-balancer
+ Apache KeepAlive 引发的 HTTP 探测问题及解决办法, Apache KeepAlive 引发的 HTTP 探测问题及解决办法,virtual-machines
+ 配置问题导致负载均衡器间歇性丢包或负载不均衡, 配置问题导致负载均衡器间歇性丢包或负载不均衡,load-balancer
+ 如何解决安卓 SDK 无法识别 Azure 媒体服务发布的 HLS 视频地址的问题。, 安卓 SDK 无法识别 Azure 媒体服务发布的 HLS 视频地址,media-services
+ 如何使用 Azure Media Service Explorer 添加水印(循环或淡入淡出效果), 如何使用 Azure Media Service Explorer 添加水印,media-services
+ 本文以 Azure Media Player 作为播放器，目前 AMP 所支持的字幕格式为 WebVTT 格式，登陆 Azure 门户，上传字幕文件, 如何为媒体服务视频加载字幕,media-services
+ 以 Wirecast 为例，讲述 Azure 媒体直播服务操作流程, Azure 媒体直播服务操作流程,media-services
+ 使用 Azure Meida Player 无法在某些手机浏览器播放视频, 使用 Azure Meida Player 无法在某些手机浏览器播放视频,media-services
+ 使用媒体服务的直播服务后，会产生归档文件，如何将其下载到本地, 如何下载直播生成的视频文件,media-services
+ Java 通过分片的方式上传大文件到媒体服务账号中, 通过 Java 上传大文件到媒体服务账号报错,media-services
+ 媒体服务常见故障解决方案, 媒体服务常见故障解决方案,media-services
+ 如何解决 MySQL Database on Azure 中无法创建函数的问题, 如何解决 MySQL Database on Azure 中无法创建函数的问题,mysql
+ 如何对 Azure MySQL 连接进行故障排查, 如何对 Azure MySQL 连接进行故障排查,mysql
+ 如何解决 MySQL DataBase on Azure 慢查询日志无法下载的问题, 如何解决 MySQL DataBase on Azure 慢查询日志无法下载的问题,mysql
+ MySQL Database on Azure 的高可用文档, MySQL Database on Azure 的高可用文档,mysql
+ '本文主要讲解可读备份库的工作原理及相关限制。', '使用可读备份库提升 MySQL Database on Azure 的高可用性',mysql
+ 跨资源组移动 MySQL 实例的替代方案, 跨资源组移动 MySQL 实例的替代方案,mysql
+ 演示如何使用 MySQL EntityFramework 组件对 MySQL PaaS DB 进行操作, 如何使用 MySQL EntityFramework 组件处理 MYSQL PaaS DB,mysql
+ 自动抓包实施网络入侵检测, 自动抓包实施网络入侵检测,network-watcher
+ Azure 通知中心结合 Android 百度云推送实现消息定制化服务, Azure 通知中心结合 Android 百度云推送实现消息定制化服务,notification-hubs
+ 通过调用 Baidu Push API 修复 Bind Relation Not Found 错误, 百度推送服务绑定关系未找到或不存在,notification-hubs
+ 介绍如何解决百度推送过程中的注册问题。, 百度推送通过获取注册信息失败,notification-hubs
+ 本文主要介绍如何使用 PowerShell 基于 ARM 模式创建通知中心。, 使用 Azure PowerShell 创建通知中心,notification-hubs
+ 如何根据通道信息获取通知中心中的注册信息。, 如何根据通道信息获取通知中心中的注册信息,notification-hubs
+ 在.Net Core 的环境下使 UWP 可以正常接收 Azure Notification Hub event, 在.Net Core 的环境下使 UWP 可以正常接收 Azure Notification Hub event,notification-hubs
+ 如何解决中国区 Azure 门户登录失败的问题, 如何解决中国区 Azure 门户登录失败的问题,azure-portal
+ 本主要介绍如何在 Eclipse 中使用认证文件的方式登录 Azure, Eclipse 使用认证文件登录 Azure,redis-cache
+ Mac OS 环境下无法使用 PowerBI-Cli 工具故障排查, Mac OS 环境下无法使用 PowerBI-Cli 工具故障排查,power-bi-embedded
+ PowerBI-Cli 工具使用指南, PowerBI-Cli 工具使用指南,power-bi-embedded
+ Power BI PaaS 和 SaaS 的 Embed 服务区别, Power BI PaaS 和 SaaS 的 Embed 服务区别,power-bi-embedded
+ 有关 Power BI Embedded 会话计费的常见问题及回答, 有关 Power BI Embedded 会话计费的常见问题及回答,power-bi-embedded
+ PowerShell 脚本调用 Post Import 功能故障排查, PowerShell 脚本调用 Post Import 功能故障排查,power-bi-embedded
+ Power BI Embedded 的工作流及相关 REST API 命令介绍, Power BI Embedded 的工作流及相关 REST API 命令介绍,power-bi-embedded
+ Power BI Embedded 官方新版示例(2017 年 4 月版)配置步骤, Power BI Embedded 官方新版示例(2017 年 4 月版)配置步骤,power-bi-embedded
+ Azure Redis 最佳实践, Azure Redis 最佳实践,redis-cache
+ Redis Cache 常见问题解答, Redis Cache 常见问题解答,redis-cache
+ 本主要介绍如何使用 PowerShell 开启 Redis 的诊断功能, 如何使用 PowerShell 开启 Redis 诊断功能,redis-cache
+ 如何使用 PowerShell 开启 Redis 诊断功能, 如何使用 PowerShell 开启 Redis 诊断功能,redis-cache
+ 如何迁移 Azure Redis, 如何迁移 Azure Redis,redis-cache
+ 如何使用 Redis-Cli 连接到 Azure Redis 缓存, 如何使用 Redis-Cli 连接到 Azure Redis 缓存,redis-cache
+ 本文介绍如何使用 Azure Java SDK 管理 VM, 使用 Azure Java SDK 管理 VM,virtual-machines
+ 使用 Paho MQTT For Python 发送接收 IOT Hub 消息示例代码, 使用 Paho MQTT For Python 发送接收 IOT Hub 消息示例代码,iot-hub
+ IoT 中心管理 .NET 示例代码, IoT 中心管理 .NET 示例代码,iot-hub
+ 如何向 Key Vault 中上传 PKCS#1 编码格式的证书, 如何向 Key Vault 中上传 PKCS#1 编码格式的证书,key-vault
+ 使用 PowerShell 将存储服务表数据导出到 csv 文件, 使用 PowerShell 将存储服务表数据导出到 csv 文件,storage
+ 本文讲述如何使用 .NET SDK 读取存储服务 Table 中的数据获取与 Redis 相关的度量值, 如何使用 .NET SDK 读取存储服务 Table 中的数据获取与 Redis 相关的度量值,storage
+ 使用 PowerShell 脚本查询 Azure 虚拟机标准磁盘用量, 使用 PowerShell 脚本查询 Azure 虚拟机标准磁盘用量,storage
+ 如何为 Azure Service Bus 和 Azure IoT Hub 生成 SharedAccessSignature, 如何为 Azure Service Bus 和 Azure IoT Hub 生成 SharedAccessSignature,service-bus
+ 借助 Java JMS API 使用 AMQP 协议订阅启用分区的 Azure 服务总线主题的消息, 使用 JAVA AMQP 协议如何订阅启用分区功能的 Azure 服务总线主题的消息,service-bus
+ 通过更新解决 azure-servicebus v0.20.2 之前版本的问题, 使用 python 获取服务总线消息,service-bus
+ 构建混合应用方式之 - 混合连接, 构建混合应用方式之混合连接,service-bus
+ 构建混合应用方式之 - WCF 中继, 构建混合应用方式之 - WCF 中继,service-bus
+ 使用 netTCPRelay 绑定的 WCF 中继发送大于 64k 消息时报通信异常, 使用 netTCPRelay 绑定的 WCF 中继发送大于 64k 消息时报通信异常,service-bus
+ Azure Web 应用连接 Service Bus 出现证书错误的解决方案, Azure Web 应用连接 Service Bus 出现证书错误的解决方案,service-bus
+ Service Fabric 部署程序后外网如何访问, Service Fabric 部署程序后外网如何访问,service-fabric
+ 手动收缩 Service Fabric 的虚拟机规模集, 手动收缩 Service Fabric 的虚拟机规模集,service-fabric
+ 如何设置安全 Service Fabric 集群的证书信息, 如何设置安全 Service Fabric 集群的证书信息,service-fabric
+ 如何为开启安全认证的 Service Fabric 设置自定义域名, 如何为开启安全认证的 Service Fabric 设置自定义域名,service-fabric
+ 如何查看和收集 Service Fabric 中 ASP.NET Core 应用产生的日志, 如何查看和收集 Service Fabric 中 ASP.NET Core 应用产生的日志,service-fabric
+ 如何在 Servcie Fabric 项目中运行 Entity Framework 的 Enable-Migrations 命令, 如何在 Servcie Fabric 项目中运行 Entity Framework 的 Enable-Migrations 命令,service-fabric
+ 通过 SQL Server Management Studio 快速实现 Azure SQL 数据仓库间数据表迁移, 通过 SQL Server Management Studio 快速实现 Azure SQL 数据仓库间数据表迁移,sql-data-warehouse
+ 使用 Microsoft JDBC Driver 连接 Azure SQL Database, 使用 Microsoft JDBC Driver 连接 Azure SQL Database,sql-database
+ Azure SQL 数据库常见的连接问题, Azure SQL 数据库常见的连接问题,sql-database
+ 有关 Azure SQL 数据库导出功能的常见问题及回答, 有关 Azure SQL 数据库导出功能的常见问题及回答,sql-database
+ 如何将 Azure SQL 数据库时区修改为中国时间, 如何将 Azure SQL 数据库时区修改为中国时间,sql-database
+ JDBC 如何连接 SQL Azure 数据库, JDBC 如何连接 SQL Azure 数据库,sql-database
+ 如何解决 Azure  Always On listener 无法访问的问题, 如何解决 Azure  Always On listener 无法访问的问题,sql-database
+ 如何手动设置发送心跳信号防止数据库连接过期, 如何手动设置发送心跳信号防止数据库连接过期,sql-database
+ 如何创建事务复制将本地数据同步到 SQL Azure, 如何创建事务复制将本地数据同步到 SQL Azure,sql-database
+ 如何查看 SQL Azure 数据库死锁 (DB POD), 如何查看 SQL Azure 数据库死锁 (DB POD),sql-database
+ Azure 存储分析日志常见问题, Azure 存储分析日志常见问题,storage
+ 如何使用 PowerShell 对 Azure 存储的追加 Blob (Append Blob) 进行读写, 如何使用 PowerShell 对 Azure 存储的追加 Blob (Append Blob) 进行读写,storage
+ 通过 Page Blob 文件释放租约工具解决删除 Page Blob 文件被占用的问题, Page Blob 文件释放租约工具,storage
+ Azure storage file中api获取不到MD5的问题解释。, 如何调用 API 获取 Azure 文件存储中文件的 MD5,storage
+ 通过 PowerShell 统计存储服务每日文件新增数量, 通过 PowerShell 统计存储服务每日文件新增数量,storage
+ 配置 Azure Blob 存储中文件的互联网媒体类型以避免被点击时反复下载, 如何配置 Azure Blob 存储中文件的互联网媒体类型,storage
+ 上传大文件到 Azure 存储块 Blob, 上传大文件到 Azure 存储块 Blob,storage
+ Azure Blob 存储如何通过 MD5 检查上传文件完整性, Azure Blob 存储基于 MD5 的完整性检查,storage
+ 关于 wget 下载 Blob 文件如何断点续传。, 关于 wget 下载 Blob 文件如何断点续传,storage
+ IE 或 Edge 浏览器通过 SAS 访问 File 文件只能访问一次, IE 或 Edge 浏览器通过 SAS 访问 File 文件只能访问一次,storage
+ 介绍如何使用 fio 工具对 Azure 存储进行 IOPS 测试。, 使用 fio 工具对 Azure 存储进行 IOPS 测试,storage
+ 本页介绍如何创建存储账号及容器。, 如何创建存储账号及容器,storage
+ 如何为Blob创建SAS令牌, 如何为Azure存储的Blob创建SAS（共享访问签名）令牌,storage
+ 如何解决 Block Blob 读取速度慢的问题, 如何解决 Block Blob 读取速度慢的问题,storage
+ 本页介绍如何使用AzCopy操作storage。, 通过AzCopy操作Azure存储,storage
+ 如何使用 Python 操作存储获取指定目录 Blob 文件, Python 操作存储获取指定目录 Blob 文件的实现,storage
+ 如何设置 Azure Storage 支持 Flash 跨域, 如何设置 Azure Storage 支持 Flash 跨域,storage
+ 使用 Javascript 实现跨域上传文件到存储, 使用 Javascript 实现跨域上传文件到存储,storage
+ 如何使用 Azure blob storage 在浏览器中实现对媒体文件拖拽点播。, 如何使用 Azure blob storage 在浏览器中实现对媒体文件拖拽点播,storage
+ 存储 REST 接口调用使用说明及范例, 存储 REST 接口调用使用说明及范例,storage
+ Storage Table Rest API 调用示例, Storage Table Rest API 调用示例,storage
+ 使用命令行如何调整 VMSS Autoscaling 的属性, 使用命令行如何调整 VMSS Autoscaling 的属性,virtual-machine-scale-sets
+ 为运行中的 Linux VMSS 启用诊断, 为运行中的 Linux VMSS 启用诊断,virtual-machine-scale-sets
+ 'ARM 虚拟机使用同一个公共 IP 访问公网的解决方案', 'ARM 虚拟机使用同一个公共 IP 访问公网的解决方案',virtual-machines
+ 本页介绍如何将虚拟机添加到可用性集中。, 将虚拟机添加到可用性集中,virtual-machines
+ 如何利用负载均衡器为现有 ARM 虚拟机配置高位端口映射, 如何利用负载均衡器为现有 ARM 虚拟机配置高位端口映射,virtual-machines
+ 如何使用 ARM 模板为现有虚拟机添加可用性集, 利用模板部署为现有 ARM 虚拟机添加可用性集,virtual-machines
+ Java 如何启用 ARM 虚拟机诊断, Java 如何启用 ARM 虚拟机诊断,virtual-machines
+ 通过 Powershell 来替换 ARM 模式下虚拟机的网络接口, 通过 Powershell 来替换 ARM 模式下虚拟机的网络接口,virtual-machines
+ 通过 Powershell 来调整 ARM 模式下虚拟机的尺寸, 通过 Powershell 来调整 ARM 模式下虚拟机的尺寸,virtual-machines
+ 如何在 ASM 环境下部署以及迁移 ER/S2S 共存环境, 如何在 ASM 环境下部署以及迁移 ER/S2S 共存环境,virtual-machines
+ 如何使用 ps 为经典虚拟机附加磁盘, 如何为经典虚拟机附加磁盘,virtual-machines
+ 如何释放未使用的虚拟磁盘空间来减少费用, 释放虚拟磁盘未使用空间来减少计费容量,billing
+ 经典高级虚拟机使用启动诊断功能的注意事项, 经典高级虚拟机使用启动诊断功能的注意事项,virtual-machines
+ 理解及快速测定 Azure 虚拟机的磁盘性能, 理解及快速测定 Azure 虚拟机的磁盘性能,virtual-machines
+ 使用 REST 接口获取订阅下虚拟机信息, 使用 REST 接口获取订阅下虚拟机信息,virtual-machines
+ ARM 中可用性集使用的注意事项, ARM 中可用性集使用的注意事项,virtual-machines
+ 如何查找并删除未被使用的托管磁盘, 如何查找并删除未被使用的托管磁盘,virtual-machines
+ 如何查找并删除未被使用的非托管磁盘源 .vhd 文件, 如何查找并删除未被使用的非托管磁盘源 .vhd 文件,virtual-machines
+ 本文介绍如何调整虚拟机的尺寸, 调整虚拟机的尺寸,virtual-machines
+ 在虚拟机中配置如何定时关闭虚拟机, 自动化实现定时关闭虚拟机,virtual-machines
+ 如何禁用虚拟机的临时盘, 如何禁用虚拟机的临时盘,virtual-machines
+ 如何禁用 Azure 虚拟机的日期时间同步, 如何禁用 Azure 虚拟机的日期时间同步,virtual-machines
+ 如何复制或导出托管磁盘, 如何复制或导出托管磁盘,virtual-machines
+ 如何定位 Linux 及 Windows 虚拟机内部附加的数据磁盘, 如何定位虚拟机内部附加的数据磁盘,virtual-machines
+ 如何将同一云服务下的虚拟机从经典部署模型迁移到 Azure Resource Manager, 如何将同一云服务下的虚拟机从经典部署模型迁移到 Azure Resource Manager,virtual-machines
+ 如何将同一 VNET 下的虚拟机从经典部署模型迁移到 Azure Resource Manager, 如何将同一 VNET 下的虚拟机从经典部署模型迁移到 Azure Resource Manager,virtual-machines
+ 如何查询虚拟机流量异常及相关安全加固建议, 如何查询虚拟机流量异常及相关安全加固建议,virtual-machines
+ 开启实例级公共 IP 使 Azure 虚拟机开放 Ping 功能, 使 Azure 虚拟机可 Ping 的方法,virtual-machines
+ 基于 Azure 托管磁盘配置高可用共享文件系统, 基于 Azure 托管磁盘配置高可用共享文件系统,virtual-machines
+ 如何将使用托管磁盘虚拟机的 OS 盘挂载到其他虚拟机上, 如何将使用托管磁盘虚拟机的 OS 盘挂载到其他虚拟机上,virtual-machines
+ 理解托管磁盘的原理与优势, 理解托管磁盘的原理与优势,virtual-machines
+ 如何处理托管磁盘 OS 盘无法创建虚拟机的问题, 如何处理托管磁盘 OS 盘无法创建虚拟机的问题,virtual-machines
+ 关于托管磁盘的复制, 关于托管磁盘的复制,virtual-machines
+ 以删除重建的方式修复托管磁盘虚拟机, 以删除重建的方式修复托管磁盘虚拟机,virtual-machines
+ 以复制重建的方式修复托管磁盘虚拟机, 以复制重建的方式修复托管磁盘虚拟机,virtual-machines
+ Azure 托管镜像和非托管镜像对比, Azure 托管镜像和非托管镜像对比,virtual-machines
+ 存储账户之间转移虚拟机, 存储账户之间转移虚拟机,virtual-machines
+ 理解 Azure 虚拟机的性能监视, 理解 Azure 虚拟机的性能监视,virtual-machines
+ 如何通过 ps 为经典虚拟机增加终结点, 通过 PowerShell 的方式增加经典虚拟机终结点,virtual-machines
+ 如何通过 Python 批量创建基于固定 IP 来命名的 ARM 虚拟机, Python 基于固定 IP 来命名 ARM 虚拟机的实现,virtual-machines
+ 订阅无法在 ARM 模式下创建虚拟机，只能在 ASM 模式下创建 Azure VM 部署。, 订阅无法在 ARM 模式下创建虚拟机，只能在 ASM 模式下创建 Azure VM 部署,virtual-machines
+ 使用版本 1.0.0 的 Azure ARM SDK for Java 创建虚拟机时报错, 使用版本 1.0.0 的 Azure ARM SDK for Java 创建虚拟机时报错,virtual-machines
+ Java 创建 ARM 虚拟机磁盘类型选择的问题, Java 创建 ARM 虚拟机磁盘类型选择的问题,virtual-machines
+ Azure 虚拟机诊断设置问题排查, Azure 虚拟机诊断设置问题排查,virtual-machines
+ 本文用于解决由 PowerShell 复制正在运行的虚拟机导致的 HostName 异常问题, 解决由 PowerShell 复制正在运行的虚拟机导致的 HostName 异常问题,virtual-machines
+ 虚拟机压力测试延迟高的可能原因及 ILPIP 配置 / 查询脚本, 虚拟机压力测试延迟高的可能原因及 ILPIP 配置 / 查询脚本,virtual-machines
+ 关于 Azure 虚拟机的临时磁盘的说明, 关于 Azure 虚拟机的临时磁盘的说明,virtual-machines
+ 介绍如何解决虚拟机配置静态 IP 以后无法连接的问题, 虚拟机配置静态 IP 以后无法连接的解决办法,virtual-machines
+ 创建基于 AFS 的 Docker 容器卷, 创建基于 AFS 的 Docker 容器卷,virtual-machines
+ 如何使用 docker-machine 管理 Azure 容器虚拟机, 使用 docker-machine 管理 Azure 容器虚拟机,virtual-machines
+ 使用 LB-corosync-pacemaker 搭建 Linux 高可用集群的详细步骤与测试," 使用 Load Balancer,Corosync,Pacemaker 搭建 Linux 高可用集群",virtual-machines
+ 修改 Linux VM 中单个用户最大进程数的限制, 修改 Linux VM 中单个用户最大进程数的限制,virtual-machines
+ 如何在 CentOS 上安装或更新 Linux Integration Service, 如何在 CentOS 上安装或更新 Linux Integration Service,virtual-machines
+ 如何使用 Java 调用 Rest api 设置经典 Linux 虚拟机的实例启停, Java 调用 Rest api 设置经典 Linux 虚拟机的实例启停,virtual-machines
+ 这篇文章将介绍如何使用 Azure CLI 在 Azure China Cloud 云平台上手动部署一套 Cloud Foundry, 使用 Azure CLI 在 Azure China Cloud 云平台上手动部署一套 Cloud Foundry,virtual-machines
+ Azure Linux 虚拟机磁盘加密问题排查指南, Azure Linux 虚拟机磁盘加密问题排查指南,virtual-machines
+ 如何在 Linux 环境下安装配置 ClamAV 进行病毒扫描, 如何在 Linux 环境下安装配置 ClamAV 进行病毒扫描,virtual-machines
+ 以 CentOS 为例讲述 Linux 虚拟机中配置 GNOME + VNC, Linux 虚拟机中配置 GNOME + VNC,virtual-machines
+ 如何为运行的 ARM Linux 启用 LAD2.3 版本的诊断扩展, 如何为运行的 ARM Linux 启用 LAD2.3 版本的诊断扩展,virtual-machines
+ 如何为基于 LVM 的 Linux 扩展根文件系统, 如何为基于 LVM 的 Linux 扩展根文件系统,virtual-machines
+ 如何管理和控制多网卡 Linux 虚拟机的流量走向, 如何管理和控制多网卡 Linux 虚拟机的流量走向,virtual-machines
+ 在 Linux 中使用 Azure Premium 存储的基本优化指南, 在 Linux 中使用 Azure Premium 存储的基本优化指南,virtual-machines
+ Linux 系统如何进行大页面配置, Linux 系统如何进行大页面配置,virtual-machines
+ Ambari Server Alert 的故障排查, Ambari Server Alert 的故障排查,virtual-machines
+ Linux 配置中文字符集导致诊断设置无法正常工作的问题解决, Linux 配置中文字符集导致诊断设置无法正常工作的问题解决,virtual-machines
+ 如何解决 Linux 虚拟机磁盘设备名不一致的问题, 如何解决 Linux 虚拟机磁盘设备名不一致的问题,virtual-machines
+ Linux 启动诊断日志协助定位虚拟机启动或重启问题, Linux 启动诊断日志协助定位虚拟机启动或重启问题,virtual-machines
+" 独立硬盘冗余阵列（RAID, Redundant Array of Independent Disks），简称磁盘阵列。能增强数据集成度，增强容错功能，增加处理量或容量。", Azure Linux 虚机上配置 RAID 的常见问题及解决方案,virtual-machines
+ 对Azure虚拟机的一些操作可能会导致无法远程连接，本文罗列了些常见的场景。, Azure linux虚拟机常见导致无法远程的操作,virtual-machines
+ Linux 虚拟机的安全审计, Linux 虚拟机的安全审计,virtual-machines
+ Linux 虚拟机的安全加固, Linux 虚拟机的安全加固,virtual-machines
+ Linux 虚拟机的 SSH 双重登录认证, Linux 虚拟机的 SSH 双重登录认证,virtual-machines
+ 如何升级 Ubuntu 内核, 如何升级 Ubuntu 内核,virtual-machines
+ 如何处理 Ubuntu 14.04 虚拟机使用 Azure 文件存储时出现中文乱码的问题, 如何处理 Ubuntu 14.04 虚拟机使用 Azure 文件存储时出现中文乱码的问题,virtual-machines
+ 如何解决 Linux（CentOS 6.5）频繁分离和附加磁盘导致识别错误的现象, 如何解决虚拟机频繁分离和附加磁盘导致的识别错误,virtual-machines
+ Linux 内核超时导致虚拟机无法正常启动。, Linux 内核超时导致虚拟机无法正常启动,virtual-machines
+ 如何在 Linux 虚拟机上扩展根文件系统, 如何在 Linux 虚拟机上扩展根文件系统,virtual-machines
+ Linux 虚拟机虚拟网卡问题导致无法连接问题。, Linux 虚拟机虚拟网卡问题导致无法连接问题,virtual-machines
+ Azure 经典模式中虚拟机证书指纹的生成和作用, Azure 经典模式中虚拟机证书指纹的生成和作用,virtual-machines
+ '文件系统损坏导致虚拟机无法正常启动的问题及解决方法', '文件系统损坏导致虚拟机无法正常启动的问题及解决方法',virtual-machines
+ 本文介绍 SSH 无法启动的原因分析及解决方法, SSH 无法启动的原因分析及解决方法,virtual-machines
+ 介绍如何远程桌面到 Ubuntu 虚拟机, 远程桌面到 Ubuntu 虚拟机,virtual-machines
+ 如何激活使用趋势科技的 DSA, 如何激活 Trend Micro Deep Sercurity for Azure,virtual-machines
+ 为订阅内虚拟机批量安装并配置 Microsoft Anti-Malware 扩展, 为订阅内虚拟机批量安装并配置 Microsoft Anti-Malware 扩展,virtual-machines
+ 本文仅演示通过 PowerShell 方式安装并配置 AntiMalware 的过程, Azure 虚拟机如何配置 AntiMalware,virtual-machines
+ 在 Windows Server 2012 R2 Datacenter 中配置条带化, 如何在 Azure 虚拟机里配置条带化,virtual-machines
+ 通过修改注册表的方式修复意外操作导致用户的锁定, 如何通过修改注册表的方式解锁被锁定的用户,virtual-machines
+ Windows RDP 证书问题导致无法远程了连接解决方案, Windows RDP 证书问题导致无法远程了连接解决方案,virtual-machines
+ Azure 中快速搭建 FTPS 服务, Azure 中快速搭建 FTPS 服务,virtual-machines
+ 在 Azure 虚拟机上配置一般用途文件服务器故障转移群集, 在 Azure 虚拟机上配置一般用途文件服务器故障转移群集,virtual-machines
+ 如何使用 Windows Server 2016 与 Azure 搭建 S2S VPN 并支持 BGP 协议, 如何使用 Windows Server 2016 与 Azure 搭建 S2S VPN 并支持 BGP 协议,virtual-machines
+ 使用 PowerShell 创建 Storage Spaces 条带化虚拟机数据磁盘, 使用 PowerShell 创建 Storage Spaces 条带化虚拟机数据磁盘,virtual-machines
+ 如何使用 Storage Spaces 条带化虚拟机数据磁盘, 如何使用 Storage Spaces 条带化虚拟机数据磁盘,virtual-machines
+ Azure Windows 虚拟机自动加域的配置方法和排查思路, Azure Windows 虚拟机自动加域的配置方法和排查思路,virtual-machines
+ '本文用于解决 Azure Windows 2008 R2 虚拟机无法启动 Workstation 服务的问题。', '如何解决 Azure Windows 2008 R2 虚拟机无法启动 Workstation 服务',virtual-machines
+ 客户端安装 2018 年 5 月累积更新后 RDP 到 Azure 虚拟机出现报错‘出现身份验证错误’, 如何解决使用 RDP 远程连接 Windows 虚拟机时出现的身份验证错误,virtual-machines
+ 如何解决 Azure Windows 虚拟机中逻辑磁盘被强制脱机的问题, Azure Windows 虚拟机中逻辑磁盘被强制脱机,virtual-machines
+ 对Azure虚拟机的一些操作可能会导致无法远程连接，本文罗列了常见的几种场景。, Azure Windows虚拟机常见导致无法远程的操作,virtual-machines
+ Azure 虚拟机中的 SQL Server AlwaysOn 可用性组集群配置最佳实践, Azure 虚拟机中的 SQL Server AlwaysOn 可用性组集群配置最佳实践,virtual-machines
+ SQL Server 如何将数据库备份到 Azure Storage, SQL Server 如何将数据库备份到 Azure Storage,sql-database
+ SQL Server 如何实现大批量数据的自动导入和导出, SQL Server 如何实现大批量数据的自动导入和导出,sql-database
+ 本页介绍如何为经典虚拟机添加相应端口并配置 ACL。, 经典虚拟机添加相应端口并配置 ACL,virtual-network
+ Azure SNAT 详解及实际应用分析, Azure SNAT,virtual-network
+ 中国区 Azure 与 Palo Alto 之间的网络方案, 中国区 Azure 与 Palo Alto 之间的网络方案,virtual-network
+ 虚拟网络服务终结点结合储账号的防火墙规则使用实例分享以及需要注意的问题, 虚拟网络终结点如何与存储账号防火墙规则配合使用,virtual-network
+ 本页介绍如何使用 PowerShell 来使用静态 IP。, 使用 Powershell 设置 VNET 中的静态 IP,virtual-network
+ 本页介绍如何使用 PowerShell 来使用保留 IP。, 保留正在使用的 VIP,virtual-network
+ 通过 Java 调用虚拟网络网关的 REST API 获取本地网关信息, Java 调用虚拟网络本地网关的 REST API,virtual-network
+ '了解 Azure 中使用 iPerf 进行网络带宽测试。', 'Azure 中使用 iPerf 进行网络带宽测试',virtual-network
+ 本文讲解如何使用 Powershell 来生成点到站点连接所使用的自签名证书, 本文讲解如何使用 Powershell 来生成点到站点连接所使用的自签名证书,virtual-network
+ 通过 PowerShell 将不同订阅中的虚拟网络连接到 ExpressRoute, 将不同订阅中的虚拟网络连接到 ExpressRoute 线路时收到报错'Cannot parse the request',virtual-network
+ DNS Suffix Search List 会影响 nslookup 解析结果, 如何解决使用 nslookup 工具发生异常域名解析行为,virtual-network
+ 在 Windows 及 Linux 操作系统中分别使用 PsPing 和 PaPing 工具进行 TCP 端口连通性测试, 使用 PsPing &amp; PaPing 进行 TCP 端口连通性测试,virtual-network
+ Azure 中使用 MTR 进行网络故障排查。, Azure 中使用 MTR 进行网络故障排查,virtual-network
+ 本页介绍如何使用 Powershell 指令构建 NSG, 使用 NSG 实现 DMZ 区域,virtual-network
+ 使用 Netcat 测试虚拟机 Tcp/UDP 端口连通性, 使用 Netcat 测试虚拟机 TCP/UDP 端口连通性,virtual-network
+ 使用 PsPing 无法 ping 通 Windows 虚拟机端口, 使用 PsPing 无法 ping 通 Windows 虚拟机端口,virtual-network
+ 排查虚拟网络中虚拟机无法访问网络的问题, 如何排查虚拟网络中虚拟机无法访问网络的问题,virtual-network
+ 如何在 Azure VPN 网关上实现网络透传, 如何在 Azure VPN 网关上实现网络透传,vpn-gateway
+ 如何快速定位本地到 Azure 端 VPN 隧道连通性问题, 如何快速定位本地到 Azure 端 VPN 隧道连通性问题,vpn-gateway
+ Azure P2S VPN 如何配置自动重连, Azure P2S VPN 如何配置自动重连,vpn-gateway
+ 在 Windows Server 2016 中搭建支持 BGP 协议的 VPN 通道, 如何使用 Windows Server 2016 与 Azure 搭建支持 BGP 协议的 VPN 通道,vpn-gateway
+ 云连接服务快速入门。, 云连接服务快速入门,ccs
+ 了解如何获取 Azure 订阅中所用资源的价格和元数据信息, 获取 Azure 订阅中所用资源的价格和元数据信息,billing
+ Azure 云服务操作手册 - 第一部分 | Azure, Azure 云服务操作手册 - 第一部分,cloud-services
+ Azure 云服务操作手册 - 第二部分 | Azure, Azure 云服务操作手册 - 第二部分,cloud-services
+ 详细介绍如何创建和管理 Azure 虚拟机。, Azure IaaS 用户手册 - 第一部分,virtual-machines
+ 详细介绍如何创建和管理 Azure 虚拟机。, Azure IaaS 用户手册 - 第二部分,virtual-machines
+ 详细介绍如何创建和管理 Azure 虚拟机。, Azure IaaS 用户手册 - 第三部分,virtual-machines
+ Azure SQL 数据库用户手册 - 第一部分 | Azure, Azure SQL 数据库用户手册 - 第一部分,sql-database
+ Azure SQL 数据库用户手册 - 第二部分 | Azure, Azure SQL 数据库用户手册 - 第二部分,sql-database
+ 本文以阿里云为例，阐述的是如何将 CentOS 6.8 的虚拟机迁移到 Azure 环境，同时能保存虚拟机内的数据，不需重新部署应用的方法。, 'CentOS,virtual-machines
+ 本文以阿里云为例，阐述如何将 Windows Server 的虚拟机迁移到 Azure 环境，同时能保存虚拟机内的数据，不需重新部署应用的方法。, 'Windows Server,virtual-machines
+ 详细介绍如何创建和管理 Azure Web 应用。, Azure Web 应用用户手册 - 第一部分,app-service-web-apps
+ 详细介绍如何创建和管理 Azure Web 应用。, Azure Web 应用用户手册 - 第二部分,app-service-web-apps
+ 详细介绍如何创建和管理 Azure Web 应用。, Azure Web 应用用户手册 - 第三部分,app-service-web-apps
+ 本文介绍如何在创建虚拟机同时创建可用性集、以及如何将现有的虚拟机添加到可用性集, 在 Azure 平台配置可用性集,virtual-machines
+ 了解如何在 Azure 虚拟机上快速搭建 ELK 集群, 在 Azure 虚拟机上快速搭建 ELK 集群,virtual-machines
+ 了解如何在 Azure 虚拟机上快速搭建 MongoDB 集群, 在 Azure 虚拟机上快速搭建 MongoDB 集群,virtual-machines
+ 本文介绍如何构建大规模网站集群，考虑将网站架构的各个模块解耦，服务化，做到整体水平扩展，支持高并发，大流量的访问。, 构建网站集群,virtual-machines
+ 了解如何在 Azure Linux 虚拟机上快速搭建单机版 LAMP 网站, 在 Azure Linux 虚拟机上快速搭建单机版 LAMP 网站,virtual-machines
+ 本文介绍如何在 Azure Linux 虚拟机上备份 MySQL、Redis、MongoDB 数据库, Azure Linux 虚拟机上的数据库的备份,virtual-machines
+ 本文档介绍如何在 Azure Linux 虚拟机上安装配置免费的 Redis 集群。, 在 Azure Linux 虚拟机上配置 Redis 集群,virtual-machines
+ 本文介绍如何在 Azure Linux 虚拟机上配置 zabbix 监控, 在 Azure Linux 虚拟机上手动安装配置 Zabbix 监控服务,virtual-machines
+ 本文介绍在 Azure Linux 虚拟机上使用 Zabbix 监控 Nginx, 使用 Zabbix 监控 Nginx,virtual-machines
+ 本文介绍如何在 Azure Linux 虚拟机上使用 Zabbix 监控 MySQL, 使用 Zabbix 监控 MySQL,virtual-machines
+ 了解如何在 Azure Linux 虚拟机上安装配置 HAProxy, 在 Azure Linux 虚拟机上安装配置 HAProxy,virtual-machines
+ 了解如何在 Azure Linux 虚拟机上安装 MySQL, 在 Azure Linux 虚拟机上安装 MySQL,virtual-machines
+ 本文介绍如何安全的远程连接到 Linux 虚拟机, Linux 虚拟机远程连接安全贴士,virtual-machines
+ 本文介绍如何微软的公有云平台 Azure 中搭建 Nginx Web 服务器。, 在 Azure 中自己搭建 Nginx Web 服务器,virtual-machines
+ 了解如何管理配置 MongoDB 集群, 在 Azure 虚拟机上管理配置 MongoDB 集群,virtual-machines
+ 了解资源管理器与经典部署模型之间的差异。, 资源管理器和服务管理（经典）部署模型,virtual-network
+ 提供常见的 Azure 订阅和服务限制、配额和约束的列表。 这包括有关如何增加限制以及最大值的信息。, Azure 订阅限制和配额 | Microsoft Docs,billing
+ 了解如何阅读并理解 Azure 订阅的使用情况和计费, 了解你的帐单,billing
+ 有关如何在 Azure 云服务中创建 PHP Web 角色和辅助角色以及配置 PHP 运行时的指南。, PHP Web 角色和辅助角色,cloud-services
+ 查找介绍如何在 Azure 中实现多租户 Web 应用的体系结构概述和设计模式。, 多租户 Web 应用模式,active-directory
+ 了解如何下载和安装 Azure SDK for PHP。, 下载 Azure SDK for PHP,app-service-web-apps
+ 使用 Visual Studio 中的“添加连接服务”对话框添加 Azure Active Directory, 在 Visual Studio 中使用连接服务添加 Azure Active Directory | Microsoft Docs,active-directory
+ 使用 Visual Studio 的“添加连接服务”对话框将 Azure 存储添加到您的应用, 在 Visual Studio 中使用连接服务添加 Azure 存储 | Microsoft Docs,storage
+ 在 Visual Studio 中配置和使用存储模拟器, 在 Visual Studio 中配置和使用存储模拟器,storage
+ 使用存储资源管理器（预览版）管理 Azure Blob 容器和 Blob, 使用存储资源管理器（预览版）管理 Azure Blob 存储资源,storage
+ 了解如何使用存储资源管理器（预览版）来处理文件共享和文件。, 将存储资源管理器（预览版）与 Azure 文件存储配合使用 | Microsoft 文档,storage
+ Azure 存储资源管理器 0.8.7（预览版）的发行说明, Azure 存储资源管理器 0.8.7（预览版）| Azure,storage
+ 使用存储空间资源管理器（预览版）管理 Azure 存储资源, 存储资源管理器（预览版）入门 | Microsoft Docs,storage
+ 使用服务器资源管理器浏览和管理存储资源, 使用服务器资源管理器浏览和管理存储资源 | Microsoft Docs,storage
+ 为表设计器构造筛选字符串, 为表设计器构造筛选字符串,storage
+ 了解如何在 Azure 登录页和访问面板页中添加公司品牌, 向 Azure Active Directory 中的登录页和访问面板页添加公司品牌,active-directory
+ 如何使用用户帐户填充 Azure Active Directory 中的自定义域。, 将用户添加到 Azure Active Directory 中的自定义域 | Microsoft Docs,active-directory
+ 介绍了在 Azure Active Directory 中使用自定义域名的概念性框架，其中包括用于实现单一登录的联盟, Azure Active Directory 中自定义域名的概念性概述 | Microsoft Docs,active-directory
+ 如何将公司域名添加到 Azure Active Directory，以及如何在 Azure Active Directory 与本地联合身份验证解决方案之间设置联合登录。, 将自定义域名添加到 Azure Active Directory 并设置联合登录 | Microsoft Docs,active-directory
+ 如何将公司域名添加到 Azure Active Directory，以及如何验证域名。, 将自定义域名添加到 Azure Active Directory | Microsoft Docs,active-directory
+ 用于管理 Azure Active Directory 中的自定义域的管理概念和操作指南, 管理 Azure Active Directory 中的自定义域名 | Microsoft Docs,active-directory
+ 在本文档中，你将学习如何在 Azure 中部署 AD FS 以实现高可用性。, 使用 Azure 流量管理器在 Azure 中部署高可用性跨地域 AD FS,active-directory
+ 介绍什么是 Azure AD 租户，以及如何通过 Azure Active Directory 管理 Azure。, 管理 Azure AD 目录 | Microsoft Docs,active-directory
+ 配置或注册应用程序时出现问题, 配置或注册应用程序时出现问题,active-directory
+ 开发应用程序时出现问题, 开发应用程序时出现问题,active-directory
+ 解决与 Azure Active Directory 应用程序开发相关的最常见问题, 排查 Azure Active Directory 应用程序开发问题 | Microsoft Docs,active-directory
+ 如何为 Azure 应用程序实现用户分配。, Azure AD 和应用程序：将用户分配到应用程序,active-directory
+ 本文专门为 IT 专业人员编写，提供有关将 Azure 应用程序与 Active Directory 集成的指导。, 为 Azure AD 开发应用,active-directory
+ 如何要求对 Azure 应用程序进行用户分配。, 要求进行用户分配 - Azure AD,active-directory
+ 了解如何自定义联合证书的过期日期，以及如何续订即将过期的证书。, 有关 Azure Active Directory 中应用程序管理的文章索引,active-directory
+ Azure AD Connect 会将本地目录与 Azure Active Directory 集成。这样便可以为集成到 Azure AD 的 Office 365、Azure 和 SaaS 应用程序提供一个通用标识。, Azure Active Directory 中的应用、权限和同意,active-directory
+ 使用 Azure Active Directory 启用单一登录，以访问完成业务所需的全部 SaaS 和 Web 应用程序。, Azure Active Directory 的应用程序访问与单一登录是什么？| Azure,active-directory
+ 介绍什么是 Azure AD 租户，以及如何通过 Azure Active Directory 管理 Azure。, 了解 Azure Active Directory 体系结构 | Microsoft Docs,active-directory
+ 介绍 Azure Active Directory 提供的管理员角色，以及如何分配这些角色。, 在 Azure Active Directory 中分配管理员角色 | Microsoft Docs,active-directory
+ 了解 Android 设备的解决方案中配置基于证书的身份验证的支持方案和要求, Android 上 Azure Active Directory 基于证书的身份验证 | Microsoft Docs,active-directory
+ 了解如何在环境中配置基于证书的身份验证, Azure Active Directory 基于证书的身份验证 - 入门 | Microsoft Docs,active-directory
+ 了解 iOS 设备的解决方案中配置基于证书的身份验证的支持方案和要求, iOS 上 Azure Active Directory 基于证书的身份验证 | Microsoft Docs,active-directory
+ 管理员和开发人员可以使用此功能指定 Azure AD 颁发的令牌的生存期。, Azure Active Directory 中可配置的令牌生存期,active-directory
+ 介绍如何在 Azure Active Directory 中添加用户或更改用户信息，包括外部用户和来宾用户。, 在 Azure Active Directory 中添加来自其他目录或合作伙伴公司的用户 | Microsoft Docs,active-directory
+ 说明管理员应如何重置 Azure Active Directory 中用户的密码。, 在 Azure Active Directory 中重置用户密码 | Microsoft Docs,active-directory
+ 说明如何在 Azure Active Directory 中添加新用户或更改用户信息。, 向 Azure Active Directory 添加新用户 | Microsoft Docs,active-directory
+ 如果你知道如何在本地部署 AD 域服务和 AD 联合身份验证服务，则就了解这些服务在 Azure 虚拟机上的工作方式。, 在 Azure 虚拟机中部署 Windows Server Active Directory 的准则,active-directory
+ 本文介绍 Azure Active Directory 的免费版和付费版选项。 Azure Active Directory 基本版、Azure Active Directory Premium P1 和 Azure Active Directory Premium P2 是付费版本。, Azure Active Directory 版本 | Microsoft Docs,active-directory
+ 本文介绍将 Azure Active Directory 与本地、云和 SaaS 应用程序集成的好处。, 使用 Azure Active Directory 管理应用程序 | Microsoft 文档,active-directory
+ “Azure Active Directory 常见问题”解答有关如何访问 Azure 和 Azure Active Directory、管理密码以及访问应用程序的问题。, Azure Active Directory 常见问题解答 | Microsoft Docs,active-directory
+ 本页面提供有关更改 Office 365 联合身份验证信任 SHA 算法的指导, 更改 Office 365 信赖方信任的签名哈希算法,active-directory
+ 登录 Azure 及相关问题（例如，Azure 订阅与 Azure Active Directory 之间的关系）。, Azure 订阅与 Azure Active Directory 的关联方式 | Microsoft Docs,active-directory
+ 本教程说明如何从 Azure 虚拟机上的本地 Active Directory 林安装域控制器。, 在 Azure 中安装副本 Active Directory 域控制器 | Microsoft Docs,virtual-network
+ 本文是一篇入门指南，介绍如何将 Azure Active Directory (AD) 与本地应用程序和云应用程序集成。, 将 Azure AD 与应用集成入门 | Microsoft Docs,active-directory
+ 使用 Azure Active Directory 和 Azure 经典管理门户来管理 Office 365 订阅目录, 在 Azure 中管理 Office 365 订阅的目录 | Microsoft Docs,active-directory
+ 如何在 Azure Active Directory 中管理密码。, 在 Azure Active Directory 中管理密码,active-directory
+ 介绍 Azure Active Directory 如何使组织能够指定每个用户有权访问的应用。, 使用 Azure AD 管理对应用的访问,active-directory
+ 本教程介绍如何在 Azure 虚拟网络上的虚拟机 (VM) 中创建新的 Active Directory 林。, 在 Azure 虚拟网络中安装 Active Directory 林 | Microsoft 文档,active-directory
+ Azure AD 自助密码重置策略选项, 策略：Azure AD SSPR | Microsoft Docs,active-directory
+ 了解如何检查 Azure Active Directory 密码的过期策略，以及如何逐个或批量更改用户密码过期策略, 在 Azure Active Directory 中设置密码过期策略,active-directory
+ 使用自助密码重置重新获取工作帐户或学校帐户访问权限, Azure AD：重置密码 | Microsoft Docs,active-directory
+ Azure AD 中的自助服务密码重置对组织有什么用处？, Azure AD 自助服务密码重置概述 | Microsoft Docs,active-directory
+ 研究并快速实现标识和访问管理方案, Azure Active Directory 概念证明操作手册：构建基块 | Microsoft Docs,active-directory
+ 研究并快速实现标识和访问管理方案, Azure Active Directory PoC 演练手册的实现 | Microsoft Docs,active-directory
+ 研究并快速实现标识和访问管理方案, Azure Active Directory PoC 演练手册成分 | Microsoft Docs,active-directory
+ 浏览并快速实现标识和访问管理方案, Azure Active Directory PoC 演练手册简介 | Microsoft Docs,active-directory
+ Azure Active Directory 可以使用 SCIM 协议规范中定义的接口，自动将用户和组预配到以 Web 服务为前端的任何应用程序或标识存储, 使用 SCIM 启用从 Azure Active Directory 到应用程序的用户和组自动预配 | Microsoft Docs,active-directory
+ 概述 Azure 的自助注册、如何管理注册过程以及如何接管 DNS 域名。, 什么是 Azure 的自助服务注册？ | Microsoft Docs,active-directory
+ Azure Active Directory 服务的使用限制和其他服务限制, Azure Active Directory 服务限制和局限性,active-directory
+ 介绍组织如何使用 Azure Active Directory 来安全共享本地应用和使用者云服务的帐户。, 使用 Azure AD 共享帐户 | Microsoft Docs,active-directory
+ 了解如何自定义联合证书的过期日期，以及如何续订即将过期的证书。, 如何在 Azure AD 中管理联合证书,active-directory
+ 为 Azure Active Directory 中的 SaaS 应用启用单一登录身份验证和用户设置集中式访问管理。 有关如何将 Azure Active Directory 集成到 SaaS 应用的概述。, 将 Azure Active Directory 单一登录与 SaaS 应用相集成 | Microsoft Docs,active-directory
+ Azure 管理门户中未显示 Active Directory 菜单项时怎么办。, 'Troubleshooting,active-directory
+ 本主题介绍有关使用订阅管理员在整个 Azure 门户中控制资源访问权限的概念, 了解 Azure 中的资源访问权限 | Microsoft Docs,active-directory
+ 使用 Azure Active Directory 将现有的本地标识扩展到云中，或开发 Azure AD 集成的应用程序。, 什么是 Azure Active Directory？,active-directory
+ 详细了解 Azure AD 许可框架工作原理，确定如何在开发基于 Azure AD 的应用程序时使用它, 应用程序许可工作原理 | Microsoft Docs,active-directory
+ 了解委派权限和应用程序权限、客户端如何使用这些权限，以及通过 Azure AD 开发的应用程序的资源如何公开这些权限, 如何识别委派权限和应用程序权限 | Microsoft Docs,active-directory
+ 了解在开发应用程序时，如何针对客户端和资源应用程序进行权限请求, 如何为给定 API 选择权限 | Microsoft Docs,active-directory
+ 如何为通过 Azure AD 进行开发和注册的自定义应用程序配置单一登录。, 如何配置新的多租户应用程序 | Microsoft Docs,active-directory
+ 了解如何将应用程序配置为多多租户应用程序，以及多租户应用程序的工作原理, 如何配置新的多租户应用程序 | Microsoft Docs,active-directory
+ 了解如何使用 Azure Active Directory。, Azure 标识 | Microsoft Docs,active-directory
+, Azure 标识管理基础知识 | Microsoft Docs,active-directory
+ 本主题介绍适用于基于角色的访问控制 (RBAC) 的内置角色。, Action 和 NotAction - Azure RBAC 中的角色 | Microsoft Docs,active-directory
+ 生成一个列出过去 90 天内使用基于角色的访问控制对 Azure 订阅的访问权限进行的所有更改的报告。, 访问报告 - Azure RBAC,active-directory
+ 在 Azure 门户中使用基于角色的访问控制开始进行访问权限管理。 角色分配用于将权限分配给你的资源。, Azure 门户中基于角色的访问控制 | Microsoft Docs,active-directory
+ 为内部和外部用户分配使用 PowerShell 与 CLI 创建的自定义 RBAC 角色, 在 Azure 中创建自定义的基于角色的访问控制角色并将其分配给内部和外部用户 | Microsoft Docs,active-directory
+ 了解如何通过 Azure 基于角色的访问控制来定义自定义角色，以便在 Azure 订阅中进行更精确的身份管理。, 为 Azure RBAC 创建自定义角色 | Microsoft Docs,active-directory
+ 通过列出角色和角色操作、将角色分配到订阅和应用程序范围来了解如何使用 Azure 命令行界面管理基于角色的访问控制 (RBAC)。, 使用 Azure CLI 管理基于角色的访问控制 (RBAC),active-directory
+ 如何使用 Azure PowerShell 管理 RBAC，包括列出角色、分配角色和删除角色分配。, 使用 Azure PowerShell 管理基于角色的访问控制 (RBAC),active-directory
+ 使用 REST API 管理基于角色的访问控制, 使用 REST 进行基于角色的访问控制 - Azure AD,active-directory
+ 可对 Azure Resource Manager 资源提供程序使用的操作的详细信息, Azure Resource Manager 提供程序操作 | Microsoft Docs,active-directory
+ 本主题介绍适用于基于角色的访问控制 (RBAC) 的内置角色。, 租户管理员提升访问权限 - Azure AD,active-directory
+ 获取有关基于角色的访问控制资源问题或疑问的帮助。, 对 Azure RBAC 进行故障排除,active-directory
+ Azure 门户中具有 Azure 基于角色的访问控制的访问管理入门。 在目录中使用角色分配来分配权限。, 使用 RBAC 管理访问和权限 — Azure RBAC | Microsoft Docs,active-directory
+ 了解如何通过工作或学校帐户，来利用现有的用户帐户、策略、设置或已有的本地服务器部署，以及提高组织的本地标识基础结构与 Azure AD 之间的效率。, 以组织身份注册 Azure,active-directory
+ 大致了解 Azure 标识解决方案的术语、概念和建议，以便为组织做出最明智的标识监管决策。, 了解 Azure 标识 | Microsoft Docs,active-directory
+ 你可以在 Azure 虚拟机上运行 Windows Server Active Directory 域服务 (AD DS) 或 Active Directory 联合身份验证服务 (AD FS)。, Azure VM 上的 Windows Server Active Directory | Microsoft 文档,active-directory
+ 本主题介绍使用和创建的帐户以及所需的权限。, Azure AD Connect：帐户和权限 | Microsoft Docs,active-directory
+ 在本文档中，你将学习如何在 Azure 中部署 AD FS 以实现高可用性。, Azure 中的 Active Directory 联合身份验证服务,active-directory
+ 本主题详细说明某些实现设计方面的问题, Azure AD Connect：设计概念,active-directory
+ 介绍如何从 DirSync 和 Azure AD Sync 升级到 Azure AD Connect。, 从 DirSync 和 Azure AD Sync 升级 | Microsoft Docs,active-directory
+ 了解如何从 DirSync 升级到 Azure AD Connect。 本文介绍从 DirSync 升级到 Azure AD Connect 的步骤。, Azure AD Connect：从 DirSync 升级 | Microsoft 文档,active-directory
+ 本主题介绍当存在现有的 Azure AD 租户时如何使用 Connect。, Azure AD Connect：已具有 Azure AD 时 | Microsoft 文档,active-directory
+ 此页包含有关 Azure AD Connect 的常见问题。, Azure Active Directory Connect：常见问题 - Azure,active-directory
+ 本主题介绍 Azure AD Connect 同步中的内置自动升级功能。, Azure AD Connect：自动升级,active-directory
+ 本主题详细介绍 Azure AD Connect 中以预览版形式提供的功能。, Azure AD Connect：预览版功能,active-directory
+ 本页列出了可用于实现单一登录的非 Microsoft 标识提供程序。, Azure AD 联合身份验证兼容性列表,active-directory
+ 使用 Azure AD Connect 管理 AD FS 并使用 Azure AD Connect 和 PowerShell 自定义用户的 AD FS 登录体验。, 使用 Azure AD Connect 进行 Active Directory 联合身份验证服务的管理和自定义 | Microsoft Docs,active-directory
+ 本文档详细介绍了 Azure AD Connect 的自定义安装选项。 使用本文中的说明来通过 Azure AD Connect 安装 Active Directory。, Azure AD Connect：自定义安装 | Microsoft 文档,active-directory
+ 了解如何下载、安装和运行 Azure AD Connect 的设置向导。, 通过快速设置开始使用 Azure AD Connect | Microsoft 文档,active-directory
+ 本页记录了有关 Azure AD 实例的特殊注意事项。, Azure AD Connect：同步服务实例,active-directory
+ 本文档介绍如何使用 O365 与 Azure AD 来设置和配置多个顶级域。, Azure AD Connect 中的多个域,active-directory
+ 本文向 Office 365 用户说明了如何解决向其发送证书续订通知的电子邮件的问题。, Office 365 和 Azure AD 用户证书续订,active-directory
+ 本文介绍 Azure Active Directory (Azure AD) 直通身份验证，以及它如何针对本地 Active Directory 来验证用户密码，从而实现 Azure AD 登录。, Azure AD Connect：直通身份验证 | Microsoft Docs,active-directory
+ 此技术参考页面描述了需要为 Azure AD Connect 打开的端口, 混合标识所需的端口和协议 - Azure | Microsoft Docs,active-directory
+ 本主题介绍 Azure AD Connect 的先决条件和硬件要求, Azure AD Connect：先决条件和硬件 | Microsoft Docs,active-directory
+ 本主题介绍在遇到 LocalDB 10 GB 限制问题时，如何恢复 Azure AD Connect Synchronization Service。, Azure AD Connect：如何从 LocalDB 10 GB 的限制问题恢复 | Microsoft Docs,active-directory
+ 本主题逐步讲解如何选择 Azure AD Connect 使用的安装类型, Azure AD Connect：选择安装类型 | Microsoft 文档,active-directory
+ 本主题介绍了 Azure Active Directory (Azure AD) 无缝单一登录，以及如何使用它来为企业网络中的企业桌面用户提供真正的单一登录。, Azure AD Connect：无缝单一登录 | Microsoft Docs,active-directory
+ 本主题详细说明 Azure AD Connect 的受支持和不受支持的拓扑, Azure AD Connect：支持的拓扑,active-directory
+ 介绍如何使用 Azure AD Connect 排查连接问题。, Azure AD Connect：排查连接问题,active-directory
+ 本文介绍如何对 Azure Active Directory (Azure AD) 直通身份验证进行故障排除。, Azure AD Connect：对直通身份验证进行故障排除 | Microsoft Docs,active-directory
+ 本主题介绍了如何排除 Azure Active Directory 无缝单一登录（Azure AD 无缝 SSO）故障。, Azure AD Connect：无缝单一登录故障排除 | Microsoft Docs,active-directory
+ 介绍如何使用 Azure AD Connect 排查同步过程中遇到的错误。, Azure AD Connect：排查同步过程中发生的错误,active-directory
+ 介绍升级到 Azure Active Directory Connect 最新版本的不同方法，包括就地升级和交叉迁移。, Azure AD Connect：从旧版升级,active-directory
+ Azure AD Connect 用户登录的自定义设置。, Azure AD Connect：用户登录 | Microsoft Docs,active-directory
+ 本主题列出 Azure AD Connect 和 Azure AD Sync 的所有版本, Azure AD Connect：版本发布历史记录,active-directory
+ 了解如何扩展 Azure AD Connect 的默认配置和操作任务。, Azure AD Connect：后续步骤以及如何管理 Azure AD Connect,active-directory
+ Azure AD Connect 会将本地目录与 Azure Active Directory 集成。 这样便可以为集成到 Azure AD 的 Office 365、Azure 和 SaaS 应用程序提供一个通用标识。, 将 Active Directory 与 Azure Active Directory 连接。 | Microsoft 文档,active-directory
+ 本文档介绍如何联合多个 Azure AD 与单个 AD FS。, 联合多个 Azure AD 与单个 AD FS | Microsoft Docs,active-directory
+ 本文档详述了使用 Azure AD Connect 更新 AD FS 场的 SSL 证书的步骤。, Azure AD Connect：更新 Active Directory 联合身份验证服务 (AD FS) 场的 SSL 证书 | Microsoft 文档,active-directory
+ 此页是与使用 Azure AD Connect 进行 AD FS 操作相关的所有文档的中央位置。, Azure AD Connect 和联合身份验证 | Microsoft Docs,active-directory
+ 列出与 Azure Active Directory 同步的属性。, 通过 Azure AD Connect 同步的属性,active-directory
+ 提供有关更改 Azure AD Connect 同步的默认配置的最佳实践。, Azure AD Connect 同步：更改默认配置,active-directory
+ 本主题文档介绍如何在更改 AD DS 帐户的密码以后更新 Azure AD Connect。, Azure AD Connect 同步：更改 AD DS 帐户密码 | Microsoft Docs,active-directory
+ 本主题文档介绍加密密钥，以及如何在更改密码后将其放弃。, Azure AD Connect 同步：更改 Azure AD Connect 同步服务帐户 | Microsoft Docs,active-directory
+ 介绍如何对 Azure AD Connect 同步中的配置进行更改。, Azure AD Connect 同步：在 Azure AD Connect 同步中进行配置更改,active-directory
+ 介绍如何在 Azure AD Connect 同步中配置筛选。, Azure AD Connect 同步：配置筛选,active-directory
+ 本文介绍如何配置 Microsoft 的 Lotus Domino 连接器。, Lotus Domino 连接器,active-directory
+ 本文介绍如何配置 Microsoft 的泛型 LDAP 连接器。, 泛型 LDAP 连接器,active-directory
+ 本文将指导你完成一个使用通用 SQL 连接器的简单 HR 系统分步示例。, 通用 SQL 连接器分步指南,active-directory
+ 本文介绍如何配置 Microsoft 的泛型 SQL 连接器。, 泛型 SQL 连接器 | Microsoft Docs,active-directory
+ 本文介绍如何配置 Microsoft 的 Windows PowerShell 连接器。, PowerShell 连接器,active-directory
+ 本主题列出了 Forefront Identity Manager (FIM) 和 Microsoft Identity Manager (MIM) 的连接器的所有版本, 连接器版本发行历史记录 | Microsoft Docs,active-directory
+ 本主题介绍 Azure AD Connect 中的目录扩展功能。, Azure AD Connect 同步：目录扩展,active-directory
+ 本主题说明 Azure AD Connect 中的防止意外删除功能。, Azure AD Connect 同步：防止意外删除,active-directory
+ 本主题介绍 Azure AD Connect 同步中的内置计划程序功能。, Azure AD Connect 同步：计划程序,active-directory
+ 在 Azure AD Connect 同步中引用声明性设置表达式。, Azure AD Connect 同步：函数引用,active-directory
+ 本主题介绍如何还原 Azure AD 服务帐户。, Azure AD Connect 同步：如何管理 Azure AD 服务帐户,active-directory
+ 介绍密码同步的原理及设置方法。, 使用 Azure AD Connect 同步实现密码同步 | Microsoft Docs,active-directory
+ 介绍安装向导第二次运行时的工作原理。, 重新运行 Azure AD Connect 安装向导,active-directory
+ 本主题提供针对 userCertificate 属性导致的 LargeObject 错误的补救步骤。, Azure AD Connect 同步：处理 userCertificate 属性导致的 LargeObject 错误 | Microsoft Docs,active-directory
+ 本主题介绍 Azure AD Connect 同步的操作任务，以及如何准备运行此组件。, Azure AD Connect 同步：操作任务和注意事项,active-directory
+ 本主题提供有关使用 Azure AD Connect 的 AD 回收站功能的建议。, Azure AD Connect 同步：启用 AD 回收站 | Microsoft Docs,active-directory
+ 了解 Azure AD Connect 的 Synchronization Service Manager 中的“连接器”选项卡。, Azure AD Synchronization Service Manager UI 中的连接器 | Microsoft 文档,active-directory
+ 了解用于 Azure AD Connect 的 Synchronization Service Manager 中的“Metaverse 设计器”选项卡。, Azure AD Connect MV 设计器,active-directory
+ 了解用于 Azure AD Connect 的 Synchronization Service Manager 中的“Metaverse 搜索”选项卡。, Azure AD Connect Sync Service Manager Metaverse 搜索,active-directory
+ 了解用于 Azure AD Connect 的 Synchronization Service Manager 中的“操作”选项卡。, Azure AD Connect Synchronization Service Manager 操作,active-directory
+ 了解适用于 Azure AD Connect 的 Synchronization Service Manager。, Azure AD Connect 同步：Synchronization Service Manager UI,active-directory
+ 介绍 Azure AD Connect 同步的技术概念。, Azure AD Connect 同步：技术概念 | Microsoft Docs,active-directory
+ 针对对象无法同步到 Azure AD 进行故障排除。, 针对对象无法同步到 Azure AD 进行故障排除 | Microsoft Docs,active-directory
+ 提供有关如何解决密码同步问题的信息, 使用 Azure AD Connect 同步解决密码同步问题 | Microsoft Docs,active-directory
+ 本主题介绍 Azure AD Connect 同步的体系结构，并解释使用的术语。, Azure AD Connect 同步：了解体系结构,active-directory
+ 介绍声明性设置表达式。, Azure AD Connect：声明性预配表达式,active-directory
+ 介绍 Azure AD Connect 中的声明性预配配置模型。, Azure AD Connect：了解声明性预配,active-directory
+ 本文介绍 Azure AD Connect 同步中的默认配置。, Azure AD Connect 同步：了解默认配置,active-directory
+ 介绍 Azure AD Connect 同步中的用户和联系人。, Azure AD Connect 同步：了解用户和联系人,active-directory
+ 介绍 Azure AD Connect 同步的工作原理以及如何自定义。, Azure AD Connect 同步：理解和自定义同步,active-directory
+ 介绍如何借助一种新的行为，在目录同步期间使用 Azure AD Connect 处理具有 UPN 或 ProxyAddress 冲突的对象。, 标识同步和重复属性复原,active-directory
+ 介绍 Azure AD Connect 同步服务的服务端功能。, Azure AD Connect 同步服务功能和配置,active-directory
+ 介绍影子属性在 Azure AD Connect 同步服务中的工作方式。, Azure AD Connect 同步服务影子属性 | Microsoft Docs,active-directory
+ 详细介绍 Azure Active Directory 应用程序清单，该清单表示 Azure AD 租户中的应用程序标识配置，并方便实现 OAuth 授权、许可体验和其他功能。, 了解 Azure Active Directory 应用程序清单,active-directory
+ 介绍 Azure Active Directory 中应用程序对象与服务主体对象之间的关系, Azure Active Directory 应用程序对象和服务主体对象,active-directory
+ 使用 Microsoft 帐户和 Azure Active Directory 登录的构建应用简介。, v2.0 终结点概述,active-directory
+ 通过 Azure AD 身份验证库 (ADAL)，客户端应用程序开发人员能够轻松地使用户通过云或本地 Active Directory (AD) 的身份验证，然后获取访问令牌，以进行安全的 API 调用。, Azure Active Directory 身份验证库,active-directory
+ 概述 Azure Active Directory (AD) 支持的身份验证协议, Azure Active Directory 身份验证协议,active-directory
+ Azure Active Directory (AAD) 的五个最常见身份验证方案概述, Azure AD 的身份验证方案,active-directory
+ 介绍面向开发人员的 Azure Active Directory 资源的综合性指南, 适用于应用程序的品牌准则,active-directory
+ Azure Active Directory 代码示例的索引，按方案组织。, Azure Active Directory 代码示例,active-directory
+ 常用的 Azure Active Directory 开发人员概念和功能术语列表。, Azure Active Directory 开发人员词汇表,active-directory
+ 详细了解 Azure Active Directory 的 OAuth2 隐式授权流实现，以及它是否适合你的应用程序。, 了解 Azure Active Directory 中的 OAuth2 隐式授权流,active-directory
+ Azure Active Directory 开发人员指南中的所有指南和参考文章列表。, 针对开发人员的 Azure Active Directory | Microsoft Docs,active-directory
+ 本文提供面向开发人员的 Azure Active Directory 资源的综合性指南。, Azure Active Directory 开发人员指南,active-directory
+ 详细说明如何使应用程序 AppSource 通过 Azure Active Directory 的认证。, 如何使 AppSource 通过 Azure Active Directory 的认证,active-directory
+ 有关如何构建一个可使用户从任何 Azure Active Directory 租户登录的应用程序（也称为多租户应用程序）的分步说明。, 如何生成可让任何 Azure AD 用户登录的应用,active-directory
+ 如何生成一个与 Azure AD 集成以方便登录，并使用 OAuth 调用 Azure AD 保护 API 的 Android 应用程序。, Azure AD Android 入门,active-directory
+ 如何生成一个与 Azure AD 集成以方便登录，并使用 OAuth 调用 Azure AD 保护 API 的 AngularJS 单页面应用程序。, Azure AD AngularJS 入门,active-directory
+ 如何生成一个与 Azure AD 集成以方便登录，并使用 OAuth 调用 Azure AD 保护 API 的 Cordova 应用程序。, Azure AD Cordova 入门,active-directory
+ 如何生成一个与 Azure AD 集成以方便登录，并使用 OAuth 调用 Azure AD 保护 API 的 .NET Windows 桌面应用程序。, Azure AD .NET 入门,active-directory
+ 如何生成使用户登录以访问 API 的 Java 命令行应用。, Azure AD Java 命令行入门,active-directory
+ 如何生成一个与 Azure AD 集成以方便登录，并使用 OAuth 调用 Azure AD 保护 API 的 iOS 应用程序。, Azure AD iOS 入门,active-directory
+ 如何生成一个与 Azure AD 集成以方便登录的 node.js Express MVC Web 应用。, 开始使用 node.js 进行 Azure AD 登录和注销,active-directory
+ 如何生成一个与 Azure AD 集成以进行身份验证和授权的 .NET MVC Web API。, Azure AD .NET Web API 入门,active-directory
+ 如何生成一个与 Azure AD 集成以进行身份验证的 Node.js REST Web API。, Azure AD NodeJS 入门,active-directory
+ 生成一个与 Azure AD 集成以方便登录的 .NET MVC Web 应用。, Azure AD .NET Web 应用入门,active-directory
+ 生成可让用户使用工作或学校帐户登录的 Java Web 应用。, Azure AD Java Web 应用入门,active-directory
+ 如何生成一个与 Azure AD 集成以方便登录，并使用 OAuth 调用 Azure AD 保护 API 的 Windows Phone 应用程序。, Azure AD Windows Phone 入门,active-directory
+ 如何生成一个与 Azure AD 集成以方便登录，并使用 OAuth 调用 Azure AD 保护 API 的 Windows 应用商店应用程序。, Azure AD Windows 应用商店入门,active-directory
+ 如何生成一个与 Azure AD 集成以方便登录，并使用 OAuth 调用 Azure AD 保护 API 的 Xamarin 应用程序。, Azure AD Xamarin 入门,active-directory
+ 本文介绍 Azure Active Directory 针对接受 Azure Active Directory 令牌的服务发布的联合元数据文档。, Azure AD 联合元数据,active-directory
+ Azure Active Directory 图形 API 通过 OData REST API 终结点提供对 Azure AD 的编程访问权限。应用程序可以使用图形 API 对目录数据和对象执行创建、读取、更新和删除 (CRUD) 操作。, Azure AD 图形 API 快速入门,active-directory
+ 有关可通过 REST API 终结点提供对 Azure AD 的编程访问权限的图形 API 的概述和快速入门指南。, Azure Active Directory 图形 API,active-directory
+ 本文介绍如何将应用程序添加到 Azure Active Directory 的实例。, 如何将应用程序添加到 Azure Active Directory。,active-directory
+ 介绍与 Azure Active Directory 集成的好处与相关资源的指南。, 如何与 Azure Active Directory 集成 | Microsoft Docs,active-directory
+ 如何获取用于注册和生成应用程序的 Azure Active Directory 租户。, 如何获取 Azure AD 租户,active-directory
+ 有关如何在 Azure Active Directory (Azure AD) 中添加、更新或删除应用程序的详细信息。, 将应用程序与 Azure Active Directory 集成,active-directory
+ 本文介绍如何使用 Azure Active Directory 和 OAuth 2.0，通过 HTTP 消息来授权访问租户中的 Web 应用程序和 Web API。, 了解 Azure AD 中的 OAuth 2.0 授权代码流,active-directory
+ 本文介绍如何使用 OAuth2.0 客户端凭据授权流通过 HTTP 消息实现服务到服务身份验证。, 使用 OAuth2.0 进行 Azure AD 服务到服务身份验证,active-directory
+ 本文介绍如何使用 Azure Active Directory 和 OpenID Connect，通过 HTTP 消息来授权访问租户中的 Web 应用程序和 Web API。, 了解 Azure AD 中的 OpenID Connect 身份验证代码流,active-directory
+ 了解如何在 Azure Active Directory 中为预先集成的应用自定义 SAML 令牌中颁发的声明, 在 Azure Active Directory 中为预先集成的应用自定义 SAML 令牌中颁发的声明,active-directory
+ 了解如何在 Azure Active Directory 中调试对应用程序进行基于 SAML 的单一登录, 如何在 Azure Active Directory 中调试对应用程序进行的基于 SAML 的单一登录,active-directory
+ 本文概述 Azure Active Directory 中的单一登录和单一注销 SAML 配置文件。, Azure AD SAML 协议参考,active-directory
+ 本文介绍 Azure Active Directory 的签名密钥滚动更新最佳实践, Azure AD 中的签名密钥滚动更新,active-directory
+ 本文介绍 Azure Active Directory 中的单一登录 SAML 协议, Azure 单一登录 SAML 协议,active-directory
+ 本文介绍 Azure Active Directory 中的单一注销 SAML 协议, Azure 单一注销 SAML 协议,active-directory
+ 如何使用 ADAL SDK 的功能跨应用程序启用单一登录。, 如何使用 ADAL 在 Android 上启用跨应用 SSO,active-directory
+ 如何使用 ADAL SDK 的功能跨应用程序启用单一登录。, 如何使用 ADAL 在 iOS 上启用跨应用 SSO,active-directory
+ 本指南帮助你了解和评估 Azure Active Directory (AAD) 颁发的 SAML 2.0 令牌和 JSON Web 令牌 (JWT) 令牌中的声明。, 了解 Azure AD 所支持的不同令牌和声明类型,active-directory
+ 如何使用 v2.0 终结点向 Microsoft 注册应用以启用登录和访问 Microsoft 服务, v2.0 应用注册,active-directory
+ 原始 Azure AD 终结点与 v2.0 终结点之间的比较。, Azure AD v2.0 终结点,active-directory
+ 如何生成一个使用 Microsoft 个人帐户和工作或学校帐户让用户登录并通过第三方库调用图形 API 的 Android 应用。, Azure Active Directory v2.0 Android 应用,active-directory
+ 如何构建一个使用个人 Microsoft 帐户和工作/学校帐户登录用户的 Angular JS 单页应用。, Azure AD v2.0 .NET AngularJS 单页应用入门,active-directory
+ 如何构建一个使用个人 Microsoft 帐户和工作/学校帐户登录用户的 Angular JS 单页应用。, Azure AD v2.0 NodeJS AngularJS 单页应用入门,active-directory
+ 如何构建一个可从个人 Microsoft 帐户及公司或学校帐户接受令牌的 .NET MVC Web API。, Azure AD v2.0 .NET Web API| Azure,active-directory
+ 如何构建一个使用个人 Microsoft 帐户和工作或学校帐户来登录用户的 .NET MVC Web 应用。, Azure AD v2.0 .NET Web 应用登录入门,active-directory
+ 如何通过第三方库生成一个使用个人 Microsoft 帐户和工作或学校帐户来登录用户的 iOS 应用。, Azure AD v2.0 iOS 应用,active-directory
+ 如何构建一个可从个人 Microsoft 帐户和工作或学校帐户接受令牌的 NodeJS Web API。, Azure AD v2.0 NodeJS Web API,active-directory
+ 如何构建一个使用个人 Microsoft 帐户和工作或学校帐户来登录用户的 Node JS Web 应用。, Azure AD v2.0 NodeJS Web 应用,active-directory
+ 如何构建一个使用个人 Microsoft 帐户和工作或学校帐户来登录用户的 Windows Universal 应用。, Azure AD v2.0 Windows 通用应用,active-directory
+ 如何构建一个 .NET MVC Web 应用，以通过用于登录的 Microsoft 个人帐户和工作或学校帐户调用 Web 服务。, Azure AD v2.0 .NET Web 应用调用 API 入门,active-directory
+ 如何构建一个使用个人 Microsoft 帐户和工作或学校帐户来登录用户的 .NET 本机应用。, Azure Active Directory v2.0 .NET 本机应用,active-directory
+ Azure Active Directory v2.0 终结点支持的应用类型和方案。, Azure Active Directory v2.0 终结点的应用类型,active-directory
+ Azure Active Directory v2.0 终结点的兼容客户端库和服务器中间件库，以及相关的库、源代码和示例链接。, Azure Active Directory v2.0 身份验证库,active-directory
+ Azure AD v2.0 终结点的限制和局限性列表。, Azure Active Directory v2.0 终结点的限制和局限性,active-directory
+ 介绍了要对应用模型 v2.0 公共预览协议进行的更改。, Azure AD v2.0 终结点的更改,active-directory
+ 使用单页面应用隐式流的 Azure AD v2.0 实现构建 Web 应用程序。, Azure AD v2.0 隐式流,active-directory
+ 使用 OAuth 2.0 身份验证协议的 Azure AD 实现构建 Web 应用程序。, Azure Active Directory v2.0 和 OAuth 2.0 客户端凭据流,active-directory
+ 使用 Azure AD 的 OAuth 2.0 身份验证协议实现构建 Web 应用程序。, Azure AD v2.0 OAuth 授权代码流,active-directory
+ 本文介绍如何使用 OAuth2.0 代理流通过 HTTP 消息实现服务到服务身份验证。, Azure AD v2.0 OAuth2.0 代理流 | Microsoft Docs,active-directory
+ 使用 OpenID Connect 身份验证协议的 Azure AD v2.0 实现构建 Web 应用程序。, Azure Active Directory v2.0 和 OpenID Connect 协议,active-directory
+ 有关 Azure AD v2.0 终结点支持的协议的指南。, Azure AD v2.0 协议,active-directory
+ 介绍 Microsoft 应用注册门户中的各种功能。, 应用注册门户帮助主题,active-directory
+ 介绍 Azure AD v2.0 终结点中的授权，包括范围、权限和许可。, Azure Active Directory v2.0 范围、权限和许可,active-directory
+ Azure AD v2.0 终结点发出的令牌和声明类型, Azure Active Directory v2.0 令牌参考,active-directory
+ 通过 Visual Studio 连接服务连接到或创建 Azure AD 之后，如何在 MVC 项目中开始使用 Azure Active Directory, Visual Studio MVC 项目中的 Azure AD 入门,active-directory
+ 描述一下，当你使用 Visual Studio 连接服务连接到 Azure AD 时，你的 MVC 项目会发生什么情况, 连接到 Azure AD 时对 MVC 项目所做的更改,active-directory
+ Active Directory 连接向导检测到不兼容的身份验证类型, 如何使用 Azure Active Directory 连接向导诊断错误,active-directory
+ 通过 Visual Studio 连接服务连接到或创建 Azure AD 之后，如何在 WebApi 项目中开始使用 Azure Active Directory, Visual Studio WebApi 项目中的 Azure AD 入门,active-directory
+ 介绍使用 Visual Studio 连接到 Azure AD 时，WebApi 项目会发生什么情况, 连接到 Azure AD 时对 WebApi 项目所做的更改,active-directory
+ 概念性参考和概述：Azure 应用服务的身份验证/授权功能, Azure 应用服务中的身份验证和授权,app-service
+ 了解如何将应用程序部署到应用服务工作, 将应用程序部署到 Azure 应用服务,app-service
+ 在 Azure 应用服务上进行高密度托管, 在 Azure 应用服务上进行高密度托管,app-service-web-apps
+ 了解应用服务工作方式, Azure 应用服务工作方式,app-service
+ 本文介绍如何针对 Azure 应用服务本地缓存功能执行启用、大小调整和状态查询操作。, Azure 应用服务本地缓存概述,app-service
+ 了解如何使用 PowerShell 在 Azure 应用服务中备份和还原应用, 使用 PowerShell 备份和还原应用服务应用,app-service
+ 用于 .NET 2.5.1 的 Azure SDK 发行说明, 用于 .NET 2.5.1 的 Azure SDK 发行说明,app-service
+ 了解在应用服务中缩放应用程序的复杂细节。, Azure 应用服务：缩放应用服务应用程序,app-service
+ 了解如何保护 Azure 应用服务中的 Web 应用、移动应用和 API 应用。, Azure 应用服务安全性,app-service
+ 了解如何借助 Azure 应用服务开发、部署和管理 Web 应用和移动应用。, 针对 Web 应用、移动应用和 API 应用的 Azure 应用服务,app-service
+ 了解如何构建 WebJobs，以便运行后台测试、与存储和服务总线之类的服务交互，以及创建计划的任务。, Azure 应用服务中的 WebJobs,app-service
+ 了解针对 Azure 应用服务的应用服务计划的工作原理，以及如何利用它们进行管理。, Azure 应用服务计划深入概述,app-service
+ 了解 Azure 应用服务如何帮助开发、托管和使用 RESTful API。, API 应用简介,app-service-api-apps
+ 了解 Azure 应用服务为 API 应用提供的身份验证和授权服务。, Azure 应用服务中 API 应用的身份验证和授权,app-service-api-apps
+ 了解如何在 Azure 应用服务中使用 CORS 支持。, 应用服务中的 CORS 支持,app-service-api-apps
+ 了解如何使用 Visual Studio 2015 在 Azure 应用服务中创建、部署和使用 ASP.NET API 应用。, 应用服务中的 API 应用和 ASP.NET 入门,app-service-api-apps
+ 了解如何在服务到服务方案中保护 Azure 应用服务中的 API 应用。, Azure 应用服务中 API 应用的服务主体身份验证,app-service-api-apps
+ 了解如何自定义 Swashbuckle 针对 Azure 应用服务中的 API 应用生成的 Swagger API 定义。, 自定义 Swashbuckle 生成的 API 定义,app-service-api-apps
+ 了解如何通过将访问权限只授予经过身份验证的用户，来保护 Azure 应用服务中的 API 应用。, Azure 应用服务中 API 应用的用户身份验证,app-service-api-apps
+ 了解如何创建 Java API 应用包并将其部署到 Azure 应用服务。, 在 Azure 应用服务中生成和部署 Java API 应用,app-service-api-apps
+ 了解 Azure 应用服务中的 API 应用如何使用 Swagger 元数据来简化 API 发现和代码生成。, 用于 API 发现和代码生成的应用服务 API 应用元数据,app-service-api-apps
+ 了解如何创建 Node.js RESTful API 并将其部署到 Azure 应用服务中的 API 应用。, Azure 应用服务中的 Node.js API 应用,app-service-api-apps
+ 了解 Azure 应用服务中 API 应用的新增功能, 应用服务 API 应用 - 功能更改,app-service-api-apps
+ 了解如何在 Android 应用程序中使用应用服务移动应用来缓存和同步脱机数据, 为 Azure 移动应用启用脱机同步 (Android),app-service-mobile-apps
+ 了解如何使用 Azure 应用服务中的移动应用功能通过各种标识提供者（包括 Google、Facebook、Twitter 和 Microsoft）对 Android 应用的用户进行身份验证。, 使用移动应用在 Android 中添加身份验证,app-service-mobile-apps
+ 遵循本教程开始使用 Azure 移动应用后端进行 Android 开发, 在 Azure 应用服务移动应用中创建 Android 应用,app-service-mobile-apps
+ 如何使用用于 Android 的 Azure 移动应用 SDK, 如何使用用于 Android 的 Azure 移动应用 SDK | Microsoft Docs,app-service-mobile-apps
+ Azure 移动应用身份验证/授权功能的概念参考和概述, Azure 移动应用中的身份验证和授权,app-service-mobile-apps
+ 客户端 SDK 列表，以及移动服务与 Azure 移动应用的服务器 SDK 版本兼容性, 移动应用和移动服务中的客户端与服务器 SDK 版本控制 应用服务,app-service-mobile-apps
+ 了解如何在 Cordova 应用程序中使用应用服务移动应用来缓存和同步脱机数据, 为 Azure 移动应用启用脱机同步 (Cordova),app-service-mobile-apps
+ 了解如何使用 Azure 应用服务中的移动应用，通过各种标识提供者对 Apache Cordova 应用的用户进行身份验证。, 使用移动应用在 Apache Cordova 中添加身份验证 应用服务,app-service-mobile-apps
+ 遵循本教程开始使用 Azure 移动应用后端进行 Apache Cordova 开发, 在 Azure 应用服务移动应用中创建 Cordova 应用,app-service-mobile-apps
+ 如何使用适用于 Azure 移动应用的 Apache Cordova 插件, 如何使用适用于 Azure 移动应用的 Apache Cordova 插件,app-service-mobile-apps
+ 了解如何使用适用于 Azure 应用服务移动应用的 .NET 后端服务器 SDK。, 如何使用适用于移动应用的 .NET 后端服务器 SDK 应用服务,app-service-mobile-apps
+ 了解如何在 Windows 和 Xamarin 应用中使用 Azure 应用服务移动应用的 .NET 客户端。, 使用应用服务移动应用托管客户端库 (Windows | Xamarin),app-service-mobile-apps
+ 了解如何为应用服务应用程序配置 Azure Active Directory 身份验证。, 如何为应用服务应用程序配置 Azure Active Directory 身份验证,app-service-mobile-apps
+ 了解如何为应用服务应用程序配置 Microsoft 帐户身份验证。, 如何为应用服务应用程序配置 Microsoft 帐户身份验证,app-service
+ 如何为 Azure 移动应用使用 v, 如何使用适用于 Azure 移动应用的 JavaScript SDK,app-service-mobile-apps
+ 了解如何在 iOS 应用中使用 Azure App Service 移动应用来缓存和同步脱机数据, 启用 iOS 移动应用的脱机同步功能,app-service-mobile-apps
+ 了解如何使用 Azure 移动应用将推送通知发送到 iOS 应用。, 使用 Azure 移动应用将推送通知添加到 iOS 应用,app-service-mobile-apps
+ 了解如何使用 Azure 移动应用通过各种标识提供者（包括 AAD 和 Microsoft）对 iOS 应用的用户进行身份验证。, 使用 Azure 移动应用在 iOS 中添加身份验证,app-service-mobile-apps
+ 遵循本教程开始使用 Azure 移动应用后端以 Objective-C 或 Swift 进行 iOS 开发, 在 Azure 应用服务移动应用中创建 iOS 应用,app-service-mobile-apps
+ 如何使用适用于 Azure 移动应用的 iOS SDK, 如何使用适用于 Azure 移动应用的 iOS SDK,app-service-mobile-apps
+ 了解如何轻松将移动服务应用程序迁移到应用服务移动应用, 从移动服务迁移到应用服务移动应用,app-service-mobile-apps
+ 了解如何轻松将移动服务应用程序升级到应用服务移动应用, 从移动服务升级到 Azure 应用服务,app-service-mobile-apps
+ 了解如何使用适用于 Azure 应用服务移动应用的 Node.js 后端服务器 SDK。, 如何使用适用于移动应用的 Node.js 后端服务器 SDK 应用服务,app-service-mobile-apps
+ 了解如何轻松将移动服务应用程序升级到应用服务移动应用, 从移动服务升级到 Azure 应用服务 - Node.js,app-service-mobile-apps
+ Azure 移动应用脱机数据同步功能的概念参考和概述, Azure 移动应用中的脱机数据同步,app-service-mobile-apps
+ 了解应用服务为现有的移动服务项目带来的优势。, 使用移动服务时，应用服务有何作用？,app-service-mobile-apps
+ 了解应用服务为企业移动应用带来的优势。, 什么是移动应用,app-service-mobile-apps
+ 了解如何在通用 Windows 平台 (UWP) 应用中使用 Azure 移动应用缓存和同步脱机数据。, 使用移动应用为通用 Windows 平台 (UWP) 应用启用脱机同步 应用服务,app-service-mobile-apps
+ 了解如何使用 Azure 应用服务移动应用和 Azure 通知中心将推送通知发送到通用 Windows 平台 (UWP) 应用。, 向通用 Windows 平台 (UWP) 应用添加推送通知 移动应用,app-service-mobile-apps
+ 了解如何使用 Azure 应用服务移动应用通过各种标识提供者（包括 AAD 和 Microsoft）对通用 Windows 平台 (UWP) 应用的用户进行身份验证。, 向通用 Windows 平台 (UWP) 应用添加身份验证 移动应用,app-service-mobile-apps
+ 按照本教程进行操作，开始使用 C#、Visual Basic 或 JavaScript 通过 Azure 移动应用后端进行通用 Windows 平台 (UWP) 应用开发。, 创建在移动应用中使用的通用 Windows 平台 (UWP),app-service-mobile-apps
+ 了解如何在 Xamarin Android 应用程序中使用应用服务移动应用缓存和同步脱机数据, 为 Azure 移动应用启用脱机同步 (Xamarin Android),app-service-mobile-apps
+ 了解如何使用移动应用通过各种标识提供者（包括 AAD 和 Microsoft）对 Xamarin Android 应用的用户进行身份验证。, Xamarin Android 中的移动应用身份验证入门,app-service-mobile-apps
+ 按照本教程进行操作，开始使用 Azure 移动应用进行 Xamarin Android 开发, 适用于 Xamarin.Android 应用的 Azure 移动应用入门,app-service-mobile-apps
+ 了解如何在 Xamarin.Forms 应用程序中使用应用服务移动应用缓存和同步脱机数据, 为 Azure 移动应用启用脱机同步 (Xamarin.Forms),app-service-mobile-apps
+ 了解如何使用移动应用通过各种标识提供者（包括 AAD 和 Microsoft）对 Xamarin Forms 应用的用户进行身份验证。, Xamarin.Forms 应用中的移动应用身份验证入门,app-service-mobile-apps
+ 按照本教程进行操作，开始使用 Azure 移动应用进行 Xamarin.Forms 开发, 使用 Xamarin.Forms 移动应用入门,app-service-mobile-apps
+ 了解如何在 Xamarin iOS 应用程序中使用应用服务移动应用缓存和同步脱机数据, 为 Azure 移动应用启用脱机同步 (Xamarin iOS),app-service-mobile-apps
+ 了解如何使用 Azure 应用服务将推送通知发送到 Xamarin iOS 应用, 使用 Azure 应用服务向 Xamarin.iOS 应用添加推送通知,app-service-mobile-apps
+ 了解如何使用移动应用通过各种标识提供者（包括 AAD 和 Microsoft）对 Xamarin iOS 应用的用户进行身份验证。, Xamarin iOS 应用中的移动应用身份验证入门,app-service-mobile-apps
+ 按照本教程进行操作，开始使用移动应用进行 Xamarin.iOS 开发。, 适用于 Xamarin iOS 应用的 Azure 应用服务移动应用入门,app-service-mobile-apps
+ 学习如何使用支持敏捷软件开发的方式，通过 Azure App Service 创建高缩放性的复杂应用程序。, 使用 Azure App Service 进行敏捷软件开发,app-service
+ 了解有关 Azure App Service 的最佳实践和故障排除步骤。, 有关 Azure App Service 的最佳实践,app-service
+ 介绍新的 Azure App Service 及其功能对 Azure 中现有服务的影响。, Azure App Service 及其对现有 Azure 服务的影响,app-service
+ Azure CLI 示例 - 应用服务, Azure CLI 示例 - 应用服务,app-service
+ 了解如何实现连续部署到 Azure 应用服务。, 连续部署到 Azure 应用服务,app-service
+ 了解如何在不停机的情况下，将已分配给实时站点的自定义域迁移到 Azure 应用服务中的应用。, 将活动的自定义域迁移到 Azure 应用服务,app-service
+ 发现如何从命令行部署 Azure 应用的信息, 使用命令行工具自动执行 Azure 应用部署,app-service
+ 了解如何使用 JSON 资源组模板和 PowerShell 脚本以一种可预见的方式，在 Azure App Service 中将由微服务构成的应用程序设置并部署为单个单元。, 按可预见的方式在 Azure 中设置和部署微服务,app-service
+ 了解如何使用 FTP 或 FTPS 将应用部署到 Azure 应用服务。, 使用 FTP/S 将应用部署到 Azure 应用服务,app-service
+ 了解如何实现从本地 Git 部署到 Azure 应用服务。, 从本地 Git 部署到 Azure 应用服务,app-service
+ 了解如何使用 Azure 应用服务部署凭据。, Azure 应用服务部署凭据,app-service
+ 介绍将 Web 应用和 App Service 从一个资源组移到另一个资源组的方案。, 将 Web 应用资源移到另一个资源组,app-service
+ Azure PowerShell 示例 - 应用服务, Azure PowerShell 示例 - 应用服务,app-service
+ 有关如何使用 PowerShell 来连接和操作虚拟网络的说明, 使用 PowerShell 将应用程序连接到虚拟网络,app-service
+ 了解在管理门户与 Azure 门户中使用 App Service Web 的不同用户体验, 有关在 Azure 门户中导航的参考,app-service
+ 了解如何使用基于 Azure Resource Manager 的新 PowerShell 命令来管理 Azure Web Apps。, 适用于 Azure Web 应用的基于 Azure Resource Manager 的 PowerShell 命令,app-service-web-apps
+ 了解如何使用新的基于 Azure Resource Manager 的跨平台命令行工具来管理 Azure Web 应用。, 适用于 Azure Web 应用的基于 Azure Resource Manager 的跨平台命令行工具,app-service-web-apps
+ 了解如何使用 Azure 门户将 Web 应用克隆到新的 Web 应用。, 使用 Azure 门户克隆 Web 应用,app-service-web-apps
+ 了解如何使用 PowerShell 将 Web 应用克隆到新的 Web 应用。, 使用 PowerShell 克隆 Web 应用,app-service-web-apps
+ 了解如何使用 PowerShell 将 SSL 证书绑定到 Web 应用。, 使用 PowerShell 创建 SSL 证书绑定,app-service-web-apps
+ 使用 Azure 资源管理器模板来部署包含 GitHub 存储库中项目的 Web 应用。, 部署链接到 GitHub 存储库的 Web 应用,app-service
+ 通过使用 MSDeploy 并设置自定义主机名和 SSL 证书，在 Azure 资源管理器模板中部署 Web 应用, 使用 MSDeploy、主机名和 SSL 证书部署 Web 应用,app-service-web-apps
+ 使用 Azure 资源管理器模板来部署包含 SQL 数据库的 Web 应用。, 设置使用 SQL 数据库的 Web 应用,app-service
+ Azure CLI 脚本示例 - 从 GitHub 连续部署 Web 应用, Azure CLI 脚本示例 - 从 GitHub 连续部署 Web 应用,app-service-web-apps
+ Azure CLI 脚本示例 - 从本地 Git 存储库部署 Web 应用, Azure CLI 脚本示例 - 从本地 Git 存储库部署 Web 应用,app-service-web-apps
+ Azure CLI 脚本示例 - 将 Web 应用部署到过渡环境, Azure CLI 脚本示例 - 将 Web 应用部署到过渡环境,app-service-web-apps
+ 了解如何将 Web 应用配置为使用 TLS 客户端证书身份验证。, 如何为 Web 应用配置 TLS 相互身份验证,app-service
+ 在短时间内将一些新奇功能添加到你的第一个 Web 应用。, 在第一个 Web 应用中添加功能,app-service-web-apps
+ 了解如何通过部署一个简单的 ASP.NET 应用程序，轻松在应用服务中运行 Web 应用。, 在 Azure 中不到 5 分钟创建你的第一个 ASP.NET Web 应用,app-service-web-apps
+ 了解如何部署示例应用，轻松地在应用服务中运行 Web 应用。, 在 Azure 中不到 5 分钟创建一个静态 HTML Web 应用,app-service-web-apps
+ 了解如何部署示例应用，轻松地在应用服务中运行 Web 应用。, 在 Azure 中不到 5 分钟创建你的第一个 Java Web 应用,app-service-web-apps
+ 在应用服务 Web 应用中快速部署第一个 Node.js Hello World 应用。, 在 Web 应用中创建 Node.js 应用程序,app-service-web-apps
+ 在应用服务 Web 应用中快速部署第一个 PHP Hello World 应用。, 在 Web 应用中创建 PHP 应用程序,app-service-web-apps
+ 在应用服务 Web 应用中快速部署第一个 Python Hello World 应用。, 在 Azure 中不到 5 分钟创建你的第一个 Python Web 应用,app-service-web-apps
+ 了解 Azure Web Apps 上节点应用程序的最佳做法和故障排除步骤。, Azure Web Apps 上节点应用程序的最佳做法和故障排除指南,app-service-web-apps
+ 学习如何将 Node.js 应用部署到 Azure 应用服务。 本教程说明如何部署 Sails.js Web 应用。, 将 Sails.js Web 应用部署到 Azure 应用服务,app-service-web-apps
+ 了解 Azure 应用服务如何帮助用户开发和托管 Web 应用程序, Web 应用概述,app-service-web-apps
+ 了解如何使用部署槽来设置和管理应用程序的多个开发环境, 对 Web 应用有效使用 DevOps 环境,app-service
+ 了解 Azure App Service Web Apps 的生产中测试 (TiP) 功能。, 在生产环境中 Web Apps 的测试入门,app-service-web-apps
+ 排查 Azure App Service 中托管的 Web 应用出现的“502 错误的网关”和“503 服务不可用”错误。, 解决 502 错误的网关、503 服务不可用错误,app-service-web-apps
+ 本文将帮助你排查 Azure 应用服务 中 Web 应用性能缓慢的问题。, 应用服务中 Web 应用性能缓慢,app-service-web-apps
+ 了解如何在 Azure 应用服务中向 Web 应用、移动应用后端或 API 应用添加自定义 DNS 域名（即虚域）。, 将自定义 DNS 名称映射到 Azure Web 应用,app-service-web-apps
+ 了解如何通过添加公司品牌为投入生产准备 Azure Web 应用。 将自定义域名（虚域）映射到 Web 应用并使用自定义 SSL 证书保护其安全。, 将自定义域和 SSL 添加到 Azure Web 应用,app-service-web-apps
+ 了解如何在 Azure 中运行 MEAN.js 应用，并使用 MongoDB 连接字符串连接到 DocumentDB 数据库。, 使用 SQL 数据库在 Azure 中创建 ASP.NET,app-service-web-apps
+ 了解如何在 Azure 中使用不同的 Azure 服务最大化 ASP.NET 应用的性能。, 在 Azure 中构建超大规模应用,app-service-web-apps
+ 了解如何在 Web 应用中设置监视, 监视 Web 应用,app-service-web-apps
+ 了解如何通过使用 MongoDB 连接字符串与 DocumentDB 数据库建立连接，在 Azure 中运行 Node.js 应用。, 在 Azure 中构建 Node.js 和 MongoDB Web 应用,app-service-web-apps
+ 了解如何使用 Azure 自动化服务来管理 Azure Web 应用程序。, 使用 Azure 自动化管理 Azure Web 应用程序,app-service-web-apps
+ Azure SDK for .NET 2.6 发行说明, Azure SDK for .NET 2.6 发行说明,app-service
+ Azure SDK for .NET 2.7 和 .NET 2.7.1 发行说明, Azure SDK for .NET 2.7 和 .NET 2.7.1 发行说明,app-service
+ Azure SDK for .NET 2.8 发行说明, Azure SDK for .NET 2.8 发行说明,app-service
+ 用于 .NET 的 Azure SDK 2.9 发行说明, 用于 .NET 的 Azure SDK 2.9 发行说明,app-service
+ Azure SDK for .NET 3.0 发行说明, 用于 .NET 3.0 的 Azure SDK 2.9 发行说明,app-service
+ Azure SDK for .NET 发行说明, Azure SDK for .NET 发行说明,app-service
+ 本教程演示如何将 Web 应用部署到 Azure 应用服务，以便从集成的 Azure CDN 终结点提供内容, 在 Azure 应用服务中使用 Azure CDN,app-service
+ 了解托管 Web 应用程序时如何在 Azure 应用服务、虚拟机、Service Fabric 和云服务之间做出选择。, Azure 应用服务、虚拟机、Service Fabric 和云服务的比较,app-service-web-apps
+ 了解在 Azure 上开发和缩放 WordPress 的最佳做法。, 在 Azure 应用服务上开发 WordPress,app-service
+ 本教程讲解如何使用 Azure 表服务存储 Azure 应用服务 Web 应用中托管的 Node.js 应用程序的数据。, 使用 Azure 表服务的 Node.js Web 应用,storage
+ 了解 Azure 应用服务中的业务线应用在本地 Active Directory 上进行身份验证时可用的不同选项, 在 Azure 应用中使用本地 Active Directory 进行身份验证,app-service
+ 了解 Azure Web 应用上可供应用服务、移动应用后端和 API 应用使用的 OS 功能, Azure 应用服务上的操作系统功能,app-service
+ 了解如何在 Azure 应用服务中创建应用备份。, 在 Azure 中备份应用,app-service
+ 了解如何配置 SSL 证书绑定以在 Azure 应用服务中保护应用的自定义域名。 还将学习如何通过多个工具获取 SSL 证书。, 使用 HTTPS 保护应用的自定义域,app-service
+ 如何在 Azure 应用服务中配置 Web 应用, 在 Azure 应用服务中配置 Web 应用,app-service
+ 使用 Memcache 协议将 Azure 应用服务中的 Web 应用连接到 Redis 缓存, 通过 Memcache 协议将应用服务 Web 应用连接到 Redis - Azure,app-service-web-apps
+ 本教程演示了如何使用 Visual Studio Code 创建 ASP.NET 5 Web 应用。, 在 Visual Studio Code 中创建 ASP.NET 5 Web 应用,app-service-web-apps
+ 了解如何在 Azure Web 应用中运行后台任务。, 使用 Web 作业运行后台任务,app-service
+ 了解如何在 Azure 应用服务中将自定义域名（虚域）映射到应用。, 将自定义域名映射到 Azure 应用,app-service
+ 了解如何将你的应用部署到 Azure 应用服务。, 将应用部署到 Azure 应用服务,app-service
+ 了解如何开发具有 SQL 数据库后端的 ASP.NET MVC 5 应用程序，添加身份验证和授权，并将其部署到 Azure。, 创建具有身份验证和 SQL 数据库的 ASP.NET MVC 应用程序并将其部署到 Azure 应用服务,app-service-web-apps
+ 本教程说明如何使用 ASP.NET MVC 5 Web 应用程序中的移动功能将 Web 应用部署到 Azure 应用服务。, 在 Azure 应用服务上部署 ASP.NET MVC 5 移动 Web 应用,app-service
+ 了解如何通过 Entity Framework 和行级安全性来开发使用多租户 SQL 数据库后端的 ASP.NET MVC 5 Web 应用。, 教程：使用多租户数据库和 Entity Framework 及行级别安全性的 Web 应用,app-service-web-apps
+ 了解如何在 Azure 应用服务中创建使用本地 STS 进行身份验证的业务线应用。 本教程将 AD FS 定位为本地 STS。, 使用 AD FS 身份验证创建业务线 Azure 应用,app-service-web-apps
+ 了解如何在 Azure 应用服务中创建使用 Azure Active Directory 进行身份验证的 ASP.NET MVC 业务线应用, 使用 Azure Active Directory 身份验证创建业务线 Azure 应用,app-service-web-apps
+ 本教程将向你介绍如何通过使用 Visual Studio 将使用 ASP.NET Web API 的应用部署到 Azure Web 应用。, 使用 ASP.NET 和 SQL 数据库在 Azure 中创建 REST API,app-service-web-apps
+ 了解如何使用 Azure 缓存服务来支持 ASP.NET 会话状态缓存。, 将 Azure 应用服务中的 Azure Redis 缓存用于会话状态,app-service-web-apps
+ 本教程介绍如何使用 Git 将 ASP.NET 应用部署到连接至Azure 虚拟机上 MongoDB 的 Azure 应用服务。, 在 Azure 中创建连接到虚拟机上运行的 MongoDB 的 Web 应用,app-service-web-apps
+ 了解如何通过内置于 Visual Studio 2013 的远程调试、 跟踪和日志记录工具排除 Azure Web 应用的故障。, 使用 Visual Studio 对 Azure 应用服务中的 Web 应用进行故障排除,app-service
+ 了解如何启用诊断日志记录并将检测添加到应用程序，以及如何访问由 Azure 记录的信息。, 在 Azure 应用服务中启用 Web 应用的诊断日志记录,app-service
+ 演示如何使用 Azure 应用服务 Web 应用为你的企业创建企业网站解决方案, 面向企业的 Azure 应用服务 Web 应用产品,app-service-web-apps
+ 本教程介绍如何将页面或应用程序添加到已配置为使用 Java 的 Azure 应用服务 Web 应用实例。, 将 Java 应用程序添加到 Azure 应用服务 Web 应用,app-service-web-apps
+ 本教程说明如何将自定义 Java Web 应用上传到 Azure 应用服务 Web 应用。, 将自定义 Java Web 应用上传到 Azure,app-service-web-apps
+ 用于管理 Azure 应用服务中 Web 应用的资源链接。, 管理 Azure 应用服务中的 Web 应用,app-service-web-apps
+ 了解如何使用 Azure 门户在 Azure 应用服务中监视应用。, 在 Azure 应用服务中监视应用,app-service
+ 此教程演示如何在托管于 Azure 上的 node.js Web 应用中使用 socket.io。, 在 Azure 应用服务中使用 Socket.IO 创建 Node.js 聊天应用程序,app-service-web-apps
+ 了解如何在 Azure 应用服务中调试 Node.js Web 应用。, 如何在 Azure 应用服务中调试 Node.js Web 应用,app-service-web-apps
+ 了解如何将 Azure 应用服务中的 Web 应用与 io.js 配合使用。, 如何将 io.js 与 Azure 应用服务 Web 应用配合使用,app-service-web-apps
+ 了解如何在 Azure 应用服务中为 Web 应用配置默认 PHP 安装或添加自定义 PHP 安装。, 在 Azure 应用服务 Web 应用中配置 PHP,app-service
+ 了解如何采用通过 Azure 中的库创建的现有 WordPress Web 应用并将其转换为 WordPress Multisite, 在 Azure 应用服务中将 WordPress 转换为 Multisite,app-service-web-apps
+ 了解如何在 Azure 应用服务上托管企业级 WordPress 网站, Azure 上的企业级 WordPress,app-service-web-apps
+ 本教程演示如何创建在 MySQL 中存储数据的 PHP Web 应用并使用 FTP 部署到 Azure。, 使用 FTP 在 Azure 应用服务中创建和部署 PHP-MySQL Web 应用,app-service-web-apps
+ 本教程演示如何创建在 MySQL 中存储数据的 PHP Web 应用并使用 Git 部署到 Azure。, 使用 Git 在 Azure 应用服务中创建和部署 PHP-MySQL Web 应用,app-service-web-apps
+ 本教程演示如何创建在 Azure SQL 数据库中存储数据的 PHP Web 应用并使用 Git 部署到 Azure 应用服务。, 使用 Git 创建 PHP-SQL Web 应用并将其部署到 Azure 应用服务,app-service-web-apps
+ 本教程介绍在 Azure 应用服务 Web 应用中创作和配置符合基本 Web 服务器网关接口 (WSGI) 的 Python 应用程序的选项。, 使用 Azure 应用服务 Web 应用配置 Python,app-service
+ 本教程介绍如何在 Azure 应用服务 Web 应用上运行 Python Web 应用。, Azure 中使用 Bottle 的 Python Web 应用,app-service-web-apps
+ 本教程介绍如何在 Azure 应用服务 Web 应用上运行 Python Web 应用。, 在 Azure 中使用 Django 创建 Web 应用,app-service-web-apps
+ 本教程介绍在 Azure 上运行 Python Web 应用。, 在 Azure 中使用 Flask 创建 Web 应用,app-service-web-apps
+ 了解如何使用 Python Tools for Visual Studio 来创建 Bottle 应用程序，该应用程序在 Azure 表存储中存储数据并且可以部署到 Azure 应用服务 Web 应用。, 具有 Python Tools 2.2 for Visual Studio 的 Azure 上的 Bottle 和 Azure 表存储,app-service-web-apps
+ 了解如何使用 Python Tools for Visual Studio 来创建在 MySQL 数据库实例中存储数据的 Django Web 应用，以及将应用部署到 Azure 应用服务 Web 应用中。, Azure 上具有 Python Tools 2.2 for Visual Studio 的 Django 和 MySQL,app-service-web-apps
+ 了解如何使用 Python Tools for Visual Studio 来创建在 SQL 数据库实例中存储数据的 Django Web 应用，以及将应用部署到 Azure 应用服务 Web 应用中。, 具有 Python Tools 2.2 for Visual Studio 的 Azure 上的 Django 和 SQL 数据库,app-service-web-apps
+ 了解如何使用 Python Tools for Visual Studio 来创建在 Azure 表存储中存储数据的 Flask Web 应用，以及将应用部署到 Azure 应用服务 Web 应用中。, 具有 Python Tools 2.2 for Visual Studio 的 Azure 上的 Flask 和 Azure 表存储,app-service-web-apps
+ 了解如何从备份还原应用。, 在 Azure 中还原应用,app-service
+ 了解如何增加 Azure 应用服务中的应用以增加容量和功能。, 增加 Azure 中的应用,app-service
+ 了解如何在 Azure 应用服务中保护 Web 应用、移动应用后端或 API 应用。, 在 Azure 应用服务中保护应用安全,app-service
+ 了解如何对 Azure 应用服务中的 Web 应用使用分阶段发布。, 为 Azure 应用服务中的 Web 应用设置过渡环境,app-service
+ 流式传输日志和控制台概述, 流式传输日志和控制台,app-service-web-apps
+ 为 Azure 应用服务中包含流量管理器（用于负载均衡）的 Web 应用使用自定义域名。, 为 Azure 应用服务中使用流量管理器进行负载均衡的 Web 应用配置自定义域名。,app-service-web-apps
+ 本文提供了有关 Azure 流量管理器的摘要信息，因为它与 Azure Web 应用相关。, 使用 Azure 流量管理器控制 Azure Web 应用流量,app-service-web-apps
+ 使用 XML 文档转换 (XDT) 声明可以转换 Azure 应用服务 Web 应用中的 ApplicationHost.config 文件，以及添加专用扩展来启用自定义管理操作。, Azure 应用服务 Web 应用高级配置和扩展,app-service
+ 了解如何使用 RESTful API 调用在 Azure 应用服务中备份和还原应用, 使用 REST 备份和还原应用服务应用,app-service
+ 了解如何使用 Visual Studio 将 Azure Web 作业部署到 Azure 应用服务 Web 应用。, 使用 Visual Studio 部署 Web 作业,app-service
+ 使用 ASP.NET MVC 和 Azure 创建多层应用。 前端在 Azure 应用服务中的 Web 应用中运行，后端以 Web 作业的形式运行。 应用程序使用实体框架、SQL 数据库和 Azure 存储队列和 Blob。, 在 Azure 应用服务中创建 .NET Web 作业,app-service
+ 了解如何通过 WebJobs SDK 使用 Azure 服务总线队列和主题。, 如何通过 WebJobs SDK 使用 Azure Service Bus,app-service-web-apps
+ 了解如何通过 WebJobs SDK 使用 Azure Blob 存储。 在新 Blob 出现在容器中时触发进程并处理“有害 Blob”。, 如何通过 WebJobs SDK 使用 Azure Blob 存储,app-service-web-apps
+ 了解如何通过 WebJobs SDK 使用 Azure 队列存储。 创建和删除队列；插入、扫视、获取和删除队列消息等。, 如何通过 WebJobs SDK 使用 Azure 队列存储,app-service-web-apps
+ 了解如何通过 WebJobs SDK 使用 Azure 表存储。 创建表，将实体添加到表，并读取现有表。, 如何通过 WebJobs SDK 使用 Azure 表存储,app-service-web-apps
+ Azure WebJobs SDK 简介。 介绍 SDK，适用的典型方案以及代码示例。, 什么是 Azure WebJobs SDK,app-service-web-apps
+ 学习如何使用 Azure Web 作业和 Azure WebJobs SDK 时可以参考的推荐资源, Azure Web 作业文档资源,app-service
+ Azure CLI 脚本示例 - 将 Web 应用连接到 documentdb, Azure CLI 脚本示例 - 将 Web 应用连接到 documentdb,app-service
+ Azure CLI 脚本示例 - 将 Web 应用连接到 Redis 缓存, Azure CLI 脚本示例 - 将 Web 应用连接到 Redis 缓存,app-service
+ Azure CLI 脚本示例 - 将 Web 应用连接到 SQL 数据库, Azure CLI 脚本示例 - 将 Web 应用连接到 SQL 数据库,app-service
+ Azure CLI 脚本示例 - 将 Web 应用连接到存储帐户, Azure CLI 脚本示例 - 将 Web 应用连接到存储帐户,app-service
+ Azure CLI 脚本示例 - 将自定义域映射到 Web 应用, Azure CLI 脚本示例 - 将自定义域映射到 Web 应用,app-service-web-apps
+ Azure CLI 脚本示例 - 将自定义 SSL 证书绑定到 Web 应用, Azure CLI 脚本示例 - 将自定义 SSL 证书绑定到 Web 应用,app-service-web-apps
+ Azure CLI 脚本示例 - 从 GitHub 使用部署创建 Web 应用, Azure CLI 脚本示例 - 从 GitHub 使用部署创建 Web 应用,app-service-web-apps
+ Azure CLI 脚本示例 - 从本地 Git 存储库创建 Web 应用并部署代码, Azure CLI 脚本示例 - 从本地 Git 存储库创建 Web 应用并部署代码,app-service-web-apps
+ Azure CLI 脚本示例 - 创建 Web 应用并将代码部署到过渡环境, Azure CLI 脚本示例 - 创建 Web 应用并将代码部署到过渡环境,app-service-web-apps
+ Azure CLI 脚本示例 - 使用 Web 服务器日志监视 Web 应用, Azure CLI 脚本示例 - 使用 Web 服务器日志监视 Web 应用,app-service
+ Azure CLI 脚本示例 - 缩放具有高可用性体系结构的全球 Web 应用, Azure CLI 脚本示例 - 缩放具有高可用性体系结构的全球 Web 应用,app-service
+ Azure CLI 脚本示例 - 使用 Azure CLI 2.0 手动缩放 Web 应用, Azure CLI 脚本示例 - 使用 Azure CLI 2.0 手动缩放 Web 应用,app-service
+ Azure PowerShell 脚本示例 - 将自定义域分配到 Web 应用, Azure PowerShell 脚本示例 - 将自定义域分配到 Web 应用,app-service-web-apps
+ Azure PowerShell 脚本示例 - 将自定义 SSL 证书绑定到 Web 应用, Azure PowerShell 脚本示例 - 将自定义 SSL 证书绑定到 Web 应用,app-service-web-apps
+ Azure PowerShell 脚本示例 - 将 Web 应用连接到 SQL 数据库, Azure PowerShell 脚本示例 - 将 Web 应用连接到 SQL 数据库,app-service
+ Azure PowerShell 脚本示例 - 将 Web 应用连接到存储帐户, Azure PowerShell 脚本示例 - 将 Web 应用连接到存储帐户,app-service
+ Azure PowerShell 脚本示例 - 使用 FTP 将文件上载到 Web 应用, Azure PowerShell 脚本示例 - 使用 FTP 将文件上传到 Web 应用,app-service-web-apps
+ Azure PowerShell 脚本示例 - 从 GitHub 创建 Web 应用并部署代码, Azure PowerShell 脚本示例 - 从 GitHub 创建 Web 应用并部署代码,app-service-web-apps
+ Azure PowerShell 脚本示例 - 从本地 Git 存储库创建 Web 应用并部署代码, Azure PowerShell 脚本示例 - 从本地 Git 存储库创建 Web 应用并部署代码,app-service-web-apps
+ Azure PowerShell 脚本示例 - 创建 Web 应用并将代码部署到过渡环境, Azure PowerShell 脚本示例 - 创建 Web 应用并将代码部署到过渡环境,app-service-web-apps
+ Azure PowerShell 脚本示例 - 使用 Web 服务器日志监视 Web 应用, Azure PowerShell 脚本示例 - 使用 Web 服务器日志监视 Web 应用,app-service
+ Azure PowerShell 脚本示例 - 缩放具有高可用性体系结构的全球 Web 应用, Azure PowerShell 脚本示例 - 缩放具有高可用性体系结构的全球 Web 应用,app-service
+ Azure PowerShell 脚本示例 - 手动缩放 Web 应用, Azure PowerShell 脚本示例 - 手动缩放 Web 应用,app-service
+ 此页概述应用程序网关的端到端 SSL 支持。, 在应用程序网关上启用 SSL 策略和端到端 SSL,application-gateway
+ 本页提供有关使用 Azure Resource Manager 模板创建 Azure 应用程序网关的说明, 创建 Azure 应用程序网关 - 模板,application-gateway
+ 本页提供有关使用 Azure Resource Manager 创建、配置、启动和删除 Azure 应用程序网关的说明, 创建和管理 Azure 应用程序网关 - PowerShell,application-gateway
+ 了解如何在 Resource Manager 中使用 Azure CLI 1.0 创建应用程序网关, 创建 Azure 应用程序网关 - Azure CLI 1.0,application-gateway
+ 了解如何在 Resource Manager 中使用 Azure CLI 2.0 创建应用程序网关, 创建 Azure 应用程序网关 - Azure CLI 2.0,application-gateway
+ 了解如何使用门户创建应用程序网关, 使用门户创建应用程序网关,application-gateway
+ 此页提供有关创建、配置、启动和删除 Azure 应用程序网关的说明, 创建、启动或删除应用程序网关,application-gateway
+ 此页说明了如何创建和配置 Azure 应用程序网关，以便在同一网关托管多个 Web 应用程序。, 创建托管多个站点的应用程序网关,application-gateway
+ 此页说明了如何通过 Azure 门户配置现有的 Azure 应用程序网关，以便在同一网关托管多个 Web 应用程序。, 托管多个站点的现有应用程序网关,application-gateway
+ 了解如何使用经典部署模型中的 PowerShell 创建应用程序网关的自定义探测, 创建自定义探测 - Azure 应用程序网关 - PowerShell 经典,application-gateway
+ 了解如何使用门户创建应用程序网关的自定义探测, 创建自定义探测 - Azure 应用程序网关 - Azure 门户,application-gateway
+ 了解如何使用资源管理器中的 PowerShell 创建应用程序网关的自定义探测, 创建自定义探测 - Azure 应用程序网关 - PowerShell,application-gateway
+ 本页提供有关使用 URL 路由规则创建、配置 Azure 应用程序网关的说明, 使用 URL 路由规则创建应用程序网关,application-gateway
+ 了解如何使用门户为应用程序网关创建基于路径的规则, 创建基于路径的规则 - Azure 应用程序网关 - Azure 门户,application-gateway
+ 本页提供有关 Web 应用程序防火墙 CRS 规则组和规则的信息。, Azure 应用程序网关 Web 应用程序防火墙 CRS 规则组和规则,application-gateway
+ 此页提供有关如何使用门户自定义应用程序网关的 Web 应用程序防火墙规则的信息。, 自定义 Azure 应用程序网关的 Web 应用程序防火墙规则 - 门户,application-gateway
+ 了解如何启用和管理应用程序网关的访问日志, 监视应用程序网关的访问、后端运行状况和指标,application-gateway
+ 本文介绍如何使用 Azure Resource Manager PowerShell 通过应用程序网关配置端到端 SSL, 通过应用程序网关配置 SSL 策略和端到端 SSL,application-gateway
+ 本页提供有关 Azure 应用程序网关常见问题的解答, Azure 应用程序网关常见问题,application-gateway
+ 本页提供有关使用 Azure Resource Manager 创建、配置、启动和删除具有内部负载均衡器 (ILB) 的 Azure 应用程序网关的说明, 使用具有内部负载均衡器的 Azure 应用程序网关 - PowerShell,application-gateway
+ 本页说明如何配置具有内部负载均衡终结点的 Azure 应用程序网关, 使用具有内部负载均衡器的 Azure 应用程序网关,application-gateway
+ 此页提供第 7 层负载均衡的应用程序网关服务概述，包括网关的大小、HTTP 负载均衡、基于 cookie 的会话相关性和 SSL 卸载。, Azure 应用程序网关简介,application-gateway
+ 此页概述了应用程序网关的多站点支持。, 在应用程序网关上托管多个站点,application-gateway
+ 了解 Azure 应用程序网关中的监视功能, Azure 应用程序网关的运行状况监视概述,application-gateway
+ 本页提供有关使用 Azure Resource Manager 创建支持 SSL 卸载的应用程序网关的说明, 配置 SSL 卸载 - Azure 应用程序网关 - PowerShell,application-gateway
+ 本页说明了如何使用门户创建支持 SSL 卸载的应用程序网关, 配置 SSL 卸载 - Azure 应用程序网关 - Azure 门户,application-gateway
+ 本文提供有关使用 Azure 经典部署模型创建支持 SSL 卸载的应用程序网关的说明。, 配置 SSL 卸载 - Azure 应用程序网关 - PowerShell 经典,application-gateway
+ 了解如何排查应用程序网关的 502 错误, 排查应用程序网关的网关无效 (502) 错误,application-gateway
+ 本页提供基于应用程序网关 URL 的内容路由、UrlPathMap 配置和 PathBasedRouting 规则的概述。, 基于 URL 的内容路由概述,application-gateway
+ 此页概述适用于应用程序网关的 Web 应用程序防火墙 (WAF), 适用于应用程序网关的 Web 应用程序防火墙 (WAF) 简介,application-gateway
+ 了解如何使用门户创建具有 Web 应用程序防火墙的应用程序网关, 使用门户创建具有 Web 应用程序防火墙的应用程序网关,application-gateway
+ 本文提供有关如何在现有的或新的应用程序网关上开始使用 Web 应用程序防火墙的指南。, 在新的或现有的应用程序网关上配置 Web 应用程序防火墙,application-gateway
+ 此页概述了应用程序网关的 WebSocket 支持。, 应用程序网关 WebSocket 支持,application-gateway
+ 可以安全地将证书存储在 Azure 自动化中，以便可以通过 Runbook 访问这些证书，对 Azure 和第三方资源进行身份验证。本文介绍了有关证书的详细信息，以及如何在文本和图形创作中使用证书。, Azure 自动化中的证书资产,automation
+ 介绍从 Azure 自动化中的一个 Runbook 启动另一个 Runbook 并在它们之间共享信息的不同方法。, Azure 自动化中的子 Runbook,automation
+ Azure 自动化中的连接资产包含从 Runbook 连接到外部服务或应用程序所需的信息。本文介绍了有关连接的详细信息，以及如何在文本和图形创作中使用连接。, Azure 自动化中的连接资产,automation
+ 本文介绍如何为 Azure 自动化中的 Runbook 创建 Azure AD 用户帐户凭据，以便在 Azure 和经典 Azure 中进行身份验证。, 创建 Azure AD 用户帐户| Azure,automation
+ 本文介绍了如何在 Azure 自动化中创建新的 Runbook，或如何从文件中导入 Runbook。, 在 Azure 自动化中创建或导入 Runbook,automation
+ Azure 自动化中的凭据资产包含可用于向 Runbook 访问的资源进行身份验证的安全凭据。本文介绍如何创建凭据资产并在 Runbook 中使用它们。, Azure 自动化中的凭据资产,automation
+ 本文提供的不同过程适用于在 Azure 自动化中通过文本编辑器来处理 PowerShell 工作流 Runbook。, 在 Azure 自动化中编辑文本 Runbook,automation
+ 本教程指导你使用 PowerShell 工作流创建、测试和发布一个简单的文本 Runbook。, 我在 Azure 自动化中的第一个 PowerShell 工作流 Runbook,automation
+ 了解 Azure 自动化的重要性和常见问题的答案，为创建和使用 Runbook 做准备。, 什么是 Azure 自动化,automation
+ 本文包含有关管理 Azure 自动化环境的多个主题。Azure 自动化目前包括数据保留和备份 Azure 自动化灾难恢复。, 管理 Azure 自动化数据,automation
+ 本文旨在作为熟悉 PowerShell 的创作人员的一个速成教程，以便其了解 PowerShell 和 PowerShell 工作流以及适用于自动化 Runbook 的概念之间的具体差异。, 了解适用于 Azure 自动化的 PowerShell 工作流,automation
+ 详细介绍如何处理 Azure 自动化中的 Runbook。, 在 Azure 自动化中执行 Runbook,automation
+ 你可以安装并在 Azure 自动化环境中使用 Microsoft 和社区提供的 Runbook 与模块。本文介绍如何访问这些资源，以及在库中补充你的 Runbook。, Azure 自动化的 Runbook 和模块库,automation
+ Runbook 输入参数可让你将数据传递到启动的 Runbook，以增加 Runbook 的弹性。本文介绍在 Runbook 中使用输入参数的不同方案。, Runbook 输入参数,automation
+ 介绍如何创建和检索 Azure 自动化中 Runbook 的输出和错误消息。, Azure 自动化中的 Runbook 输出和消息,automation
+ 介绍 Azure 自动化中 Runbook 的配置设置，以及如何使用 Azure 经典管理门户和 Windows PowerShell 更改这些设置。, Runbook 设置,automation
+ 自动化计划用于安排自动启动 Azure 自动化中的 Runbook。介绍如何创建和管理计划，以便在特定的时间或按重复计划自动启动 Runbook。, Azure 自动化中的计划,automation
+ 介绍如何在 Azure 自动化中创建一个计划，以便在特定的时间或按重复计划自动启动 Runbook。, 在 Azure 自动化中计划 Runbook,automation
+ 本文概述了 Azure 自动化中自动化帐户的自动化安全性以及可供使用的不同身份验证方法。, Azure 自动化安全性,automation
+ Azure 自动化方案的图形版本，包括启动和停止经典虚拟机所需的 Runbook。, 通过 Azure 自动化启动和停止虚拟机 - PowerShell 工作流,automation
+ 汇总了可用于在 Azure 自动化中启动 Runbook 的不同方法，并提供有关如何使用 Azure 经典管理门户和 Windows PowerShell 的详细信息。, 在 Azure 自动化中启动 Runbook,automation
+ 在 Azure 自动化中发布某个 Runbook 之前，你可以对它进行测试，以确保它按预期工作。本文介绍如何测试 Runbook 并查看其输出。, 在 Azure 自动化中测试 Runbook,automation
+ 本文提供了排查并解决常见 Azure 自动化错误的基本错误处理步骤。, Azure 自动化常见错误处理,automation
+ 变量资产是可供 Azure 自动化中的所有 Runbook 使用的值。本文介绍了变量的详细信息，以及如何在文本创作中使用变量。, Azure 自动化中的变量资产,automation
+ 了解 Azure 预览门户的磁贴库中显示的相关资源和链接资源。, 磁贴库中相关的资源与链接的资源,azure-portal
+ 将所保护的数据从任意 Azure 备份服务器恢复到 Azure 备份保管库，前提是服务器已注册到该保管库。, 从备份保管库中的另一台 Azure 备份服务器恢复数据,backup
+ 确保对环境进行准备，以便在 Azure 中备份虚拟机。, Azure 备份：准备备份虚拟机 | Microsoft 文档,backup
+ 了解如何 Azure 备份如何提供类似于磁带的语义，让你在 Azure 中备份和还原数据, 使用 Azure 备份来替换磁带基础结构 | Microsoft Docs,backup
+ 了解如何使用 System Center 2012 R2 DPM 将 Exchange Server 备份到 Azure 备份, 使用 System Center 2012 R2 DPM 将 Exchange Server 备份到 Azure 备份,backup
+ 以下常见问题的解答：服务工作原理、Azure 备份代理、恢复服务保管库、备份和保留限制。, Azure 备份常见问题解答 | Microsoft Docs,backup
+ 此版常见问题支持 Azure 备份服务公共预览版。针对备份代理、备份和保留、恢复、安全性的常见问题以及针对 Azure 备份解决方案的其他常见问题的答案。, 恢复服务保管库常见问题,backup
+ 了解如何在 Azure 备份中使用 Azure 导入/导出服务离线发送数据。本文介绍如何使用 Azure 导入导出服务来脱机设定初始备份数据的种子。, Azure 备份 - 使用 Azure 导入/导出服务进行脱机备份或初始种子设定,backup
+ 使用 Azure 备份服务器将 VMware 服务器备份到 Azure 或磁盘。 参考本文保护 VMware 工作负荷。, 使用 Azure 备份服务器保护 VMware 服务器 | Microsoft Docs,backup
+ 使用 Azure 备份服务器备份和还原 SharePoint 数据。 本文介绍如何配置 SharePoint 场，以便在 Azure 中存储所需的数据。 可以从磁盘或 Azure 还原受保护的 SharePoint 数据。, 使用 Azure 备份服务器将 SharePoint 场备份到 Azure | Microsoft Docs,backup
+ 本文概述如何在 Azure 中使用 DPM/Azure 备份服务器保护 SharePoint 场, 在 Azure 中使用 DPM/Azure 备份服务器保护 SharePoint 场,backup
+ 使用 Azure 备份服务备份 SQL Server 数据库简介, 使用 DPM 为 SQL 工作负荷配置 Azure 备份,backup
+ 如何删除 Azure 备份和恢复服务保管库。 备份保管库可以称为 Azure 云保管库或 Azure 恢复保管库。 在经典管理门户或 Azure 门户中无法删除备份保管库时对问题进行故障排除。,  删除 Azure 中的备份保管库 | Microsoft Docs ,backup
+ 使用 Azure 备份服务备份 DPM 服务器的简介, 将 DPM 工作负荷备份到 Azure 经典管理门户 | Microsoft Docs,backup
+ 了解如何使用 Azure 备份服务器将 Exchange Server 备份到 Azure 备份, 使用 Azure 备份服务器将 Exchange Server 备份到 Azure 备份 | Microsoft Docs,backup
+ 对于 Linux 虚拟机，使用脚本以保证对 Azure 的应用程序一致性备份。 脚本仅适用于 Resource Manager 部署中的 Linux VM；脚本不适用于 Windows VM 或服务管理器部署。 本文将指导完成包括故障排除在内的脚本配置步骤。, Azure 备份：Linux VM 的应用程序一致性备份 | Microsoft Docs,backup
+ 排查 Azure 备份服务器的安装和注册以及应用程序工作负荷的备份和还原中的问题, Azure 备份服务器故障排除 | Microsoft Docs,backup
+ 了解如何管理和监视 Azure 虚拟机备份, 管理和监视 Azure 虚拟机备份,backup
+ 使用本教程来了解如何管理 Azure 备份保管库和服务器。, 使用 Azure 经典部署模型管理 Azure 备份保管库和服务器,backup
+ 确保正确准备好你的环境，以使用 Azure 备份服务器来备份工作负荷, 使用 Azure 备份服务器将工作负荷备份到 Azure 经典管理门户 | Microsoft Docs,backup
+ 确保正确准备好你的环境，以使用 Azure 备份服务器来备份工作负荷, 准备环境以使用 Azure 备份服务器来备份工作负荷,backup
+ 了解如何使用 PowerShell 在 Azure 备份中还原密钥保管库密钥和机密, 使用 Azure 备份还原已加密 VM 的密钥保管库密钥和机密,backup
+ 了解如何从恢复点还原 Azure 虚拟机, 从备份中还原虚拟机,backup
+ 了解如何从 Windows Server 或 Windows 客户端还原。, 使用经典部署模型将数据还原到 Windows Server 或 Windows 客户端 | Microsoft Docs,backup
+ 了解如何将 Azure 中存储的数据还原到 Windows Server 或 Windows 计算机。, 将 Azure 中的数据还原到 Windows Server 或 Windows 计算机 | Microsoft 文档,backup
+ 使用 Azure 备份服务器备份 SQL Server 数据库简介, 使用 Azure 备份服务器为 SQL Server 工作负荷配置 Azure 备份 | Microsoft Docs,backup
+ 提供了故障排除指导，帮助你诊断 Azure 备份性能问题的原因, 排查在 Azure 备份中备份文件和文件夹时速度缓慢的问题,backup
+ 与以下错误相关的 Azure VM 备份失败的症状、原因与解决方法：无法与 VM 代理通信以获取快照状态 - 快照 VM 子任务超时, 排查 Azure 备份故障：快照 VM 子任务超时,backup
+ 使用 PowerShell 在 Azure 中部署和管理 Resource Manager 部署型 VM 的备份, 使用 PowerShell 部署和管理 Resource Manager 部署型 VM 的备份 | Microsoft Docs,backup
+ 了解如何使用 PowerShell 部署和管理 Azure 备份, 通过 PowerShell 为 Azure VM 部署和管理备份,backup
+ 了解 Azure 备份在备份 IaaS VM 期间如何处理使用 BitLocker 或 dmcrypt 加密的数据。本文帮助你预先了解在处理加密的磁盘时，备份和还原体验的差异。, Azure 备份 - 备份包含加密磁盘的 Azure IaaS VM,backup
+ 使用经典管理门户将 Azure VM 备份到备份保管库。 本教程介绍了所有阶段，包括：创建备份保管库、注册 VM、创建备份策略，以及运行初始备份作业。, 初步了解：使用备份保管库备份 Azure VM | Microsoft 文档,backup
+ 规划在 Azure 中备份虚拟机时的重要注意事项, 在 Azure 中规划 VM 备份基础结构 | Microsoft Docs,backup
+ 确保对环境进行准备，以便在 Azure 中备份虚拟机, 准备好环境以备份 Azure 虚拟机 | Microsoft Docs,backup
+ 对经典管理门户中 Azure 虚拟机的 Azure 备份和还原进行故障排除。, 排查经典管理门户中的 Azure 备份错误 | Microsoft Docs,backup
+ Azure 虚拟机备份和还原疑难解答, 排查 Azure 虚拟机备份错误 | Microsoft 文档,backup
+ 使用本文中的 Azure 虚拟机备份过程来发现、注册和备份虚拟机。, 将经典部署 Azure 虚拟机备份到备份保管库,backup
+ 了解如何使用 PowerShell 部署和管理 Azure 备份, 使用 PowerShell 部署和管理 Windows Server/客户端的备份,backup
+ 将 Windows 服务器或客户端备份到 Azure 中的备份保管库。 了解有关使用 Azure 备份代理将文件和文件夹保护到备份保管库的基础知识。, 将 Windows 服务器或工作站备份到 Azure（经典模型）| Microsoft 文档,backup
+ 使用 Azure 备份代理将 Windows 文件和文件夹备份到 Azure。 创建恢复服务保管库，安装备份代理，定义备份策略，以及对文件和文件夹运行初始备份。, 使用 Azure 备份代理备份文件和文件夹 | Microsoft 文档,backup
+ 了解如何使用 PowerShell 部署和管理 Data Protection Manager (DPM) 的 Azure 备份, Azure 备份：使用 PowerShell 备份 DPM 工作负荷 | Microsoft 文档,backup
+ 了解如何使用 PowerShell 部署和管理 Data Protection Manager (DPM) 的 Azure 备份, Azure 备份 - 使用 PowerShell 备份 DPM 工作负荷 | Microsoft 文档,backup
+ 使用 Azure 备份，可以从 Windows Server、Windows 工作站、System Center DPM 服务器以及 Azure 虚拟机备份和还原数据与工作负荷。, 什么是 Azure 备份？ | Microsoft 文档,backup
+ 使用基于角色的访问控制来管理对恢复服务保管库中的备份管理操作的访问。, 使用 Azure 基于角色的访问控制管理备份 | Microsoft 文档,backup
+ 了解如何在 Resource Manager 部署中将 Windows 文件和文件夹备份到 Azure。, 将 Windows 文件和文件夹备份到 Azure (Resource Manager) | Microsoft Docs,backup
+ 了解如何在 Azure 门户中创建 Azure Batch 帐户，以便在云中运行大规模并行工作负荷, 在 Azure 门户中创建批处理帐户 | Microsoft Docs,batch

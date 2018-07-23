@@ -24,12 +24,12 @@ def removeTag(contentList,ignoreTag,dictKey):
     print('before remove: ',len(contentList), 'lines of data')
     for tag in ignoreTag:
         i = 0
-        while i < len(fileInfo):
-            if fileInfo[i][dictKey] == tag:
-                del fileInfo[i]
+        while i < len(contentList):
+            if contentList[i][dictKey] == tag:
+                del contentList[i]
             else:
                 i += 1
-    print('after remove: ',len(fileInfo),'lines of data')
+    print('after remove: ',len(contentList),'lines of data')
 
 # extract useful key-value pair
 
@@ -135,8 +135,10 @@ z.writeCsv(articleMeta,destPath+'kcMeta.csv')
 print(len(articleMeta), "lines of aog metadata is stored.")
 
 # clean for train classification
-targetTag = ['title','description','ms.service','filename']
+targetTag = ['title','description','ms.service']
 kcCategory = subDict(fileMeta,targetTag)
+tag = ['NA','na']
+removeTag(kcCategory,tag,'title')
 print(len(kcCategory), 'files are extractedf with target tags: \n',targetTag)
 
 

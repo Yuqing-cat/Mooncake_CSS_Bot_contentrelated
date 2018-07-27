@@ -40,48 +40,9 @@ title,description,ms.service
  指定 Node.js 版本, 了解如何指定 Azure 网站和云服务使用的 Node.js 版本, multiple
  使用 Node.js 模块, 了解如何在使用 Azure App Service 或云服务的同时使用 Node.js 模块。, multiple
  下载 Azure SDK for PHP, 了解如何下载和安装 Azure SDK for PHP。, app-service-web
-NA,NA,NA
  如何安装和配置 Azure PowerShell, 了解如何安装和配置 Azure PowerShell。, multiple
  安装 Python 和 SDK - Azure, 了解如何安装 Python 和 SDK 以与 Azure 一起使用。, multiple
  工具与 API 参考, 本文主要提供工具与 API 参考链接, multiple
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  服务管理模式下的 Azure CLI 命令 | Azure, 在服务管理模式下使用 Azure 命令行界面 (CLI) 命令管理经典部署模型中的部署, multiple
  使用 Visual Studio 访问私有 Azure 云 | Azure, 了解如何通过使用 Visual Studio 访问私有云资源。, multiple
  使用 Visual Studio 创建 Azure 云服务项目 | Microsoft Docs, 了解如何使用 Visual Studio 创建 Azure 云服务项目, multiple
@@ -111,7 +72,6 @@ NA,NA,NA
  使用 Windows PowerShell 脚本发布到开发和测试环境 | Azure, 了解如何使用 Windows PowerShell 脚本通过 Visual Studio 发布到开发和测试环境。, multiple
  对 Azure 角色使用远程桌面 | Azure, 将远程桌面与 Azure 角色一起使用, multiple
  使用 Azure 资源组项目在 VS Team Services 中连续集成 | Azure, 介绍如何在 Visual Studio 中使用 Azure 资源组部署项目在 Visual Studio Team Services 中连续集成。, azure-resource-manager
-NA,NA,NA
  使用 Cloud Explorer 管理 Azure 资源 | Microsoft Docs, 了解如何使用云资源管理器来浏览和管理 Visual Studio 中的 Azure 资源。, multiple
  如何管理服务配置和配置文件 | Azure, 了解如何使用服务配置和配置文件，这两种配置文件将存储云服务的部署环境设置和发布设置。, multiple
  设置命名的身份验证凭据 | Azure, 了解如何提供 Visual Studio 可用于验证对 Azure 的请求的凭据，以便从 Visual Studio 将应用程序发布到 Azure 或者监视现有云服务。, multiple
@@ -124,7 +84,6 @@ NA,NA,NA
  为表设计器构造筛选字符串 | Azure, 为表设计器构造筛选字符串, storage
  如何将项目升级到最新版本的 Azure Tools | Azure, 了解如何在 Visual Studio 中将 Azure 项目升级到最新版本的 Azure Tools, multiple
  从服务器资源管理器访问 Azure 虚拟机 | Azure, 概述如何在 Visual Studio 的服务器资源管理器中查看、创建和管理 Azure 虚拟机 (VM)。, multiple
-NA,NA,NA
  通过 CLI 登录到 Azure | Azure, 从适用于 Mac、Linux 和 Windows 的 Azure 命令行界面 (Azure CLI) 连接到 Azure 订阅, multiple
  安装 Azure 命令行界面 | Azure, 安装适用于 Mac、Linux 和 Windows 的 Azure 命令行接口 (CLI) 即可使用 Azure 服务, multiple
  向 Azure Active Directory 中的登录页和访问面板页添加公司品牌, 了解如何在 Azure 登录页和访问面板页中添加公司品牌, active-directory
@@ -439,7 +398,6 @@ NA,NA,NA
  适用于 Azure Web 应用的基于 Azure Resource Manager 的跨平台命令行工具 | Azure, 了解如何使用新的基于 Azure Resource Manager 的跨平台命令行工具来管理 Azure Web 应用。, app-service-web
  使用 Azure 门户克隆 Web 应用, 了解如何使用 Azure 门户将 Web 应用克隆到新的 Web 应用。, app-service-web
  使用 PowerShell 克隆 Web 应用, 了解如何使用 PowerShell 将 Web 应用克隆到新的 Web 应用。, app-service-web
-NA,NA,NA
  使用 PowerShell 创建 SSL 证书绑定, 了解如何使用 PowerShell 将 SSL 证书绑定到 Web 应用。, app-service-web
  部署链接到 GitHub 存储库的 Web 应用 | Azure, 使用 Azure 资源管理器模板来部署包含 GitHub 存储库中项目的 Web 应用。, app-service
  使用 MSDeploy、主机名和 SSL 证书部署 Web 应用, 通过使用 MSDeploy 并设置自定义主机名和 SSL 证书，在 Azure 资源管理器模板中部署 Web 应用, app-service-web
@@ -449,27 +407,15 @@ NA,NA,NA
  Azure CLI 脚本示例 - 将 Web 应用部署到过渡环境 | Azure, Azure CLI 脚本示例 - 将 Web 应用部署到过渡环境, app-service-web
  如何为 Web 应用配置 TLS 相互身份验证, 了解如何将 Web 应用配置为使用 TLS 客户端证书身份验证。, app-service
  在第一个 Web 应用中添加功能, 在短时间内将一些新奇功能添加到你的第一个 Web 应用。, app-service-web
-NA,NA,NA
-NA,NA,NA
  在 Azure 中不到 5 分钟创建你的第一个 ASP.NET Web 应用 | Azure, 了解如何通过部署一个简单的 ASP.NET 应用程序，轻松在应用服务中运行 Web 应用。, app-service-web
-NA,NA,NA
  在 Azure 中不到 5 分钟创建一个静态 HTML Web 应用 | Azure, 了解如何部署示例应用，轻松地在应用服务中运行 Web 应用。, app-service-web
  在 Azure 中不到 5 分钟创建你的第一个 Java Web 应用 | Azure, 了解如何部署示例应用，轻松地在应用服务中运行 Web 应用。, app-service-web
-NA,NA,NA
  在 Web 应用中创建 Node.js 应用程序 | Azure, 在应用服务 Web 应用中快速部署第一个 Node.js Hello World 应用。, app-service-web
-NA,NA,NA
  在 Web 应用中创建 PHP 应用程序 | Azure, 在应用服务 Web 应用中快速部署第一个 PHP Hello World 应用。, app-service-web
-NA,NA,NA
  在 Azure 中不到 5 分钟创建你的第一个 Python Web 应用 | Azure, 在应用服务 Web 应用中快速部署第一个 Python Hello World 应用。, app-service-web
-NA,NA,NA
  Azure Web Apps 上节点应用程序的最佳做法和故障排除指南, 了解 Azure Web Apps 上节点应用程序的最佳做法和故障排除步骤。, app-service-web
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  将 Sails.js Web 应用部署到 Azure 应用服务 | Azure, 学习如何将 Node.js 应用部署到 Azure 应用服务。 本教程说明如何部署 Sails.js Web 应用。, app-service-web
  Web 应用概述 | Azure, 了解 Azure 应用服务如何帮助用户开发和托管 Web 应用程序, app-service-web
-NA,NA,NA
-NA,NA,NA
  对 Web 应用有效使用 DevOps 环境 | Azure, 了解如何使用部署槽来设置和管理应用程序的多个开发环境, app-service
  在生产环境中 Web Apps 的测试入门, 了解 Azure App Service Web Apps 的生产中测试 (TiP) 功能。, app-service-web
  解决 502 错误的网关、503 服务不可用错误 | Azure, 排查 Azure App Service 中托管的 Web 应用出现的“502 错误的网关”和“503 服务不可用”错误。, app-service-web
@@ -505,7 +451,6 @@ NA,NA,NA
  创建具有身份验证和 SQL 数据库的 ASP.NET MVC 应用程序并将其部署到 Azure 应用服务, 了解如何开发具有 SQL 数据库后端的 ASP.NET MVC 5 应用程序，添加身份验证和授权，并将其部署到 Azure。, app-service-web
  在 Azure 应用服务上部署 ASP.NET MVC 5 移动 Web 应用, 本教程说明如何使用 ASP.NET MVC 5 Web 应用程序中的移动功能将 Web 应用部署到 Azure 应用服务。, app-service
  教程：使用多租户数据库和 Entity Framework 及行级别安全性的 Web 应用, 了解如何通过 Entity Framework 和行级安全性来开发使用多租户 SQL 数据库后端的 ASP.NET MVC 5 Web 应用。, app-service-web
-NA,NA,NA
  使用 AD FS 身份验证创建业务线 Azure 应用 | Azure, 了解如何在 Azure 应用服务中创建使用本地 STS 进行身份验证的业务线应用。 本教程将 AD FS 定位为本地 STS。, app-service-web
  使用 Azure Active Directory 身份验证创建业务线 Azure 应用 | Azure, 了解如何在 Azure 应用服务中创建使用 Azure Active Directory 进行身份验证的 ASP.NET MVC 业务线应用, app-service-web
  使用 ASP.NET 和 SQL 数据库在 Azure 中创建 REST API | Azure, 本教程将向你介绍如何通过使用 Visual Studio 将使用 ASP.NET Web API 的应用部署到 Azure Web 应用。, app-service-web
@@ -516,14 +461,11 @@ NA,NA,NA
  面向企业的 Azure 应用服务 Web 应用产品, 演示如何使用 Azure 应用服务 Web 应用为你的企业创建企业网站解决方案, app-service-web
  将 Java 应用程序添加到 Azure 应用服务 Web 应用, 本教程介绍如何将页面或应用程序添加到已配置为使用 Java 的 Azure 应用服务 Web 应用实例。, app-service-web
  将自定义 Java Web 应用上传到 Azure, 本教程说明如何将自定义 Java Web 应用上传到 Azure 应用服务 Web 应用。, app-service-web
-NA,NA,NA
  管理 Azure 应用服务中的 Web 应用, 用于管理 Azure 应用服务中 Web 应用的资源链接。, app-service-web
  在 Azure 应用服务中监视应用 | Azure, 了解如何使用 Azure 门户在 Azure 应用服务中监视应用。, app-service
  在 Azure 应用服务中使用 Socket.IO 创建 Node.js 聊天应用程序, 此教程演示如何在托管于 Azure 上的 node.js Web 应用中使用 socket.io。, app-service-web
  如何在 Azure 应用服务中调试 Node.js Web 应用, 了解如何在 Azure 应用服务中调试 Node.js Web 应用。, app-service-web
-NA,NA,NA
  如何将 io.js 与 Azure 应用服务 Web 应用配合使用, 了解如何将 Azure 应用服务中的 Web 应用与 io.js 配合使用。, app-service-web
-NA,NA,NA
  在 Azure 应用服务 Web 应用中配置 PHP | Azure, 了解如何在 Azure 应用服务中为 Web 应用配置默认 PHP 安装或添加自定义 PHP 安装。, app-service
  在 Azure 应用服务中将 WordPress 转换为 Multisite, 了解如何采用通过 Azure 中的库创建的现有 WordPress Web 应用并将其转换为 WordPress Multisite, app-service-web
  Azure 上的企业级 WordPress | Azure, 了解如何在 Azure 应用服务上托管企业级 WordPress 网站, app-service-web
@@ -610,7 +552,6 @@ NA,NA,NA
  适用于应用程序网关的 Web 应用程序防火墙 (WAF) 简介 | Azure, 此页概述适用于应用程序网关的 Web 应用程序防火墙 (WAF), application-gateway
  使用门户创建具有 Web 应用程序防火墙的应用程序网关 | Azure, 了解如何使用门户创建具有 Web 应用程序防火墙的应用程序网关, application-gateway
  在新的或现有的应用程序网关上配置 Web 应用程序防火墙 | Azure, 本文提供有关如何在现有的或新的应用程序网关上开始使用 Web 应用程序防火墙的指南。, application-gateway
-NA,NA,NA
  应用程序网关 WebSocket 支持 | Azure, 此页概述了应用程序网关的 WebSocket 支持。, application-gateway
  Azure 自动化中的证书资产 | Azure, 可以安全地将证书存储在 Azure 自动化中，以便可以通过 Runbook 访问这些证书，对 Azure 和第三方资源进行身份验证。本文介绍了有关证书的详细信息，以及如何在文本和图形创作中使用证书。, automation
  Azure 自动化中的子 Runbook | Azure, 介绍从 Azure 自动化中的一个 Runbook 启动另一个 Runbook 并在它们之间共享信息的不同方法。, automation
@@ -651,7 +592,6 @@ NA,NA,NA
  部署多个 Azure 资源实例 | Azure, 在部署资源时使用 Azure Resource Manager 模板中的复制操作和数组执行多次迭代。, azure-resource-manager
  在门户中创建 Azure 应用标识 | Azure, 介绍如何创建新的 Azure Active Directory 应用程序和服务主体，在 Azure Resource Manager 中将此服务主体与基于角色的访问控制配合使用可以管理对资源的访问权限。, azure-resource-manager
  设置 Azure 资源的部署顺序 | Azure, 介绍如何在部署期间将一个资源设置为依赖于另一个资源，以确保按正确的顺序部署资源。, azure-resource-manager
-NA,NA,NA
  用于 Azure 部署的链接模板 | Azure, 介绍如何使用 Azure Resource Manager 模板中的链接模板创建一个模块化的模板的解决方案。 演示如何传递参数值、指定参数文件和动态创建的 URL。, azure-resource-manager
  锁定 Azure 资源以防止更改 | Azure, 通过对所有用户和角色应用锁，来防止用户更新或删除关键 Azure 资源。, azure-resource-manager
  将 Azure 资源移到新的订阅或资源组 | Azure, 使用 Azure Resource Manager 将资源移到新的资源组或订阅。, azure-resource-manager
@@ -684,33 +624,19 @@ NA,NA,NA
  Azure Resource Manager 模板 - 对象即参数 | Azure, 介绍如何扩展 Azure Resource Manager 模板的功能，以便将对象用作参数, guidance
  Azure 资源策略 | Azure, 介绍如何使用 Azure Resource Manager 来确保在部署过程中设置一致的资源属性。 可在订阅或资源组中应用策略。, azure-resource-manager
  使用 SAS 令牌和 PowerShell 部署 Azure 模板 | Azure, 使用 Azure Resource Manager 和 Azure PowerShell 从使用 SAS 令牌保护的模板将资源部署到 Azure。, azure-resource-manager
-NA,NA,NA
  将资源部署到 Azure | Azure, 使用 Azure PowerShell 或 Azure CLI 将资源部署到 Azure。 资源在 Resource Manager 模板中定义。, azure-resource-manager
  Azure Resource Manager 请求限制 | Azure, 介绍在达到订阅限制后如何对 Azure Resource Manager 请求进行限制。, azure-resource-manager
-NA,NA,NA
  Resource Manager REST API | Azure, 概述 Resource Manager REST API 身份验证和用例, azure-resource-manager
  Azure CLI 脚本示例 - 部署模板 | Azure, 用于部署 Azure Resource Manager 模板的示例脚本。, azure-resource-manager
  Azure PowerShell 脚本示例 - 部署模板 | Azure, 用于部署 Azure Resource Manager 模板的示例脚本。, azure-resource-manager
-NA,NA,NA
  订阅监管方案与示例 | Azure, 提供示例，解释如何针对常见方案实施 Azure 订阅监管。, azure-resource-manager
  企业过渡到 Azure 的最佳实践 | Azure, 本文介绍一个基架，企业可以使用它来确保环境的安全性与可管理性。, azure-resource-manager
  Resource Manager 支持的服务 | Azure, 介绍支持 Resource Manager 的资源提供程序及其架构和可用 API 版本，以及可托管资源的区域。, azure-resource-manager
  有关创建 Resource Manager 模板的最佳做法 | Azure, 有关简化 Azure Resource Manager 模板的指导。, azure-resource-manager
  在 Azure 模板中定义子资源 | Azure, 演示如何在 Azure Resource Manager 模板中设置子资源的资源类型和名称, azure-resource-manager
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  模板中的 Azure 资源位置 | Azure, 演示如何在 Azure Resource Manager 模板中设置资源位置, azure-resource-manager
-NA,NA,NA
-NA,NA,NA
  标记模板中的 Azure 资源 | Azure, 演示如何将标记应用于 Azure Resource Manager 模板中的资源, azure-resource-manager
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  Azure Resource Manager 模板 - 更新资源 | Azure, 介绍了如何通过扩展 Azure Resource Manager 模板的功能来更新资源, guidance
-NA,NA,NA
  开发和测试环境 | Azure, 了解如何使用 Azure 资源管理器模板快速一致性地创建和删除开发与测试环境。, azure-resource-manager
  Azure 资源组 Visual Studio 项目 | Azure, 使用 Visual Studio 创建 Azure 资源组项目，并将资源部署到 Azure。, azure-resource-manager
  使用 Azure CLI 管理资源 | Azure, 使用 Azure 命令行接口 (CLI) 管理 Azure 资源和组, azure-resource-manager
@@ -939,15 +865,8 @@ NA,NA,NA
  Azure 事件中心存档演练 | Azure, 此示例使用 Azure Python SDK 来演示如何使用事件中心存档功能。, event-hubs
  Azure 事件中心身份验证和安全模型概述 | Azure, 事件中心身份验证和安全模型概述。, event-hubs
  Azure 事件中心内的可用性和一致性 | Azure, 如何使用分区为 Azure 事件中心提供最大程度的可用性和一致性。, event-hubs
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  使用 C 将事件发送到 Azure 事件中心 | Azure, 使用 C 将事件发送到 Azure 事件中心, event-hubs
-NA,NA,NA
  创建 Azure 事件中心 | Azure, 使用 Azure 门户创建 Azure 事件中心命名空间和事件中心, event-hubs
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  Azure 专用事件中心容量概述 | Azure, Azure 专用事件中心容量的概述。, event-hubs
  Azure 事件中心 .NET Framework API 概述 | Azure, 汇总了一些重要的事件中心 .NET Framework 客户端 API。, event-hubs
  使用 .NET Framework 从 Azure 事件中心接收事件 | Azure, 按照本教程中的步骤使用 .NET Framework 从 Azure 事件中心接收事件。, event-hubs
@@ -956,22 +875,15 @@ NA,NA,NA
  使用 .NET Standard 从 Azure 事件中心接收事件 | Azure, 使用 .NET Standard 中的 EventProcessorHost 接收消息入门, event-hubs
  使用 .NET Standard 将事件发送到 Azure 事件中心 | Azure, 在 .NET Standard 中将事件发送到事件中心入门, event-hubs
  Azure 事件中心常见问题解答 | Azure, Azure 事件中心常见问题 (FAQ), event-hubs
-NA,NA,NA
-NA,NA,NA
  使用 Java 从 Azure 事件中心接收事件 | Azure, 使用 Java 从事件中心接收入门, event-hubs
  使用 Java 将事件发送到 Azure 事件中心 | Azure, 使用 Java 向事件中心发送入门, event-hubs
-NA,NA,NA
  Azure 事件中心管理库 | Azure, 通过 .NET 管理事件中心命名空间和实体, event-hubs
  Azure 事件中心消息传送异常 | Azure, Azure 事件中心消息传送异常和建议操作列表。, event-hubs
-NA,NA,NA
  Azure 事件中心编程指南 | Azure, 介绍如何使用 Azure.NET SDK 进行 Azure 事件中心编程。, event-hubs
-NA,NA,NA
-NA,NA,NA
  Azure 事件中心配额和限制 | Azure, Azure 事件中心的限制和配额, event-hubs
  使用模板创建 Azure 事件中心命名空间并启用存档 | Azure, 使用 Azure Resource Manager 模板创建包含事件中心和事件中心命名空间以及启用存档, event-hubs
  使用模板创建 Azure 事件中心命名空间和使用者组 | Azure, 使用 Azure Resource Manager 模板创建包含事件中心和使用者组的事件中心命名空间, event-hubs
  Azure 事件中心示例 | Azure, 事件中心示例, event-hubs
-NA,NA,NA
  使用事件中心流式处理热路径中的 Azure 诊断数据 | Azure, 说明如何使用事件中心从头到尾配置 Azure 诊断，包括对常见方案的指导。, event-hubs
  什么是 Azure 事件中心以及为何使用 Azure 事件中心 | Azure, Azure 事件中心概述和简介 - 从网站、应用和设备进行云规模遥测引入, event-hubs
  关于 ExpressRoute 虚拟网络网关 | Azure, 了解 ExpressRoute 的虚拟网络网关。, expressroute
@@ -1034,7 +946,6 @@ NA,NA,NA
  使用脚本操作为 Azure HDInsight 上的 Spark 群集安装 Zeppelin 笔记本 | Azure, 逐步说明如何在 HDInsight Linux 上的 Spark 群集中安装和使用 Zeppelin 笔记本。, hdinsight
  在 Azure HDInsight 上的 Apache Spark 群集中使用 Zeppelin 笔记本 | Azure, 逐步说明如何在 Azure HDInsight 上的 Apache Spark 群集中使用 Zeppelin 笔记本。, hdinsight
  Azure HDInsight 上的 Apache Storm 入门 | Azure, 开始在基于 Linux 的 HDInsight 上使用 Apache Storm 和 Storm 初学者示例进行大数据分析。 了解如何使用 Storm 实时处理数据。, hdinsight
-NA,NA,NA
  在 Azure HDInsight 上安装第三方 Hadoop 应用程序 | Azure, 了解如何在 Azure HDInsight 上安装第三方 Hadoop 应用程序。, hdinsight
  在 Azure HDInsight 上安装自定义 Hadoop 应用程序 | Azure, 了解如何在 HDInsight 上安装 HDInsight 应用程序。, hdinsight
  在 HDInsight 中使用空边缘节点 | Azure, 如何将空边缘节点添加到可充当客户端的 HDInsight 群集，以及如何测试/托管 HDInsight 应用程序。, hdinsight
@@ -1063,11 +974,6 @@ NA,NA,NA
  使用 cURL 和 REST 创建 Azure HDInsight (Hadoop) | Azure, 了解如何使用 cURL、Azure Resource Manager 模板和 Azure REST API 创建 HDInsight 群集。 可以指定群集类型（Hadoop、HBase 或 Storm），或使用脚本来安装自定义组件。, hdinsight
  使用 .NET 创建 Azure HDInsight (Hadoop) | Azure, 了解如何使用 HDInsight .NET SDK 在 Linux 中为 HDInsight 创建 Hadoop、HBase、Storm 或 Spark 群集。, hdinsight
  使用 Web 浏览器创建 Azure HDInsight (Hadoop) | Azure, 了解如何使用 Web 浏览器和 Azure 门户在 Linux 上创建适用于 HDInsight 的 Hadoop、HBase、Storm 或 Spark 群集。, hdinsight
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  使用 bootstrap 自定义 HDInsight 群集 | Azure, 了解如何使用 Bootstrap 自定义 HDInsight 群集。, hdinsight
  使用脚本操作自定义 HDInsight 群集 | Azure, 了解如何使用脚本操作将自定义组件添加到基于 Linux 的 HDInsight 群集。 脚本操作是在群集节点上运行的 Bash 脚本，可用于自定义群集配置，或者添加 Hue、Solr 或 R 等其他服务和实用工具。, hdinsight
  使用脚本操作自定义 HDInsight 群集 | Azure, 了解如何使用脚本操作自定义 HDInsight 群集。, hdinsight
@@ -1103,11 +1009,9 @@ NA,NA,NA
  使用 HDInsight 进行脚本操作开发 | Azure, 了解如何使用脚本操作自定义 Hadoop 群集。脚本操作可用于安装运行在 Hadoop 群集上的其他软件，或更改安装在群集上的应用程序的配置。, hdinsight
  使用脚本操作在基于 Linux 的 HDInsight 上安装 Solr | Azure, 了解如何使用脚本操作在基于 Linux 的 HDInsight Hadoop 群集上安装 Solr。, hdinsight
  使用脚本操作在 Hadoop 群集上安装 Solr | Azure, 了解如何使用 Solr 通过脚本操作自定义 HDInsight 群集。, hdinsight
-NA,NA,NA
  Hadoop 堆栈跟踪错误消息 | Azure, Azure HDInsight 中的 Hadoop 堆栈跟踪错误消息的索引。 在列表中查找错误以查看故障排除信息。, hdinsight
  使用 HDInsight 开发 Python MapReduce 作业 | Azure, 了解如何在基于 Linux 的 HDInsight 群集上创建和运行 Python MapReduce 作业。, hdinsight
  了解和解决 HDInsight 上的 WebHCat 错误, 了解 HDInsight 上的 WebHCat 返回的常见错误以及如何解决它们。, hdinsight
-NA,NA,NA
  从 HDFS 兼容的 Azure 存储查询数据 | Azure, 了解如何从 Azure 存储查询数据，以存储分析结果。, hdinsight
  使用 Ambari 视图来操作 HDInsight (Hadoop) 上的 Hive | Azure, 了解如何从 Web 浏览器中使用 Hive 视图来提交 Hive 查询。 Hive 视图是随基于 Linux 的 HDInsight 群集提供的 Ambari Web UI 的一部分。, hdinsight
  将 Beeline 与 Apache Hive 配合使用 - Azure HDInsight | Azure, 了解如何使用 Beeline 客户端通过 Hadoop on HDInsight 运行 Hive 查询。 Beeline 是用于通过 JDBC 操作 HiveServer2 的实用工具。, hdinsight
@@ -1136,16 +1040,13 @@ NA,NA,NA
  使用用于 Visual Studio 的 Data Lake 工具连接到 Azure HDInsight | Azure, 了解如何安装并使用用于 Visual Studio 的 Data Lake 工具连接到 Azure HDInsight 中的 Hadoop 群集并运行 Hive 查询。, hdinsight
  为 Azure HDInsight 构建 Java HBase 应用程序 | Azure, 了解如何使用 Apache Maven 构建基于 Java 的 Apache HBase 应用程序，然后将其部署到 Azure 云中基于 Linux 的 HDInsight。, hdinsight
  为基于 Windows 的 Azure HDInsight 构建 Java HBase 应用程序 | Azure, 了解如何使用 Apache Maven 构建基于 Java 的 Apache HBase 应用程序，然后将其部署到基于 Windows 的 Azure HDInsight 群集。, hdinsight
-NA,NA,NA
  HDInsight 中的 HBase 是什么？ | Azure, 介绍 HDInsight 中的 Apache HBase - 在 Hadoop 上构建的 NoSQL 数据库。 了解相关用例并将 HBase 与其他 Hadoop 群集进行比较。, hdinsight
  将 Apache Phoenix 和 SQuirreL 用于 Azure HDInsight (HBase) | Azure, 了解如何在 HDInsight 中使用 Apache Phoenix，以及如何在工作站上安装和配置 SQuirreL 以连接到 HDInsight 中的 HBase 群集。, hdinsight
  将 Apache Phoenix 和 SQuirreL 与基于 Windows 的 Azure HDInsight 配合使用 | Azure, 了解如何在 HDInsight 中使用 Apache Phoenix，以及如何在工作站上安装和配置 SQuirreL 以连接到 HDInsight 中的 HBase 群集。, hdinsight
  在虚拟网络中创建 HBase 群集 | Azure, 开始在 Azure HDInsight 中使用 HBase。了解如何在 Azure 虚拟网络上创建 HDInsight HBase 群集。, hdinsight
  配置 HBase 复制 | Azure, 了解如何配置 HBase 复制，以实现负载均衡、高可用性、在不造成任何停机的情况下从一个 HDInsight 版本迁移/更新到另一个版本，以及灾难恢复。, hdinsight
  HBase on Azure HDInsight 入门 | Azure, 遵循本 HBase 教程开始在 HDInsight 中将 Apache HBase 与 Hadoop 配合使用。 从 HBase shell 创建表，然后使用 Hive 查询这些表。, hdinsight
-NA,NA,NA
  Hadoop 的高可用性 - Azure HDInsight | Azure, 了解 HDInsight 群集如何使用附加的头节点提高可靠性和可用性。 了解这种方式对 Ambari 和 Hive 等 Hadoop 服务造成怎样的影响，以及如何使用 SSH 分别连接到每个头节点。, hdinsight
-NA,NA,NA
  使用 Hive 和 Hadoop 分析传感器数据 | Azure, 了解如何通过将 Hive 查询控制台与 HDInsight (Hadoop) 配合使用来分析传感器数据，然后通过 PowerView 在 Microsoft Excel 中可视化数据。, hdinsight
  将 Hive 用于 Hadoop 以进行网站日志分析| Azure, 了解如何通过将 Hive 与 HDInsight 配合使用来分析网站日志。我们将使用日志文件作为 HDInsight 表的输入，并使用 HiveQL 来查询数据。, hdinsight
  使用 SSH 隧道访问 Azure HDInsight 服务 | Azure, 了解如何使用 SSH 隧道来安全浏览基于 Linux 的 HDInsight 节点上托管的 Web 资源。, hdinsight
@@ -1153,7 +1054,6 @@ NA,NA,NA
  从基于 Windows 的 HDInsight 迁移到基于 Linux 的 HDInsight | Azure, 了解如何从基于 Windows 的 HDInsight 群集迁移到基于 Linux 的 HDInsight 群集。, hdinsight
  使用 Ambari API 在 HDInsight 中监视 Hadoop 群集 | Azure, 使用 Apache Ambari API 创建、管理和监视 Hadoop 群集。直观的操作员工具和 API 消除了 Hadoop 的复杂性。, hdinsight
  为基于 Linux 的 HDInsight 群集配置 OS 修补计划 - Azure | Azure, 了解如何为基于 Linux 的 HDInsight 群集配置 OS 修补计划。, hdinsight
-NA,NA,NA
  在 HDInsight 中将 Python 与 Hive 和 Pig 配合使用 | Azure, 了解如何在 HDInsight（Azure 上的 Hadoop 技术堆栈）中通过 Hive 和 Pig 使用 Python 用户定义的函数 (UDF)。, hdinsight
  Azure HDInsight 上 Hadoop 组件的已存档发行说明 | Azure, Azure HDInsight 上的 Hadoop 组件发行说明和版本存档。, hdinsight
  Azure HDInsight 上的 Hadoop 组件发行说明 | Azure, Azure HDInsight 的 Hadoop 组件的最新发行说明和版本。 获取有关 Hadoop、Apache Storm 和 HBase 的开发技巧和详细信息。, hdinsight
@@ -1592,8 +1492,6 @@ NA,NA,NA
  Azure 活动日志概述 | Azure, 了解什么是 Azure 活动日志，以及如何通过它了解发生在 Azure 订阅中的事件。, monitoring-and-diagnostics
  Azure Monitor 概述 | Azure, Azure Monitor 收集在警报、webhook、自动缩放和自动化中使用的统计信息。 本文还列出了其他 Microsoft 监视选项。, monitoring-and-diagnostics
  将 Azure 活动日志流式传输到事件中心 | Azure, 了解如何将 Azure 活动日志流式传输到事件中心。, monitoring-and-diagnostics
-NA,NA,NA
-NA,NA,NA
  Azure 多重身份验证常见问题解答 | Microsoft Docs, 与 Azure 多重身份验证相关的常见问题与解答。 Azure 多重身份验证是要求使用多种方式（而不仅仅是用户名和密码）来验证用户身份的一种方法。 它为用户登录和事务提供了额外的安全层。, multi-factor-authentication
  云中的 Azure MFA 入门 | Microsoft Docs, Azure 多重身份验证页介绍了如何在云中开始使用 Azure MFA。, multi-factor-authentication
  Microsoft Azure Multi-Factor Authentication 用户状态, 在 Azure MFA 中了解用户状态信息。, multi-factor-authentication
@@ -1688,16 +1586,6 @@ NA,NA,NA
  Azure CLI 脚本示例 - 使用群集功能创建高级 Azure Redis 缓存 | Azure, Azure CLI 脚本示例 - 使用群集功能创建高级层 Azure Redis 缓存, cache-redis
  Azure CLI 脚本示例 - 删除 Azure Redis 缓存 | Azure, Azure CLI 脚本示例 - 删除 Azure Redis 缓存, cache-redis
  Azure CLI 脚本示例 - 获取 Azure Redis 缓存的详细信息 | Azure, Azure CLI 脚本示例 - 获取 Azure Redis 缓存的详细信息, cache-redis
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  如何使用 Azure 计划程序生成复杂的计划和高级循环, 如何使用 Azure 计划程序生成复杂的计划和高级循环, scheduler
  计划程序的概念、术语和实体 | Azure, Azure 计划程序的概念、术语和实体层次结构，包括作业和作业集合。  显示了一个计划作业的综合示例。, scheduler
  Azure 门户中的 Azure 计划程序入门 | Azure, Azure 门户中的 Azure 计划程序入门, scheduler
@@ -2073,7 +1961,6 @@ NA,NA,NA
  Azure SQL 数据库的审核、TDS 重定向和 IP 终结点 | Azure, 了解在 Azure SQL 数据库中实现表审核时，审核、TDS 重定向和 IP 终结点的变化。, sql-database
  SQL 数据库审核入门 | Azure, SQL 数据库审核入门, sql-database
  Azure 门户：管理 SQL 数据库审核 | Microsoft Docs, 在 Azure 门户中配置 Azure SQL 数据库审核，以跟踪数据库事件并将其写入 Azure 存储帐户中的审核日志。, sql-database
-NA,NA,NA
  REST API：管理 Azure SQL 数据库审核 | Azure, 使用 REST API 配置 Azure SQL 数据库审核，以跟踪数据库事件并将其写入 Azure 存储帐户中的审核日志。, sql-database
  Azure SQL 数据库审核入门 | Microsoft 文档, SQL 数据库审核入门, sql-database
  SQL 数据库备份 - 自动、异地冗余 | Azure, SQL 数据库每隔数分钟自动创建一个本地数据库备份，并使用 Azure 读取访问异地冗余存储来提供异地冗余。, sql-database
@@ -2082,25 +1969,14 @@ NA,NA,NA
  云业务连续性 - 数据库恢复 - SQL 数据库 | Azure, 了解 Azure SQL 数据库如何支持云业务连续性和数据库恢复以及如何帮助保持运行任务关键型云应用程序。, sql-database
  适用于 SQL 数据库的 Azure CLI 示例 | Microsoft 文档, Azure CLI 示例 - 创建和管理 Azure SQL 数据库服务器、弹性池、数据库和防火墙。, sql-database
  获取对应用程序进行身份验证所需的值以便通过代码访问 SQL 数据库 | Azure, 创建服务主体以便通过代码访问 SQL 数据库。, sql-database
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  使用“将数据库部署到 Azure 数据库”向导将 SQL Server 数据库迁移到 SQL 数据库," Azure SQL 数据库, 数据库迁移, Azure 数据库向导", sql-database
  使用事务复制迁移到 SQL 数据库 | Azure, Azure SQL 数据库，数据库迁移，导入数据库，事务复制, sql-database
  使用 SqlPackage.exe 确定 SQL 数据库兼容性 | Azure," Azure SQL 数据库, 数据库迁移, SQL 数据库兼容性, SqlPackage", sql-database
  SSMS：Azure SQL Server 数据库兼容性 | Azure, 在本文中，你将了解如何使用 SQL Server Management Studio 中的“导出数据层应用程序”向导确定要迁移到 SQL 数据库的 SQL Server 数据库是否兼容。, sql-database
-NA,NA,NA
  迁移到 SQL 数据库之前，修复 SQL Server 数据库兼容性问题," Azure SQL 数据库, 数据库迁移, 兼容性, SQL Azure 迁移向导", sql-database
  从 Azure SQL 数据库备份中还原单个表 | Azure, 了解如何从 Azure SQL 数据库备份中还原单个表。, sql-database
  将 SQL Server 数据库迁移到 Azure SQL 数据库 | Azure, 了解如何将 SQL Server 数据库迁移到云中的 Azure SQL 数据库。执行数据库迁移之前，使用数据库迁移工具测试兼容性。, sql-database
-NA,NA,NA
  数据库兼容级别 130 - Azure SQL 数据库 | Microsoft 文档, 在本文中，我们将探讨在兼容级别 130 运行 Azure SQL 数据库的优势，以及使用新查询优化器和查询处理器功能的优势。 另外，我们将解决对现有 SQL 应用程序的查询性能可能造成的负面影响。, sql-database
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  将 Excel 连接到 SQL 数据库 | Microsoft Docs, 了解如何将 Microsoft Excel 连接到在云中的 Azure SQL 数据库。 将数据导入 Excel 以进行报告和数据探索。, sql-database
  使用 .NET (C#) 连接到 Azure SQL 数据库 | Azure, 演示了一个可以用来连接到 Azure SQL 数据库并进行查询的 .NET 代码示例, sql-database
  使用 Java 连接到 Azure SQL 数据库 | Azure, 演示了一个可以用来连接到 Azure SQL 数据库并进行查询的 Java 代码示例。, sql-database
@@ -2115,9 +1991,6 @@ NA,NA,NA
  AAD 身份验证：Azure SQL 数据库防火墙、身份验证和访问权限 | Azure, 本入门教程介绍如何在 SQL Server Management Studio 和 Transact-SQL 中使用授予 Azure SQL 数据库服务器和数据库访问权限与控制权限的服务器级和数据库级防火墙规则、Azure Active Directory 身份验证、登录名、用户与数据库角色。, sql-database
  SQL 身份验证：Azure SQL 数据库防火墙、身份验证和访问权限 | Azure, 本入门教程介绍如何在 SQL Server Management Studio 和 Transact-SQL 中使用授予 Azure SQL 数据库服务器和数据库访问权限与控制权限的服务器级和数据库级防火墙规则、SQL 身份验证、登录名、用户与数据库角色。, sql-database
  授予到 Azure SQL 数据库的访问权限 | Azure, 了解如何授予到 Azure SQL 数据库的访问权限。, sql-database
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  复制 Azure SQL 数据库 | Azure, 创建 Azure SQL 数据库的副本, sql-database
  创建 Azure SQL 数据库 | Azure, 有关如何使用 Azure 门户、PowerShell、Transact-SQL 创建 Azure SQL 数据库的快速参考。, sql-database
  创建 Azure SQL 数据库服务器 | Azure, 有关如何使用 Azure 门户和 PowerShell 创建 Azure SQL 数据库服务器的快速参考。, sql-database
@@ -2129,12 +2002,8 @@ NA,NA,NA
  用于 SQL 数据库的非 1433 端口 | Azure, 从 ADO.NET 到 Azure SQL 数据库 V12 的客户端连接有时会绕过代理，直接与数据库交互。除 1433 以外的端口变得非常重要。, sql-database
  使用 .NET (C#) 连接到 SQL 数据库 | Azure, 使用本快速入门教程中的示例代码可以生成一个包含 C# 代码并由云中强大的 Azure SQL 数据库关系数据库支持的新式应用程序。, sql-database
  SQL 错误代码 - 数据库连接错误 | Azure, 了解有关 SQL 数据库客户端应用程序的 SQL 错误代码，例如常见的数据库连接错误、数据库复制问题和常规错误。, sql-database
-NA,NA,NA
-NA,NA,NA
  SQL 数据库开发概述 | Azure, 了解连接到 SQL 数据库的应用程序的可用连接库和最佳实践。, sql-database
  在 Windows上使用 PHP 连接到 SQL 数据库 | Microsoft 文档, 演示一个示例 PHP 程序，该程序可以从 Windows 客户端连接到 Azure SQL 数据库，并与客户端所需的软件组件建立链接。, sql-database
-NA,NA,NA
-NA,NA,NA
  SQL 数据库灾难恢复演练, 了解有关使用 Azure SQL 数据库执行灾难恢复演练，帮助任务关键型业务应用程序弹性应对故障和中断的指南和最佳实践。, sql-database
  使用 SQL 数据库异地复制设计灾难恢复云解决方案 | Azure, 了解如何通过选择合适的故障转移模式来设计灾难恢复云解决方案。, sql-database
  SQL 数据库灾难恢复, 了解在发生区域性的数据中心中断或故障后，如何使用 Azure SQL 数据库活动异地复制和异地还原功能来恢复数据库。, sql-database
@@ -2178,45 +2047,31 @@ NA,NA,NA
  具有弹性数据库工具和行级安全性的多租户应用程序, 了解如何将弹性数据库工具和行级安全性一起使用，在 Azure SQL 数据库上生成具有高度可伸缩性数据层、支持多租户分片的应用程序。, sql-database
  跨云数据库的分布式事务, Azure SQL 数据库的弹性数据库事务概述, sql-database
  浏览 Azure SQL 数据库教程 | Azure, 了解 SQL 数据库的特性和功能, sql-database
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  将 Azure SQL 数据库导出到 BACPAC 文件 | Azure, 使用 Azure 门户将 Azure SQL 数据库导出到 BACPAC 文件, sql-database
  Azure SQL 数据库常见问题解答 | Microsoft Docs, 客户就云数据库、Azure SQL 数据库、Microsoft 的关系数据库管理系统 (RDBMS) 和云中“数据库即服务”经常提出的问题的解答。, sql-database
  Azure SQL 数据库功能概述 | Microsoft 文档, 此页面概述了 Azure SQL 数据库逻辑服务器和数据库，并且包括了功能支持矩阵和所列出的每项功能的链接。, sql-database
  Azure SQL 数据库防火墙规则 | Azure, 了解如何配置使用服务器级和数据库级防火墙规则的 SQL 数据库防火墙以管理访问权限。, sql-database
  Azure SQL 数据库的一般性限制和指导原则, 本页介绍 Azure SQL 数据库的某些一般性限制，以及互操作性和支持方面的问题。, sql-database
  使用 Azure 门户为 Azure SQL 数据库启动计划内或计划外故障转移 | Azure, 使用 Azure 门户为 Azure SQL 数据库启动计划内或计划外故障转移, sql-database
-NA,NA,NA
  使用 Transact-SQL 为 Azure SQL 数据库启动计划内或计划外故障转移 | Azure, 使用 Transact-SQL 为 Azure SQL 数据库启动计划内或计划外故障转移, sql-database
  Azure SQL 数据库的活动异地复制, 你可以使用活动异地复制在任何 Azure 数据中心设置 4 个数据库副本。, sql-database
  Azure 门户：SQL 数据库异地复制 | Microsoft Docs, 在 Azure 门户中为 Azure SQL 数据库配置异地复制，并启动故障转移, sql-database
-NA,NA,NA
  如何在将数据库还原到新的服务器或将数据库故障转移到辅助数据库副本后进行安全管理 | Azure, 本主题介绍在数据库还原或故障转移后进行安全管理时的安全注意事项。, sql-database
  使用 Transact-SQL 为 Azure SQL 数据库配置异地复制 | Azure, 使用 Transact-SQL 为 Azure SQL 数据库配置异地复制, sql-database
  Azure 门户：从异地冗余备份还原 SQL 数据库 | Azure, 使用 Azure 门户从异地冗余备份中将 Azure SQL 数据库还原到新的服务器中, sql-database
-NA,NA,NA
-NA,NA,NA
  Azure 门户：备份和还原 Azure SQL 数据库 | Azure, 本教程介绍如何从自动化备份还原到某个时间点、如何将自动化备份存储在 Azure 恢复服务保管库中，以及如何从 Azure 恢复服务保管库还原, sql-database
-NA,NA,NA
  开始使用 Azure SQL 数据库的备份和还原进行数据保护和恢复 | Azure, 本教程介绍如何从自动化备份还原到某个时间点、如何将自动化备份存储在 Azure 恢复服务保管库中，以及如何从 Azure 恢复服务保管库还原, sql-database
  Azure CLI：创建 SQL 数据库 | Azure, 了解如何使用 Azure CLI 创建 SQL 数据库逻辑服务器、服务器级防火墙规则和数据库。, sql-database
  试用 SQL 数据库：使用 C# 创建 SQL 数据库 | Azure, 尝试使用 SQL 数据库开发 SQL 和 C# 应用，并使用适用于 .NET 的 SQL 数据库库以 C# 创建 Azure SQL 数据库。, sql-database
-NA,NA,NA
  Azure 门户：创建 SQL 数据库 | Azure, 了解如何在 Azure 门户中创建 SQL 数据库逻辑服务器、服务器级防火墙规则和数据库。 同时了解如何使用 Azure 门户查询 Azure SQL 数据库。, sql-database
  Azure PowerShell：创建 SQL 数据库 | Azure, 了解如何在 Azure 门户中创建 SQL 数据库逻辑服务器、服务器级防火墙规则和数据库。, sql-database
  SQL 数据库教程：安全性入门, 了解如何创建用户帐户来访问和管理数据库。, sql-database
  SQL 数据库 s 数据同步入门, 本教程帮助你 Azure SQL 数据同步（预览版）入门。, sql-database
-NA,NA,NA
  Azure SQL 数据库提供安全和保护, 了解 SQL 数据库如何帮助提供安全和保护, sql-database
  Azure SQL 数据库案例研究 - Daxko/CSI | Azure, 了解 Daxko/CSI 如何使用 SQL 数据库加速其开发周期和增强其客户服务与性能, sql-database
  Azure SQL 数据库案例研究 - GEP | Azure, 了解 GEP 如何使用 SQL 数据库扩大全球客户群体，实现效率提升, sql-database
  Azure SQL 数据库案例研究 - Snelstart | Azure," 了解 SnelStart 如何使用 SQL 数据库以每月 1,000 个新 Azure SQL 数据库的速度快速扩展其业务服务", sql-database
  Azure SQL 数据库案例研究 - Umbraco | Azure, 了解 Umbraco 如何使用 SQL 数据库为云中数千个租户快速预配和缩放服务, sql-database
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  导入 BACPAC 文件以创建 Azure SQL 数据库 | Azure, 通过导入 BACPAC 文件创建一个新的 Azure SQL 数据库。, sql-database
  监视 XTP 内存中存储 | Azure, 估算和监视 XTP 内存中存储用量与容量；解决容量错误 41823, sql-database
  使用 Azure 门户创建 SQL 数据库警报 | Azure, 使用 Azure 门户创建 SQL 数据库警报，该警报可在满足指定的条件时触发通知或自动化操作。, sql-database
@@ -2224,21 +2079,14 @@ NA,NA,NA
  Azure SQL 数据库会自行学习和进行适应性调整, 了解 SQL 数据库如何进行学习和适应性调整, sql-database
  用于 SQL 数据库的连接库 | Azure, 提供下载模块的链接，这些模块适用于通过多种客户端编程语言连接到 SQL Server 和 SQL 数据库。这些模块由社区或 Microsoft 发布。, sql-database
  将数据从 CSV 文件载入 Azure SQL 数据库 (bcp) | Azure, 对于较小的数据，请使用 bcp 将数据导入到 Azure SQL 数据库。, sql-database
-NA,NA,NA
  云灾难恢复解决方案 - SQL 数据库活动异地复制 | Azure, 了解如何使用 Azure SQL 数据库异地复制来支持云应用程序的在线升级。, sql-database
  使用 Azure 自动化管理 Azure SQL 数据库 | Azure, 了解如何使用 Azure 自动化服务来管理大规模的 Azure SQL 数据库。, sql-database
  使用 SSMS 管理 SQL 数据库 | Azure, 了解如何使用 SQL Server Management Studio 管理 SQL 数据库服务器和数据库。, sql-database
  Azure SQL 登录名和用户 | Azure, 了解 SQL 数据库安全管理，特别是如何通过服务器级的主体帐户管理数据库的访问和登录安全。, sql-database
-NA,NA,NA
-NA,NA,NA
  Azure SQL 数据库管理和开发工具 | Microsoft Docs, 介绍 Azure SQL 数据库的管理、开发工具和选项, sql-database
  使用 Azure 门户管理 Azure SQL 数据库 | Azure, 有关如何使用 Azure 门户管理云中的关系数据库的快速参考。, sql-database
  使用 PowerShell 管理 Azure SQL 数据库 | Azure, 使用 PowerShell 管理 Azure SQL 数据库。, sql-database
  Azure 门户：创建和管理 Azure SQL 数据库服务器 | Azure, 快速参考：如何使用 Azure 门户创建和管理 Azure SQL 数据库服务器。, sql-database
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  将 SQL Server DB 迁移到 Azure SQL 数据库 | Azure, 了解如何将 SQL Server 数据库迁移至 Azure SQL 数据库。, sql-database
  使用动态管理视图监视 Azure SQL 数据库 | Azure, 了解如何通过使用动态管理视图检测常见性能问题来监视 Azure SQL 数据库。, sql-database
  在 Azure SQL 数据库中操作查询存储, 了解如何在 Azure SQL 数据库中操作查询存储, sql-database
@@ -2246,9 +2094,6 @@ NA,NA,NA
  SQL (PaaS) 数据库与VM 上云中的 SQL Server (IaaS) | Azure, 了解哪个云 SQL Server 选项适合你的应用程序：Azure SQL (PaaS) 数据库或 Azure 虚拟机上云中的 SQL Server。, sql-database
  单一数据库的 Azure SQL 数据库性能 | Microsoft 文档, 此文可帮助你确定哪个服务层适合你的应用程序。 它还会提供调整建议使的应用程序可以充分利用 Azure SQL 数据库。, sql-database
  Azure SQL 数据库性能见解 | Azure, Azure SQL 数据库提供的性能工具有助于发现可以提高当前查询性能的方面。, sql-database
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  适用于 SQL 数据库的 Azure PowerShell 示例 | Microsoft 文档, Azure CLI 示例 - 创建和管理 Azure SQL 数据库服务器、弹性池、数据库和防火墙。, sql-database
  Azure SQL 数据库数据保护概述 | Azure, 了解如何保护 Azure SQL 数据库中的数据。, sql-database
  Azure 分析的公共数据集 | Azure, 了解可用于设计 Azure 分析服务和解决方案原型并进行测试的公共数据集。, sql-database
@@ -2256,11 +2101,7 @@ NA,NA,NA
  从备份还原 Azure SQL 数据库 | Azure, 了解有关时间点还原的信息，它让你能够将 Azure SQL 数据库回滚到之前的时间点（最多 35 天）。, sql-database
  Azure SQL 数据库资源限制 | Microsoft 文档, 本页介绍 Azure SQL 数据库的一些常见资源限制。, sql-database
  Azure 门户：还原 Azure SQL 数据库 | Microsoft Docs, 还原 Azure SQL 数据库（Azure 门户）。, sql-database
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  Azure SQL 数据库动态缩放规模, 了解 Azure SQL 数据库如何动态缩放规模, sql-database
-NA,NA,NA
  更改 Azure SQL 数据库的服务层和性能级别, “更改 Azure SQL 数据库的服务层和性能级别”介绍如何增加或减少 SQL 数据库。更改 Azure SQL 数据库的定价层。, sql-database
  Azure SQL 数据库安全指导原则和限制 | Azure, 了解与安全性相关的 Azure SQL 数据库指导原则和限制。, sql-database
  SQL 数据库安全概述 | Azure, 了解有关 Azure SQL 数据库和 SQL Server 安全性的信息，包括云与本地 SQL Server 在身份验证、授权、连接安全性、加密和合规性方面的差异。, sql-database
@@ -2276,7 +2117,6 @@ NA,NA,NA
  使用保留策略管理临时表中的历史数据 | Azure, 了解如何使用临时保留策略来控制历史数据。, sql-database
  Azure SQL 数据库中的临时表入门 | Azure, 了解如何开始使用 Azure SQL 数据库中的临时表。, sql-database
  SQL 数据库威胁检测入门, 如何开始在 Azure 门户中使用 SQL 数据库威胁检测, sql-database
-NA,NA,NA
  威胁检测 - Azure SQL 数据库 | Azure, 威胁检测会检测异常的数据库活动，指出数据库有潜在的安全威胁。, sql-database
  解析 T-SQL 差异 - 迁移 - Azure SQL 数据库 | Microsoft 文档, 在 Azure SQL 数据库中不完全支持的 Transact-SQL 语句, sql-database
  排查 Azure SQL 数据库的备份和还原问题, 了解如何在发生错误和服务中断时，使用 Azure SQL 数据库中的备份和副本恢复云数据库。, sql-database
@@ -2290,9 +2130,6 @@ NA,NA,NA
  如何使用批处理来改善 Azure SQL 数据库应用程序的性能, 本主题提供有关数据库批处理操作大幅改善 Azure SQL 数据库应用程序速度和缩放性的证据。尽管这些批处理方法适用于任何 SQL Server 数据库，但本文将重点放在 Azure 上。, sql-database
  规划升级到 SQL 数据库 V12 | Azure, 介绍升级到 Azure SQL 数据库 V12 版本所涉及的准备工作和限制。, sql-database
  SQL 数据库 V12 中的新增功能 | Azure, 介绍云中使用 Azure SQL 数据库的业务系统在升级到版本 V12 后为何能够受益。, sql-database
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  查看服务生成的 Azure SQL 数据库备份的最早还原点 | Azure, 有关如何查看服务生成的数据库备份的最早还原点的快速参考, sql-database
  查看和更新 Azure SQL 数据库及其设置 | Azure, 有关如何使用 Azure 门户和 PowerShell 查看和更新 Azure SQL 数据库设置的快速参考。, sql-database
  查看和更新 Azure SQL 数据库服务器及其设置 | Azure, 有关如何使用 Azure 门户和 PowerShell 查看和更新 Azure SQL 数据库服务器设置的快速参考。, sql-database
@@ -2497,17 +2334,13 @@ NA,NA,NA
  如何使用流分析编写查询 | Azure, 使用流分析编写查询和查询数据 | 学习路径段。, stream-analytics
  禁用、启用或删除流量管理器配置文件 | Azure, 本文将帮助你使用流量管理器配置文件。, traffic-manager
  禁用或启用流量管理器终结点 | Azure, 本文将帮助你禁用或启用流量管理器配置文件终结点。, traffic-manager
-NA,NA,NA
  使用 Azure 流量管理器配置性能流量路由方法 | Azure, 本文介绍了如何配置流量管理器以将流量路由到终结点并保证最低延迟, traffic-manager
  使用 Azure 流量管理器配置优先级流量路由方法 | Azure, 本文介绍如何在流量管理器中配置优先级流量路由方法, traffic-manager
-NA,NA,NA
-NA,NA,NA
  使用 Azure 流量管理器配置加权轮循机制流量路由方法 | Azure, 本文介绍如何在流量管理器中使用轮循机制方法加载均衡流量, traffic-manager
  在 Azure 中创建流量管理器配置文件 | Azure, 本文介绍如何创建流量管理器配置文件, traffic-manager
  流量管理器终结点类型 | Azure, 本文介绍可以通过 Azure 流量管理器来使用的不同类型的终结点, traffic-manager
  在 Azure 流量管理器中管理终结点 | Azure, 本文将帮助你从 Azure 流量管理器中添加、删除、启用和禁用终结点。, traffic-manager
  Azure 流量管理器 - 常见问题 | Azure, 本文提供有关流量管理器的常见问题解答, traffic-manager
-NA,NA,NA
  在 Azure 中使用负载均衡服务 | Azure, 本教程说明如何使用以下 Azure 负载均衡产品组合创建方案：流量管理器、应用程序网关和负载均衡器。, traffic-manager
  在 Azure 流量管理器中管理终结点 | Azure, 本文将帮助你从 Azure 流量管理器中添加、删除、启用和禁用终结点。, traffic-manager
  管理 Azure 流量管理器配置文件 | Azure, 本文有助于你创建、禁用、启用和删除 Azure 流量管理器配置文件。, traffic-manager
@@ -2520,14 +2353,11 @@ NA,NA,NA
  Azure 流量管理器 - 流量路由方法 | Azure, 本文将帮助你了解流量管理器使用的各种流量路由方法。, traffic-manager
  测试流量管理器设置 | Azure, 本文将帮助你测试流量管理器设置, traffic-manager
  Azure 流量管理器上的降级状态故障排除, 如何在流量管理器显示为降级状态时对流量管理器配置文件进行故障排除。, traffic-manager
-NA,NA,NA
-NA,NA,NA
  创建 Azure 虚拟机规模集 | Azure, 使用 Azure CLI、PowerShell、模板或 Visual Studio 创建和部署 Linux 或 Windows Azure 虚拟机规模集。, virtual-machine-scale-sets
  在虚拟机规模集上部署应用 | Azure, 在虚拟机规模集上部署应用, virtual-machine-scale-sets
  设计规模化的 Azure 虚拟机规模集 | Azure, 了解如何设计规模化的 Azure 虚拟机规模集, virtual-machine-scale-sets
  将 Desired State Configuration 与虚拟机规模集配合使用 | Azure, 将虚拟机规模集与 Azure DSC 扩展配合使用, virtual-machine-scale-sets
  Azure 虚拟机规模集常见问题 | Azure, 获取有关虚拟机规模集常见问题的解答。, virtual-machine-scale-sets
-NA,NA,NA
  使用 Azure CLI 2.0 创建虚拟机规模集 | Azure, 了解如何使用 Azure CLI 2.0 创建虚拟机规模集, virtual-machine-scale-sets
  引用 Azure 规模集模板中的虚拟网络 | Azure, 如何将虚拟网络添加到现有 Azure 虚拟机规模集模板, virtual-machine-scale-sets
  了解虚拟机规模集模板 | Azure, 了解如何创建虚拟机规模集的最小可行规模集模板, virtual-machine-scale-sets
@@ -2535,7 +2365,6 @@ NA,NA,NA
  使用 Azure 门户创建虚拟机规模集 | Azure, 使用 Azure 门户部署规模集。, virtual-machine-scale-sets
  在虚拟机规模集上部署应用 | Azure, 在虚拟机规模集上部署应用, virtual-machine-scale-sets
  使用 Visual Studio 部署虚拟机规模集 | Azure, 使用 Visual Studio 和 Resource Manager 模板部署虚拟机规模集, virtual-machine-scale-sets
-NA,NA,NA
  管理虚拟机规模集中的 VM | Azure, 使用 Azure PowerShell 在虚拟机规模集中管理虚拟机。, virtual-machine-scale-sets
  Resource Manager 模式下的 Azure CLI 命令 | Azure, 用于在 Resource Manager 部署模型中管理资源的 Azure 命令行界面 (CLI) 命令, multiple
  如何在 Hudson 连续集成中使用 Azure Slave 插件 | Azure, 介绍如何在 Hudson 连续集成中使用 Azure Slave 插件。, virtual-machines-linux
@@ -2543,381 +2372,12 @@ NA,NA,NA
  如何在虚拟机中使用 Azure 诊断 | Azure, 使用 Azure 诊断从 Azure 虚拟机收集数据，以用于调试、性能度量、监视和流量分析等目的。, virtual-machines
  Azure 虚拟机错误消息,, virtual-machines-windows
  Azure FreeBSD 简介 | Azure, 了解如何在 Azure 上使用 FreeBSD 虚拟机。, virtual-machines-linux
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  通过 Azure 元数据服务使用计划事件 | Azure, 应对虚拟机上的有影响事件（在其发生之前）。, virtual-machines-windows
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  Azure 虚拟机代理概述 | Azure, Azure 虚拟机代理概述, virtual-machines-windows
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  适用于 Azure 中 Windows VM 的技术文章 | Azure, 与 Windows 虚拟机相关的 Azure 文档文章完整列表, virtual-machines-windows
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  Windows Azure VM 大小 - 内存 | Azure, 列出 Azure 中适用于 Windows 虚拟机的各种内存优化大小。, virtual-machines-windows
  Azure 中的 Windows VM 大小 | Azure, 列出 Azure 中 Windows 虚拟机的不同可用大小。, virtual-machines-windows
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  使用 Azure PowerShell 管理 Windows 虚拟机 | Azure, 教程 - 使用 Azure PowerShell 管理 Windows 虚拟机, virtual-machines-windows
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  Azure 计算单元概述 | Azure, 适用于 Linux 的 Azure 计算单元的概念的概述。 ACU 提供了一种在 Azure SKU 中比较 CPU 性能的方法。, virtual-machines-linux
  使用 Azure CLI 将磁盘添加到 Linux VM | Azure, 了解如何使用 Azure CLI 1.0 and Azure CLI 2.0 将持久性磁盘添加到 Linux VM。, virtual-machines-linux
  将用户添加到 Azure 上的 Linux VM | Azure, 将用户添加到 Azure 上的 Linux VM。, virtual-machines-linux
@@ -3274,9 +2734,6 @@ NA,NA,NA
  使用 Azure PowerShell 管理虚拟机 | Azure, 了解可用于在虚拟机管理过程中自动执行任务的命令。, virtual-machines-windows
  在 Visual Studio 中创建和管理 Windows VM | Azure, 了解如何使用 Visual Studio 来创建和管理运行 Windows 的 Azure VM, virtual-machines-windows
  创建运行 MySQL 的 VM | Azure, 使用经典部署模型创建运行 Windows Server 2012 R2 的 Azure 虚拟机，然后在其上安装并配置 MySQL 数据库。, virtual-machines-windows
-NA,NA,NA
-NA,NA,NA
-NA,NA,NA
  在 Azure PowerShell 创建 SQL Server 虚拟机（经典）| Azure, 提供用于创建具有 SQL Server 虚拟机库映像的 Azure VM的步骤和 PowerShell 脚本。本主题使用经典部署模式。, virtual-machines-windows
  配置 AlwaysOn 可用性组的外部侦听器 | Azure, 本教程逐步说明如何在 Azure 中创建一个可以使用关联云服务公共虚拟 IP 地址从外部访问的 AlwaysOn 可用性组侦听器。, virtual-machines-windows
  在 Azure 中配置 AlwaysOn 可用性组的 ILB 侦听器 | Azure, 本教程使用通过经典部署模型创建的资源，并使用内部负载均衡器 (ILB) 在 Azure 中创建 AlwaysOn 可用性组侦听器。, virtual-machines-windows
@@ -3298,7 +2755,6 @@ NA,NA,NA
  VM 重新启动或大小调整问题 | Azure, 排查在 Azure 中重新启动现有 Windows 虚拟机或调整其大小时遇到的经典部署问题, virtual-machines-windows
  为 Web 应用程序创建虚拟机 | Azure, 使用 Visual Studio 和 Windows 为 Web 应用程序创建 VM, virtual-machines-windows
  将 SQL Server 数据库迁移到 VM 上的 SQL Server | Azure, 了解如何将本地用户数据库迁移到 Azure 虚拟机中的 SQL Server。, virtual-machines-sql
-NA,NA,NA
  创建 SQL Server 可用性组侦听器 - Azure 虚拟机 | Azure, 有关为 Azure 虚拟机中的 SQL Server AlwaysOn 可用性组创建侦听器的分步说明, virtual-machines-windows
  SQL Server 可用性组 - Azure 虚拟机 - 灾难恢复 | Azure, 本文介绍如何使用不同区域中的副本在 Azure 虚拟机上配置 SQL Server Always On 可用性组。, virtual-machines-windows
  SQL Server 可用性组 - Azure 虚拟机 - 概述 | Azure, 本文介绍 Azure 虚拟机上的 SQL Server 可用性组。, virtual-machines-windows
@@ -3372,7 +2828,6 @@ NA,NA,NA
  Azure 虚拟机的多个 IP 地址 - PowerShell | Azure, 了解如何使用 PowerShell 将多个 IP 地址分配给虚拟机 | Resource Manager。, virtual-network
  Azure 虚拟机的多个 IP 地址 - 模板 | Azure, 了解如何使用 Azure Resource Manager 模板将多个 IP 地址分配给虚拟机。, virtual-network
  为 Azure 网络接口配置 IP 地址 | Azure, 了解如何为 NIC 添加、更改和删除公共和专用 IP 地址。, virtual-network
-NA,NA,NA
  添加或删除 Azure 虚拟机的网络接口 | Azure, 了解如何添加或删除虚拟机的网络接口 (NIC)。, virtual-network
  创建、更改或删除 Azure 网络接口 | Azure, 了解网络接口 (NIC) 是什么，以及如何创建、删除 NIC 及更改其设置。, virtual-network
  监视 NSG 的操作、事件和计数器 | Azure, 了解如何为 NSG 启用计数器、事件和操作日志记录, virtual-network
@@ -3437,7 +2892,6 @@ NA,NA,NA
  Azure 中用户定义的路由和 IP 转发 | Azure, 了解如何在 Azure 中配置用户定义的路由 (UDR) 和 IP 转发，将流量转发到网络虚拟设备。, virtual-network
  配置 Azure 虚拟网络（经典） - 网络配置文件 | Azure, 了解如何使用 Azure经典管理门户（经典）导出、更改和导入网络配置文件，从而修改虚拟网络（经典）。, virtual-network
  查看和修改主机名 | Azure, 如何查看和更改 Azure 虚拟机、Web 角色和辅助角色的主机名以进行名称解析, virtual-network
-NA,NA,NA
  为 Azure 站点到站点连接配置强制隧道：经典 | Azure, 如何重定向或“强制”所有 Internet 绑定的流量路由回本地位置。, vpn-gateway
  有关用于跨界 Azure 连接的 VPN 设备 | Azure, 本文讨论用于 S2S VPN 网关跨界连接的 VPN 设备和 IPsec 参数。 提供了指向配置说明和示例的链接。, vpn-gateway
  用于跨界 Azure 连接的 VPN 网关设置 | Azure, 了解用于 Azure 虚拟网络网关的 VPN 网关设置。, vpn-gateway
@@ -3470,7 +2924,6 @@ NA,NA,NA
  修改本地网关 IP 地址前缀和 VPN 网关 IP 地址 | Azure| PowerShell| Azure, 本文介绍如何更改本地网络网关的 IP 地址前缀, vpn-gateway
  使用 VPN 网关和 PowerShell 将虚拟网络连接到多个站点：经典 | Azure, 本文指导你使用经典部署模型的 VPN 网关将多个本地站点连接到虚拟网络。, vpn-gateway
  跨界连接的规划和设计：Azure VPN 网关| Azure, 了解跨界、混合与 VNet 到 VNet 连接的 VPN 网关规划和设计, vpn-gateway
-NA,NA,NA
  重置 Azure VPN 网关以重新建立 IPsec 隧道 | Azure, 本文逐步讲解如何通过重置 Azure VPN 网关来重新建立 IPsec 隧道。本文适用于经典和 Resource Manager 部署模型中的 VPN 网关。, vpn-gateway
  将本地网络连接到 Azure 虚拟网络：站点到站点 VPN：经典管理门户 | Azure, 通过公共 Internet 创建从本地网络到 Azure 虚拟网络的 IPsec 连接的步骤。 这些步骤可帮助使用经典管理门户和经典部署模型创建跨界站点到站点 VPN 网关连接。, vpn-gateway
  验证 Azure 虚拟网络的 VPN 吞吐量 | Azure, 本文旨在帮助用户验证从本地资源到达 Azure 虚拟机的网络吞吐量。, vpn-gateway

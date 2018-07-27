@@ -59,10 +59,10 @@ def multicsvToDict(fileLocationList, headers,header =True):
 
 
 
-aogCategory = codePath + "\\chineseArticleextraction\\aogCategory.csv"
-kcCategory = codePath + "\\chineseArticleextraction\\kcCategory.csv"
-caselog = codePath + "\\caselogProcessor\\cleaned_caselog.csv"
-articleFalseTag = codePath + "\\chineseArticleextraction\\articleFalseTag.csv"
+aogCategory = codePath + "\\aogCategory.csv"
+kcCategory = codePath + "\\kcCategory.csv"
+caselog = codePath + "\\cleaned_caselog.csv"
+articleFalseTag = codePath + "\\articleFalseTag.csv"
 
 
 # trasnform csv into dictionary
@@ -98,13 +98,13 @@ for a in articleCat:
             print(a, "tag changed from",b['false_tag'])
         
 print("article tag corrected recordding to falseTag csv.")
-
+print(len(articleCat), " lines of ms.service tag corrected data is ready for cleaning")
 #aogTitle = z.subDict(articleCat,['title','ms.service'])
 #aogDescription= z.subDict(articleCat,['description','ms.service'])
 
 # write csv
 cleand_articleCategory = z.subDict(articleCat, ['title','description','ms.service'])
-destPath = codePath + "\\chineseArticleextraction\\"
+destPath = codePath
 z.writeCsv(cleand_articleCategory,destPath+'cleaned_articleCategory.csv')
 print("article title and description is write into cleaned_articleCategory.csv with its ms.service tag")
 
@@ -145,8 +145,8 @@ for d in descriptionContent:
         #print("add d")
 print("%s lines of data is in articleCat"% len(articleCat))  
 
-cleaned_articleCategory_withDescription = z.subDict(articleCat, ['title','description','ms.service'])
+cleaned_articleCategory_withDescription = z.subDict(articleCat, ['title','source','ms.service'])
 
-destPath = codePath + "\\chineseArticleextraction\\"
-z.writeCsv(cleaned_articleCategory_withDescription,destPath+'cleaned_articleCategory_withDescription.csv')
+destPath = codePath
+z.writeCsv(cleaned_articleCategory_withDescription,destPath+'\\cleaned_articleCategory_withDescription.csv')
 print("article title and description is write into cleaned_articleCategory_withDescription.csv with its ms.service tag")

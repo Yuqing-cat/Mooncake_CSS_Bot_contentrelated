@@ -750,7 +750,7 @@ CDN ÈÕÖ¾¹æÔòÏà¹ØÎÊÌâ	Azure CDN Ìá¹©ÁËÈÕÖ¾ÏÂÔØµÄ¹¦ÄÜ¡£µ«ºÜ¶à¿Í»§²»ÊÇºÜÇå³şÈÕÖ¾Éú³
 ÔÚAzure cosmos db ±í API ÖĞ³¢ÊÔÒ»¸ö½ÓÒ»¸öµØ´´½¨Ğí¶à±íÊ±£¬ÎªºÎ»áÊÜµ½ÏŞÖÆ£¿	Azure Cosmos DB ÊÇ»ùÓÚ SLA µÄÏµÍ³£¬ÔÚ¿ÉÓÃĞÔ¡¢ÑÓ³ÙºÍÍÌÍÂÁ¿·½ÃæÌá¹©±£ÕÏ¡£ ÓÉÓÚËüÊÇÔ¤ÅäµÄÏµÍ³£¬Òò´Ë»á±£Áô×ÊÔ´À´±£Ö¤Âú×ãÕâĞ©ÒªÇó¡£ ÒÔ¼«¿ìµÄÆµÂÊ´´½¨±í»á±»ÏµÍ³¼ì²âµ½£¬Òò´Ë»áÊÜµ½ÏŞÖÆ¡£ ½¨ÒéÄã²é¿´±íµÄ´´½¨ÆµÂÊ£¬½«Æä½µµ½Ã¿·ÖÖÓ 5 ¸ö±íÒÔÏÂ¡£ Çë¼Ç×¡£¬±í API ÊÇÔ¤ÅäµÄÏµÍ³¡£ ¼Æ·Ñ´ÓÔ¤ÅäÄÇÒ»¿Ì¿ªÊ¼¡£	https://docs.azure.cn/cosmos-db/faq	cosmos-db	
 Azure Cosmos DB ³¬³öÍÌÍÂÁ¿Ê±£¬»á·¢ÉúÊ²Ã´Çé¿ö£¿	"Azure Cosmos DB Õë¶Ô²Ù×÷ÉèÖÃÉÏÏŞ£¬ÔÚĞÔÄÜºÍÑÓ³Ù·½ÃæÌá¹©±£Ö¤¡£ Èç¹ûÒıÇæ¿ÉÒÔÕë¶Ô×â»§µÄ²Ù×÷ÊµÊ©µ÷¿Ø£¬Ôò¿ÉÒÔÌá¹©ÕâÑùµÄ±£Ö¤¡£ Õâ¿ÉÒÔÍ¨¹ıÉèÖÃÍÌÍÂÁ¿À´ÊµÏÖ£¬²¢¿ÉÈ·±£ÔÚÍÌÍÂÁ¿ºÍÑÓ³Ù·½Ãæ»ñµÃ±£ÕÏ£¬ÒòÎªÆ½Ì¨»á±£Áô´ËÈİÁ¿£¬²¢±£Ö¤²Ù×÷³É¹¦¡£ µ±³¬³ö´ËÈİÁ¿Ê±£¬»áÊÕµ½³¬ÔØ´íÎóÏûÏ¢£¬Ö¸³öÒÑ³¬³öÁËÈİÁ¿¡£ 0x1001 ³¬ÔØ£ºÎŞ·¨´¦Àí´ËÇëÇó£¬ÒòÎª""¡¢Èô¸ÉÌìÄÚÒÔ¼°Ã¿ÆßÌìÄÚÔÚ¸÷¸ö·ÖÇøÖĞµÄÊ¹ÓÃÇé¿ö»ò×ÜÌåÊ¹ÓÃÇé¿ö¡£ ÓĞ¹ØÏêÏ¸ĞÅÏ¢£¬Çë²ÎÔÄ[Ê¹ÓÃ Azure Cosmos DB ÖĞµÄÖ¸±ê½øĞĞ¼àÊÓºÍµ÷ÊÔ](https://docs.azure.cn/cosmos-db/use-metrics)¡£
 [Azure Cosmos DB Õï¶ÏÈÕÖ¾¼ÇÂ¼](https://docs.azure.cn/cosmos-db/logging)Ò»ÎÄÖĞ½éÉÜÁËÕï¶ÏÈÕÖ¾¡£aage-availability) [Azure VM ÎªºÎ»áÖØĞÂÆô¶¯](https://blogs.msdn.microsoft.com/azchina/2014/04/18/azure-vm/) [·şÎñ¼¶±ğĞ­Òé](https://www.azure.cn/support/leg"	https://docs.azure.cn/cosmos-db/faq	cosmos-db	
-SQL API ÈçºÎÌá¹©²¢·¢ĞÔ£¿	"SQL API Ö§³ÖÍ¨¹ı HTTP ÊµÌå±ê¼Ç£¨Ò²³Æ ETag£©À´ÊµÏÖÀÖ¹Û²¢·¢¿ØÖÆ (OCC)¡£ Ã¿¸ö DocumentDB API ×ÊÔ´¶¼ÓĞÒ»¸ö ETag¡£Ã¿´Î¸üĞÂÎÄµµÊ±£¬¶¼»áÔÚ·şÎñÆ÷ÉÏÉèÖÃ´Ë ETag¡£ ETag ±êÍ·ºÍµ±Ç°Öµ°üº¬ÔÚËùÓĞÏìÓ¦ÏûÏ¢ÖĞ¡£ ETag ¿ÉÓë If-Match ±êÍ·ÅäºÏÊ¹ÓÃ£¬ÈÃ·şÎñÆ÷¾ö¶¨ÊÇ·ñÓ¦¸üĞÂ×ÊÔ´¡£ If-Match ÖµÊÇÓÃ×÷¼ì²éÒÀ¾İµÄ ETag Öµ¡£ Èç¹û ETag ÖµÓë·şÎñÆ÷µÄ ETag ÖµÆ¥Åä£¬¾Í»á¸üĞÂ×ÊÔ´¡£ Èç¹û ETag ²»ÔÙÊÇ×îĞÂ×´Ì¬£¬Ôò·şÎñÆ÷»á¾Ü¾ø¸Ã²Ù×÷£¬²¢Ìá¹©""tps://msdn.microsoft.com/library/azure/microsoft.azure.documents.client.accesscondition.aspx) Àà¡£ ÈçĞè .NET Ê¾Àı£¬Çë²ÎÔÄ GitHub ÉÏ DocumentManagement Ê¾ÀıÖĞµÄ [Program.cs](https://github.com/Azure/azure-documentdb-dotnet/blob/master/samples/code-samples/DocumentManagement/Program.cs)ºÏºÏĞÔµÄÆóÒµ¼¶¹ÜÀíºÍ°²È«½â¾ö·½°¸À´ÃÖ²¹ÆäËû Web ·şÎñ£¨ÀıÈç Office 365 ºÍ Azure£©µÄ²»×ã¡£¡£ry/active-directory-domains-manage-azure-portal?toc=%2Farticles%2Fazure-operations-guide"	https://docs.azure.cn/cosmos-db/faq	cosmos-db	
+SQL API ÈçºÎÌá¹©²¢·¢ĞÔ£¿	"SQL API Ö§³ÖÍ¨¹ı HTTP ÊµÌå±ê¼Ç£¨Ò²³Æ ETag£©À´ÊµÏÖÀÖ¹Û²¢·¢¿ØÖÆ (OCC)¡£ Ã¿¸ö DocumentDB API ×ÊÔ´¶¼ÓĞÒ»¸ö ETag¡£Ã¿´Î¸üĞÂÎÄµµÊ±£¬¶¼»áÔÚ·şÎñÆ÷ÉÏÉèÖÃ´Ë ETag¡£ ETag ±êÍ·ºÍµ±Ç°Öµ°üº¬ÔÚËùÓĞÏìÓ¦ÏûÏ¢ÖĞ¡£ ETag ¿ÉÓë If-Match ±êÍ·ÅäºÏÊ¹ÓÃ£¬ÈÃ·şÎñÆ÷¾ö¶¨ÊÇ·ñÓ¦¸üĞÂ×ÊÔ´¡£ If-Match ÖµÊÇÓÃ×÷¼ì²éÒÀ¾İµÄ ETag Öµ¡£ Èç¹û ETag ÖµÓë·şÎñÆ÷µÄ ETag ÖµÆ¥Åä£¬¾Í»á¸üĞÂ×ÊÔ´¡£ Èç¹û ETag ²»ÔÙÊÇ×îĞÂ×´Ì¬£¬Ôò·şÎñÆ÷»á¾Ü¾ø¸Ã²Ù×÷£¬²¢Ìá¹©""tps://msdn.microsoft.com/library/azure/microsoft.azure.documents.client.accesscondition.aspx) Àà¡£ ÈçĞè .NET Ê¾Àı£¬Çë²ÎÔÄ GitHub ÉÏ DocumentManagement Ê¾ÀıÖĞµÄ [Program.cs](https://github.com/Azure/azure-documentdb-dotnet/blob/master/samples/code-samples/DocumentManagement/Program.cs)ºÏºÏĞÔµÄÆóÒµ¼¶¹ÜÀíºÍ°²È«½â¾ö·½°¸À´ÃÖ²¹ÆäËû Web ·şÎñ£¨ÀıÈç Office 365 ºÍ Azure£©µÄ²»×ã¡£¡£ ??????  ??  ???D  ????   ??  ???G  ?     ?????ñÌ???±š???????????     »‡??±š????????"	https://docs.azure.cn/cosmos-db/faq	cosmos-db	
 ÈçºÎ»ñÈ¡ Azure Cosmos DB µÄ¸ü¶à°ïÖú£¿	"ÈôÒªÑ¯ÎÊ¼¼ÊõÎÊÌâ£¬¿ÉÒÔÔÚÏÂÊöÁ½¸öÎÊ´ğÂÛÌ³Ö®Ò»·¢Ìû£º
 
 [MSDN ÂÛÌ³](https://www.azure.cn/support/contact/)
@@ -821,8 +821,7 @@ Azure Cosmos DB ±í API ÊÇ·ñ±È Azure ±í´æ´¢Ìá¹©¸ü¶àµÄÒ»ÖÂĞÔ¼¶±ğ£¿	Azure Cosmos DB
 ÊÇ·ñ¿ÉÒÔÔÚ±¾µØ½«Azure Cosmos DB ±í API SDK ÓÃÓÚÄ£ÄâÆ÷£¿	²»¿ÉÒÔÔÚ±¾µØ½«Azure Cosmos DB ±í API SDK ÓÃÓÚÄ£ÄâÆ÷¡£	https://docs.azure.cn/cosmos-db/faq	cosmos-db	
 Azure Cosmos DB ±í API ÈçºÎÅäÖÃÊ×Ñ¡µÄ¶ÁÈ¡ÇøÓòÒÔ½µµÍ·ÖÅäÊı¾İÊ±µÄÑÓ³Ù£¿	ÇëÊ¹ÓÃ app.config ÎÄ¼şÖĞµÄ PreferredLocation ¼ü£¬·½±ã´Ó±¾µØÎ»ÖÃ¶ÁÈ¡¡£ ¶ÔÓÚÏÖÓĞÓ¦ÓÃ³ÌĞò£¬Èç¹ûÉèÖÃ LocationMode£¬Azure Cosmos DB ±í API »áÒı·¢´íÎó¡£ ÇëÉ¾³ı¸Ã´úÂë£¬ÒòÎª±í API »á´Ó app.config ÎÄ¼şÖĞÑ¡È¡´ËĞÅÏ¢¡£ ÓĞ¹ØÏêÏ¸ĞÅÏ¢£¬Çë²ÎÔÄ [Azure Cosmos DB ¹¦ÄÜ](https://docs.azure.cn/cosmos-db/tutorial-develop-table-dotnet#azure-cosmos-db-capabilities)¡£	https://docs.azure.cn/cosmos-db/faq	cosmos-db	
 Azure Cosmos DB ÈçºÎÌá¹©¿ÉÔ¤²âµÄĞÔÄÜ£¿	"[ÇëÇóµ¥Î»](https://docs.azure.cn/cosmos-db/request-units) (RU) ÊÇ Azure Cosmos DB ÖĞÍÌÍÂÁ¿µÄºâÁ¿µ¥Î»¡£ 1 RU ÍÌÍÂÁ¿Ïàµ±ÓÚÍ¨¹ı GET ²Ù×÷»ñÈ¡ 1 KB ÎÄµµµÄÍÌÍÂÁ¿¡£ ÔÚ Azure Cosmos DB ÖĞ½øĞĞµÄÃ¿¸ö²Ù×÷£¨°üÀ¨¶Á¡¢Ğ´¡¢SQL ²éÑ¯ºÍÖ´ĞĞ´æ´¢¹ı³Ì£©¶¼¾ßÓĞÒ»¸öÈ·¶¨µÄ RU Öµ£¬¸ÃÖµ»ùÓÚÍê³É¸Ã²Ù×÷ËùĞèµÄÍÌÍÂÁ¿¡£ ÎŞĞè¿¼ÂÇ CPU¡¢IO ºÍÄÚ´æ£¬ÒÔ¼°ËüÃÇ»áÔõÑùÓ°ÏìÓ¦ÓÃ³ÌĞòÍÌÍÂÁ¿£¬Ö»Ğè´Óµ¥¸ö RU ¶ÈÁ¿ÖµµÄ½Ç¶È½øĞĞ¿¼ÂÇ¼´¿É¡£
-¿ÉÒÔ°´ÕÕÃ¿ÃëÍÌÍÂÁ¿µÄ RU ÊıÀ´±£ÁôÃ¿¸ö Azure Cosmos DB ÈİÆ÷µÄÔ¤ÅäÍÌÍÂÁ¿¡£ ¶ÔÓÚÈÎºÎ¹æÄ£µÄÓ¦ÓÃ³ÌĞò£¬¶¼¿ÉÒÔÍ¨¹ı½«µ¥¸öÇëÇóÉèÎª»ù×¼À´²âÁ¿Æä RU Öµ£¬²¢Í¨¹ıÔ¤ÅäÈİÆ÷À´´¦ÀíËùÓĞÇëÇóµÄÇëÇóµ¥Î»×ÜºÍ¡£ Ò²¿ÉÒÔËæ×ÅÓ¦ÓÃ³ÌĞòµÄ·¢Õ¹ĞèÇó£¬À©Õ¹»òËõ¼õÈİÆ÷µÄÍÌÍÂÁ¿¡£ ÈçĞèÇëÇóµ¥Î»µÄÏêÏ¸ĞÅÏ¢ÒÔ¼°È·¶¨ÈİÆ÷ĞèÇó·½ÃæµÄ°ïÖú£¬Çë²ÎÔÄ[¹À¼ÆÍÌÍÂÁ¿ĞèÇó](https://docs.azure.cn/cosmos-db/request-units#estimating-throughput-needs)²¢³¢ÊÔÊ¹ÓÃ[ÍÌÍÂÁ¿¼ÆËãÆ÷](https://www.documentdb.com/capacityplanner)¡£ ÔÚÕâÀï£¬ÊõÓï""gistrar-for-your-custom-domain-name)
-* [É¾³ı×Ô¶¨ÒåÓòÃû]"	https://docs.azure.cn/cosmos-db/faq	cosmos-db	
+¿ÉÒÔ°´ÕÕÃ¿ÃëÍÌÍÂÁ¿µÄ RU ÊıÀ´±£ÁôÃ¿¸ö Azure Cosmos DB ÈİÆ÷µÄÔ¤ÅäÍÌÍÂÁ¿¡£ ¶ÔÓÚÈÎºÎ¹æÄ£µÄÓ¦ÓÃ³ÌĞò£¬¶¼¿ÉÒÔÍ¨¹ı½«µ¥¸öÇëÇóÉèÎª»ù×¼À´²âÁ¿Æä RU Öµ£¬²¢Í¨¹ıÔ¤ÅäÈİÆ÷À´´¦ÀíËùÓĞÇëÇóµÄÇëÇóµ¥Î»×ÜºÍ¡£ Ò²¿ÉÒÔËæ×ÅÓ¦ÓÃ³ÌĞòµÄ·¢Õ¹ĞèÇó£¬À©Õ¹»òËõ¼õÈİÆ÷µÄÍÌÍÂÁ¿¡£ ÈçĞèÇëÇóµ¥Î»µÄÏêÏ¸ĞÅÏ¢ÒÔ¼°È·¶¨ÈİÆ÷ĞèÇó·½ÃæµÄ°ïÖú£¬Çë²ÎÔÄ[¹À¼ÆÍÌÍÂÁ¿ĞèÇó](https://docs.azure.cn/cosmos-db/request-units#estimating-throughput-needs)²¢³¢ÊÔÊ¹ÓÃ[ÍÌÍÂÁ¿¼ÆËãÆ÷](https://www.documentdb.com/capacityplanner)¡£ ÔÚÕâÀï£¬ÊõÓï""    Database        Da£‡Òæî}?  ????õë±B  ???ÒæïE???âó°»??"	https://docs.azure.cn/cosmos-db/faq	cosmos-db	
 Í¨¹ı CQL ´´½¨µÄ±íµÄÄ¬ÈÏÍÌÍÂÁ¿ÊÇ¶àÉÙ RU/s£¿ ÈçºÎ¸ü¸Ä¸ÃÄ¬ÈÏÖµ£¿	Azure Cosmos DB Ê¹ÓÃÃ¿ÃëÇëÇóµ¥Î»Êı (RU/s) ×÷ÎªËùÌá¹©µÄÍÌÍÂÁ¿µÄµ¥Î»¡£ Í¨¹ı CQL ´´½¨µÄ±í¾ßÓĞ 400 RU¡£ ¿ÉÒÔÍ¨¹ıÃÅ»§¸ü¸Ä RU¡£	https://docs.azure.cn/cosmos-db/faq	cosmos-db	
 ÈçºÎÀí½â±í API ÖĞµÄÒ»ÖÂĞÔ¼¶±ğ£¿	"Azure Cosmos DB ÔÚÒ»ÖÂĞÔ¡¢¿ÉÓÃĞÔºÍÑÓ³ÙÖ®¼äÌá¹©ºÏÀíµÄÆ½ºâ¡£ Azure Cosmos DB Îª±í API ¿ª·¢ÈËÔ±Ìá¹©Îå¸öÒ»ÖÂĞÔ¼¶±ğ£¬Òò´Ë¿ÉÒÔÔÚ±í¼¶±ğÑ¡ÔñºÏÊÊµÄÒ»ÖÂĞÔÄ£ĞÍ£¬²¢ÔÚ²éÑ¯Êı¾İÊ±·¢³öÏàÓ¦µÄÇëÇó¡£ ¿Í»§¶Ë¿ÉÒÔÔÚÁ¬½ÓÊ±Ö¸¶¨Ò»ÖÂĞÔ¼¶±ğ¡£ ¿ÉÒÔÍ¨¹ı CreateCloudTableClient µÄ consistencyLevel ²ÎÊı¸ü¸Ä¼¶±ğ¡£ 
 Èç¹û½«""ncy-levels)¡£
@@ -1369,8 +1368,7 @@ ICP ±¸°¸ËùĞè²ÄÁÏ£¿	"1. ¹«Ë¾±¸°¸£º
  *   ¾Ó×¡Ö¤£º½ö¸ö±ğÓÃ»§ĞèÒª£¬Çë²é¿´""°¸£º
  *   Ö÷°ìÕß+ÍøÕ¾¸ºÔğÈË+Ö÷Ìå¸ºÔğÈË£ºÒªÇóÊÇÍ¬Ò»ÈË£¬ĞèÌá¹©Éí·İÖ¤£¨·Ç´óÂ½¾³ÄÚÈËÊ¿¿ÉÒÔÌá¹©»¤ÕÕ»òÌ¨°ûÖ¤£©
  *   ÍøÕ¾ÕæÊµĞÔºËÑéµ¥£ºÇëÔÚ±¸°¸ÏµÍ³Ê×Ò³""½ÓÁªÏµÓòÃû×¢²áÉÌÌá¹©ĞÅÏ¢£»Èç¹ûÓòÃûÊÇ¾³Íâ×¢²á£¬ÇëÔÚÍøÉÏÍ¨¹ı whois ²éÑ¯ĞÅÏ¢²¢½ØÍ¼
- *   ¾Ó×¡Ö¤£º½ö¸ö±ğÓÃ»§ĞèÒª£¬Çë²é¿´""ÕæÊµĞÔºËÑéµ¥+ÍøÂç°²È«ÔğÈÎÊé""ccess Signature £¬¹ÜÀíÔ±¿ÉÒÔÎªÆäËûÓÃ»§Éú³ÉÒ»¸öÁÙÊ±µÄÊı¾İ·ÃÎÊÇëÇó£¬¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇó°üº¬ÓĞĞ§µÄÊı×ÖÇ©Ãû£¬ËùÒÔËü¿ÉÒÔÍ¨¹ıÊı¾İÑéÖ¤¡£¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇóÒ²°üº¬¸ÃÓÃ»§¿ÉÒÔ·ÃÎÊÄÄĞ©Êı¾İºÍ ²Ù×÷È¨ÏŞµÈĞÅÏ¢£¬¶øÇÒ¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇóÖ»»áÔÚÖ¸¶¨Ê±¼äÄÚÓĞĞ§¡£ÕâÑù¹ÜÀíÔ±¼È¿ÉÒÔÔÊĞíÆäËûÓÃ»§·ÃÎÊÊı¾İ£¬ÓÖ²»»áĞ¹Â¶·ÃÎÊÃÜÔ¿¡£¡£ure-operations-guide%2Ftoc.json#what-to-do-if-you-change-the-dns-registrar-for-your-custom-domain-name)
-* [É¾³ı×Ô¶¨ÒåÓò"	https://www.azure.cn/icp/icp-faq/	icp	
+ *   ¾Ó×¡Ö¤£º½ö¸ö±ğÓÃ»§ĞèÒª£¬Çë²é¿´""ÕæÊµĞÔºËÑéµ¥+ÍøÂç°²È«ÔğÈÎÊé""ccess Signature £¬¹ÜÀíÔ±¿ÉÒÔÎªÆäËûÓÃ»§Éú³ÉÒ»¸öÁÙÊ±µÄÊı¾İ·ÃÎÊÇëÇó£¬¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇó°üº¬ÓĞĞ§µÄÊı×ÖÇ©Ãû£¬ËùÒÔËü¿ÉÒÔÍ¨¹ıÊı¾İÑéÖ¤¡£¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇóÒ²°üº¬¸ÃÓÃ»§¿ÉÒÔ·ÃÎÊÄÄĞ©Êı¾İºÍ ²Ù×÷È¨ÏŞµÈĞÅÏ¢£¬¶øÇÒ¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇóÖ»»áÔÚÖ¸¶¨Ê±¼äÄÚÓĞĞ§¡£ÕâÑù¹ÜÀíÔ±¼È¿ÉÒÔÔÊĞíÆäËûÓÃ»§·ÃÎÊÊı¾İ£¬ÓÖ²»»áĞ¹Â¶·ÃÎÊÃÜÔ¿¡£¡£    »‡??±š?????????P ??    ??  ???  ???±D??G ? ??  ???±D???        Database        Da£‡Òæî}?  ????õë±B  ???ÒæïE???âó°»"	https://www.azure.cn/icp/icp-faq/	icp	
 ICP ±¸°¸ĞèÒªÄÄĞ©²ÄÁÏ£¿	"1. ¹«Ë¾±¸°¸£º
  *   Ö÷°ìÕßÖ¤¼ş£ºÓªÒµÖ´ÕÕ£¨ÆóÒµ£©¡¢×éÖ¯»ú¹¹´úÂëÖ¤£¨½öÏŞ·ÇÆóÒµ»ú¹¹£©
  *   ÍøÕ¾¸ºÔğÈËÖ¤¼ş£ºÖ¸¹«Ë¾Ô±¹¤Éí·İÖ¤»ò»¤ÕÕ£¨»¤ÕÕ½öÏŞ·Ç´óÂ½¾³ÄÚÈËÊ¿£©
@@ -1379,8 +1377,7 @@ ICP ±¸°¸ĞèÒªÄÄĞ©²ÄÁÏ£¿	"1. ¹«Ë¾±¸°¸£º
  *   ¾Ó×¡Ö¤£º½ö¸ö±ğÓÃ»§ĞèÒª£¬Çë²é¿´""°¸£º
  *   Ö÷°ìÕß+ÍøÕ¾¸ºÔğÈË+Ö÷Ìå¸ºÔğÈË£ºÒªÇóÊÇÍ¬Ò»ÈË£¬ĞèÌá¹©Éí·İÖ¤£¨·Ç´óÂ½¾³ÄÚÈËÊ¿¿ÉÒÔÌá¹©»¤ÕÕ»òÌ¨°ûÖ¤£©
  *   ÍøÕ¾ÕæÊµĞÔºËÑéµ¥£ºÇëÔÚ±¸°¸ÏµÍ³Ê×Ò³""½ÓÁªÏµÓòÃû×¢²áÉÌÌá¹©ĞÅÏ¢£»Èç¹ûÓòÃûÊÇ¾³Íâ×¢²á£¬ÇëÔÚÍøÉÏÍ¨¹ı whois ²éÑ¯ĞÅÏ¢²¢½ØÍ¼
- *   ¾Ó×¡Ö¤£º½ö¸ö±ğÓÃ»§ĞèÒª£¬Çë²é¿´""ÕæÊµĞÔºËÑéµ¥+ÍøÂç°²È«ÔğÈÎÊé""ccess Signature £¬¹ÜÀíÔ±¿ÉÒÔÎªÆäËûÓÃ»§Éú³ÉÒ»¸öÁÙÊ±µÄÊı¾İ·ÃÎÊÇëÇó£¬¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇó°üº¬ÓĞĞ§µÄÊı×ÖÇ©Ãû£¬ËùÒÔËü¿ÉÒÔÍ¨¹ıÊı¾İÑéÖ¤¡£¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇóÒ²°üº¬¸ÃÓÃ»§¿ÉÒÔ·ÃÎÊÄÄĞ©Êı¾İºÍ ²Ù×÷È¨ÏŞµÈĞÅÏ¢£¬¶øÇÒ¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇóÖ»»áÔÚÖ¸¶¨Ê±¼äÄÚÓĞĞ§¡£ÕâÑù¹ÜÀíÔ±¼È¿ÉÒÔÔÊĞíÆäËûÓÃ»§·ÃÎÊÊı¾İ£¬ÓÖ²»»áĞ¹Â¶·ÃÎÊÃÜÔ¿¡£¡£ure-operations-guide%2Ftoc.json#what-to-do-if-you-change-the-dns-registrar-for-your-custom-domain-name)
-* [É¾³ı×Ô¶¨ÒåÓò"	https://www.azure.cn/icp/icp-faq/	icp	
+ *   ¾Ó×¡Ö¤£º½ö¸ö±ğÓÃ»§ĞèÒª£¬Çë²é¿´""ÕæÊµĞÔºËÑéµ¥+ÍøÂç°²È«ÔğÈÎÊé""ccess Signature £¬¹ÜÀíÔ±¿ÉÒÔÎªÆäËûÓÃ»§Éú³ÉÒ»¸öÁÙÊ±µÄÊı¾İ·ÃÎÊÇëÇó£¬¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇó°üº¬ÓĞĞ§µÄÊı×ÖÇ©Ãû£¬ËùÒÔËü¿ÉÒÔÍ¨¹ıÊı¾İÑéÖ¤¡£¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇóÒ²°üº¬¸ÃÓÃ»§¿ÉÒÔ·ÃÎÊÄÄĞ©Êı¾İºÍ ²Ù×÷È¨ÏŞµÈĞÅÏ¢£¬¶øÇÒ¸ÃÁÙÊ±Êı¾İ·ÃÎÊÇëÇóÖ»»áÔÚÖ¸¶¨Ê±¼äÄÚÓĞĞ§¡£ÕâÑù¹ÜÀíÔ±¼È¿ÉÒÔÔÊĞíÆäËûÓÃ»§·ÃÎÊÊı¾İ£¬ÓÖ²»»áĞ¹Â¶·ÃÎÊÃÜÔ¿¡£¡£    »‡??±š?????????P ??    ??  ???  ???±D??G ? ??  ???±D???        Database        Da£‡Òæî}?  ????õë±B  ???ÒæïE???âó°»"	https://www.azure.cn/icp/icp-faq/	icp	
 ICP	"ICP±¸°¸ÊÇ¹¤ĞÅ²¿ÒªÇóÃ¿Ò»¸öÔÚ¹úÄÚÁ¬½Ó»¥ÁªÍøµÄÍøÕ¾¶¼±ØĞëÒª°ìµÄÒ»¸öÈëÍøĞí¿É¡£
 ICPĞí¿ÉÖ¤ÊÇÍøÕ¾¾­ÓªµÄĞí¿ÉÖ¤£¬¸ù¾İ¹ú¼Ò¡¶»¥ÁªÍø¹ÜÀí°ì·¨¡·¹æ¶¨£¬¾­ÓªĞÔÍøÕ¾±ØĞë°ìÀíICPĞí¿ÉÖ¤£¬·ñÔò¾ÍÊôÓÚ·Ç·¨¾­Óª¡£
 Chinacloudapp.cn¡¢Chinacloudapi.cn ºÍ Chinacloudsites.cn ÓòÃûÓÉÉÏº£À¶ÔÆÍøÂç¿Æ¼¼ÓĞÏŞ¹«Ë¾±¸°¸£¬½öÓÃÓÚÏòÆä¿Í»§Ìá¹© Azure ·şÎñ¡£Èç¹ûÄúĞèÒªÍ¨¹ı Azure Æ½Ì¨¶ÔÍâÌá¹©·şÎñ£¬Ó¦Ê¹ÓÃ×ÔÓĞµÄÓòÃûÌá¹©·şÎñ£¬²¢¸ù¾İÏà¹Ø¹æ¶¨¶Ô×ÔÓĞÓòÃû×öÏàÓ¦µÄ ICP ±¸°¸¡£
@@ -1890,8 +1887,7 @@ Azure Ö§³Ö¿ªÔ´Èí¼şÂğ£¿	Azure Ö§³Ö´óÁ¿¿ªÔ´Ó¦ÓÃ³ÌĞò¡¢¿ò¼ÜºÍÓïÑÔ£¬²¢ÇÒÊıÁ¿ÈÔÔÚ²»¶ÏÔ
 Î¢ÈíÔÚÓÉÊÀ¼Í»¥ÁªÔËÓªµÄ Microsoft Azure ÖĞ°çÑİºÎÖÖ½ÇÉ«£¿	"ÓÉÊÀ¼Í»¥ÁªÔËÓªµÄ Microsoft Azure ·şÎñÊÇÔÚÖĞ¹ú´óÂ½¶ÀÁ¢ÔËÓªµÄ¹«ÓĞÔÆÆ½Ì¨£¬ÓÉÊÀ¼Í»¥Áª¶ÀÁ¢ÔËÓªºÍÏúÊÛ¡£²ÉÓÃÓëÎ¢Èí·şÎñÓÚÈ«ÇòÔÆ·şÎñµÄ Azure ¼¼Êõ£¬Îª¿Í»§Ìá¹©È«ÇòÒ»ÖÂµÄ·ş ÎñÖÊÁ¿±£ÕÏ¡£×÷ÎªÓÉÊÀ¼Í»¥ÁªÔËÓªµÄ Microsoft Azure ¿Í»§£¬¿É»ñµÃÒÔÏÂ·şÎñ£º*   ÔÚÖĞ¹ú´óÂ½Êı¾İÖĞĞÄÍĞ¹ÜÇÒÓÉÊÀ¼Í»¥Áª¶ÀÁ¢ÔËÓªµÄÔÆ·şÎñ¡£ÊÀ¼Í»¥ÁªÊÇÖĞ¹úÁìÏÈµÄ»¥ÁªÍøÊı¾İÖĞĞÄÌá¹©ÉÌ¡£*   Ô´ÓÚÎ¢ÈíÓ¦ÓÃÓÚÈ«ÇòÆóÒµ¿Í»§ÊıÊ®ÄêµÄ·á¸»ÔÚÏß·şÎñ¾­Ñé¶ø¿ª·¢µÄÊÀ½çÒ»Á÷µÄ Azure ¼¼Êõ, È«Ãæ·şÎñÓÚÖĞ¹úµÄ¿Í»§¡£"	https://www.azure.cn/support/faq/	general	
 Azure ÔÚ¹úÄÚ»ñµÃÁËÄÄĞ©ÔÆºÍÊı¾İ°²È«Ïà¹ØµÄÈÏÖ¤£¿	"Azure ÔÚ¹úÄÚ»ñµÃÁËÒÔÏÂÔÆºÍÊı¾İ°²È«Ïà¹ØµÄÈÏÖ¤£º
 * ISO/IEC 27001:2005 ÉóºËºÍÈÏÖ¤ÊÀ¼Í»¥Áª³ĞÅµÃ¿Äê»ùÓÚ ISO/IEC 27001:2005£¨ÕâÊÇÒ»ÖÖÊÊÓÃ·¶Î§¹ã·ºµÄ¹ú¼ÊĞÅÏ¢°²È«±ê×¼£©½øĞĞÈÏÖ¤¡£ISO/IEC 27001:2005 Ö¤ÊéÈ·ÈÏÊÀ¼Í»¥ÁªÒÑÊµÊ©´Ë±ê×¼ÖĞ¶¨ÒåµÄ¹ú¼ÊÉÏÈÏ¿ÉµÄĞÅÏ¢°²È«¿ØÖÆ´ëÊ©£¬°üÀ¨ÓĞ¹ØÆô¶¯¡¢ÊµÊ©¡¢Î¬»¤ºÍ¸Ä½ø×éÖ¯ÖĞµÄĞÅÏ¢°²È«¹ÜÀíµÄÖ¸ÄÏºÍÒ»°ãÔ­Ôò¡£ISO ·¶Î§£ºĞÅÏ¢°²È«¹ÜÀíÏµÍ³ ( ISMS ) £¬ÆäÖĞ°üº¬ÁË²Ù×÷¡¢°²È«ºÍ¶ÔÉÌÎñÁ÷³Ì¹ÜÀí¡£¸ÃÖ¤ÊéÓÉ[±±¾©ÈüÎ÷ÈÏÖ¤ÓĞÏŞÔğÈÎ¹«Ë¾ ( CESI )](http://www.cc.cesi.cn/)¹«¿ª°ä·¢¡£
-* ¿ÉĞÅÔÆ·şÎñÈÏÖ¤ÊÀ¼Í»¥Áª²ÉÓÃ Azure ÁìÏÈµÄ¼¼Êõ£¬ÒÔÆäÇ¿´óµÄ±¾µØ»¯ÔËÓªÄÜÁ¦£¬¿ª·ÅĞÔµÄÆ½Ì¨¡¢¸ßÖÊÁ¿µÄSLA·şÎñµÈ¼¶Ğ­Òé £¨ Service Level Agreement £©¡¢Ç¿´óµÄÊı¾İ»Ö¸´ÄÜÁ¦ºÍ×î¼ÑµÄ¿Í»§ÊÕÒæ£¬ ³É¹¦µØÔÚÊ×Åú»ñµÃ¶ÔĞéÄâ»úºÍ´æ´¢·şÎñµÄ¿ÉĞÅÔÆ·şÎñÈÏÖ¤¡£¿ÉĞÅÔÆ·şÎñÈÏÖ¤ÊÇÔÚ¹¤ÒµºÍĞÅÏ¢»¯²¿µÄÖ¸µ¼ÏÂÓÉÔÆ¼ÆËã·¢Õ¹ÓëÕş²ßÂÛÌ³""tps://www.trustcenter.cn/zh-cn/privacy/)¼°[³£¼ûÎÊÌâ](https://www.trustcenter.cn/zh-cn/resources/FAQ.html)Ò³Ãæ¡£--custom-domain-name)
-* [É¾³ı×Ô¶¨ÒåÓòÃû](https://docs.azure.cn/zh-cn/active-directory/active-directory-domains-"	https://www.azure.cn/support/faq/	general	
+* ¿ÉĞÅÔÆ·şÎñÈÏÖ¤ÊÀ¼Í»¥Áª²ÉÓÃ Azure ÁìÏÈµÄ¼¼Êõ£¬ÒÔÆäÇ¿´óµÄ±¾µØ»¯ÔËÓªÄÜÁ¦£¬¿ª·ÅĞÔµÄÆ½Ì¨¡¢¸ßÖÊÁ¿µÄSLA·şÎñµÈ¼¶Ğ­Òé £¨ Service Level Agreement £©¡¢Ç¿´óµÄÊı¾İ»Ö¸´ÄÜÁ¦ºÍ×î¼ÑµÄ¿Í»§ÊÕÒæ£¬ ³É¹¦µØÔÚÊ×Åú»ñµÃ¶ÔĞéÄâ»úºÍ´æ´¢·şÎñµÄ¿ÉĞÅÔÆ·şÎñÈÏÖ¤¡£¿ÉĞÅÔÆ·şÎñÈÏÖ¤ÊÇÔÚ¹¤ÒµºÍĞÅÏ¢»¯²¿µÄÖ¸µ¼ÏÂÓÉÔÆ¼ÆËã·¢Õ¹ÓëÕş²ßÂÛÌ³""tps://www.trustcenter.cn/zh-cn/privacy/)¼°[³£¼ûÎÊÌâ](https://www.trustcenter.cn/zh-cn/resources/FAQ.html)Ò³Ãæ¡£     Da£‡Òæî}?  ????õë±B  ???ÒæïE???âó°»??îy???ñü????Òæ  ????   ??’\°»????? ?±C??’¨°»ïE???îy?ŞÚ°»ïE?  ñü?ı™???‘Û°»??  ????? "	https://www.azure.cn/support/faq/	general	
 "Î¢ÈíµÄ Exchange, Skype, SharePoint Ö§³Ö²¿ÊğÔÚAzure ÔÆ¶ËÂğ£¿"	"SharePoint ĞéÄâ»úÄ£°åÊÇ¿ÉÒÔÔÚ Azure ĞéÄâ»úÄ£°åÉÏÑ¡ÔñµÄ£¬¿ÉÒÔµÃµ½Î¢ÈíµÄ¹Ù·½Ö§³Ö¡£Exchange Server, Skype Server ÓÃ»§¿ÉÒÔ×Ô¶¨ÒåÉÏ´«£¬µ«ÊÇÎŞ·¨»ñµÃÎ¢Èí¹Ù·½µÄÖ§³Ö¡£"	https://www.azure.cn/support/faq/	general	
 ÈçºÎÌá¸ßÓ¦ÓÃµÄ¿ÉÓÃĞÔ£¿	"¿ÉÓÃĞÔ¼¯ÊÇÒ»ÖÖÂß¼­·Ö×é¹¦ÄÜ£¬ÔÚ Azure ÖĞÊ¹ÓÃËü¿ÉÒÔÈ·±£½« VM ×ÊÔ´²¿ÊğÔÚ Azure Êı¾İÖĞĞÄºó£¬ÕâĞ©×ÊÔ´Ïà»¥¸ôÀë¡£
 
@@ -2176,7 +2172,7 @@ Azure ´æ´¢ÕÊ»§»¹¿ÉÎª²Ù×÷ÏµÍ³´ÅÅÌºÍÈÎºÎÊı¾İ´ÅÅÌÌá¹©´æ´¢¿Õ¼ä¡£ Ã¿¸ö´ÅÅÌ¶¼ÊÇÒ»¸ö .v
 ¿ÉÔÚ OMS ÃÅ»§ÖĞ²éÕÒËùĞèµÄ workspaceId ºÍ workspaceKey¡£ ÔÚ""Èç¹û¹æÄ£¼¯""dePolicy""ÉèÖÃÎª""£¬ÔòĞèÒªÍ¨¹ı¶Ô VM µ÷ÓÃÉı¼¶½«À©Õ¹Ó¦ÓÃµ½¼¯ÖĞµÄËùÓĞ VM¡£ ÔÚ CLI ÖĞ£¬Õâ½«Îª""55ure ´æ´¢ÕÊ»§»¹¿ÉÎª²Ù×÷ÏµÍ³´ÅÅÌºÍÈÎºÎÊı¾İ´ÅÅÌÌá¹©´æ´¢¿Õ¼ä¡£ Ã¿¸ö´ÅÅÌ¶¼ÊÇÒ»¸ö .vhd ÎÄ¼ş£¬ÒÔÒ³ blob ĞÎÊ½´æ´¢¡£ ÓĞ¹Ø¶¨¼ÛÏêÏ¸"	https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-faq	virtual-machine-scale-sets	
 ĞéÄâ»ú¹æÄ£¼¯ÈçºÎ¶¨Òå´ïµ½ÌØ¶¨ãĞÖµÊ±´¥·¢µÄ×Ô¶¨Òå¾¯±¨£¿	"¿ÉÒÔÔÚÒ»¶¨³Ì¶ÈÉÏÁé»î´¦ÀíÖ¸¶¨ãĞÖµµÄ¾¯±¨¡£ ÀıÈç£¬¿ÉÒÔ¶¨Òå×Ô¶¨ÒåµÄ webhook¡£ ÒÔÏÂ webhook Ê¾ÀıÈ¡×Ô Resource Manager Ä£°å£º
  { ""ngs"", ""apiVersion"": ""[variables('insightsApi')]"", ""name"": ""autoscale"", ""location"": ""[parameters('resourceLocation')]"", ""dependsOn"": [ ""[concat('Microsoft.Compute/virtualMachineScaleSets/', parameters('vmSSName'))]"" ], ""properties"": { ""name"": ""autoscale"", ""targetResourceUri"": ""[concat('/subscriptions/',subscription().subscriptionId, '/resourceGroups/', resourceGroup().name, '/providers/Microsoft.Compute/virtualMachineScaleSets/', parameters('vmSSName'))]"", ""enabled"": true, ""notifications"": [ { ""operation"": ""Scale"", ""email"": { ""sendToSubscriptionAdministrator"": true, ""sendToSubscriptionCoAdministrators"": true, ""customEmails"": [ ""youremail@address.com"" ] }, ""webhooks"": [ { ""serviceUri"": ""https://events.pagerduty.com/integration/0b75b57246814149b4d87fa6e1273687/enqueue"", ""properties"": { ""key1"": ""custommetric"", ""key2"": ""scalevmss"" } } ] } ]
-ÔÚ´ËÊ¾ÀıÖĞ£¬´ïµ½ãĞÖµÊ±£¬¾¯±¨½«×ªµ½ Pagerduty.com¡£¡£rticles%2Fazure-operations-guide%2Ftoc.j"	https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-faq	virtual-machine-scale-sets	
+ÔÚ´ËÊ¾ÀıÖĞ£¬´ïµ½ãĞÖµÊ±£¬¾¯±¨½«×ªµ½ Pagerduty.com¡£¡£?’\°»????? ?±C??’¨°»îy?»€???ŞÚ°»îy?  î}?îx???‘Û°»»€?"	https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-faq	virtual-machine-scale-sets	
 ĞéÄâ»ú¹æÄ£¼¯ÊÇ·ñĞèÒªÔÚÃÜÔ¿±£¹Ü¿âÖĞ½«Ö¤Êé°ü×°ÔÚ JSON ¶ÔÏóÖĞ£¿	"ÔÚĞéÄâ»ú¹æÄ£¼¯ºÍ VM ÖĞ£¬±ØĞëÔÚ JSON ¶ÔÏóÖĞ°ü×°Ö¤Êé¡£
 ÎÒÃÇ»¹Ö§³Ö application/x-pkcs12 ÄÚÈİÀàĞÍ¡£ ÓĞ¹ØÊ¹ÓÃ application/x-pkcs12 µÄËµÃ÷£¬Çë²ÎÔÄ [Azure Key Vault ÖĞµÄ PFX Ö¤Êé](http://www.rahulpnath.com/blog/pfx-certificate-in-azure-key-vault/)¡£
 ÎÒÃÇÄ¿Ç°²»Ö§³Ö .cer ÎÄ¼ş¡£ ÒªÊ¹ÓÃ.cer ÎÄ¼ş£¬Çë½«Æäµ¼³öµ½.pfx ÈİÆ÷ÖĞ¡£"	https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-faq	virtual-machine-scale-sets	
@@ -2784,141 +2780,28 @@ Azure VPN Íø¹Ø SKU Ö§³Ö×Ô¶¨Òå IPsec/IKE ²ßÂÔÂğ	×Ô¶¨Òå IPsec/IKE ²ßÂÔÔÚ Azure Vpn
 ÈôÒªÈ·±£ Azure Íø¹ØÄÜ¹»·ÃÎÊ±¾µØ RADIUS ·şÎñÆ÷£¬¶ÔÁ¬½ÓÓĞºÎÒªÇó£¿	ĞèÒª¾ßÓĞµ½±¾µØÕ¾µãµÄ VPN Õ¾µãµ½Õ¾µãÁ¬½Ó£¬²¢ÇÒĞèÒªÅäÖÃÕıÈ·µÄÂ·ÓÉ¡£	https://docs.azure.cn/zh-cn/vpn-gateway/point-to-site-about	vpn-gateway	
 Èç¹ûÖØĞÂÆô¶¯½øĞĞ¹ıµãµ½Õ¾µãÅäÖÃµÄ¿Í»§¶Ë¼ÆËã»ú£¬ÊÇ·ñ»á×Ô¶¯ÖØĞÂÁ¬½Ó VPN£¿	Ä¬ÈÏÇé¿öÏÂ£¬¿Í»§¶Ë¼ÆËã»ú²»×Ô¶¯ÖØĞÂ½¨Á¢ VPN Á¬½Ó¡£	https://docs.azure.cn/zh-cn/vpn-gateway/point-to-site-about	vpn-gateway	
 µãµ½Õ¾µãÁ¬½ÓÖĞÈç¹ûÖØÆô¿Í»§¶Ë¼ÆËã»ú»á×Ô¶¯ÖØĞÂÁ¬½Ó VPN Âğ£¿	Ä¬ÈÏÇé¿öÏÂ£¬¿Í»§¶Ë¼ÆËã»ú²»×Ô¶¯ÖØĞÂ½¨Á¢ VPN Á¬½Ó¡£	https://docs.azure.cn/zh-cn/vpn-gateway/point-to-site-about	vpn-gateway	
-ÈçºÎ RDP Á¬½ÓĞéÄâ»ú	"ÔÚ [Azure ÃÅ»§](https://portal.azure.cn/)ÖĞÕÒµ½ÄúĞèÒªÁ¬½ÓµÄĞéÄâ»ú£¬°´ÕÕÒÔÏÂ²½ÖèÒÀ´Îµã»÷£º**¸ÅÊö** >> **Á¬½Ó** >> **RDP**±êÇ©Ò³ >> **ÏÂÔØ RDP ÎÄ¼ş**£¬ÔËĞĞ ¸Ã RDP ÎÄ¼ş¼´¿ÉÁ¬½ÓÖÁĞéÄâ»ú¡£
-"	v-tawe	virtual-machines	RDP
-ÎŞ·¨ RDP µ½ĞéÄâ»ú	"ĞéÄâ»úÎŞ·¨ RDP Á¬½Ó¿ÉÄÜ»áÒò¸÷ÖÖÔ­Òò¶øµ¼ÖÂ£¬ÒÔÏÂÎª¼¸ÖÖ³£¼ûµÄ½â¾ö·½·¨£º
-1. ÖØÖÃÔ¶³Ì×ÀÃæÅäÖÃ¡£
-2. ¼ì²éÍøÂç°²È«×é¹æÔò/ÔÆ·şÎñÖÕ½áµã¡£
-3. ²é¿´ VM ¿ØÖÆÌ¨ÈÕÖ¾¡£
-4. ÖØÖÃ VM µÄ NIC¡£
-5. ÖØÖÃ VM ÃÜÂë¡£
-6. ÖØĞÂÆô¶¯ VM¡£
-7. ÖØĞÂ²¿Êğ VM¡£"	https://docs.azure.cn/zh-cn/virtual-machines/windows/troubleshoot-rdp-connection?toc=%2farticles%2fazure-operations-guide%2ftoc.json https://docs.azure.cn/zh-cn/virtual-machines/windows/detailed-troubleshoot-rdp?toc=%2farticles%2fazure-operations-guide%2ftoc.json https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/windows/aog-virtual-machines-qa-windows-cannot-rdp-cer-cause	virtual-machines	RDP
-ÈçºÎ SSH Á¬½ÓĞéÄâ»ú	"ÔÚ [Azure ÃÅ»§](https://portal.azure.cn/)ÖĞÕÒµ½ÄúĞèÒªÁ¬½ÓµÄĞéÄâ»ú£¬°´ÕÕÒÔÏÂ²½ÖèÒÀ´Îµã»÷£º**¸ÅÊö** >> **Á¬½Ó** >> **SSH**±êÇ©Ò³£¬Ê¹ÓÃ¸ÃÒ³ÃæÌá¹©µÄÃüÁî½øĞĞ SSH Á¬½Ó¡£
-"	v-tawe	virtual-machines	"SSH,Azure ÃÅ»§"
-ÎŞ·¨ SSH µ½ĞéÄâ»ú	"ĞéÄâ»úÎŞ·¨ SSH Á¬½Ó¿ÉÄÜ»áÒò¸÷ÖÖÔ­Òò¶øµ¼ÖÂ£¬ÒÔÏÂÎª¼¸ÖÖ³£¼ûµÄ½â¾ö·½·¨£º
-1. ÖØÖÃ SSH ÅäÖÃ¡£
-2. ÖØÖÃÓÃ»§µÄÆ¾¾İ¡£
-3. ÑéÖ¤ÍøÂç°²È«×é¹æÔòÊÇ·ñÔÊĞí SSH Á÷Á¿¡£
-    * È·±£ÓĞÒ»ÌõÍøÂç°²È«×é¹æÔòÔÊĞí SSH Á÷Á¿£¨Ä¬ÈÏÎª TCP ¶Ë¿Ú 22£©¡£
-    * ÔÚ²»Ê¹ÓÃ Azure ¸ºÔØ¾ùºâÆ÷µÄÇé¿öÏÂÎŞ·¨Ê¹ÓÃ¶Ë¿ÚÖØ¶¨Ïò/Ó³Éä¡£
-4. ²é¿´ VM ×ÊÔ´ÔËĞĞ×´¿ö¡£
-    * È·±£ VM ±¨¸æÎªÕı³£¡£
-    * Èç¹ûÒÑÆôÓÃÆô¶¯Õï¶Ï£¬ÇëÑéÖ¤ VM ÔÚÈÕÖ¾ÖĞÊÇ·ñÎ´±¨¸æÆô¶¯´íÎó¡£
-5. ÖØÆô VM¡£
-6. ÖØĞÂ²¿Êğ VM¡£"	https://docs.azure.cn/zh-cn/virtual-machines/linux/troubleshoot-ssh-connection?toc=%2farticles%2fazure-operations-guide%2ftoc.json https://docs.azure.cn/zh-cn/virtual-machines/linux/detailed-troubleshoot-ssh-connection?toc=%2farticles%2fazure-operations-guide%2ftoc.json https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-troubleshoot-ssh-remote-fail	virtual-machines	SSH
-ÈçºÎÎª¾­µäĞéÄâ»úÅäÖÃ¾²Ì¬ IP	"Ê¹ÓÃÒÔÏÂ PowerShell ÃüÁî½øĞĞÉèÖÃ£º
-$vm = Get-AzureVM -ServiceName '<yourServiceName>' -Name '<yourVMName>' 
-Set-AzureStaticVNetIP -VM $vm -IPAddress '<staticIP>' | Update-AzureVM"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-network/aog-virtual-network-how-to-use-internal-ip	virtual-machines	"PowerShell,ASM,Static IP"
-¶àÌ¨ ARM ĞéÄâ»úÈçºÎÊ¹ÓÃÍ¬Ò»¸ö¹«¹² IP ·ÃÎÊ¹«Íø	Ê×ÏÈÒÔÒ»Ì¨ĞéÄâ»ú×÷Îª¹«ÓÃĞéÄâ»ú£¬È»ºó½èÖú Azure ×Ô¶¨ÒåÂ·ÓÉ¹¦ÄÜ½«ÆäËûĞéÄâ»úËùÔÚµÄ×ÓÍø·ÃÎÊ Internet Á÷Á¿¶¨Ïòµ½¸Ã¹«ÓÃĞéÄâ»ú£¬¾ßÌå²½ÖèÇë²Î¿¼ÎÄµµ£º[ARM ĞéÄâ»úÊ¹ÓÃÍ¬Ò»¸ö¹«¹² IP ·ÃÎÊ¹«ÍøµÄ½â¾ö·½°¸](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-access-public-network-with-same-pip)¡£	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-access-public-network-with-same-pip	virtual-machines	"ARM,PIP"
-ĞéÄâ»úÅäÖÃ¾²Ì¬ IP ÒÔºóÎŞ·¨Á¬½Ó	"³¢ÊÔÒÔÏÂ¼¸ÖÖ½â¾ö·½°¸£º
-1. ÔÚ Azure ÃÅ»§ÖĞÖØÆôĞéÄâ»ú»òµ÷ÕûĞéÄâ»úµÄ³ß´ç¡£
-2. É¾³ıĞéÄâ»úÍ¬Ê±±£Áô´ÅÅÌ£¬»ùÓÚ¸Ã´ÅÅÌĞÂ½¨ĞéÄâ»ú¡£
-3. É¾³ıĞéÄâ»úÍ¬Ê±±£Áô´ÅÅÌ£¬ÔÚ±¾µØÊ¹ÓÃ Hyper-V ¼ÓÔØ´ÅÅÌ²¢Æô¶¯ĞéÄâ»ú£¬½«¾²Ì¬ IP ÖØĞÂ¸ÄÎª¶¯Ì¬»ñÈ¡£¬È»ºóÔÚ Azure ÖĞÖØ½¨ĞéÄâ»ú¡£"	 https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-troubleshoot-change-static-ip	virtual-machines	Static IP
-¾­µäĞéÄâ»úÈçºÎ¸½¼Ó´ÅÅÌ	"ÔÚ [Azure ÃÅ»§](https://portal.azure.cn) ÖĞÑ¡ÖĞĞèÒªĞŞ¸ÄµÄ¾­µäĞéÄâ»ú£¬µã»÷ **´ÅÅÌ** >>  **¸½¼ÓÏÖÓĞ´ÅÅÌ**£¬Ñ¡ÔñÄãĞèÒª¸½¼ÓµÄ´ÅÅÌµã»÷ **È·¶¨** ¼´¿É¡£
-ÄúÒ²¿ÉÒÔÊ¹ÓÃÒÔÏÂ PowerShell ÃüÁî¸½¼ÓÏÖÓĞ´ÅÅÌ£º
-$vm = Get-AzureVM -ServiceName '<yourServiceName>' -Name '<yourVMName>' 
-Add-AzureDataDisk -VM $vm -CreateNew -DiskSizeInGB <diskSize> -DiskLabel '<diskLabel>' -LUN 0 -MediaLocation ""vhdName>.vhd"""" | Update-AzureVM  d-rm-ps)¡£¡£ÔÚ¸ÃÁĞ±íÖĞ£¬ÔòÈÔÓĞ¿ÉÄÜ°æ±¾ÊÇ¼æÈİµÄ¡£ ÇëÓëÉè±¸ÖÆÔìÉÌÁªÏµÒÔÑéÖ¤ VPN Éè±¸µÄ OS °æ±¾ÊÇ·ñ¼æÈİ¡£"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-attach-vhd	virtual-machines	Disk
-¾­µäĞéÄâ»úÈçºÎÒÆ³ı¸½¼Ó´ÅÅÌ	"ÔÚ [Azure ÃÅ»§](https://portal.azure.cn) ÖĞÑ¡ÖĞĞèÒªĞŞ¸ÄµÄ¾­µäĞéÄâ»ú£¬µã»÷ **´ÅÅÌ** £¬Ñ¡ÔñĞèÒªÒÆ³ıµÄÊı¾İ´ÅÅÌ£¬µã»÷ **·ÖÀë** °´Å¥¡£
-ÄúÒ²¿ÉÒÔÊ¹ÓÃÒÔÏÂ PowerShell ÃüÁîÒÆ³ı¸½¼Ó´ÅÅÌ£º
-$vm = Get-AzureVM -ServiceName '<yourServiceName>' -Name '<yourVMName>' 
-Remove-AzureDataDisk -LUN <LunNum> -VM $vm | Update-AzureVM"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-attach-vhd	virtual-machines	Disk
-ÈçºÎ²éÑ¯ Azure ĞéÄâ»úÊµ¼Ê´ÅÅÌÓÃÁ¿	"¶ÔÓÚ ARM ºÍ ASM ĞéÄâ»ú·Ö±ğÊ¹ÓÃÒÔÏÂ PowerShell ½Å±¾²éÑ¯´ÅÅÌµÄÊµ¼ÊÓÃÁ¿£º
-* ARM: [Get-ArmVMDiskSize.ps1](https://github.com/wacn/AOG-CodeSample/blob/master/PowerShell/Get-ArmVMDiskSize.ps1)
-* ASM: [Get-ArmVMDiskSize.ps1](https://github.com/wacn/AOG-CodeSample/blob/master/PowerShell/Get-AsmVMDiskSize.ps1)"	 https://docs.azure.cn/zh-cn/articles/azure-operations-guide/sample-code/aog-sample-code-virtual-machines-query-standard-disk-usage-via-powershell	virtual-machines	Disk
-ÈçºÎ¶¨Î»ĞéÄâ»úµÄ¸½¼Ó´ÅÅÌ	Í¨¹ıÊı¾İ´ÅÅÌµÄ LUN ID ¿ÉÒÔ½«ĞéÄâ»úÄÚ²¿µÄÊı¾İ´ÅÅÌºÍ Azure ´æ´¢ÕËºÅµÄ´ÅÅÌÒ»Ò»¶ÔÓ¦ÆğÀ´£¬¾ßÌå²½ÖèÇë²Î¿¼ÎÄµµ£º[ÈçºÎ¶¨Î»ĞéÄâ»úÄÚ²¿¸½¼ÓµÄÊı¾İ´ÅÅÌ](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-howto-loc-data-disk)¡£	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-howto-loc-data-disk	virtual-machines	Disk
-ÈçºÎ²â¶¨ Azure ĞéÄâ»úµÄ´ÅÅÌĞÔÄÜ	½¨ÒéÊ¹ÓÃ DiskSPD »òÊÇ IOMeter µÈ¹¤¾ß½øĞĞ²â¶¨ÒÔ»ñÈ¡ÎÈ¶¨µÄ´ÅÅÌÊı¾İ£¬¾ßÌå²½ÖèÇë²Î¿¼ÎÄµµ£º[Àí½â¼°¿ìËÙ²â¶¨ Azure ĞéÄâ»úµÄ´ÅÅÌĞÔÄÜ](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-disk-performace)¡£	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-disk-performace	virtual-machines	Disk
-ÈçºÎµ¼³öÍĞ¹Ü´ÅÅÌ	"¿ÉÒÔÍ¨¹ıÒÔÏÂ 3 ÖÖ·½Ê½µ¼³öÍĞ¹Ü´ÅÅÌ:
-1. ÔÚ [Azure ÃÅ»§](https://portal.azure.cn)ÖĞ£¬ÔÚ **´ÅÅÌ** Ò³Ãæµã»÷ **µ¼³ö** °´Å¥£¬µã»÷ **Éú³É URL** °´Å¥£¬¼´¿ÉÉú³É°²È«µÄ URL ²¢Ö±½ÓÓÃä¯ÀÀÆ÷ÏÂÔØ¡£
-2. Ê¹ÓÃ PowerShell ¶ÔÖ¸¶¨µÄÍĞ¹Ü´ÅÅÌ´´½¨¿ìÕÕ£¬È»ºó½«¿ìÕÕµ¼³ö³É VHD ÎÄ¼ş£¬±£´æÔÚÖ¸¶¨µÄ´æ´¢ÕË»§ÖĞ£¬ÏêÏ¸ PowerShell ÃüÁî²Î¼ûÎÄµµ£º[ÈçºÎ¸´ÖÆ»òµ¼³öÍĞ¹Ü´ÅÅÌ](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-howto-export-managed-disks#powershell)¡£
-3. Ê¹ÓÃ Azure CLI ¶ÔÖ¸¶¨µÄÍĞ¹Ü´ÅÅÌ´´½¨¿ìÕÕ£¬È»ºó¶ÔÖ¸¶¨¿ìÕÕÉú³É SAS Uri£¬²¢½«¿ìÕÕµ¼³ö³É VHD ÎÄ¼şÖÁÖ¸¶¨´æ´¢ÕË»§£¬ÏêÏ¸ Azure CLI ÃüÁîÇë²Î¼ûÎÄµµ£º[ÈçºÎ¸´ÖÆ»òµ¼³öÍĞ¹Ü´ÅÅÌ](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-howto-export-managed-disks#azure-cli)¡£"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-howto-export-managed-disks	virtual-machines	"Azure ÃÅ»§,PowerShell,Managed Disk,Azure CLI"
-ÈçºÎ½« OS ÅÌ¹ÒÔØµ½ÆäËûĞéÄâ»úÉÏ	Ê×ÏÈĞèÒª¶ÔĞéÄâ»úµÄÍĞ¹Ü´ÅÅÌÖ´ĞĞÒ»¸ö¿ìÕÕ£¬È»ºóÍ¨¹ı¸Ã¿ìÕÕÀ´Éú³ÉÒ»¸öÍĞ¹Ü´ÅÅÌ£¬×îºó½«Æä¹ÒÔØµ½ÆäËûĞéÄâ»úÉÏ£¬ÏêÏ¸²½ÖèÇë²Î¼û[ÈçºÎ½«Ê¹ÓÃÍĞ¹Ü´ÅÅÌĞéÄâ»úµÄ OS ÅÌ¹ÒÔØµ½ÆäËûĞéÄâ»úÉÏ](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-managed-disks-howto-mount-os-disk-to-another-vm)¡£	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-managed-disks-howto-mount-os-disk-to-another-vm	virtual-machines	"Azure ÃÅ»§,PowerShell,Managed Disk"
-Ê²Ã´ÊÇÍĞ¹Ü´ÅÅÌ	Azure ÍĞ¹Ü´ÅÅÌÍ¨¹ı¹ÜÀíÓë VM ´ÅÅÌ¹ØÁªµÄ´æ´¢ÕÊ»§£¬¼ò»¯ÁË Azure IaaS VM µÄ´ÅÅÌ¹ÜÀí¡£ Ö»ĞèÖ¸¶¨ËùĞèµÄ´ÅÅÌÀàĞÍ£¨±ê×¼ HDD¡¢±ê×¼ SSD »ò¸ß¼¶ SSD£©ºÍ´óĞ¡£¬Azure ¼´¿É´´½¨ºÍ¹ÜÀí´ÅÅÌ¡£	https://docs.azure.cn/zh-cn/virtual-machines/windows/managed-disks-overview	virtual-machines	Managed Disk
-ÍĞ¹Ü´ÅÅÌµÄÓÅÊÆ	"ÍĞ¹Ü´ÅÅÌ¾ßÓĞÒÔÏÂÓÅÊÆ£º
-1. ¼òµ¥ÇÒ¿ÉËõ·ÅµÄ VM ²¿Êğ
-2. ¿ÉÓÃĞÔ¼¯µÄ¿É¿¿ĞÔ¸ü¸ß
-3. ¸ß¶È³Ö¾ÃºÍ¿ÉÓÃ
-4. Á£¶È·ÃÎÊ¿ØÖÆ
-5. Azure ±¸·İ·şÎñÖ§³Ö"	https://docs.azure.cn/zh-cn/virtual-machines/windows/managed-disks-overview#benefits-of-managed-disks	virtual-machines	Managed Disk
-ÈçºÎÊ¹ÓÃ CDN REST API	Azure [¹Ù·½ÎÄµµ](https://docs.azure.cn/zh-cn/cdn/cdn-api)Ìá¹©ÁËÏêÏ¸µÄ REST API ËµÃ÷£¬ÄúÒ²¿ÉÒÔ²Î¿¼ÎÄµµ£º[CDN REST ½Ó¿Úµ÷ÓÃ¼°ËµÃ÷](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/cdn/aog-cdn-rest-api-interface-and-introduction)Ìá¹©µÄÊ¾ÀıÒÔ¼°µ÷ÓÃÏê½â¡£	https://docs.azure.cn/zh-cn/cdn/cdn-api https://docs.azure.cn/zh-cn/articles/azure-operations-guide/cdn/aog-cdn-rest-api-interface-and-introduction	cdn	REST API
-CDN ÈÕÖ¾ÏÂÔØ	"¹ØÓÚ CDN ÈÕÖ¾ÏÂÔØµÄÏà¹ØËµÃ÷ÈçÏÂ£º
-1. CDN ÈÕÖ¾ÖĞ¼ÇÂ¼µÄÉú³É²»ÊÇÊµÊ±µÄ£¬¸ù¾İ¹©Ó¦ÉÌ²»Í¬£¬Éú³ÉµÄÊ±¼ä¸ù¾İÑ¡ÔñµÄ·½Ê½ÓĞËù²»Í¬¡£
-2. ¸ü»»ÈÕÖ¾Éú³É·½Ê½Ö»ÄÜÔÚµÃµ½ÓÃ»§Ğí¿ÉÏÂ£¬Í¨¹ıºóÌ¨½øĞĞ¡£
-3. ÈçÎ´ÉèÖÃ¶¨ÆÚµÄÈÕÖ¾ÏÂÔØ£¬ÈÕÖ¾µÄ±£ÁôÆÚÏŞÒ»°ãÎªÒ»¸öÔÂ¡£"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/cdn/aog-cdn-log-download-instructions	cdn	Logs
-ÈçºÎÓÃ Windows Server 2016 ´î½¨Ö§³Ö BGP Ğ­ÒéµÄ S2S VPN	Ê¹ÓÃÏµÍ³×Ô´øµÄÂ·ÓÉºÍÔ¶³Ì·ÃÎÊ·şÎñ(Routing and Remote Access £¬ ¼ò³Æ RRAS )¼´¿ÉÊµÏÖ Windows Server Óë Azure µÄ S2S VPN Á¬½Ó£¬ÏêÏ¸ÅäÖÃ²½ÖèÇë²Î¿¼ÎÄµµ£º[ÈçºÎÊ¹ÓÃ Windows Server 2016 Óë Azure ´î½¨ S2S VPN ²¢Ö§³Ö BGP Ğ­Òé](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/windows/aog-virtual-machines-windows-howto-build-s2s-vpn-to-support-bgp-protocol)¡£	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/windows/aog-virtual-machines-windows-howto-build-s2s-vpn-to-support-bgp-protocol https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-virtual-machines-howto-windows-server-2016-bgp-vpn	vpn-gateway	"S2S,RRAS"
-ÈçºÎ¼ì²â Azure ¶Ë VPN Á¬Í¨ĞÔµÄÎÊÌâ	"¿ÉÒÔÊ¹ÓÃÒÔÏÂÁ½ÖÖ·½Ê½½øĞĞ¹ÊÕÏÅÅ²é£º
-1. Ê¹ÓÃ NMAP ¹¤¾ß¼ì²â¶Ë¿ÚµÄÁ¬Í¨ĞÔ¡£
-2. Ê¹ÓÃ Azure VPN µÄÕï¶ÏÈÕÖ¾·ÖÎö¶¨Î»ÎÊÌâ¡£"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-howto-locate-connectivity-problems-quickly	vpn-gateway	"NMAP,Diagnostics Log"
-Azure P2S VPN ÈçºÎÅäÖÃ×Ô¶¯ÖØÁ¬	"½èÖú Windows Server Ìá¹©µÄ **ÈÎÎñ¼Æ»®³ÌĞò** ¿ÉÒÔÊµÏÖ×Ô¶¯¼ì²â²¦ºÅÊÇ·ñÖĞ¶Ï£¬ÈçÖĞ¶ÏÔòÖØĞÂ½¨Á¢ VPN Á¬½Ó¡£ÏêÏ¸ÅäÖÃ²½ÖèÇë²Î¿¼ÎÄµµ£º[Azure P2S VPN ÈçºÎÅäÖÃ×Ô¶¯ÖØÁ¬
-](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection#section-1)¡£"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection	vpn-gateway	"P2S,Schedule Task"
-VPN ¿Í»§¶Ë´íÎó£ºÕÒ²»µ½Ö¤Êé 798	"¸Ã´íÎóÊÇÓÉÓÚÓÃ»§ÅäÖÃµÄÖ¤Êé²»ÕıÈ·Ëùµ¼ÖÂµÄ£¬ÈôÒªÏêÏ¸ÁË½âÈçºÎ°²×°¿Í»§¶ËÖ¤Êé£¬Çë²ÎÔÄ[Îªµãµ½Õ¾µãÁ¬½ÓÉú³É²¢µ¼³öÖ¤Êé](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-certificates-point-to-site)¡£
-"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection#a-idsection-3%E5%B8%B8%E8%A7%81-azure-p2s-vpn-%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88a	vpn-gateway	Client
-VPN ¿Í»§¶Ë´íÎó£º½ÓÊÕµ½µÄÏûÏ¢Òì³££¬»ò¸ñÊ½²»ÕıÈ· (´íÎó 0x80090326)	"¸Ã´íÎóÊÇÓÉÓÚ¹«Ô¿Î´ÉÏ´«µ½ Microsoft Azure VPN Íø¹Ø»òÃÜÔ¿ÒÑËğ»µ/ÒÑ¹ıÆÚ£¬ÇëÔÚ Azure ÃÅ»§ÖĞ¼ì²é¸ùÖ¤ÊéµÄ×´Ì¬£¬ÒÔÈ·¶¨ÊÇ·ñÒÑµõÏú¡£ Èç¹ûÎ´µõÏú£¬Çë³¢ÊÔÉ¾³ı²¢ÖØĞÂÉÏ´«¸ùÖ¤Êé¡£
-"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection#a-idsection-3%E5%B8%B8%E8%A7%81-azure-p2s-vpn-%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88a	vpn-gateway	client
-VPN ¿Í»§¶Ë´íÎó£ºÒÑ´¦ÀíÖ¤ÊéÁ´£¬µ«±»ÖÕÖ¹	"¸Ã´íÎóÍ¨³£ÊÇÓÉÓÚÖ¤ÊéÎ´°²×°ÕıÈ·Ëùµ¼ÖÂµÄ£¬ÇëÏàÓ¦Î»ÖÃÖ¤ÊéÊÇ·ñÒÑÕıÈ·°²×°£º
-1. Ö¤Êé£ºAzureClient.pfx   ---  Î»ÖÃ£ºCurrent User\Personal\Certificates
-2. Ö¤Êé£ºAzuregateway-GUID.cloudapp.net  ---  Î»ÖÃ£ºCurrent User\Trusted Root Certification Authorities
-3. Ö¤Êé£ºAzureGateway-GUID.cloudapp.net¡¢AzureRoot.cer   ---  Î»ÖÃ£º Local Computer\Trusted Root Certification Authorities"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection#a-idsection-3%E5%B8%B8%E8%A7%81-azure-p2s-vpn-%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88a	vpn-gateway	client
-VPN Íø¹Ø¿ÉÒÔÁ¬½Ó¶àÉÙ¸ö¿Í»§¶Ë	Ã¿¸ö VPN Íø¹Ø£¬×î¶à¿ÉÒÔÁ¬½Ó 128 ¸ö¿Í»§¶Ë¡£	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection#a-idsection-3%E5%B8%B8%E8%A7%81-azure-p2s-vpn-%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88a	vpn-gateway	client
-ÖØĞÂ°²×° VPN ¿Í»§¶Ëºó£¬ÔÚ Windows ÖĞÕÒ²»µ½µãµ½Õ¾µã VPN Á¬½Ó	"Èç¹ûÏÈÉ¾³ıÁËµãµ½Õ¾µã VPN Á¬½Ó£¬ÔÙÖØĞÂ°²×° VPN ¿Í»§¶Ë£¬¾Í»á³öÏÖ¸ÃÎÊÌâ¡£
-ÈôÒª½â¾ö´ËÎÊÌâ£¬Çë´Ó C:\Users\TheUserName\AppData\Roaming\Microsoft\Network\Connections É¾³ı¾ÉµÄ VPN ¿Í»§¶ËÅäÖÃÎÄ¼ş£¬ÔÙÖØĞÂÔËĞĞ VPN ¿Í»§¶Ë°²×°³ÌĞò¡£"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection#a-idsection-3%E5%B8%B8%E8%A7%81-azure-p2s-vpn-%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88a	vpn-gateway	client
-ÈçºÎÔÚ Azure VPN Íø¹ØÉÏÊµÏÖÍøÂçÍ¸´«	"Ä¿Ç°ÊµÏÖ VPN Íø¹ØµÄÍøÂçÍ¸´«Ö÷ÒªÓĞÒÔÏÂÈıÖÖ·½°¸£º
-1. [Ê¹ÓÃ VPN Íø¹ØµÄ BGP ¹¦ÄÜ](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-howto-implement-network-transmission#vpn-bgp)
-2. [×Ô¶¨Òå±¾µØÍøÂç£¨Local Network£©µØÖ·¿Õ¼ä](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-howto-implement-network-transmission#local-network)
-3. [Ê¹ÓÃĞéÄâÍøÂç¶ÔµÈ»¥Áª£¨VNET Peering£©](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-howto-implement-network-transmission#vnet-peering)"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-howto-implement-network-transmission	vpn-gateway	"BGP,VNET Peering"
-S2S VPN Ö§³ÖµÄÉè±¸	"Çë²Î¼û [±ê×¼ VPN Éè±¸ºÍÉè±¸ÅäÖÃÖ¸ÄÏ](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-about-vpn-devices?toc=%2farticles%2fazure-operations-guide%2ftoc.json#devicetable)ÖĞÁĞ³öµÄÉè±¸ÏµÁĞÇåµ¥¡£
-"	https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-about-vpn-devices?toc=%2farticles%2fazure-operations-guide%2ftoc.json#devicetable	vpn-gateway	S2S
-ÈçºÎ´Ó×Ô¶¨Òå´ÅÅÌ´´½¨ Linux VM	ÍÆ¼öÊ¹ÓÃ Azure CLI 2.0 ÉÏ´«×Ô¶¨ÒåµÄĞéÄâÓ²ÅÌ (VHD) »ò¸´ÖÆÏÖÓĞ VHD£¬È»ºó´Ó×Ô¶¨Òå´ÅÅÌ´´½¨ Linux ĞéÄâ»ú £¬ÏêÏ¸²½ÖèÇë²Î¿¼ÎÄµµ£º[Ê¹ÓÃ Azure CLI 2.0 ´Ó×Ô¶¨Òå´ÅÅÌ´´½¨ Linux VM](https://docs.azure.cn/zh-cn/virtual-machines/linux/upload-vhd?toc=%2farticles%2fazure-operations-guide%2ftoc.json)¡£	https://docs.azure.cn/zh-cn/virtual-machines/linux/upload-vhd?toc=%2farticles%2fazure-operations-guide%2ftoc.json	virtual-machines	"Linux,VHD,Azure CLI 2.0"
-ÍĞ¹Ü´ÅÅÌ OS ÅÌÎŞ·¨´´½¨ĞéÄâ»ú	Èç¹ûÊÇÊ¹ÓÃÍĞ¹Ü´ÅÅÌ½øĞĞ´´½¨ĞéÄâ»úÊ±Óöµ½´íÎó£¬¿ÉÒÔÊ¹ÓÃ PowerShell ÃüÁî `Get-AzureRmDisk` ²é¿´ÍĞ¹Ü´ÅÅÌĞÅÏ¢£¬²é¿´ OsType ÊôĞÔÊÇ·ñÈ±Ê§£¬Èç¹û OsType ÖµÎª¿Õ£¬Ôò»áÔì³ÉÎŞ·¨ÔÚ Azure ÃÅ»§ÖĞ´´½¨ VM µÄ×´¿ö¡£ÊÖ¶¯¸üĞÂ OsType ÊôĞÔ¸³ÓèÕıÈ·µÄ¼üÖµ¼´¿É½â¾ö¸ÃÎÊÌâ¡£	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-managed-disks-qa-os-cannot-create-vm	virtual-machines	"PowerShell,OS"
-ÈçºÎĞŞ¸´ÍĞ¹Ü´ÅÅÌĞéÄâ»ú	"Azure ÎÄµµÌá¹©ÁËÒÔÏÂ 2 ÖÖĞŞ¸´ÍĞ¹Ü´ÅÅÌĞéÄâ»úµÄ·½·¨£º
-1. [ÒÔÉ¾³ıÖØ½¨µÄ·½Ê½ĞŞ¸´ÍĞ¹Ü´ÅÅÌĞéÄâ»ú](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-managed-disks-repair-via-remove-and-rebuild)
-2. [ÒÔ¸´ÖÆÖØ½¨µÄ·½Ê½ĞŞ¸´ÍĞ¹Ü´ÅÅÌĞéÄâ»ú](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-managed-disks-repair-via-replicate-and-rebuild)"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-managed-disks-repair-via-remove-and-rebuild https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/aog-virtual-machines-managed-disks-repair-via-replicate-and-rebuild	virtual-machines	Managed Disk
-ÈçºÎ½â¾öĞéÄâ»ú·ÖÅä¹ÊÕÏ	"´´½¨ĞéÄâ»ú (VM)¡¢ÖØÆôÒÑÍ£Ö¹£¨ÒÑ½â³ı·ÖÅä£©µÄ VM »òÖØÉè VM ´óĞ¡Ê±£¬Azure »áÎª¶©ÔÄ·ÖÅä¼ÆËã×ÊÔ´¡£ 
-ÎÒÃÇÕıÔÚ²»¶ÏÍ¶ÈëÆäËû»ù´¡½á¹¹ºÍ¹¦ÄÜ£¬È·±£Ê¼ÖÕÌá¹©¿ÉÓÃÓÚÖ§³Ö¿Í»§ĞèÇóµÄËùÓĞ VM ÀàĞÍ¡£ µ«ÊÇ£¬Å¼¶û¿ÉÄÜÒòÌØ¶¨ÇøÓòÖĞÇ°ËùÎ´ÓĞµÄ Azure ·şÎñĞèÇóÔö³¤¶øÓöµ½×ÊÔ´·ÖÅäÊ§°ÜµÄÇé¿ö¡£
-ÔÚÄúÓöµ½×ÊÔ´·ÖÅäÊ§°ÜµÄÇé¿öÊ±£¬Äú¿ÉÒÔ²Î¿¼ÎÄµµ£º[ÅÅ²éÔÚ Azure ÖĞ´´½¨¡¢ÖØÆô Linux VM »òµ÷ÕûÆä´óĞ¡Ê±·¢ÉúµÄ·ÖÅä¹ÊÕÏ](https://docs.azure.cn/zh-cn/virtual-machines/linux/allocation-failure?toc=%2farticles%2fazure-operations-guide%2ftoc.json)ÖĞËùÊöµÄÏà¹ØÊ¾Àı¼°½â¾ö·½·¨À´½â¾öÄúµÄÎÊÌâ£¬»òÕßÄúÒ²¿ÉÒÔÁªÏµ [Azure ¼¼ÊõÖ§³Ö](https://www.azure.cn/support/contact/)»ñÈ¡°ïÖú¡£"	https://docs.azure.cn/zh-cn/virtual-machines/linux/allocation-failure?toc=%2farticles%2fazure-operations-guide%2ftoc.json	virtual-machines	Resource Limitation
-ÈçºÎ´î½¨ Linux ¸ß¿ÉÓÃ¼¯Èº	"ÀûÓÃ Azure Æ½Ì¨Ìá¹©µÄ¸ºÔØ¾ùºâ»òÕßÄÚ²¿¸ºÔØ¾ùºâ¹¦ÄÜ¿ÉÒÔÊµÏÖË«»ú¸ß¿ÉÓÃ·½°¸£¬[±¾Ê¾Àı](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-howto-lb-corosync-pacemaker-linux-ha)½²ÊöÈçºÎÊ¹ÓÃ Load Balancer, Corosync, Pacemaker ´î½¨ Linux ¸ß¿ÉÓÃ¼¯Èº¡£
-"	https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-howto-lb-corosync-pacemaker-linux-ha	load-balancer	"Linux,High Availability Cluster,Corosync,Pacemaker"
-ÈçºÎ´´½¨ĞéÄâ»ú¹æÄ£¼¯	"¿ÉÒÔÍ¨¹ıÒÔÏÂ¶àÖÖ·½Ê½´´½¨ĞéÄâ»ú¹æÄ£¼¯£º
-1. [Azure ÃÅ»§](https://docs.azure.cn/zh-cn/virtual-machine-scale-sets/virtual-machine-scale-sets-portal-create)
-2. [Azure Ä£°å](https://docs.azure.cn/zh-cn/virtual-machine-scale-sets/virtual-machine-scale-sets-mvss-start)
-3. [PowerShell](https://docs.azure.cn/zh-cn/virtual-machine-scale-sets/virtual-machine-scale-sets-create?toc=%2farticles%2fazure-operations-guide%2ftoc.json%22#create-from-powershell)
-4. [Azure CLI](https://docs.azure.cn/zh-cn/virtual-machine-scale-sets/virtual-machine-scale-sets-create?toc=%2farticles%2fazure-operations-guide%2ftoc.json%22#create-from-azure-cli)
-5. [Visual Studio](https://docs.azure.cn/zh-cn/virtual-machine-scale-sets/virtual-machine-scale-sets-vs-create)"	https://docs.azure.cn/zh-cn/virtual-machine-scale-sets/virtual-machine-scale-sets-create?toc=%2farticles%2fazure-operations-guide%2ftoc.json%22	virtual-machine-scale-sets	"Azure ÃÅ»§,PowerShell,Azure CLI,Ä£°å,Visual Studio"
-ÈçºÎ½«×Ô¶¨Òå DNS Ãû³ÆÓ³Éäµ½ Web Ó¦ÓÃ	"ÓĞÒÔÏÂ 3 ÖÖÓ³ÉäÓòµÄ·½Ê½¿ÉÒÔ½«×Ô¶¨Òå DNS Ãû³ÆÓ³Éäµ½Ó¦ÓÃ·şÎñ£º
-1. [Ó³Éä CNAME ¼ÇÂ¼](https://docs.azure.cn/zh-cn/app-service/app-service-web-tutorial-custom-domain?toc=%2Farticles%2Fazure-operations-guide%2Ftoc.json#map-a-cname-record)
-2.  [Ó³Éä A ¼ÇÂ¼](https://docs.azure.cn/zh-cn/app-service/app-service-web-tutorial-custom-domain?toc=%2Farticles%2Fazure-operations-guide%2Ftoc.json#map-an-a-record)
-3. [Ó³ÉäÍ¨Åä·ûÓò£¨Ê¹ÓÃ CNAME ¼ÇÂ¼£©](https://docs.azure.cn/zh-cn/app-service/app-service-web-tutorial-custom-domain?toc=%2Farticles%2Fazure-operations-guide%2Ftoc.json#map-a-wildcard-domain)"	https://docs.azure.cn/zh-cn/app-service/app-service-web-tutorial-custom-domain?toc=%2Farticles%2Fazure-operations-guide%2Ftoc.json	app-service-web-apps	DNS
-ÈçºÎÎªĞéÄâ»úÅäÖÃ DNS Ãû³Æ½âÎö	"µ±²¿ÊğÔÚĞéÄâÍøÂçÖĞµÄ×ÊÔ´ĞèÒª½«ÓòÃû½âÎöµ½ÄÚ²¿ IP µØÖ·Ê±£¬ËüÃÇ¿ÉÒÔÊ¹ÓÃÁ½ÖÖ·½·¨Ö®Ò»£º
-1. [Azure Ìá¹©µÄÃû³Æ½âÎö](https://docs.azure.cn/zh-cn/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances?toc=%2farticles%2fazure-operations-guide%2ftoc.json#azure-provided-name-resolution)
-2. [Ê¹ÓÃ×Ô¼ºµÄ DNS ·şÎñÆ÷µÄÃû³Æ½âÎö](https://docs.azure.cn/zh-cn/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances?toc=%2farticles%2fazure-operations-guide%2ftoc.json#name-resolution-that-uses-your-own-dns-server)£¨¿ÉÄÜ»á½«²éÑ¯×ª·¢µ½ Azure Ìá¹©µÄ DNS ·şÎñÆ÷£©"	https://docs.azure.cn/zh-cn/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances?toc=%2farticles%2fazure-operations-guide%2ftoc.json	virtual-network	DNS
-Azure Ìá¹©µÄÃû³Æ½âÎöÓĞÄÇĞ©¹¦ÄÜ£¿	"Azure Ìá¹©µÄÃû³Æ½âÎö°üÀ¨ÒÔÏÂ¹¦ÄÜ£º
-* Ò×ÓÚÊ¹ÓÃ¡£ ²»ĞèÒªÅäÖÃ¡£
-* ¸ß¿ÉÓÃĞÔ¡£ ÎŞĞè´´½¨ºÍ¹ÜÀíÄã×Ô¼ºµÄ DNS ·şÎñÆ÷µÄÈº¼¯¡£
-* ¿ÉÒÔ½áºÏ×Ô¼ºµÄ DNS ·şÎñÆ÷Ê¹ÓÃ¸Ã·şÎñ£¬À´½âÎö±¾µØÖ÷»úÃûºÍ Azure Ö÷»úÃû¡£
-* ¿ÉÒÔÔÚÍ¬Ò»ÔÆ·şÎñÖĞµÄ VM ºÍ½ÇÉ«ÊµÀıÖ®¼äÊ¹ÓÃÃû³Æ½âÎö£¬ÎŞĞè FQDN¡£
-* ¿ÉÒÔÔÚÊ¹ÓÃ Azure ×ÊÔ´¹ÜÀíÆ÷²¿ÊğÄ£ĞÍµÄĞéÄâÍøÂçÖĞµÄ VM Ö®¼äÊ¹ÓÃÃû³Æ½âÎö£¬ÎŞĞè FQDN¡£ ¾­µä²¿ÊğÄ£ĞÍÖĞµÄĞéÄâÍøÂçĞèÒªÊ¹ÓÃ FQDN À´½âÎö²»Í¬ÔÆ·şÎñÖĞµÄÃû³Æ¡£
-* ¿ÉÒÔÊ¹ÓÃ×îÄÜÃèÊö²¿ÊğµÄÖ÷»úÃû£¬¶ø²»±ØÊ¹ÓÃ×Ô¶¯Éú³ÉµÄÃû³Æ¡£"	https://docs.azure.cn/zh-cn/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances?toc=%2farticles%2fazure-operations-guide%2ftoc.json	virtual-network	DNS
-Azure Ìá¹©µÄÃû³Æ½âÎö×¢ÒâÊÂÏî£¿	"Ê¹ÓÃ Azure Ìá¹©µÄÃû³Æ½âÎöÊ±Òª×¢ÒâµÄÎÊÌâ£º
-* ²»ÄÜĞŞ¸Ä Azure ´´½¨µÄ DNS ºó×º¡£
-* ²»ÄÜÊÖ¶¯×¢²á×Ô¼ºµÄ¼ÇÂ¼¡£
-* ²»Ö§³Ö WINS ºÍ NetBIOS¡£ ÔÚ Windows ×ÊÔ´¹ÜÀíÆ÷ÖĞ¿´²»µ½ VM¡£
-* Ö÷»úÃû±ØĞë·ûºÏ DNS¡£ Ãû³ÆÖ»ÄÜÊ¹ÓÃ 0-9¡¢a-z ºÍ¡°-¡±£¬²¢ÇÒ²»ÄÜÒÔ¡°-¡±¿ªÍ·»ò½áÎ²¡£
-* DNS ²éÑ¯Á÷Á¿°´ÕÕ VM ½øĞĞÏŞÖÆ¡£ ÏŞÖÆ²»»áÓ°Ïì´ó²¿·ÖÓ¦ÓÃ³ÌĞò¡£ Èç¹û×ñÑ­ÇëÇóÏŞÖÆ£¬ÇëÈ·±£ÆôÓÃ¿Í»§¶Ë»º´æ¡£ ÓĞ¹ØÏêÏ¸ĞÅÏ¢£¬Çë²ÎÔÄ [DNS ¿Í»§¶ËÅäÖÃ](https://docs.azure.cn/zh-cn/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances?toc=%2farticles%2fazure-operations-guide%2ftoc.json#dns-client-configuration)¡£
-* ÔÚ¾­µä²¿ÊğÄ£ĞÍÖĞ£¬Ã¿¸öĞéÄâÍøÂç½ö×¢²áÇ° 180 ¸öÔÆ·şÎñÖĞµÄ VM¡£ ´ËÏŞÖÆ²»ÊÊÓÃÓÚ Azure ×ÊÔ´¹ÜÀíÆ÷ÖĞµÄĞéÄâÍøÂç¡£"	https://docs.azure.cn/zh-cn/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances?toc=%2farticles%2fazure-operations-guide%2ftoc.json	virtual-network	DNS
-ÈçºÎ¹ÜÀí Azure AD ÖĞµÄ×Ô¶¨ÒåÓòÃû	"Azure ¹Ù·½ÎÄµµÌá¹©ÁËÈçÏÂ¶àÖÖÓò¹ÜÀíÈÎÎñ£º
-* [ÉèÖÃ Azure AD Ä¿Â¼µÄÖ÷ÓòÃû](https://docs.azure.cn/zh-cn/active-directory/active-directory-domains-manage-azure-portal?toc=%2Farticles%2Fazure-operations-guide%2Ftoc.json#set-the-primary-domain-name-for-your-azure-ad-directory)
-* [½«×Ô¶¨ÒåÓòÃûÌí¼Óµ½ Azure AD ×â»§](htt"	https://docs.azure.cn/zh-cn/active-directory/active-directory-domains-manage-azure-portal?toc=%2Farticles%2Fazure-operations-guide%2Ftoc.json#initial-and-custom-domain-names	active-directory	"DNS,Custom Domain"
-Azure AD ×ÔÖú·şÎñ×¢²áµÄÓÅÊÆ	"Azure AD ×ÔÖú·şÎñ×¢²áÓĞÒÔÏÂÓÅÊÆ£º
-* ÈÃ¿Í»§¸ü¿ì»ñµÃËùĞèµÄ·şÎñ
-* Îª·şÎñ´´½¨»ùÓÚµç×ÓÓÊ¼şµÄ´ÙÏú
-* ´´½¨»ùÓÚµç×ÓÓÊ¼şµÄ×¢²áÁ÷³Ì£¬ÈÃÓÃ»§Ê¹ÓÃÒ×¼ÇµÄ¹¤×÷µç×ÓÓÊ¼ş±ğÃû¿ìËÙ´´½¨±êÊ¶
-* Í¨¹ı×ÔÖú·şÎñ´´½¨µÄ Azure AD Ä¿Â¼¿É×ª±äÎªÍĞ¹ÜÄ¿Â¼£¬ÒÔ¹©ÆäËû·şÎñÊ¹ÓÃ"	https://docs.azure.cn/zh-cn/active-directory/active-directory-self-service-signup?toc=%2farticles%2fazure-operations-guide%2ftoc.json#how-to-perform-a-dns-domain-name-takeover	active-directory	self service signup
-ÈçºÎ¿ØÖÆ Azure AD ×ÔÖú·şÎñÉèÖÃ£¿	"¹ÜÀíÔ±ÓĞÁ½ÖÖ×ÔÖú·şÎñ¿ØÖÆ·½Ê½£º
-1. ¿ØÖÆÓÃ»§ÊÇ·ñ¿ÉÒÔÍ¨¹ıµç×ÓÓÊ¼ş¼ÓÈëÄ¿Â¼¡£
-2. ¿ØÖÆÓÃ»§ÊÇ·ñ¿ÉÒÔ¶Ô×ÔÉíÊÚÈ¨ÒÔ»ñÈ¡Ó¦ÓÃ³ÌĞòºÍ·şÎñ¡£"	https://docs.azure.cn/zh-cn/active-directory/active-directory-self-service-signup?toc=%2farticles%2fazure-operations-guide%2ftoc.json#how-to-perform-a-dns-domain-name-takeover	active-directory	self service signup
-VPN Éè±¸¼æÈİÁĞ±í	Çë²Î¼û [±ê×¼ VPN Éè±¸ºÍÉè±¸ÅäÖÃÖ¸ÄÏ](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-about-vpn-devices?toc=%2farticles%2fazure-operations-guide%2ftoc.json#devicetable) ÖĞÁĞ³öµÄÉè±¸ÏµÁĞÇåµ¥¡£	https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-about-vpn-devices?toc=%2farticles%2fazure-operations-guide%2ftoc.json#devicetable	vpn-gateway	S2S
-ÍøÂç¹Û²ì³ÌĞòÄÜ×öÊ²Ã´	"ÍøÂç¹Û²ì³ÌĞòµÄÖ÷Òª¹¦ÄÜÓĞ£º
-* Ô¶³Ì²¶»ñĞéÄâ»úµÄÊı¾İ°üÊı¾İ
-* Ê¹ÓÃÁ÷ÈÕÖ¾ºÍ°²×°×éÊÓÍ¼¼àÊÓĞéÄâ»úÍøÂç°²È«
-* Õï¶Ï VPN Á¬½ÓÎÊÌâ
-ÏêÇéÇë²ÎÔÄ[ÎÄµµ](https://www.azure.cn/zh-cn/home/features/network-watcher/)"	https://www.azure.cn/zh-cn/home/features/network-watcher/	network-watcher	
+Azure ¹ºÂòÁ÷³Ì	"AzureÄ¿Ç°ÓĞÁ½ÖÖ¹ºÂò·½Ê½£ºÏßÉÏ¹ºÂòºÍÆóÒµºÏÍ¬
+* ÏßÉÏ¹ºÂòÊÇÖ¸ÓÃ»§¿ÉÖ±½ÓÍ¨¹ı Azure ÖĞ¹ú¹ÙÍøÔÚÏß¹ºÂò Azure¡£
+* ÆóÒµºÏÍ¬, Ö÷ÒªÊÊÓÃÓÚ´óĞÍÆóÒµ¿Í»§£¬ĞèÒª×îµÍ¹ºÂò³ĞÅµ¡£ÆóÒµÓÃ»§¿ÉÒÔÍ¨¹ı Microsoft ¿Í»§Î¬»¤ÍÅ¶ÓÀ´»ñµÃºÏÍ¬Ğ­ÒéµÄÏêÏ¸ĞÅÏ¢ºÍÍê³ÉÇ©ÊğÁ÷³Ì¡£´ËÍâ, ÓÃ»§»¹¿ÉÒÔÍ¨¹ıºÏ×÷»ï°é¹ºÂò Azure ·şÎñ, ÕâÖÖ¹ºÂòÄ£Ê½³ÆÎª¼ä½ÓÔÚÏß·şÎñ¸ß¼¶Ğ­Òé¹ºÂò·½Ê½¡£
+ÏêÇéÇë²ÎÔÄ[ÖĞ¹úÇøAzure¹ºÂòÖ¸ÄÏ](https://docs.azure.cn/zh-cn/articles/azure-china-purchasing-guidance/)"	https://docs.azure.cn/zh-cn/articles/azure-china-purchasing-guidance/go-china-playbook-purchase-programs	general	
+Azure µÄ SLA ÈçºÎ£¿	"·şÎñ¼¶±ğĞ­Òé£¨SLA£©¶¨ÒåÁË·şÎñÌá¹©ÉÌºÍ¿Í»§Ö®¼äµÄÕıÊ½³ĞÅµ¡£Azure ÖĞ¹ú·şÎñÌá¹©Óë Azure È«Çò·şÎñÒ»ÖÂµÄ·şÎñ¼¶±ğ£¬µ«¸Ã³ĞÅµÓÉÊÀ¼Í»¥ÁªÌá¹©£¬Í¬Ê±¸Ã³ĞÅµÒÑ°üº¬ÔÚ¿Í»§Í¨¹ıÊÀ¼Í»¥Áª¹ºÂò Azure ·şÎñµÄĞ­ÒéÖĞ¡£´Ë·şÎñ¼¶±ğĞ­ÒéÊÊÓÃÓÚËùÓĞ Azure ·şÎñ£¬ÏêÏ¸ĞÅÏ¢ÇëÇ°Íù£º[Azure ·şÎñ¼¶±ğĞ­Òé](https://www.azure.cn/zh-cn/support/legal/sla/)¡£
+
+Èç¹ûÊÀ¼Í»¥ÁªÎ´ÄÜÊµÏÖ²¢Î¬³ÖÃ¿¸ö·şÎñµÄ SLA ÖĞËù¶¨ÒåµÄ·şÎñ¼¶±ğ£¬¿Í»§½«¿É»ñµÃÔÂ¶È·şÎñ·ÑÓÃµÄ²¿·Ö·şÎñ·ÑµÖ¿Û¡£ÔÚĞ­ÒéÆÚÏŞÄÚ£¬ÕâĞ©Ìõ¿î½«²»»á×öÈÎºÎ±ä¶¯¡£Èç¹û¶©ÔÄĞø¶©£¬Ğø¶©ÆÚÏŞ¿ªÊ¼Ê±ÊµĞĞµÄ·şÎñ¼¶±ğĞ­Òé°æ±¾½«ÊÊÓÃÓÚÕû¸öĞø¶©ÆÚÏŞ¡£Èç¹û¶Ô·şÎñ¼¶±ğĞ­ÒéÓĞÈÎºÎÖØ´ó²»Àû±ä¸ü£¬ÊÀ¼Í»¥Áª»áÖÁÉÙÌáÇ° 90 Ìì½øĞĞÍ¨Öª¡£"	https://docs.azure.cn/zh-cn/articles/azure-china-purchasing-guidance/go-china-playbook-support	general	
+AzureµÄÆóÒµ¼¼Êõ·şÎñÖ§³ÖÊÇÊ²Ã´£¿	"Èç¹ûÄúµÄ¹Ø¼üÒµÎñĞèÒª·ÅÔÚ Azure Æ½Ì¨ÉÏ£¬ÎÒÃÇ¿ÉÒÔÌá¹©ÆóÒµ¼¼ÊõÖ§³Ö·şÎñ(Premier Support)£º
+* Ìá¹©È«·½Î»¶à½Ç¶ÈµÄ²úÆ·×ÉÑ¯ÒÔ»ñµÃ×îÓÅ Azure Í¶×Ê·½°¸¡£
+* ÓµÓĞÌØ¶¨µÄ¿Í»§¾­ÀíÖ§³Ö£¬Ìá¸ß Azure ÌåÑé¡£
+* ×î¸ß¼¶ÓÅÏÈÖ§³ÖÏìÓ¦, °ïÖúÈ·±£Äú·şÎñµÄÁ¬ĞøĞÔ¡£
+¿Í»§¿ÉÒÔÁªÏµ presal@microsoft.com, ÁË½â¸ü¶àÓĞ¹ØÈçºÎ¹ºÂò¼°·şÎñÖ§³ÖµÄÏêÏ¸ĞÅÏ¢¡£"	https://docs.azure.cn/zh-cn/articles/azure-china-purchasing-guidance/go-china-playbook-support	general	
+Azure È«Çò·şÎñ	"[Azure](https://azure.microsoft.com/en-us/) ¿ÉÔÚÈ«ÇòÔ¼42¸öÇøÓòÌá¹©·şÎñ£¬ÎÒÃÇ¸ß¶ÈÖØÊÓ·şÎñµØÓòµÄÀ©Õ¹£¬ÒÔ±ãÄÜÌá¸ß·şÎñĞÔÄÜ£¬²¢Õë¶ÔÊı¾İÎ»ÖÃ¶Ô¸÷ÖÖÒªÇóºÍÆ«ºÃÌá¹©¸üºÃµÄÖ§³Ö¡£
+
+[AzureÖĞ¹ú](https://www.azure.cn/zh-cn/) ÓÉÖĞ¹ú×î´óµÄµÚÈı·½µçĞÅÖĞÁ¢»¥ÁªÍø»ù´¡ÉèÊ©·şÎñÌá¹©ÉÌÖ®Ò»£¬ÊÀ¼Í»¥Áª£¬×÷ÎªÔËÓªÖ÷ÌåÀ´ÔËÓª Microsoft Azure ÔÚÖĞ¹úµÄ·şÎñ¡£
+
+[AzureµÂ¹ú](https://azure.microsoft.com/en-us/global-infrastructure/germany/) ¾ßÓĞµ¥¶ÀµÄÕÊ»§ºÍ¶¨¼Û¡£ Azure ÔÚµÂ¹úÊı¾İÖĞĞÄÌá¹©ĞĞÒµÁìÏÈµÄ·şÎñ£¬ÆäÊı¾İ×¤ÁôÔÚµÂ¹ú£¬²¢Í¨¹ıÊÜµÂ¹ú·¨ÂÉ¹ÜÏ½µÄÒ»¸ö¶ÀÒ»ÎŞ¶şµÄÊı¾İÍĞ¹ÜÄ£Ê½ÊµÊ©ÑÏ¸ñµÄÊı¾İ·ÃÎÊºÍ¿ØÖÆ´ëÊ©¡£"	https://docs.azure.cn/zh-cn/articles/azure-global-purchasing-guidance/go-global-playbook-azure-global-service-overview	general	
+VM µÄ¸ßĞÔÄÜ¸ß¼¶´æ´¢	"Azure ¸ß¼¶´æ´¢ÎªÔËĞĞÊäÈë/Êä³ö (I/O) ÃÜ¼¯ĞÍ¹¤×÷¸ººÉµÄĞéÄâ»ú (VM) Ìá¹©¸ßĞÔÄÜ¡¢µÍÑÓ³ÙµÄ´ÅÅÌÖ§³Ö¡£ Ê¹ÓÃ¸ß¼¶´æ´¢µÄ VM ´ÅÅÌÔÚ¹ÌÌ¬Ó²ÅÌ (SSD) ÉÏ´æ´¢Êı¾İ¡£ ÈôÒªÀûÓÃ¸ß¼¶´æ´¢´ÅÅÌµÄËÙ¶ÈºÍĞÔÄÜÓÅÊÆ£¬¿É½«ÏÖÓĞµÄ VM ´ÅÅÌÇ¨ÒÆµ½¸ß¼¶´æ´¢¡£
+
+ÔÚ Azure ÖĞ£¬¿É½«¶à¸ö¸ß¼¶´æ´¢´ÅÅÌ¸½¼Óµ½ VM¡£ Ê¹ÓÃ¶à¸ö´ÅÅÌ¿ÉÔÚÃ¿¸ö VM ÉÏÎªÓ¦ÓÃ³ÌĞòÌá¹©¸ß´ï 256 TB µÄ´æ´¢¡£ Èç¹ûÊ¹ÓÃ¸ß¼¶´æ´¢£¬Ã¿¸ö VM ÉÏµÄÓ¦ÓÃ³ÌĞò¿ÉÊµÏÖ 80,000 ´Î I/O ²Ù×÷/Ãë (IOPS)£¬Ã¿¸ö VM ¿ÉÊµÏÖ¸ß´ï 2,000 MB/ÃëµÄ´ÅÅÌÍÌÍÂÁ¿¡£ Ö´ĞĞ¶ÁÈ¡²ÙÊ±ÑÓ³Ù¼«µÍ¡£
+
+¸ü¶àĞÅÏ¢Çë²ÎÔÄ[VM µÄ¸ßĞÔÄÜ¸ß¼¶´æ´¢ºÍÍĞ¹Ü´ÅÅÌ](https://docs.azure.cn/zh-cn/virtual-machines/linux/premium-storage)"	https://docs.azure.cn/zh-cn/virtual-machines/linux/premium-storage	virtual-machines	premium storage
+Azure¸ß¼¶´æ´¢Ö§³ÖÄÄĞ©ÏµÁĞµÄĞéÄâ»ú£¿	"Azure ¸ß¼¶´æ´¢Ö§³Ö B ÏµÁĞ¡¢DS ÏµÁĞ¡¢DSv2 ÏµÁĞ¡¢DSv3 ÏµÁĞ¡¢Esv3 ÏµÁĞºÍ Fs ÏµÁĞ VM¡£ ¿É½«±ê×¼ºÍ¸ß¼¶´æ´¢´ÅÅÌÓÃÓÚÕâĞ© VM ÀàĞÍ¡£ ²»ÄÜÔÚ²»¼æÈİ¸ß¼¶´æ´¢µÄ VM ÏµÁĞÖĞÊ¹ÓÃ¸ß¼¶´æ´¢´ÅÅÌ¡£
+
+ÓĞ¹Ø Azure ÖĞÊÊÓÃÓÚ Windows µÄ VM ÀàĞÍºÍ´óĞ¡µÄĞÅÏ¢£¬Çë²ÎÔÄ [Windows VM ´óĞ¡](https://docs.azure.cn/zh-cn/virtual-machines/windows/sizes)¡£ ÓĞ¹Ø Azure ÖĞÊÊÓÃÓÚ Linux µÄ VM ÀàĞÍºÍ´óĞ¡µÄĞÅÏ¢£¬Çë²ÎÔÄ [Linux VM ´óĞ¡](https://docs.azure.cn/zh-cn/virtual-machines/linux/sizes)¡£"			

@@ -1,0 +1,93 @@
+﻿Title,cosmos_faq_id,TargetFAQ
+虚拟机Linux的8080端口连不通,0,/
+网络安全组问题,0,/
+如何创建虚拟机,0,/
+如何对虚拟机备份,0,/
+虚拟机如何挂载磁盘,0,/
+VM大小调整,0,/
+VM运行缓慢,0,/
+自动开关机,0,/
+CDN配置咨询,0,/
+arm虚拟机如何添加监控数据,0,/
+ASM迁移到arm,0,/
+Quota Increase,0,/
+如何查看账单,0,/
+申请发票,0,/
+请帮忙取消订阅,0,/
+增加核数,0,/
+虚拟机价格咨询,0,/
+如何删除停止使用的订阅,0,/
+EA账户添加订阅,0,/
+虚拟机自动缩放咨询,0,/
+申请增加总核数配额,0,/
+指导续费,0,/
+VM无法重置密码,0,/
+Azure 的网络带宽有多大？,0,/
+ExpressRoute配置问题,0,/
+1RMB试用付款不成功,1f9715ed4e52de76ab484b32eb319575,每位新客户仅有一次享受试用优惠的机会，所以同一个付费账户（包括中国银联和支付宝账户）只能购买一次。如果您使用的付费账户之前已经成功申请并进行过付费，那么此时再次申请并支付 1 元费用时，就可能会出现该问题，即在付费订阅页面显示成功付款，但 Azure 注册页面显示付款失败。 针对以上状况所发生的 1 元交易，退款系统会自动退回该付费账户，具体退款时间将因各家银行和银行卡的作业有所不同。 所以如果您需要多个订阅或者已经试用过 1 元试用订阅，欢迎参考使用标准预付费订阅（https://www.azure.cn/zh-cn/offers/ms-mc-arz-33p/）。
+1元试用支付不成功,1f9715ed4e52de76ab484b32eb319575,每位新客户仅有一次享受试用优惠的机会，所以同一个付费账户（包括中国银联和支付宝账户）只能购买一次。如果您使用的付费账户之前已经成功申请并进行过付费，那么此时再次申请并支付 1 元费用时，就可能会出现该问题，即在付费订阅页面显示成功付款，但 Azure 注册页面显示付款失败。 针对以上状况所发生的 1 元交易，退款系统会自动退回该付费账户，具体退款时间将因各家银行和银行卡的作业有所不同。 所以如果您需要多个订阅或者已经试用过 1 元试用订阅，欢迎参考使用标准预付费订阅（https://www.azure.cn/zh-cn/offers/ms-mc-arz-33p/）。
+创建linux虚拟机失败,2f966844d571b05181eb58512faef08b,Azure 支持 Linux VM。若要快速创建 Linux VM 进行试用，请参阅[使用门户在 Azure 上创建 Linux VM](https://docs.azure.cn/virtual-machines/linux/quick-create-portal)
+请问是否支持ipv6,426042deea289b88a3f4047354d37863,Azure VM暂时不支持IPv6
+虚拟机重启,4732953b644360e69950b233b578a86b,虚拟机重启问题，可参照以下文档：我的 Azure VM 为何会重新启动？（https://www.azure.cn/zh-cn/blog/2014/04/18/windows-azure-virtual-machine-restarted-or-shutdown-with-out-any-notification）；Linux 启动诊断日志协助定位虚拟机启动或重启问题（https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-linux-qa-via-diagnostics-log）；*处理 Windows 虚拟机的计划维护通知（https://docs.azure.cn/zh-cn/virtual-machines/windows/maintenance-notifications）
+vm异常关机,4732953b644360e69950b233b578a86b,虚拟机重启问题，可参照以下文档：我的 Azure VM 为何会重新启动？（https://www.azure.cn/zh-cn/blog/2014/04/18/windows-azure-virtual-machine-restarted-or-shutdown-with-out-any-notification）；Linux 启动诊断日志协助定位虚拟机启动或重启问题（https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-linux-qa-via-diagnostics-log）；*处理 Windows 虚拟机的计划维护通知（https://docs.azure.cn/zh-cn/virtual-machines/windows/maintenance-notifications）
+如何设置负载均衡,8d2c52869950ede9f41df2af747a0877,"Azure 负载均衡器是基于第 4 层 (TCP、UDP)的负载均衡器，可在负载均衡集中定义的运行状况良好的服务实例之间分配传入流量，从而提高应用程序的可用性和网络性能。
+可以将 Azure 负载均衡器配置：
+* 对传入到虚拟机的 Internet 流量进行负载均衡。 此配置称为 [面向 Internet 的负载均衡](https://docs.azure.cn/load-balancer/load-balancer-internet-overview)。
+* 对虚拟网络中虚拟机之间的流量、云服务中虚拟机之间的流量或本地计算机和跨界虚拟网络中虚拟机之间的流量进行负载均衡。 此配置称为[内部负载均衡](https://docs.azure.cn/load-balancer/load-balancer-internal-overview)。
+* 将外部流量转发到特定的虚拟机。 
+更多有关 Azure 负载均衡器的详细信息，请参阅[Azure 负载均衡器概述](https://docs.azure.cn/load-balancer/load-balancer-overview)。"
+ 如何测试虚机的连通性,9baa80a06455ffc33d5ac459225c0f30,通过 VIP 地址访问虚拟机时网络通讯需要通过 Azure Load Balancer 。 Azure Load Balancer 目前不开放 ICMP 协议。Ping 属于 ICMP 协议组，因此无法通过 Load Balancer。 客户需要通过 VIP 检验虚拟机连接性的时候，可以通过 TCP 协议相关工具来操作。更多详细信息，请参阅使用 PsPing & PaPing 进行 TCP 端口连通性测试。
+虚拟机端口ping不通,9baa80a06455ffc33d5ac459225c0f30,通过 VIP 地址访问虚拟机时网络通讯需要通过 Azure Load Balancer 。 Azure Load Balancer 目前不开放 ICMP 协议。Ping 属于 ICMP 协议组，因此无法通过 Load Balancer。 客户需要通过 VIP 检验虚拟机连接性的时候，可以通过 TCP 协议相关工具来操作。更多详细信息，请参阅使用 PsPing & PaPing 进行 TCP 端口连通性测试。
+虚拟机上的端口不通,9baa80a06455ffc33d5ac459225c0f30,通过 VIP 地址访问虚拟机时网络通讯需要通过 Azure Load Balancer 。 Azure Load Balancer 目前不开放 ICMP 协议。Ping 属于 ICMP 协议组，因此无法通过 Load Balancer。 客户需要通过 VIP 检验虚拟机连接性的时候，可以通过 TCP 协议相关工具来操作。更多详细信息，请参阅使用 PsPing & PaPing 进行 TCP 端口连通性测试。
+VM数据丢失,9df0e351e2b33970d9a9a5d6066e682d,"Azure 虚拟机磁盘中包含一个临时盘, D：磁盘 ( Windows ) 或者 /dev/sdb1 ( Linux )。它们仅提供临时暂存，其上存储的数据在某些情况下可能会丢失且完全无法恢复。建议您不要用该磁盘保存需要持久化存储的数据。用户必须自行承担由此导致的丢失数据的风险。 临时盘数据丢失通常发生在虚拟机迁移到不同主机上时。虚拟机迁移的一些原因包括调整虚拟机大小、更新主机或主机上硬件故障。虚拟机迁移发生的时间不可预知， 且很可能发生在客户未进行任何操作的情况下。所以我们建议您不要用该磁盘保存需要持久化存储的数据。 了解更多信息，请参考以下链接：
+
+[关于 Azure Windows VM 的磁盘存储](https://docs.azure.cn/virtual-machines/windows/about-disks-and-vhds)
+
+[在 Azure 中管理 Windows 虚拟机的可用性](https://docs.azure.cn/virtual-machines/windows/manage-availability)
+
+[Azure VM 为何会重新启动](https://blogs.msdn.microsoft.com/azchina/2014/04/18/azure-vm/)
+
+[服务级别协议](https://www.azure.cn/support/legal/sla/)"
+重启后D盘文件丢失,9df0e351e2b33970d9a9a5d6066e682d,"Azure 虚拟机磁盘中包含一个临时盘, D：磁盘 ( Windows ) 或者 /dev/sdb1 ( Linux )。它们仅提供临时暂存，其上存储的数据在某些情况下可能会丢失且完全无法恢复。建议您不要用该磁盘保存需要持久化存储的数据。用户必须自行承担由此导致的丢失数据的风险。 临时盘数据丢失通常发生在虚拟机迁移到不同主机上时。虚拟机迁移的一些原因包括调整虚拟机大小、更新主机或主机上硬件故障。虚拟机迁移发生的时间不可预知， 且很可能发生在客户未进行任何操作的情况下。所以我们建议您不要用该磁盘保存需要持久化存储的数据。 了解更多信息，请参考以下链接：
+
+[关于 Azure Windows VM 的磁盘存储](https://docs.azure.cn/virtual-machines/windows/about-disks-and-vhds)
+
+[在 Azure 中管理 Windows 虚拟机的可用性](https://docs.azure.cn/virtual-machines/windows/manage-availability)
+
+[Azure VM 为何会重新启动](https://blogs.msdn.microsoft.com/azchina/2014/04/18/azure-vm/)
+
+[服务级别协议](https://www.azure.cn/support/legal/sla/)"
+虚拟机维护通知,9eb5bcbdfebc1eb856fe8e8247909fc9,如果维护需要重启虚拟机，系统会通知计划维护的时间。 详情请见：https://docs.azure.cn/zh-cn/virtual-machines/windows/maintenance-and-updates
+无法远程登录虚机,a79df7757bd2042e97e292deb557c15c,"虚拟机无法连接，可参照以下文档：
+*[Azure Windows 虚拟机常见导致无法远程的操作](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/windows/aog-virtual-machines-windows-scenarios-unable-to-remote)；
+*[排查 Azure 虚拟机的远程桌面连接问题](https://docs.azure.cn/zh-cn/virtual-machines/windows/troubleshoot-rdp-connection)；
+*[Linux 虚拟机虚拟网卡问题导致无法连接问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-qa-linux-visual-network-adaper-error)"
+服务器无法连接,a79df7757bd2042e97e292deb557c15c,"虚拟机无法连接，可参照以下文档：
+*[Azure Windows 虚拟机常见导致无法远程的操作](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/windows/aog-virtual-machines-windows-scenarios-unable-to-remote)；
+*[排查 Azure 虚拟机的远程桌面连接问题](https://docs.azure.cn/zh-cn/virtual-machines/windows/troubleshoot-rdp-connection)；
+*[Linux 虚拟机虚拟网卡问题导致无法连接问题](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-machines/linux/aog-virtual-machines-qa-linux-visual-network-adaper-error)"
+可用性集使用咨询,e5d8cb6100a557207b85b716442e8866,"可用性集是一种逻辑分组功能，在 Azure 中使用它可以确保将 VM 资源部署在 Azure 数据中心后，这些资源相互隔离。
+
+Azure 确保可用性集中部署的 VM 能够跨多个物理服务器、计算机架、存储单元和网络交换机运行。 如果出现硬件或 Azure 软件故障、 VM 更新和应用程序更新，只有一部分 VM 会受到影响，整体应用程序仍会保持运行，可供客户使用。
+
+更多详细信息请参阅Azure IaaS 用户手册 (https://docs.azure.cn/zh-cn/articles/training/azure-iaas-user-manual-part1) 以及如何使用可用性集 (https://docs.azure.cn/zh-cn/virtual-machines/windows/tutorial-availability-sets)。"
+VPN连不上,efa082972d8ac5a24741eb6e035b259d,"VPN连接问题，可参照以下文档：
+*[故障排除：Azure 站点到站点 VPN 间歇性断开连接](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-troubleshoot-site-to-site-disconnected-intermittently)；*[虚拟网络 - 业务连续性](https://docs.azure.cn/zh-cn/virtual-network/virtual-network-disaster-recovery-guidance)；
+*[Azure P2S VPN 如何配置自动重连](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection)；
+*[使用网络观察程序故障排除功能监视 VPN 网关](https://docs.azure.cn/zh-cn/network-watcher/network-watcher-monitor-with-azure-automation)"
+VPN不通,efa082972d8ac5a24741eb6e035b259d,"VPN连接问题，可参照以下文档：
+*[故障排除：Azure 站点到站点 VPN 间歇性断开连接](https://docs.azure.cn/zh-cn/vpn-gateway/vpn-gateway-troubleshoot-site-to-site-disconnected-intermittently)；*[虚拟网络 - 业务连续性](https://docs.azure.cn/zh-cn/virtual-network/virtual-network-disaster-recovery-guidance)；
+*[Azure P2S VPN 如何配置自动重连](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/vpn-gateway/aog-vpn-gateway-qa-azure-p2s-vpn-how-to-configure-auto-reconnection)；
+*[使用网络观察程序故障排除功能监视 VPN 网关](https://docs.azure.cn/zh-cn/network-watcher/network-watcher-monitor-with-azure-automation)"
+专线咨询,luis-intention,小云猜到您想询问的是expressroute，请点击下面的链接获取详细信息： https://www.azure.cn/zh-cn/home/features/expressroute
+Azure账户余额咨询,new-faq,对于线上购买用户，请登录 Azure 账户中心 （https://account.windowsazure.cn/Home/Index）或参阅 https://docs.azure.cn/zh-cn/billing/billing-get-usage-information。对于企业协议用户，请登录Azure门户 （https://ea.azure.cn/），或参阅 https://docs.azure.cn/zh-cn/billing/billing-get-ea-usage-info 。
+余额查询,new-faq,对于线上购买用户，请登录 Azure 账户中心 （https://account.windowsazure.cn/Home/Index）或参阅 https://docs.azure.cn/zh-cn/billing/billing-get-usage-information。对于企业协议用户，请登录Azure门户 （https://ea.azure.cn/），或参阅 https://docs.azure.cn/zh-cn/billing/billing-get-ea-usage-info 。
+如何查看WAF的诊断日志和防火墙日志,new-faq,可在 Azure 中使用不同类型的日志来对应用程序网关进行管理和故障排除。 可通过门户访问其中某些日志。 所有日志都可从 Azure Blob 存储提取并在 Excel 和 PowerBI 等各种工具中查看。详细信息请参阅[应用程序网关的后端运行状况、诊断日志和指标](https://docs.azure.cn/zh-cn/application-gateway/application-gateway-diagnostics)
+设置虚拟机固定ip,new-faq,默认情况下，虚拟机的公共 IP 是动态的，并且在删除 VM 时，关联到它们的地址可能会更改。 若要确保 VM 始终使用同一公共 IP 地址，需要创建一个静态公共 IP。详情请参阅：[使用 Azure 门户创建具有静态公共 IP 地址的 VM](https://docs.azure.cn/zh-cn/virtual-network/virtual-network-deploy-static-pip-arm-portal)
+重新激活订阅,new-faq,"企业协议客户如果想激活订阅，请参阅 https://docs.azure.cn/zh-cn/billing/billing-subscription-become-disable 。了解 如何成为企业协议客户 （https://docs.azure.cn/zh-cn/articles/azure-china-purchasing-guidance/go-china-playbook-ospa-purchase-process）。
+
+线上购买用户如果想激活已取消订阅，请于 90 天内联系支持人员 （https://www.azure.cn/zh-cn/support/contact/）。"
+无法登陆Azure门户,new-faq,如果您无法登陆Azure账号，请参阅[无法登陆 Azure 账号](https://docs.azure.cn/zh-cn/billing/billing-cannot-login-subscription)，或联系支持人员（https://www.azure.cn/zh-cn/support/contact/）以快速解决问题。
+添加协同管理员,new-faq,使用管理员邮箱ID登录 https://portal.azure.com 。点击“订阅”菜单，然后选择要更新的订阅。在下一个 blade 选择顶部菜单上的“管理”，这样应该就可以一个新地窗口来管理订阅。默认地订阅所有人可以点击“编辑订阅详细信息”菜单来添加服务管理员。
+需要给虚机Assign多个公网IP，怎么配置,new-faq,在一个 Azure 虚拟机 (VM) 上可以附加一个或多个网络接口 (NIC)。 可为任何 NIC 分配一个或多个静态/动态的公共和专用 IP 地址。 每个附加到 VM 的 NIC 都具有一个或多个与之关联的 IP 配置。 系统会为每个配置分配一个静态或动态专用 IP 地址。 每个配置还可拥有一个与之关联的公共 IP 地址资源。 系统会为公共 IP 地址资源分配一个动态或静态公共 IP 地址。具体操作方法请参阅：[使用 Azure 门户将多个 IP 地址分配给虚拟机](https://docs.azure.cn/zh-cn/virtual-network/virtual-network-multiple-ip-addresses-portal)
+azure虚拟机配置添加多块网卡,new-faq,在一个 Azure 虚拟机 (VM) 上可以附加一个或多个网络接口 (NIC)。 可为任何 NIC 分配一个或多个静态/动态的公共和专用 IP 地址。 每个附加到 VM 的 NIC 都具有一个或多个与之关联的 IP 配置。 系统会为每个配置分配一个静态或动态专用 IP 地址。 每个配置还可拥有一个与之关联的公共 IP 地址资源。 系统会为公共 IP 地址资源分配一个动态或静态公共 IP 地址。具体操作方法请参阅：[使用 Azure 门户将多个 IP 地址分配给虚拟机](https://docs.azure.cn/zh-cn/virtual-network/virtual-network-multiple-ip-addresses-portal)

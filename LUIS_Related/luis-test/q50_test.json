@@ -1,0 +1,267 @@
+[
+    {
+      "text": "虚拟机Linux的8080端口连不通",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "网络安全组问题",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "如何创建虚拟机",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "如何对虚拟机备份",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "虚拟机如何挂载磁盘",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "VM大小调整",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "VM运行缓慢",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "自动开关机",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "CDN配置咨询",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "arm虚拟机如何添加监控数据",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ASM迁移到arm",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "Quota Increase",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "如何查看账单",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "申请发票",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "请帮忙取消订阅",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "增加核数",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "虚拟机价格咨询",
+      "intent": "PurchaseAzure",
+      "entities": []
+    },
+    {
+      "text": "如何删除停止使用的订阅",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "EA账户添加订阅",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "虚拟机自动缩放咨询",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "申请增加总核数配额",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "指导续费",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "VM无法重置密码",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "Azure 的网络带宽有多大？",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ExpressRoute配置问题",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "1RMB试用付款不成功",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "1元试用支付不成功",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "创建linux虚拟机失败",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "请问是否支持ipv6",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "虚拟机重启",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "vm异常关机",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "如何设置负载均衡",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "如何测试虚机的连通性",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "虚拟机端口ping不通",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "虚拟机上的端口不通",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "VM数据丢失",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "重启后D盘文件丢失",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "虚拟机维护通知",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "无法远程登录虚机",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "服务器无法连接",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "可用性集使用咨询",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "VPN连不上",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "VPN不通",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "专线咨询",
+      "intent": "ProductFeature",
+      "entities": []
+    },
+    {
+      "text": "Azure账户余额咨询",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "余额查询",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "如何查看WAF的诊断日志和防火墙日志",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "设置虚拟机固定ip",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "重新激活订阅",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "无法登陆Azure门户",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "添加协同管理员",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "需要给虚机Assign多个公网IP，怎么配置",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "azure虚拟机配置添加多块网卡",
+      "intent": "None",
+      "entities": []
+    }
+  ]
